@@ -4,7 +4,7 @@ teaser:  		"Creating a marketplace for the best of contemporary illustration"
 lead:			"Illustrators is a marketplace for the best of contemporary illustration."
 banner-image: 	/images/illo-banner.jpg
 thumbnail: 		/images/illo-thumbnail.jpg
-carousel: 		[/images/bcc-ia-home.png, /images/bcc-info.png, /images/bcc-blocks.png, /images/bcc-design-home.png]
+carousel: 		[/images/bcc-ia-home.png, /images/bcc-info.png, /images/bcc-blocks.png, /images/bcc-design-home.jpg]
 work-url:		"https://www.illustrators.co"
 date:   		2016-01-01 19:03:42 +0000
 project-type: 	Personal project
