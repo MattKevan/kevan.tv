@@ -4,7 +4,7 @@ teaser:  		"Re-architecting the website of a great cause"
 lead:			"Breast Cancer Care is the only UK-wide organisation providing information and support to people affected by breast cancer."
 banner-image: 	/images/bcc-banner.jpg
 thumbnail: 		/images/bcc-thumbnail.jpg
-carousel: 		[/images/bcc-ia-home.png, /images/bcc-info.png, /images/bcc-blocks.png, /images/bcc-design-home.png]
+carousel: 		[/images/bcc-ia-home.jpg, /images/bcc-info.jpg, /images/bcc-blocks.jpg, /images/bcc-design-home.jpg]
 work-url:		http://www.breastcancercare.org.uk
 date:   		2016-01-01 19:03:42 +0000
 project-type: 	NDP project
