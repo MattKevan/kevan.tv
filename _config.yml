@@ -23,12 +23,21 @@ markdown: kramdown
 collections:
   work:
     output: true
-    permalink: /work/:path/  
-   
+    permalink: /work/:path/
+  project:
+    output: true
+    permalink: /projects/:path/
+
 defaults:
   -
     scope:
       path: ""
       type: "work"
     values:
-      layout: "work" 
+      layout: "work"
+  -
+    scope:
+      path: ""
+      type: "project"
+    values:
+      layout: "project"

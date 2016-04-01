@@ -61,7 +61,7 @@ h2.title {
 		font-size: 2em;
 		margin: 0 0 40px 0;
 		font-family: "Calendas Plus Italic", Georgia, "Times New Roman", Times, serif;
-	
+
 }
 // Navigation
 .navbar {
@@ -79,29 +79,99 @@ h2.title {
 .teaser {
 	img {width: 100%; height: 100%;}
 }
+
+// Overlay
+.menu-button {
+    display: block!important;
+    position: relative;
+    float: right!important;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.menu-button .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+  background-color: #000;
+}
+.menu-button .icon-bar + .icon-bar {
+  margin-top: 4px;
+}
+
+
+.overlay {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(255,238,0,1);
+	display: none;
+	z-index: 10000;
+}
+
+/* Overlay closing cross */
+
+.overlay .overlay-close {
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	overflow: hidden;
+	border: none;
+	background: url(../../images/cross.png) no-repeat center center;
+	text-indent: 200%;
+	color: transparent;
+	outline: none;
+	z-index: 100;
+}
+
+/* Menu style */
+
+.overlay ul {text-align: center;}
+
+.overlay ul li {
+	text-align: center;
+	font-size: 3em;
+
+	a, a.active {color: #000;}
+	a:hover {
+		background: none;
+		text-decoration: underline;
+	}
+}
+
+
 // Cards
 
 .card {
-	
+
 	h1.title {
-		
+
 	}
 	h2.feature {
 		line-height: 1.2em;
 		font-family: "Calendas Plus Italic", Georgia, "Times New Roman", Times, serif;
 		font-size: 60px;
-		
+
 	}
-	
-	
+
+
 }
 .banner {
 	text-align: center;
-	
+
 	.inner {
 		height: 600px;
-		padding: 150px 0;		
-	}	
+		padding: 150px 0;
+	}
 }
 
 // Specific cards
@@ -111,7 +181,7 @@ h2.title {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
-	
+
 	.inner {
 		background-color: rgba(255,238,0,0.9);
 
@@ -121,8 +191,8 @@ h2.title {
 .card.banner.work {
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: center center;	
-	
+	background-position: center center;
+
 	a {color: #fff;}
 
 	.inner {
@@ -130,7 +200,7 @@ h2.title {
 		height: 500px;
 		color: #fff;
 		padding-top: 130px;
-		
+
 		.breadcrumb {
 			padding: 0;
 			margin-bottom: 20px;
@@ -138,7 +208,7 @@ h2.title {
 			background:none;
 			border-radius: 0;
 		}
-		
+
 		h1 {
 			color: #fff;
 			font-weight: normal;
@@ -156,14 +226,14 @@ h2.title {
 .card.content {
 	img {width: 100%; height: 100%;}
 	padding: 40px 0;
-	
+
 	.categories {
 		border-style: solid;
 		border-width: 0 0 5px 0;
 		border-color: #e53780;
 		padding: 0 0 40px 0;
 		margin-bottom: 40px;
-		
+
 		.lead {margin-bottom: 0;}
 	}
 }
@@ -173,7 +243,7 @@ h2.title {
 	text-align: center;
 	font-size: 1.5em;
 	padding: 20px 10px;
-	
+
 	a {
 		border-width: 1px;
 		border-color: #fff;
@@ -192,7 +262,7 @@ h2.title {
 }
 .card.listing {
 	padding: 40px 0;
-	
+
 	h3 {font-size: 24px;}
 	.teaser {margin-bottom: 30px;}
 }
@@ -215,7 +285,7 @@ h2.title {
 	color: #fff;
 	text-align: center;
 	padding: 20px 0;
-	
+
 	p {margin: 0;}
 }
 .content {
