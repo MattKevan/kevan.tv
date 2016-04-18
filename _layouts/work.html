@@ -9,8 +9,16 @@ layout: default
 			<div class="row">
 				<div class="col-xs-12">
 					<div class="breadcrumb"><a href="{{site.baseurl }}/work">Work &raquo;</a></div>
+						<div class="logo"><img src="{{ page.logo }}" /></div>
 				    <h1 class="title">{{ page.title }}</h1>
 				    <p class="intro">{{ page.teaser }}</p>
+
+						<div class="categories">
+              <p class="lead">Agency: {{ page.project-type }} <br />
+              Roles: {{ page.roles | join: ', ' }}
+              </p>
+            </div>
+
 				</div>
 			</div>
 		</div>
