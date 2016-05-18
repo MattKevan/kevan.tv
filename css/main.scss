@@ -8,74 +8,100 @@
 
 @font-face {
     font-family: 'Calendas Plus Italic';
-    src: url('fonts/calendas_plus_italic-webfont.eot');
-    src: url('fonts/calendas_plus_italic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/calendas_plus_italic-webfont.woff2') format('woff2'),
-         url('fonts/calendas_plus_italic-webfont.woff') format('woff'),
-         url('fonts/calendas_plus_italic-webfont.ttf') format('truetype'),
-         url('fonts/calendas_plus_italic-webfont.svg#calendas_plusitalic') format('svg');
+    src: url('fonts/calendas-plus-italic/calendas_plus_italic-webfont.eot');
+    src: url('fonts/calendas-plus-italic/calendas_plus_italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/calendas-plus-italic/calendas_plus_italic-webfont.woff2') format('woff2'),
+         url('fonts/calendas-plus-italic/calendas_plus_italic-webfont.woff') format('woff'),
+         url('fonts/calendas-plus-italic/calendas_plus_italic-webfont.ttf') format('truetype'),
+         url('fonts/calendas-plus-italic/calendas_plus_italic-webfont.svg#calendas_plusitalic') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Calendas Plus';
-    src: url('fonts/calendas-plus-webfont.eot');
-    src: url('fonts/calendas-plus-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/calendas-plus-webfont.woff2') format('woff2'),
-         url('fonts/calendas-plus-webfont.woff') format('woff'),
-         url('fonts/calendas-plus-webfont.ttf') format('truetype'),
-         url('fonts/calendas-plus-webfont.svg#calendas_plusregular') format('svg');
+    src: url('fonts/calendas-plus/calendas-plus-webfont.eot');
+    src: url('fonts/calendas-plus/calendas-plus-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/calendas-plus/calendas-plus-webfont.woff2') format('woff2'),
+         url('fonts/calendas-plus/calendas-plus-webfont.woff') format('woff'),
+         url('fonts/calendas-plus/calendas-plus-webfont.ttf') format('truetype'),
+         url('fonts/calendas-plus/calendas-plus-webfont.svg#calendas_plusregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'knileregular';
-    src: url('fonts/knile-regular-webfont.eot');
-    src: url('fonts/knile-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/knile-regular-webfont.woff2') format('woff2'),
-         url('fonts/knile-regular-webfont.woff') format('woff'),
-         url('fonts/knile-regular-webfont.ttf') format('truetype'),
-         url('fonts/knile-regular-webfont.svg#knileregular') format('svg');
+    font-family: 'Knile';
+    src: url('fonts/knile-regular/knile-regular-webfont.eot');
+    src: url('fonts/knile-regular/knile-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/knile-regular/knile-regular-webfont.woff2') format('woff2'),
+         url('fonts/knile-regular/knile-regular-webfont.woff') format('woff'),
+         url('fonts/knile-regular/knile-regular-webfont.ttf') format('truetype'),
+         url('fonts/knile-regular/knile-regular-webfont.svg#knileregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
-
 @font-face {
-    font-family: 'knilebold';
-    src: url('fonts/knile-bold-webfont.eot');
-    src: url('fonts/knile-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/knile-bold-webfont.woff2') format('woff2'),
-         url('fonts/knile-bold-webfont.woff') format('woff'),
-         url('fonts/knile-bold-webfont.ttf') format('truetype'),
-         url('fonts/knile-bold-webfont.svg#knilebold') format('svg');
+    font-family: 'Knile Italic';
+    src: url('fonts/knile-regular-italic/knile-regularitalic-webfont.eot');
+    src: url('fonts/knile-regular-italic/knile-regularitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/knile-regular-italic/knile-regularitalic-webfont.woff2') format('woff2'),
+         url('fonts/knile-regular-italic/knile-regularitalic-webfont.woff') format('woff'),
+         url('fonts/knile-regular-italic/knile-regularitalic-webfont.ttf') format('truetype'),
+         url('fonts/knile-regular-italic/knile-regularitalic-webfont.svg#knileitalic') format('svg');
     font-weight: normal;
     font-style: normal;
 
 }
 
 @font-face {
-    font-family: 'knilebold_italic';
-    src: url('fonts/knile-bolditalic-webfont.eot');
-    src: url('fonts/knile-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/knile-bolditalic-webfont.woff2') format('woff2'),
-         url('fonts/knile-bolditalic-webfont.woff') format('woff'),
-         url('fonts/knile-bolditalic-webfont.ttf') format('truetype'),
-         url('fonts/knile-bolditalic-webfont.svg#knilebold_italic') format('svg');
+    font-family: 'Knile Bold';
+    src: url('fonts/knile-bold/knile-bold-webfont.eot');
+    src: url('fonts/knile-bold/knile-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/knile-bold/knile-bold-webfont.woff2') format('woff2'),
+         url('fonts/knile-bold/knile-bold-webfont.woff') format('woff'),
+         url('fonts/knile-bold/knile-bold-webfont.ttf') format('truetype'),
+         url('fonts/knile-bold/knile-bold-webfont.svg#knilebold') format('svg');
     font-weight: normal;
     font-style: normal;
 
 }
+
 @font-face {
-    font-family: 'knilelight_italic';
-    src: url('fonts/knile-lightitalic-webfont.eot');
-    src: url('fonts/knile-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/knile-lightitalic-webfont.woff2') format('woff2'),
-         url('fonts/knile-lightitalic-webfont.woff') format('woff'),
-         url('fonts/knile-lightitalic-webfont.ttf') format('truetype'),
-         url('fonts/knile-lightitalic-webfont.svg#knilelight_italic') format('svg');
+    font-family: 'Knile Bold Italic';
+    src: url('fonts/knile-bold-italic/knile-bolditalic-webfont.eot');
+    src: url('fonts/knile-bold-italic/knile-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/knile-bold-italic/knile-bolditalic-webfont.woff2') format('woff2'),
+         url('fonts/knile-bold-italic/knile-bolditalic-webfont.woff') format('woff'),
+         url('fonts/knile-bold-italic/knile-bolditalic-webfont.ttf') format('truetype'),
+         url('fonts/knile-bold-italic/knile-bolditalic-webfont.svg#knilebold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Knile Light';
+    src: url('fonts/knile-light/knile-light-webfont.eot');
+    src: url('fonts/knile-light/knile-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/knile-light/knile-light-webfont.woff2') format('woff2'),
+         url('fonts/knile-light/knile-light-webfont.woff') format('woff'),
+         url('fonts/knile-light/knile-light-webfont.ttf') format('truetype'),
+         url('fonts/knile-light/knile-light-webfont.svg#knilelight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Knile Light Italic';
+    src: url('fonts/knile-light-italic/knile-lightitalic-webfont.eot');
+    src: url('fonts/knile-light-italic/knile-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/knile-light-italic/knile-lightitalic-webfont.woff2') format('woff2'),
+         url('fonts/knile-light-italic/knile-lightitalic-webfont.woff') format('woff'),
+         url('fonts/knile-light-italic/knile-lightitalic-webfont.ttf') format('truetype'),
+         url('fonts/knile-light-italic/knile-lightitalic-webfont.svg#knilelight_italic') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -83,8 +109,8 @@
 
 body {
 	color: #000;
-		font-family: 'Calendas Plus', Helvetica, Arial, sans-serif;
-  background-color: #fff;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  	background-color: #fff;
 }
 
 a {color: #000;}
@@ -94,8 +120,12 @@ a:hover {
 	text-decoration: underline;
 }
 
-h1, h2, h3, h4 {
-	font-family: 'knilebold', Helvetica, Arial, sans-serif;
+h1 {
+	font-family: 'Knile Light', Helvetica, Arial, sans-serif;
+}
+
+h2, h3, h4 {
+	font-family: 'Knile Bold', Helvetica, Arial, sans-serif;
 	font-weight: normal;
 	color: #000;
 }
@@ -114,7 +144,41 @@ h2.title {
 h2 {margin-top: 0!important;}
 
 .lead {
-		font-family: 'knilelight_italic', Helvetica, Arial, sans-serif;
+	font-family: 'Knile Light', Helvetica, Arial, sans-serif;
+	border-style: solid;
+    border-width: 0 0 5px 0;
+    border-color: #e53780;
+    padding: 0 0 40px 0;
+    margin-bottom: 40px;
+}
+
+.teaser-text {font-size: 20px;}
+
+.crumb {margin-bottom: 30px;}
+
+.meta {
+	font-family: 'Knile', Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.6em;
+}
+
+.more-link {
+	text-align: center;
+	a {
+		padding: 10px 20px;
+		border-style: solid;
+		border-color: #000;
+		border-width: 1px;
+		border-radius: 3px;
+
+		&:hover {
+			border-color:#333;
+		}
+	}
+}
+.page-meta {
+	font-family: 'Knile Light', Helvetica, Arial, sans-serif;
+	font-size: 24px;
 }
 
 // Navigation
@@ -125,7 +189,7 @@ h2 {margin-top: 0!important;}
 }
 
 .navbar-default .navbar-brand {
-	font-family: 'knilebold', Helvetica, Arial, sans-serif;
+	font-family: 'Knile Bold', Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	color: #000;
 }
@@ -145,14 +209,15 @@ h2 {margin-top: 0!important;}
     border-radius: 4px;
 }
 .menu-button .icon-bar {
-  display: block;
-  width: 22px;
-  height: 2px;
-  border-radius: 1px;
-  background-color: #000;
+	display: block;
+	width: 22px;
+	height: 2px;
+	border-radius: 1px;
+	background-color: #000;
 }
+
 .menu-button .icon-bar + .icon-bar {
-  margin-top: 4px;
+	margin-top: 4px;
 }
 
 .overlay {
@@ -176,7 +241,7 @@ h2 {margin-top: 0!important;}
 	top: 20px;
 	overflow: hidden;
 	border: none;
-	background: url(/images/site/cross.png) no-repeat center center;
+	background: url(/images/site/close.png) no-repeat center center;
 	text-indent: 200%;
 	color: transparent;
 	outline: none;
@@ -186,24 +251,25 @@ h2 {margin-top: 0!important;}
 /* Menu style */
 
 .overlay ul {
-  text-align: center;
-  list-style: none;
-  margin-top: 40px;
+	text-align: center;
+	list-style: none;
+	margin-top: 40px;
 }
 
 .overlay ul li {
 	text-align: center;
-	font-size: 3em;
-	line-height: 1.5em;
+	font-size: 3.2em;
+	line-height: 1.8em;
   	float: none;
   	list-style: none;
-	font-family: 'knilebold', Helvetica, Arial, sans-serif;
+	font-family: 'Knile Bold', Helvetica, Arial, sans-serif;
 
 	a:hover {
 		background: none;
 		text-decoration: underline;
 	}
 }
+
 // Content displays
 
 .teaser {
@@ -211,23 +277,21 @@ h2 {margin-top: 0!important;}
 	h2 {margin-top: 0;}
 	h3 {margin: 15px 0 5px 0;}
 	p {padding: 0;}	
-	.intro {font-family: 'knileregular', Helvetica, Arial, sans-serif;}
+	.intro {font-family: 'Knile', Helvetica, Arial, sans-serif;}
  	.teaser-inner {background-color:#fff;}
 }
 
 // Cards
 
+// General card styles
+
 .card {
   clear: both;
-	h1.title {
-	}
 
-	h2.feature {
-		line-height: 1.2em;
-		font-family: "knilelight_italic", Georgia, "Times New Roman", Times, serif;
-		font-size: 60px;
-	}
 }
+
+// Banner card
+
 .banner {
 	text-align: center;
 
@@ -248,9 +312,22 @@ h2 {margin-top: 0!important;}
 	.inner {
 		background-color: rgba(255,238,0,0.9);
 	}
-	p.intro {
-		font-family: 'knileregular', Helvetica, Arial, sans-serif;
+
+	h1 {
+		font-family: "Knile Bold", Georgia, "Times New Roman", Times, serif;
+		margin: 0 0 20px 0;		
 	}
+
+	h2.feature {
+		line-height: 1.2em;
+		font-family: "Knile Light", Georgia, "Times New Roman", Times, serif;
+		font-size: 60px;
+		margin: 0 0 40px 0;
+	}
+
+	p.intro {
+	}
+
 }
 
 .card.banner.work {
@@ -271,7 +348,7 @@ h2 {margin-top: 0!important;}
 			font-weight: normal;
 			padding: 0 0 20px 0;
 			font-size: 2.5em;
-			margin: 0 0 60px 0;
+			margin: 0 0 50px 0;
 
       @media (min-width: $screen-sm-min) {
         font-size: 3em;
@@ -287,9 +364,10 @@ h2 {margin-top: 0!important;}
 			font-family: "Calendas Plus Italic", Georgia, "Times New Roman", Times, serif;
 		}
     .logo {
+    	height: 160px;
       img {
         width: 160px;
-        margin-bottom: 40px;
+        margin-bottom: 30px;
       }
     }
 	}
@@ -297,18 +375,9 @@ h2 {margin-top: 0!important;}
 
 .card.content {
 	img {width: 100%; height: 100%;}
-
-
-	.categories {
-		border-style: solid;
-		border-width: 0 0 5px 0;
-		border-color: #e53780;
-		padding: 0 0 40px 0;
-		margin-bottom: 40px;
-
-		.lead {margin-bottom: 0;}
-	}
 }
+
+// Link card
 
 .card.link {
 	background-color: #e53780;
@@ -326,12 +395,15 @@ h2 {margin-top: 0!important;}
 		color: #fff;
 		display: inline-block;
 		text-decoration: none;
-		font-family: "knilelight_italic", Georgia, "Times New Roman", Times, serif;
+		font-family: "Knile", Georgia, "Times New Roman", Times, serif;
 	}
 	a:hover {
 		text-decoration: underline;
 	}
 }
+
+// Listing card
+
 .card.listing {
 	padding: 40px 0;
 
@@ -342,9 +414,13 @@ h2 {margin-top: 0!important;}
 
 	}
 }
+
 .card.listing.first {
 	padding: 0 0 40px 0;
 }
+
+// Carousel card
+
 .card.carousel {
 	.inner {
 		background-color: #009fe3;
@@ -354,6 +430,10 @@ h2 {margin-top: 0!important;}
 		width: 100%; height: 100%;
 	}
 }
+
+// Full-width image card
+
+
 .card.full-width-image {
   background-color: #333;
   img {
@@ -361,14 +441,9 @@ h2 {margin-top: 0!important;}
     height: 100%;
   }
 }
-.site-footer {
-	background-color: #000;
-	color: #fff;
-	text-align: center;
-	padding: 20px 0;
 
-	p {margin: 0;}
-}
+// Page content
+
 .content {
 	margin: 60px 0;
 	p.lead {
@@ -406,4 +481,15 @@ h2 {margin-top: 0!important;}
   .image-right{
     padding: 40px 0;
   }
+}
+
+// Footer
+
+.site-footer {
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+	padding: 20px 0;
+
+	p {margin: 0;}
 }
