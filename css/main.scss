@@ -1,5 +1,5 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
+# Front matter comment to ensure Jekyll properly reads file.
 ---
 @charset "utf-8";
 
@@ -56,13 +56,38 @@
 
 }
 
+@font-face {
+    font-family: 'knilebold_italic';
+    src: url('fonts/knile-bolditalic-webfont.eot');
+    src: url('fonts/knile-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/knile-bolditalic-webfont.woff2') format('woff2'),
+         url('fonts/knile-bolditalic-webfont.woff') format('woff'),
+         url('fonts/knile-bolditalic-webfont.ttf') format('truetype'),
+         url('fonts/knile-bolditalic-webfont.svg#knilebold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'knilelight_italic';
+    src: url('fonts/knile-lightitalic-webfont.eot');
+    src: url('fonts/knile-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/knile-lightitalic-webfont.woff2') format('woff2'),
+         url('fonts/knile-lightitalic-webfont.woff') format('woff'),
+         url('fonts/knile-lightitalic-webfont.ttf') format('truetype'),
+         url('fonts/knile-lightitalic-webfont.svg#knilelight_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body {
-	color: #333;
-	font-family: 'Calendas Plus';
+	color: #000;
+		font-family: 'Calendas Plus', Helvetica, Arial, sans-serif;
   background-color: #fff;
 }
 
-a {color: #333;}
+a {color: #000;}
 
 a:hover {
 	color: #333;
@@ -70,10 +95,10 @@ a:hover {
 }
 
 h1, h2, h3, h4 {
-	font-family: 'knileregular', Helvetica, Arial, sans-serif;
+	font-family: 'knilebold', Helvetica, Arial, sans-serif;
 	font-weight: normal;
-  color: #333;
-	}
+	color: #000;
+}
 
 h1.title {
 	margin: 0 0 30px 0;
@@ -81,41 +106,32 @@ h1.title {
 	font-size: 3.5em;
 }
 h2.title {
-		text-align: center;
-		font-size: 2em;
-		margin: 0 0 40px 0;
-		font-family: "Calendas Plus Italic", Georgia, "Times New Roman", Times, serif;
-
+	text-align: center;
+	font-size: 2em;
+	margin: 0 0 40px 0;
 }
+
+h2 {margin-top: 0!important;}
+
+.lead {
+		font-family: 'knilelight_italic', Helvetica, Arial, sans-serif;
+}
+
 // Navigation
 .navbar {
 	margin: 0;
 	border: none;
 	background: #fff;
 }
+
 .navbar-default .navbar-brand {
-	color: #333;
-		font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-		text-transform: uppercase;
-		font-size: 16px;
+	font-family: 'knilebold', Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	color: #000;
 }
 
-.teaser {
-	img {width: 100%; height: 100%;}
+// Menu overlay
 
-  .teaser-inner {
-    background-color:#fff;
-  }
-  h3 {
-    //padding: 0 20px;
-    margin: 15px 0 5px 0;
-  }
-  p {padding: 0;}
-
-
-}
-
-// Overlay
 .menu-button {
     display: block!important;
     position: relative;
@@ -172,19 +188,31 @@ h2.title {
 .overlay ul {
   text-align: center;
   list-style: none;
+  margin-top: 40px;
 }
 
 .overlay ul li {
 	text-align: center;
 	font-size: 3em;
-  float: none;
-  list-style: none;
+	line-height: 1.5em;
+  	float: none;
+  	list-style: none;
+	font-family: 'knilebold', Helvetica, Arial, sans-serif;
 
-	a, a.active {color: #333;}
 	a:hover {
 		background: none;
 		text-decoration: underline;
 	}
+}
+// Content displays
+
+.teaser {
+ 	img {width: 100%; height: 100%;}
+	h2 {margin-top: 0;}
+	h3 {margin: 15px 0 5px 0;}
+	p {padding: 0;}	
+	.intro {font-family: 'knileregular', Helvetica, Arial, sans-serif;}
+ 	.teaser-inner {background-color:#fff;}
 }
 
 // Cards
@@ -196,7 +224,7 @@ h2.title {
 
 	h2.feature {
 		line-height: 1.2em;
-		font-family: "Calendas Plus Italic", Georgia, "Times New Roman", Times, serif;
+		font-family: "knilelight_italic", Georgia, "Times New Roman", Times, serif;
 		font-size: 60px;
 	}
 }
@@ -220,12 +248,15 @@ h2.title {
 	.inner {
 		background-color: rgba(255,238,0,0.9);
 	}
+	p.intro {
+		font-family: 'knileregular', Helvetica, Arial, sans-serif;
+	}
 }
 
 .card.banner.work {
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: center center;
+	background-position: top center;
 
 	a {color: #fff;}
 
@@ -295,7 +326,7 @@ h2.title {
 		color: #fff;
 		display: inline-block;
 		text-decoration: none;
-		font-family: "Calendas Plus Italic", Georgia, "Times New Roman", Times, serif;
+		font-family: "knilelight_italic", Georgia, "Times New Roman", Times, serif;
 	}
 	a:hover {
 		text-decoration: underline;
@@ -305,7 +336,11 @@ h2.title {
 	padding: 40px 0;
 
 	h3 {font-size: 24px;}
-	.teaser {margin-bottom: 30px;}
+	.teaser {
+		margin-bottom: 30px;
+		h2 {margin-top: 0;}
+
+	}
 }
 .card.listing.first {
 	padding: 0 0 40px 0;
@@ -336,7 +371,11 @@ h2.title {
 }
 .content {
 	margin: 60px 0;
-	p.lead {font-size: 24px;}
+	p.lead {
+		font-size: 24px;
+		line-height: 1.6em;
+	}
+
 
 	p {
 		font-size: 18px;
@@ -351,6 +390,7 @@ h2.title {
 .image-left {
   padding: 20px 20px 10px 20px;
 }
+
 .image-right{
   padding: 10px 20px 20px 20px;
 }
