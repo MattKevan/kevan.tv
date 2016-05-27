@@ -16,7 +16,7 @@ github_username:  jekyll
 
 
 gems:
-  - jekyll-sitema
+  - jekyll-sitemap
   - jekyll-seo-tag
   
 # Build settings
