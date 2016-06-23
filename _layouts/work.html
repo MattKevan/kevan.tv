@@ -41,17 +41,21 @@ layout: default
 
 <!-- images -->
 
-<div class="card full-width-image">
+<div class="card work full-width-image">
 	<div class="inner">
-		
-		<div class="container">
+
+
+		{% if page.image1 %}
+		<div class="container image1">
 			<div class="row">
 				<div class="col-xs-12">
 	         		<img src="{{ page.image1 }}" />
 	       		</div>
 	   		</div>
     	</div>
+    	{% endif %}
 
+		{% if page.image2 %}
     	<div class="two-images">
 	      	<div class="image-left">
 	       		<img src="{{ page.image2 }}" />
@@ -61,7 +65,9 @@ layout: default
     		    <img src="{{ page.image3 }}" />
 	      	</div>
 	    </div>
+   		{% endif %}
 
+		{% if page.image4 %}
 	   	<div class="container">
 			<div class="row">
 				<div class="col-xs-12">
@@ -70,6 +76,8 @@ layout: default
 	        	</div>
 	      	</div>
 	    </div>
+	    {% endif %}
+
 	</div>
 </div>
 
