@@ -1,10 +1,11 @@
 ---
-layout: page
 title: About
-lead: As a designer, I'm fascinated by what makes things work, and how best to communicate ideas.
-permalink: /about/
----
+layout: page
+lead: As a designer, I'm fascinated by what makes things work, and how best to communicate
+  ideas.
+permalink: "/about/"
 
+---
 For the last four years I've been working as creative manager and UX lead for NDP, a busy Drupal-focused web agency based in the heart of London.
 
 At NDP I'm responsible for the studio's creative output, managing the creative team and working closely with the rest of the studio, including consultants, project managers and developers.
