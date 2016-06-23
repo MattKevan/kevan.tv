@@ -1,22 +1,20 @@
 ---
 layout: default
 ---
-<div class="work">
 
 <div class="card banner work" style="background-image: url('{{ page.banner-image }}');">
 	<div class="inner">
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12">
+
 					<p class="crumb"><a href="/">Home</a> > <a href="/work">Work</a></p>
 					<div class="logo"><img src="{{ page.logo }}" /></div>
 				    <h1 class="title">{{ page.title }}</h1>
 
-						<div class="categories">
-              <p class="page-meta">Agency: {{ page.project-type }} <br />
-              Roles: {{ page.roles | join: ', ' }}
-              </p>
-            </div>
+					<div class="categories">
+              			<p class="page-meta">Agency: {{ page.project-type }} <br />Roles: {{ page.roles | join: ', ' }}</p>
+            		</div>
 
 				</div>
 			</div>
@@ -24,7 +22,57 @@ layout: default
 	</div>
 </div>
 
-{{ content }}
+<!-- content -->
+
+<div class="card content">
+	<div class="inner">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-10 col-sm-push-1 col-lg-8 col-lg-push-2">
+
+					<p class="lead">{{ page.lead }}</p>
+					{{ content }}
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- images -->
+
+<div class="card full-width-image">
+	<div class="inner">
+		
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+	         		<img src="{{ page.image1 }}" />
+	       		</div>
+	   		</div>
+    	</div>
+
+    	<div class="two-images">
+	      	<div class="image-left">
+	       		<img src="{{ page.image2 }}" />
+	   		</div>
+	      		
+    		<div class="image-right">
+    		    <img src="{{ page.image3 }}" />
+	      	</div>
+	    </div>
+
+	   	<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+	          		<img src="{{ page.image4 }}" />
+
+	        	</div>
+	      	</div>
+	    </div>
+	</div>
+</div>
+
 
 <div class="card link">
 	<div class="inner">
