@@ -1,16 +1,27 @@
 ---
-title:  		Illustrators
-teaser:  		"Creating a marketplace for the best of contemporary illustration"
-lead:			"Illustrators is a marketplace for the best of contemporary illustration."
-banner-image: 	/images/illo-banner.jpg
-thumbnail: 		/images/illo-thumbnail.jpg
-carousel: 		[/images/bcc-ia-home.jpg, /images/bcc-info.jpg, /images/bcc-blocks.jpg, /images/bcc-design-home.jpg]
-work-url:		"https://www.illustrators.co"
-date:   		2016-01-01 19:03:42 +0000
-project-type: 	Personal project
-roles:			[UX designer, Web designer, Developer]
----
+title: Illustrators
+date: '2016-01-01 19:03:42'
+categories: []
+layout: project
+teaser: Creating a marketplace for the best of contemporary illustration
+lead: Illustrators is a marketplace for the best of contemporary illustration.
+banner-image: "/images/illo-banner.jpg"
+thumbnail: "/images/illo-thumbnail.jpg"
+carousel:
+- "/images/bcc-ia-home.jpg"
+- "/images/bcc-info.jpg"
+- "/images/bcc-blocks.jpg"
+- "/images/bcc-design-home.jpg"
+work-url: https://www.illustrators.co
+project-type: Personal project
+roles:
+- UX designer
+- Web designer
+- Developer
+slug: illustrators
+tags: []
 
+---
 ###Background
 
 I co-founded Illustrators in 2011, with the aim of helping raise the profile of contemporary illustration (which whilst widely admired is not collected or supported in the same way as other artforms) and also providing a platform for illustrators to sell their original works and prints from. It also enables the public to learn more about the inspiration and talent behind a particular illustration and to purchase the original illustration from a favourite newspaper, magazine or book.
