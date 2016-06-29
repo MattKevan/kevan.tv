@@ -4,7 +4,6 @@ layout: page
 lead: As a designer, I'm fascinated by what makes things work, and how best to communicate
   ideas.
 permalink: "/about/"
-
 ---
 For the last four years I've been working as creative manager and UX lead for NDP, a busy Drupal-focused web agency based in the heart of London.
 

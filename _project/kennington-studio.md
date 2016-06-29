@@ -20,7 +20,6 @@ roles:
 - Developer
 slug: kennington-studio
 tags: []
-
 ---
 ###Background
 

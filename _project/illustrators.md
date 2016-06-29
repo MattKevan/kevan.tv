@@ -20,7 +20,6 @@ roles:
 - Developer
 slug: illustrators
 tags: []
-
 ---
 ###Background
 
