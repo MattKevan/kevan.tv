@@ -1,18 +1,22 @@
 ---
-title:  		SPEAK Network
-teaser:  		"Supporting the campaign for global justice"
-lead:			"Speak is a network of students and adults who campaign about issues of global injustice."
-banner-image: 	/images/speak/speak-banner.png
-thumbnail: 		/images/speak/speak-thumbnail.png
-work-url:		"https://www.speak.org.uk"
-logo:			/images/speak/logo.png
-image1:       
-image2:       
-image3:      
-image4:    
-date:   		2016-01-01 19:03:42 +0000
-project-type: 	Pro-bono project
-roles:			[UX designer, Web designer, Developer]
+title: SPEAK Network
+date: '2016-01-01 19:03:42'
+teaser: Supporting the campaign for global justice
+lead: Speak is a network of students and adults who campaign about issues of global
+  injustice.
+banner-image: "/images/speak/speak-banner.png"
+thumbnail: "/images/speak/speak-thumbnail.png"
+work-url: https://www.speak.org.uk
+logo: "/images/speak/logo.png"
+image1: 
+image2: 
+image3: 
+image4: 
+project-type: Pro-bono project
+roles:
+- UX designer
+- Web designer
+- Developer
 ---
 
 <h3>Background</h3>

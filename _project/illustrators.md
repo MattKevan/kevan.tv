@@ -1,6 +1,6 @@
 ---
 title: Illustrators
-date: '2016-01-01 19:03:42'
+date: '2016-01-01 00:00:00'
 categories: []
 layout: project
 teaser: Creating a marketplace for the best of contemporary illustration

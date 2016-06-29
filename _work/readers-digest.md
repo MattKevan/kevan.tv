@@ -1,18 +1,19 @@
 ---
-title:            Reader's Digest
-teaser:  		      "Revamping the web presence of one of the world's best loved lifestyle magazines"
-lead:			        "Reader's Digest is one of the world's best known lifestyle magazines."
-banner-image: 	  /images/rd/rd-banner.png
-thumbnail: 		    /images/rd/rd-thumbnail.png
-work-url:		      "http://www.readersdigest.co.uk"
-image1:       
-image2:       
-image3:      
-image4:    
-logo:             /images/rd/logo.png
-date:   		      2016-01-01 19:03:42 +0000
-project-type: 	  NDP Studio
-roles:			      [UX designer]
+title: Reader's Digest
+date: '2016-01-01 19:03:42'
+teaser: Revamping the web presence of one of the world's best loved lifestyle magazines
+lead: Reader's Digest is one of the world's best known lifestyle magazines.
+banner-image: "/images/rd/rd-banner.png"
+thumbnail: "/images/rd/rd-thumbnail.png"
+work-url: http://www.readersdigest.co.uk
+image1: 
+image2: 
+image3: 
+image4: 
+logo: "/images/rd/logo.png"
+project-type: NDP Studio
+roles:
+- UX designer
 ---
 
 <p>Reader's Digest approached NDP with the challenge of creating a new editorial website for the UK arm of the publication.

@@ -1,19 +1,23 @@
 ---
-layout: 		work
-title:  		"Fellowship Afloat"
-teaser:  		"Bringing 'the spirit of adventure' to the Web"
-lead:			"Based on a lightvessel moored off the Essex coast, Fellowship Afloat is an outdoor activity centre like no other."
-banner-image: 	/images/fact/fact-banner.jpg
-thumbnail: 		/images/fact/fact-thumbnail.jpg
-image1:       
-image2:       
-image3:      
-image4:       
-logo:			/images/fact/logo.png
-work-url:		http://www.fact.org.uk
-date:   		2016-01-01 19:03:42 +0000
-project-type: 	Pro-bono project
-roles:			[UX designer, Web designer, Developer]
+title: Fellowship Afloat
+date: '2016-01-01 19:03:42'
+layout: work
+teaser: Bringing 'the spirit of adventure' to the Web
+lead: Based on a lightvessel moored off the Essex coast, Fellowship Afloat is an outdoor
+  activity centre like no other.
+banner-image: "/images/fact/fact-banner.jpg"
+thumbnail: "/images/fact/fact-thumbnail.jpg"
+image1: 
+image2: 
+image3: 
+image4: 
+logo: "/images/fact/logo.png"
+work-url: http://www.fact.org.uk
+project-type: Pro-bono project
+roles:
+- UX designer
+- Web designer
+- Developer
 ---
 
 <h3>Background</h3>

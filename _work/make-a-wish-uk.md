@@ -1,6 +1,6 @@
 ---
 title: Make-A-Wish UK
-date: '2016-01-01 19:03:42'
+date: '2016-01-01 00:00:00'
 categories: []
 layout: work
 teaser: Love the garden
@@ -8,9 +8,9 @@ lead: Scott's is one of the world's leading manufacturers of lawn and garden car
   products.
 banner-image: "/images/scotts/ltg-banner.jpg"
 thumbnail: "/images/scotts/ltg-thumbnail.jpg"
-image1:       
-image2:       
-image3:      
+image1: 
+image2: 
+image3: 
 image4: 
 logo: "/images/scotts/miracle-gro-logo.png"
 work-url: https://www.lovethegarden.com
@@ -20,7 +20,6 @@ roles:
 - UX lead
 slug: make-a-wish-uk
 tags: []
-
 ---
 
 
@@ -36,7 +35,7 @@ tags: []
 
 <p>I developed the new site structure, creating site maps, user journeys and wireframes. During this process I worked closely with the design and development teams to ensure the designs could be built within the time and budget available.</p>
 
-![Love the Garden IA sketch]({{ site.url }}/images/scotts/ltg-wireframe.png)
+![Love the Garden IA sketch]({{ site.baseurl }}/images/scotts/ltg-wireframe.png)
 
 <h3>Landing pages</h3>
 
