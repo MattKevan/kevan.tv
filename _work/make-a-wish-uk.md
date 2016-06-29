@@ -1,5 +1,5 @@
 ---
-title: Scott's Miracle Gro
+title: Make-A-Wish UK
 date: '2016-01-01 19:03:42'
 categories: []
 layout: work
@@ -18,14 +18,13 @@ project-type: NDP Studio
 roles:
 - Creative manager
 - UX lead
-- Developer
-slug: scotts-miracle-gro
+slug: make-a-wish-uk
 tags: []
 
 ---
 
 
-<h3>Background</h3>
+### Background
 
 <p>The UK arm of the company needed to increase visibility of specific products, and promote their image as a trusted source for all gardening needs. They decided to create an editorially-led website featuring high-quality, informative content for gardeners of all ages and abilities.</p>
 

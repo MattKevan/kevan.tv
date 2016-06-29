@@ -1,5 +1,5 @@
 ---
-title: Scott's Miracle Gro
+title: Mall Galleries
 date: '2016-01-01 19:03:42'
 categories: []
 layout: work
@@ -18,8 +18,7 @@ project-type: NDP Studio
 roles:
 - Creative manager
 - UX lead
-- Developer
-slug: scotts-miracle-gro
+slug: mall-galleries
 tags: []
 
 ---
