@@ -2,8 +2,7 @@
 title: SPEAK Network
 date: '2016-01-01 19:03:42'
 teaser: Supporting the campaign for global justice
-lead: Speak is a network of students and adults who campaign about issues of global
-  injustice.
+lead: Speak is a network of students and adults who campaign about issues of global injustice.
 banner-image: "/images/speak/speak-banner.png"
 thumbnail: "/images/speak/speak-thumbnail.png"
 work-url: https://www.speak.org.uk
@@ -19,20 +18,22 @@ roles:
 - Developer
 ---
 
-<h3>Background</h3>
+### The client
 
-<p>With big ambitions and tonnes of creativity, Speak have tackled many vital topics over the last 20 years, including the arms trade, corporate accountability and climate change. Campaign successes include creating the world's biggest dress and shutting down DESO, a government department dedicated to promoting arms sales around the world.</p>
+With big ambitions and tonnes of creativity, Speak have campaigned on many vital topics over the last 20 years, including the arms trade, corporate accountability and climate change. Their campaign successes include creating the world's biggest dress and helping to shut down DESO, a government department promoted arms sales around the world.
 
-<h3>The challenge</h3>
+### The challenge
 
-<p>Speak's supporter database was outdated and not up to the task of keeping track of such a rapidly changing organisation. To compensate, staff and volunteers had pieced together their own systems, which meant that important information was often missed and tasks such as creating mailings and taking event bookings were a time consuming process.</p>
+Speak's supporter database was old and not up to the task of keeping track of such a rapidly changing organisation. To compensate, staff and volunteers had pieced together their own systems, meaning important information was often missed and tasks such as creating mailings and taking event bookings were a time consuming process.
 
-<p>It was clear they needed a unified way to manage their supporters' information, and effectively use that data to publicise events, campaigns and raise funds. Without spending loads on a system like Salesforce.</p>
+In addition, their website was badly out of date and hard for volunteers to update and for end-users to navigate.
 
-<h3>The solution</h3>
+It was clear they needed a unified way to manage their supporters' information, and effectively use that data to publicise events, campaigns and raise funds. They also needed a new website which was up-to-date and easy to use.
 
-<p>After researching various open source CRM systems, I settled on CiviCRM as it's designed specifically for non-profit and community organisations and integrates well with Drupal.</p>
+### The solution
 
-<p>After building Speak a new website in Drupal 7 (I'd also maintained or built their previous sites on Drupal 4, 5 and 6), I scoped out their requirements and implemented the CRM system, and working with Speak's staff and volunteers, we undertook the task of collating, cleaning up and importing the data. This was a big job.</p>
+After researching various open source CRM systems, I settled on CiviCRM as it's designed specifically for non-profit and community organisations and integrates well with Drupal.
 
-<p>Now, three years after launch, Speak are successfully using CiviCRM for their supporter data, event bookings, grant applications, email newsletters and more. I continue to develop the site (it recently received a shiny new responsive theme) and provide ongoing training to staff and volunteers.</p>
+Through consultation with staff and volunteers I put together a specification for the new database and began the build. Once complete we began the long process of cleaning up and importing the data.
+
+Now, three years after launch, Speak are successfully using CiviCRM for their supporter data, event bookings, grant applications, email newsletters and more. I continue to develop the site - I recently added a new responsive theme - and provide ongoing training to staff and volunteers.
