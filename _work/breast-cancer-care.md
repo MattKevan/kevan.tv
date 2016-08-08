@@ -21,15 +21,35 @@ roles:
 slug: breast-cancer-care
 tags: []
 ---
-### Background
+## What was needed
 
 Breast Cancer Care (BCC) had developed a new strategy, using digital media to better deliver their support services. However, they felt their website was not up to the challenge – content was hard to find, and the build wasn't flexible enough to meet their new demands.
 
-NDP's brief was to provide strategic input from the start, rebuild the website and integrate it with a range of external systems, including the Lithium social forum platform and payment gateways.
+Our brief was to provide strategic input from the start, rebuild the website and integrate it with a range of external systems, including social forums and various payment gateways.
 
-### The challenge
+## What I did
 
-As creative manager and UX lead, my challenge was to take the initial information architecture created by an external UX agency, integrate BCC's desired new functionality (and features to be kept from the old site) and create a plan which could both be understood by BCC and used as a detailed blueprint for the development team.
+The website is one of the main ways that BCC deliver services to its audiences, including providing information and support. 
+
+My challenge was to develop a new structure for the site which integrated BCC’s desired new functionality, while making it simple for visitors to find the content they need.
+
+### User research
+
+BCC had begun an in-depth user testing project with a specialist UX consultancy before NDP was chosen as the web development agency. I worked closely with the consultancy during the handover process to make sure all the learning
+
+### Component-based design
+
+### Creative
+
+### Development
+
+## The results
+
+
+
+
+
+take the initial information architecture created by an external UX agency, integrate BCC's desired new functionality (and features to be kept from the old site) and create a plan which could both be understood by BCC and used as a detailed blueprint for the development team.
 
 This included creating site maps, system diagrams, hundreds of wireframes, detailed user journeys and more.
 

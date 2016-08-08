@@ -10,16 +10,20 @@ image1:
 image2: 
 image3: 
 image4: 
+owl1:	
+owl2:	
+owl3:	
+owl4:	
 logo: "/images/rd/logo.png"
 project-type: NDP Studio
 roles:
 - UX designer
 ---
 
-<p>Reader's Digest approached NDP with the challenge of creating a new editorial website for the UK arm of the publication.
+Reader's Digest approached NDP with the challenge of creating a new editorial website for the UK arm of the publication.
 
-<p>None of their great content was currently being published online, so our brief was to turn their fairly uninspiring web presence to a destination for people looking for trustworthy tips, advice, recipies and fun.
+None of their great content was currently being published online, so our brief was to turn their fairly uninspiring web presence to a destination for people looking for trustworthy tips, advice, recipies and fun.
 
-<p>Working closely with the creative and development teams, I developed a structure for the site which was modern and easy to navigate, while still leaving plenty of room to grow.
+Working closely with the creative and development teams, I developed a structure for the site which was modern and easy to navigate, while still leaving plenty of room to grow.
 
-<p>The site has since been re-themed to match the US publication, but our planning and build lives on under the surface.</p>
+The site has since been re-themed to match the US publication, but our planning and build lives on under the surface.

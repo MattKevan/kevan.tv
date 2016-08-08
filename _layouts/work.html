@@ -40,7 +40,7 @@ layout: default
 </div>
 
 <!-- images -->
-
+{% if page.image1 %}
 <div class="card work full-width-image">
 	<div class="inner">
 
@@ -80,7 +80,30 @@ layout: default
 
 	</div>
 </div>
+{% endif %}
 
+<!--carousel-->
+
+{% if page.owl1 %}
+<div class="card carousel">
+	<div class="inner">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-10 col-sm-push-1 col-lg-8 col-lg-push-2">
+					<div id="work-carousel"" class="owl-carousel">
+						<div class="carousel-image"><img src="{{ page.owl1 }}" /></div>
+						<div class="carousel-image"><img src="{{ page.owl2 }}" /></div>
+						{% if page.owl3 %}<div class="carousel-image"><img src="{{ page.owl3 }}" /></div>{% endif %}
+						{% if page.owl4 %}<div class="carousel-image"><img src="{{ page.owl4 }}" /></div>{% endif %}
+						{% if page.owl5 %}<div class="carousel-image"><img src="{{ page.owl5 }}" /></div>{% endif %}
+						{% if page.owl6 %}<div class="carousel-image"><img src="{{ page.owl6 }}" /></div>{% endif %}
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+{% endif %}
 
 <div class="card link">
 	<div class="inner">
