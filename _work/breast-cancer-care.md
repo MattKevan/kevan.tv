@@ -37,7 +37,6 @@ My challenge was to develop a new structure for the site which integrated BCC’
 ### User research
 
 BCC had begun an in-depth user testing project with a specialist UX consultancy before NDP was chosen as the web development agency. I worked closely with the consultancy during the handover process to make sure all their learning was folded into the finished UX.
-te)
 
 I then created a plan which could both be understood by BCC and used as a detailed blueprint for the development team.
 
