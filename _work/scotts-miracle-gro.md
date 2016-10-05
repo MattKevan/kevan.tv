@@ -11,12 +11,12 @@ thumbnail: "/images/scotts/ltg-thumbnail.jpg"
 image1: 
 image2: 
 image3: 
-image4:
-owl1:	"/images/scotts/lovethegarden1.png"
-owl2:	"/images/scotts/lovethegarden2.png"
-owl3:	"/images/scotts/lovethegarden3.png"
-owl4:	"/images/scotts/lovethegarden4.png"
-owl5:	"/images/scotts/lovethegardenm.png"
+image4: 
+owl1: "/images/scotts/lovethegarden1.png"
+owl2: "/images/scotts/lovethegarden2.png"
+owl3: "/images/scotts/lovethegarden3.png"
+owl4: "/images/scotts/lovethegarden4.png"
+owl5: "/images/scotts/lovethegardenm.png"
 logo: "/images/scotts/miracle-gro-logo.png"
 work-url: https://www.lovethegarden.com
 project-type: NDP Studio

@@ -1,6 +1,6 @@
 ---
 title: Paper first, pixel later - why you should sketch before you wireframe
-date: '2016-10-05 08:02:00'
+date: '2016-10-05 00:00:00'
 layout: post
 ---
 A blank screen is a daunting prospect. There’s a strong temptation to get right in there with your wireframing software and start drawing boxes. But don’t give in. It’s a trap.

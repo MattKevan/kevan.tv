@@ -1,9 +1,10 @@
 ---
 title: Fellowship Afloat
-date: '2016-01-01 19:03:42'
+date: '2016-01-01 00:00:00'
 layout: work
 teaser: Bringing 'the spirit of adventure' to the Web
-lead: Based on a lightvessel moored off the Essex coast, Fellowship Afloat is an outdoor activity centre like no other.
+lead: Based on a lightvessel moored off the Essex coast, Fellowship Afloat is an outdoor
+  activity centre like no other.
 banner-image: "/images/fact/fact-banner.jpg"
 thumbnail: "/images/fact/fact-thumbnail.jpg"
 logo: "/images/fact/logo.png"
@@ -11,10 +12,10 @@ image1:
 image2: 
 image3: 
 image4: 
-owl1:	"/images/fact/fact-home.png"
-owl2:	"/images/fact/fact-activities.png"
-owl3:	"/images/fact/fact-activity.png"
-owl4:	
+owl1: "/images/fact/fact-home.png"
+owl2: "/images/fact/fact-activities.png"
+owl3: "/images/fact/fact-activity.png"
+owl4: 
 work-url: http://www.fact.org.uk
 project-type: Pro-bono project
 roles:

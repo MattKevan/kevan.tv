@@ -1,6 +1,6 @@
 ---
 title: Rising Stars
-date: '2016-01-01 19:03:42'
+date: '2016-01-01 00:00:00'
 teaser: Planning the 'Netflix of education'
 lead: Rising Stars are a leading educational publisher, providing a wide range of
   textbooks and learning materials to schools.

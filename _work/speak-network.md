@@ -1,8 +1,9 @@
 ---
 title: SPEAK Network
-date: '2016-01-01 19:03:42'
+date: '2016-01-01 00:00:00'
 teaser: Supporting the campaign for global justice
-lead: Speak is a network of students and adults who campaign about issues of global injustice.
+lead: Speak is a network of students and adults who campaign about issues of global
+  injustice.
 banner-image: "/images/speak/speak-banner.png"
 thumbnail: "/images/speak/speak-thumbnail.png"
 work-url: https://www.speak.org.uk
