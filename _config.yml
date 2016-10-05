@@ -24,19 +24,21 @@ collections:
   project:
     output: true
     permalink: /projects/:path/
+  articles:
+    output: true
+    permalink: /articles/:path/
 
 defaults:
   - 
     scope:
       path: ""
-      type: "posts"
+      type: "articles"
     values:
       layout: "post"
-      categories: []
-      teaser: ""
+      tags: []
       lead: ""
       thumbnail: ""
-      slug: ""
+      banner: ""
   -
     scope:
       path: ""
