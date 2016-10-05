@@ -1,6 +1,6 @@
 ---
 title: Harvest for Hope
-date: '2016-01-01 19:03:42'
+date: '2016-01-01 00:00:00'
 teaser: Responding to the tragedy of refugees fleeing from war-torn countries
 lead: Based on a lightvessel moored off the Essex coast, Fellowship Afloat is an outdoor
   activity centre like no other.
