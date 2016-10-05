@@ -26,6 +26,17 @@ collections:
     permalink: /projects/:path/
 
 defaults:
+  - 
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      categories: []
+      teaser: ""
+      lead: ""
+      thumbnail: ""
+      slug: ""
   -
     scope:
       path: ""
