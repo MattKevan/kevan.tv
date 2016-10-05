@@ -1,9 +1,9 @@
 ---
 title: Test
-date: '2016-10-05 15:00:09'
+date: '2016-10-05 15:00:00'
 layout: post
 tags: []
-lead: ''
+lead: Blagg
 thumbnail: ''
 banner: ''
 ---
