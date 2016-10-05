@@ -53,7 +53,7 @@ Detailed sketch
 
 However, only once you understand the important parts of the site and have a feel for the various page elements and interactions – and most importantly get buy-in from everyone involved – should you finally get wireframing.
 
-## FURTHER READING
+## Further reading
 
 - http://uxmovement.com/wireframes/why-its-important-to-sketch-before-you-wireframe/
 - http://www.smashingmagazine.com/2011/12/the-messy-art-of-ux-sketching/
