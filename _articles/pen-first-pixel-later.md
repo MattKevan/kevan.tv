@@ -1,8 +1,8 @@
 ---
 title: Pen first, pixel later - why you should sketch before you computer
-date: '2016-10-05 11:03:00'
+date: '2016-10-05 00:00:00'
 layout: post
-tags:
+tags: ''
 lead: A blank screen is a daunting prospect. There’s a strong temptation to get right
   in there with your wireframing software and start drawing boxes. But don’t give
   in. It’s a trap.
@@ -11,7 +11,7 @@ banner: ''
 ---
 **Surface design can hide deeper problems.** Emphasising visual design at the wrong stage of a project, or a focus on style before getting the substance right can mask structural issues which only appear when it’s too late.
 
-**Too much detail too soon. **It’s tempting to spend time focusing on details or how it looks, before understanding fully the bigger picture. Like sitting down to write an article and spending ages choosing the typeface and colours before deciding the topic.
+**Too much detail too soon.** It’s tempting to spend time focusing on details or how it looks, before understanding fully the bigger picture. Like sitting down to write an article and spending ages choosing the typeface and colours before deciding the topic.
 
 **Overly attached designer.** It’s easy to hone in on an idea you really like at the expense of the wider project. And it may stop you from exploring other, potentially better ones. Murder your darlings.
 
