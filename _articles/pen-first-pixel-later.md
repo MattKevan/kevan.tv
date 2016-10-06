@@ -55,8 +55,8 @@ However, only once you understand the important parts of the site and have a fee
 
 ## Further reading
 
-- http://uxmovement.com/wireframes/why-its-important-to-sketch-before-you-wireframe/
-- http://www.smashingmagazine.com/2011/12/the-messy-art-of-ux-sketching/
-- http://blog.brightfind.com/web-technology/3-tips-for-sketching-wireframes
-- http://www.uxmatters.com/mt/archives/2010/05/sketches-and-wireframes-and-prototypes-oh-my-creating-your-own-magical-wizard-experience.php
-- http://bradfrost.com/blog/post/sketch-iterate-repeat-prototyping-your-website-design/
+- [http://uxmovement.com/wireframes/why-its-important-to-sketch-before-you-wireframe/](http://uxmovement.com/wireframes/why-its-important-to-sketch-before-you-wireframe/)
+- [http://www.smashingmagazine.com/2011/12/the-messy-art-of-ux-sketching/](http://www.smashingmagazine.com/2011/12/the-messy-art-of-ux-sketching/)
+- [http://blog.brightfind.com/web-technology/3-tips-for-sketching-wireframes](http://blog.brightfind.com/web-technology/3-tips-for-sketching-wireframes)
+- [http://www.uxmatters.com/mt/archives/2010/05/sketches-and-wireframes-and-prototypes-oh-my-creating-your-own-magical-wizard-experience.php](http://www.uxmatters.com/mt/archives/2010/05/sketches-and-wireframes-and-prototypes-oh-my-creating-your-own-magical-wizard-experience.php)
+- [http://bradfrost.com/blog/post/sketch-iterate-repeat-prototyping-your-website-design/](http://bradfrost.com/blog/post/sketch-iterate-repeat-prototyping-your-website-design/)
