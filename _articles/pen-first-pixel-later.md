@@ -2,7 +2,7 @@
 title: Pen first, pixel later - why you should sketch before you computer
 date: '2016-10-05 00:00:00'
 layout: post
-tags: ''
+tags: []
 lead: A blank screen is a daunting prospect. There’s a strong temptation to get right
   in there with your wireframing software and start drawing boxes. But don’t give
   in. It’s a trap.
@@ -35,15 +35,11 @@ There’s a possibly apocryphal story of a product designer back in the 50s who 
 
 Here’s a sketch I did, not more than a scribble. It only took seconds, but it was really useful to explain how columns respond at different breakpoints.
 
- 
-
-Sketch
-
- 
+![]({{ site.baseurl }}/forestryio/images/Screen Shot 2016-01-20 at 16.46.18.png)
 
 Here’s another one. I put more effort into this, knocked out the background and everything. But the principle is the same: it didn’t take more than a few minutes, it’s a bit wobbly, and explains itself clearly.
 
- 
+![]({{ site.baseurl }}/forestryio/images/Screen Shot 2016-01-20 at 16.45.58.png)
 
 Detailed sketch
 
