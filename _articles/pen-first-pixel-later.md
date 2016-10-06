@@ -46,8 +46,8 @@ Detailed sketch
 ## What sketching is not
 
 **Sketches are not deliverables.** By this I mean that sketches are not what the client is paying for. The client is paying for your problem-solving skills, your ability to design a site which meets their and their users’ needs. Sketching is just one tool of many to achieve this.
-
-**Sketches are not wireframes. **You can’t just scribble a few pages and hand them over to a developer be built. Well you can, but you’ll enter a world of hurt and everyone will hate you.
+ 
+**Sketches are not wireframes.** You can’t just scribble a few pages and hand them over to a developer be built. Well you can, but you’ll enter a world of hurt and everyone will hate you.
 
 **Properly worked-up wireframes are vital.** They do form part of the deliverables, and will be used by both the client and the rest of your team as a blueprint for the final site. Even if you’re building the site yourself, for yourself.
 
