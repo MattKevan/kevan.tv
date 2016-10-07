@@ -219,22 +219,33 @@ p.categories {
 }
 
 // Navigation
+	.header {
+		border-color: #e7e7e7;
+		border-width: 0 0 1px 0;
+		border-style: solid;
+	}
 .navbar {
 	margin: 0;
-	border: none;
+	border:none!important;
 	background: #fff;
-}
 
+}
+.navbar-default {
+	border:none!important;
+}
 .navbar-default .navbar-brand {
 	font-family: 'Paul Grotesk Bold', Helvetica, Arial, sans-serif;
 	font-size: 16px;
+	line-height: 1.5em;
 	color: #000;
 }
-
+.navbar-default .navbar-nav > li > a {
+	font-size: 16px;
+	line-height: 1.5em;
+}
 // Menu overlay
 
 .menu-button {
-    display: block!important;
     position: relative;
     float: right!important;
     padding: 9px 10px;
