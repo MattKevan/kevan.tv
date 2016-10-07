@@ -8,6 +8,7 @@ lead: A blank screen is a daunting prospect. There’s a strong temptation to ge
   in. It’s a trap.
 thumbnail: ''
 banner: ''
+author: Matt Kevan
 ---
 **Surface design can hide deeper problems.** Emphasising visual design at the wrong stage of a project, or a focus on style before getting the substance right can mask structural issues which only appear when it’s too late.
 

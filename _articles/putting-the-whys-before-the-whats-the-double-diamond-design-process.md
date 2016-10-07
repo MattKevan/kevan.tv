@@ -7,6 +7,7 @@ lead: It’s easy as creatives or developers - or anyone really - to start with 
   ‘whats’. What can we do? What should we do? What is it we’re going to do?
 thumbnail: ''
 banner: ''
+author: Matt Kevan
 ---
 Thinking about these things is fun - I love starting new projects because I’ve had an idea about what I could do. And for companies it’s easy to prioritise delivery of a thing over the strategic impact that it may have. But by starting with ‘what’, we miss out some vital questions which must be answered first.
 

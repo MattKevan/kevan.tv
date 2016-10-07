@@ -7,6 +7,31 @@
 @import "bootstrap";
 
 @font-face {
+    font-family: 'Paul Grotesk Bold';
+    src: url('fonts/paul-grotesk/paulgrotesk-bold-trail-webfont.woff2') format('woff2'),
+         url('fonts/paul-grotesk/paulgrotesk-bold-trail-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Paul Grotesk';
+    src: url('fonts/paul-grotesk/paulgrotesk-regular-trail-webfont.woff2') format('woff2'),
+         url('fonts/paul-grotesk/paulgrotesk-regular-trail-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Paul Grotesk Thin';
+    src: url('fonts/paul-grotesk/paulgrotesk-thin-trail-webfont.woff2') format('woff2'),
+         url('fonts/paul-grotesk/paulgrotesk-thin-trail-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'Calendas Plus Italic';
     src: url('fonts/calendas-plus-italic/calendas_plus_italic-webfont.eot');
     src: url('fonts/calendas-plus-italic/calendas_plus_italic-webfont.eot?#iefix') format('embedded-opentype'),
@@ -108,35 +133,34 @@
 }
 
 body {
-	color: #000;
-	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	color: #222;
+	font-family: 'Paul Grotesk', Helvetica, Arial, sans-serif;
   	background-color: #fff;
 }
 
-a {color: #000;}
+a {color: #222;}
 
 a:hover {
-	color: #333;
+	color: #444;
 	text-decoration: underline;
 }
 
 h1 {
-	font-family: 'Knile Light', Helvetica, Arial, sans-serif;
+	font-family: 'Paul Grotesk', Helvetica, Arial, sans-serif;
 }
 
 h2, h3, h4 {
-	font-family: 'Knile Bold', Helvetica, Arial, sans-serif;
+	font-family: 'Paul Grotesk Bold', Helvetica, Arial, sans-serif;
 	font-weight: normal;
-	color: #000;
+	color: #222;
 }
 
 h1.title {
-	margin: 0 0 30px 0;
-	text-align: center;
-	font-size: 2.5em;
+	margin: 0 0 10px 0;
+	font-size: 2em;
 
 	@media (min-width: $screen-sm-min) {
-    	font-size: 3.5em;
+    	font-size: 3em;
   	}
 }
 h2.title {
@@ -148,20 +172,20 @@ h2.title {
 h2 {margin-top: 0!important;}
 
 .lead {
-	font-family: 'Knile Light', Helvetica, Arial, sans-serif;
-	border-style: solid;
-    border-width: 0 0 5px 0;
-    border-color: #e53780;
-    padding: 0 0 40px 0;
-    margin-bottom: 40px;
+	font-family: 'Paul Grotesk', Helvetica, Arial, sans-serif;
+    margin-bottom: 20px;
 }
 
 .teaser-text {font-size: 20px;}
 
 .crumb {margin-bottom: 30px;}
 
+p.post-meta {
+	color: #666;
+	font-size: 14px;
+}
 .meta {
-	font-family: 'Knile', Helvetica, Arial, sans-serif;
+	font-family: 'Paul Grotesk', Helvetica, Arial, sans-serif;
 	font-size: 14px;
 	line-height: 1.6em;
 }
@@ -176,12 +200,12 @@ h2 {margin-top: 0!important;}
 		border-radius: 3px;
 
 		&:hover {
-			border-color:#333;
+			border-color:#222;
 		}
 	}
 }
 .page-meta {
-	font-family: 'Knile Light', Helvetica, Arial, sans-serif;
+	font-family: 'Paul Grotesk Thin', Helvetica, Arial, sans-serif;
 	font-size: 24px;
 }
 
@@ -193,7 +217,7 @@ h2 {margin-top: 0!important;}
 }
 
 .navbar-default .navbar-brand {
-	font-family: 'Knile Bold', Helvetica, Arial, sans-serif;
+	font-family: 'Paul Grotesk Bold', Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	color: #000;
 }
@@ -267,7 +291,7 @@ h2 {margin-top: 0!important;}
 	line-height: 1.8em;
   	float: none;
   	list-style: none;
-	font-family: 'Knile Bold', Helvetica, Arial, sans-serif;
+	font-family: 'Paul Grotesk Bold', Helvetica, Arial, sans-serif;
 
 	a:hover {
 		background: none;
@@ -281,17 +305,14 @@ h2 {margin-top: 0!important;}
  	img { 
  		width: 100%; 
  		height: 100%;
- 		margin-bottom: 20px;
-		@media (min-width: $screen-sm-min) {
-	    	font-size: 3.5em;
-	    	margin-bottom: 0;
-	  	}
+ 		margin-bottom: 30px;
+
  	}
 
 	h2 {margin-top: 0;}
 	h3 {margin: 15px 0 5px 0;}
 	p {padding: 0;}	
-	.intro {font-family: 'Knile', Helvetica, Arial, sans-serif;}
+	.intro {font-family: 'Paul Grotesk', Helvetica, Arial, sans-serif;}
  	.teaser-inner {background-color:#fff;}
 }
 
@@ -328,13 +349,13 @@ h2 {margin-top: 0!important;}
 	}
 
 	h1 {
-		font-family: "Knile Bold", Georgia, "Times New Roman", Times, serif;
+		font-family: "Paul Grotesk Bold", Georgia, "Times New Roman", Times, serif;
 		margin: 0 0 20px 0;		
 	}
 
 	h2.feature {
 		line-height: 1.2em;
-		font-family: "Knile Light", Georgia, "Times New Roman", Times, serif;
+		font-family: "Paul Grotesk", Georgia, "Times New Roman", Times, serif;
 		font-size: 45px;
 		margin: 0 0 40px 0;
 
@@ -369,11 +390,11 @@ h2 {margin-top: 0!important;}
 			color: #fff;
 			font-weight: normal;
 			padding: 0 0 20px 0;
-			font-size: 2.5em;
+			font-size: 2.6em;
 			margin: 0 0 50px 0;
 
       @media (min-width: $screen-sm-min) {
-        font-size: 3em;
+        font-size: 3.2em;
       }
 
       @media (min-width: $screen-sm-min) {
@@ -383,7 +404,7 @@ h2 {margin-top: 0!important;}
 		}
 		.intro {
 			font-size: 2em;
-			font-family: "Calendas Plus Italic", Georgia, "Times New Roman", Times, serif;
+			font-family: "Paul Grotesk", Georgia, "Times New Roman", Times, serif;
 		}
     .logo {
     	height: 160px;
@@ -417,7 +438,7 @@ h2 {margin-top: 0!important;}
 		color: #fff;
 		display: inline-block;
 		text-decoration: none;
-		font-family: "Knile Light", Georgia, "Times New Roman", Times, serif;
+		font-family: "Paul Grotesk Thin", Georgia, "Times New Roman", Times, serif;
 
 	}
 	a:hover {
@@ -438,9 +459,6 @@ h2 {margin-top: 0!important;}
 	}
 }
 
-.card.listing.first {
-	padding: 0 0 40px 0;
-}
 
 // Carousel card
 
@@ -458,7 +476,7 @@ h2 {margin-top: 0!important;}
 
 
 .card.full-width-image {
-  background-color: #333;
+  background-color: #222;
   img {
     width: 100%;
     height: 100%;
@@ -466,12 +484,14 @@ h2 {margin-top: 0!important;}
 }
 
 // Page content
+ul li {
+	font-size: 18px;
+	line-height: 1.8em;
+}
 
-.content {
-	margin: 60px 0;
 	p.lead {
 		font-size: 24px;
-		line-height: 1.6em;
+		line-height: 1.4em;
 	}
 
 
@@ -479,10 +499,14 @@ h2 {margin-top: 0!important;}
 		font-size: 18px;
 		line-height: 1.8em;
 		}
+
+.content {
+	margin: 30px 0;
+
 }
 .image-left,
 .image-right {
-  background-color: #333;
+  background-color: #222;
 }
 
 .image-left {
