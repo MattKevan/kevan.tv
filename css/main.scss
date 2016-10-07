@@ -175,7 +175,9 @@ h2 {margin-top: 0!important;}
 	font-family: 'Paul Grotesk', Helvetica, Arial, sans-serif;
     margin-bottom: 20px;
 }
-
+.page-content {
+	margin-top: 40px;
+}
 .teaser-text {font-size: 20px;}
 
 .crumb {margin-bottom: 30px;}
@@ -184,6 +186,13 @@ p.post-meta {
 	color: #666;
 	font-size: 14px;
 }
+
+p.categories {
+	color: #666;
+	line-height: 1.6em;
+	margin: 0;
+}
+
 .meta {
 	font-family: 'Paul Grotesk', Helvetica, Arial, sans-serif;
 	font-size: 14px;
@@ -305,7 +314,6 @@ p.post-meta {
  	img { 
  		width: 100%; 
  		height: 100%;
- 		margin-bottom: 30px;
 
  	}
 
@@ -327,14 +335,7 @@ p.post-meta {
 
 // Banner card
 
-.banner {
-	text-align: center;
 
-	.inner {
-		height: 600px;
-		padding: 150px 0;
-	}
-}
 
 // Specific cards
 .card.banner.home {
@@ -373,46 +374,15 @@ p.post-meta {
 
 }
 
-.card.banner.work {
+
+.banner {
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: top center;
-
-	a {color: #fff;}
+	background-position: center center;
+	margin: 40px 0;
 
 	.inner {
-		background-color: rgba(0, 0, 0, 0.8);
-		height: 560px;
-		color: #fff;
-		padding-top: 60px;
-
-		h1 {
-			color: #fff;
-			font-weight: normal;
-			padding: 0 0 20px 0;
-			font-size: 2.6em;
-			margin: 0 0 50px 0;
-
-      @media (min-width: $screen-sm-min) {
-        font-size: 3.2em;
-      }
-
-      @media (min-width: $screen-sm-min) {
-        font-size: 4em;
-      }
-
-		}
-		.intro {
-			font-size: 2em;
-			font-family: "Paul Grotesk", Georgia, "Times New Roman", Times, serif;
-		}
-    .logo {
-    	height: 160px;
-      img {
-        width: 160px;
-        margin-bottom: 30px;
-      }
-    }
+		height: 500px;
 	}
 }
 
@@ -500,10 +470,6 @@ ul li {
 		line-height: 1.8em;
 		}
 
-.content {
-	margin: 30px 0;
-
-}
 .image-left,
 .image-right {
   background-color: #222;

@@ -1,43 +1,36 @@
 ---
 layout: default
 ---
+<div class="project">
 
-<div class="card banner work" style="background-image: url('{{ page.banner-image }}');">
-	<div class="inner">
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-12">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-10 col-sm-push-1 col-lg-8 col-lg-push-2">
+				<h1 class="title">{{ page.title }}</h1>
+				<p class="lead">{{ page.lead }}</p>
+				<p class="categories"><strong>Project type:</strong> {{ page.project-type }} <br />
+				<strong>Roles:</strong> {{ page.roles | join: ', ' }}
+			</div>
+		</div>
+	</div>
 
-					<p class="crumb"><a href="/">Home</a> > <a href="/work">Work</a></p>
-					<div class="logo"><img src="{{ page.logo }}" /></div>
-				    <h1 class="title">{{ page.title }}</h1>
+	<div class="card banner project" style="background-image: url('{{ page.banner-image }}');">
+		<div class="inner">
+			
+		</div>
+	</div>
 
-					<div class="categories">
-              			<p class="page-meta">Agency: {{ page.project-type }} <br />Roles: {{ page.roles | join: ', ' }}</p>
-            		</div>
-
-				</div>
+<div class="content">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-10 col-sm-push-1 col-lg-8 col-lg-push-2">
+				{{ content }}
 			</div>
 		</div>
 	</div>
 </div>
 
-<!-- content -->
 
-<div class="card content">
-	<div class="inner">
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-12 col-sm-10 col-sm-push-1 col-lg-8 col-lg-push-2">
-
-					<p class="lead">{{ page.lead }}</p>
-					{{ content }}
-
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
 
 <!-- images -->
 {% if page.image1 %}
@@ -90,7 +83,7 @@ layout: default
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12 col-sm-10 col-sm-push-1 col-lg-8 col-lg-push-2">
-					<div id="work-carousel"" class="owl-carousel">
+					<div id="work-carousel" class="owl-carousel">
 						<div class="carousel-image"><img src="{{ page.owl1 }}" /></div>
 						<div class="carousel-image"><img src="{{ page.owl2 }}" /></div>
 						{% if page.owl3 %}<div class="carousel-image"><img src="{{ page.owl3 }}" /></div>{% endif %}
@@ -116,3 +109,5 @@ layout: default
 		</div>
 	</div>
 </div>
+</div>
+
