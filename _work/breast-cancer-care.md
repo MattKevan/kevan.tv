@@ -16,8 +16,9 @@ image4: "/images/bcc/bcc-components.png"
 work-url: http://www.breastcancercare.org.uk
 project-type: NDP Studio
 roles:
-- Creative manager
-- UX designer
+- UX lead
+- Creative lead
+
 slug: breast-cancer-care
 tags: []
 ---

@@ -5,7 +5,7 @@ teaser: Supporting the campaign for global justice
 lead: Speak is a network of students and adults who campaign about issues of global
   injustice.
 banner-image: "/images/speak/speak-banner.png"
-thumbnail: "/images/speak/speak-thumbnail.png"
+thumbnail: "/images/speak/speak-thumbnail.jpg"
 work-url: https://www.speak.org.uk
 logo: "/images/speak/logo.png"
 image1: 
@@ -14,9 +14,9 @@ image3:
 image4: 
 project-type: Pro-bono project
 roles:
-- UX designer
-- Web designer
-- Developer
+- UX
+- Design
+- Development
 ---
 
 ### The client

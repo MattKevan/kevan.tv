@@ -19,9 +19,9 @@ owl4:
 work-url: http://www.fact.org.uk
 project-type: Pro-bono project
 roles:
-- UX designer
-- Web designer
-- Developer
+- UX
+- Design
+- Development
 ---
 
 ## Background

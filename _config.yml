@@ -21,7 +21,7 @@ collections:
   work:
     output: true
     permalink: /work/:path/
-  project:
+  projects:
     output: true
     permalink: /projects/:path/
   articles:
@@ -48,6 +48,6 @@ defaults:
   -
     scope:
       path: ""
-      type: "project"
+      type: "projects"
     values:
-      layout: "project"
+      layout: "work"

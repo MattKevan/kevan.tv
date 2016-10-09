@@ -3,30 +3,21 @@ title: Projects
 layout: default
 permalink: "/projects/"
 ---
+
 <div class="container">
-<div class="row">
-<div class="col-xs-12">
+	<div class="row">
+		<div class="col-xs-12">
 
-	<h1 class="title">Projects</h1>
+			<h1 class="title">Projects</h1>
 
-	<div class="card listing first">
-
-		<div class="row">
-		    {% for project in site.project %}
-				<div class="col-xs-6 col-md-4 teaser">
-			        <a href="{{ work.url | prepend: site.baseurl }}"><img src="{{ project.thumbnail }}" /></a>
-			        <h3> <a class="post-link" href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a></h4>
-			        <p>{{ project.teaser }}</p>
-		        </div>
-
-			{% endfor %}
+			<div class="card listing">
+				<div class="row">
+				    {% for project in site.projects %}
+						 {% include project-teaser.html %}
+					{% endfor %}
+				</div>
+			</div>
 		</div>
 	</div>
-
-
-
-
-
 </div>
-</div>
-</div>
+

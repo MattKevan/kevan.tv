@@ -31,107 +31,6 @@
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'Calendas Plus Italic';
-    src: url('fonts/calendas-plus-italic/calendas_plus_italic-webfont.eot');
-    src: url('fonts/calendas-plus-italic/calendas_plus_italic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/calendas-plus-italic/calendas_plus_italic-webfont.woff2') format('woff2'),
-         url('fonts/calendas-plus-italic/calendas_plus_italic-webfont.woff') format('woff'),
-         url('fonts/calendas-plus-italic/calendas_plus_italic-webfont.ttf') format('truetype'),
-         url('fonts/calendas-plus-italic/calendas_plus_italic-webfont.svg#calendas_plusitalic') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Calendas Plus';
-    src: url('fonts/calendas-plus/calendas-plus-webfont.eot');
-    src: url('fonts/calendas-plus/calendas-plus-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/calendas-plus/calendas-plus-webfont.woff2') format('woff2'),
-         url('fonts/calendas-plus/calendas-plus-webfont.woff') format('woff'),
-         url('fonts/calendas-plus/calendas-plus-webfont.ttf') format('truetype'),
-         url('fonts/calendas-plus/calendas-plus-webfont.svg#calendas_plusregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Knile';
-    src: url('fonts/knile-regular/knile-regular-webfont.eot');
-    src: url('fonts/knile-regular/knile-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/knile-regular/knile-regular-webfont.woff2') format('woff2'),
-         url('fonts/knile-regular/knile-regular-webfont.woff') format('woff'),
-         url('fonts/knile-regular/knile-regular-webfont.ttf') format('truetype'),
-         url('fonts/knile-regular/knile-regular-webfont.svg#knileregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Knile Italic';
-    src: url('fonts/knile-regular-italic/knile-regularitalic-webfont.eot');
-    src: url('fonts/knile-regular-italic/knile-regularitalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/knile-regular-italic/knile-regularitalic-webfont.woff2') format('woff2'),
-         url('fonts/knile-regular-italic/knile-regularitalic-webfont.woff') format('woff'),
-         url('fonts/knile-regular-italic/knile-regularitalic-webfont.ttf') format('truetype'),
-         url('fonts/knile-regular-italic/knile-regularitalic-webfont.svg#knileitalic') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'Knile Bold';
-    src: url('fonts/knile-bold/knile-bold-webfont.eot');
-    src: url('fonts/knile-bold/knile-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/knile-bold/knile-bold-webfont.woff2') format('woff2'),
-         url('fonts/knile-bold/knile-bold-webfont.woff') format('woff'),
-         url('fonts/knile-bold/knile-bold-webfont.ttf') format('truetype'),
-         url('fonts/knile-bold/knile-bold-webfont.svg#knilebold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'Knile Bold Italic';
-    src: url('fonts/knile-bold-italic/knile-bolditalic-webfont.eot');
-    src: url('fonts/knile-bold-italic/knile-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/knile-bold-italic/knile-bolditalic-webfont.woff2') format('woff2'),
-         url('fonts/knile-bold-italic/knile-bolditalic-webfont.woff') format('woff'),
-         url('fonts/knile-bold-italic/knile-bolditalic-webfont.ttf') format('truetype'),
-         url('fonts/knile-bold-italic/knile-bolditalic-webfont.svg#knilebold_italic') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'Knile Light';
-    src: url('fonts/knile-light/knile-light-webfont.eot');
-    src: url('fonts/knile-light/knile-light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/knile-light/knile-light-webfont.woff2') format('woff2'),
-         url('fonts/knile-light/knile-light-webfont.woff') format('woff'),
-         url('fonts/knile-light/knile-light-webfont.ttf') format('truetype'),
-         url('fonts/knile-light/knile-light-webfont.svg#knilelight') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'Knile Light Italic';
-    src: url('fonts/knile-light-italic/knile-lightitalic-webfont.eot');
-    src: url('fonts/knile-light-italic/knile-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/knile-light-italic/knile-lightitalic-webfont.woff2') format('woff2'),
-         url('fonts/knile-light-italic/knile-lightitalic-webfont.woff') format('woff'),
-         url('fonts/knile-light-italic/knile-lightitalic-webfont.ttf') format('truetype'),
-         url('fonts/knile-light-italic/knile-lightitalic-webfont.svg#knilelight_italic') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
 body {
 	color: #222;
 	font-family: 'Paul Grotesk', Helvetica, Arial, sans-serif;
@@ -164,7 +63,6 @@ h1.title {
   	}
 }
 h2.title {
-	text-align: center;
 	font-size: 2em;
 	margin: 0 0 40px 0;
 }
@@ -175,15 +73,40 @@ h2 {margin-top: 0!important;}
 	font-family: 'Paul Grotesk', Helvetica, Arial, sans-serif;
     margin-bottom: 20px;
 }
-
+.page-content {
+	margin-top: 40px;
+}
 .teaser-text {font-size: 20px;}
 
+.teaser p {
+	font-size: 16px;
+	line-height: 1.4em;
+}
 .crumb {margin-bottom: 30px;}
 
+p.breadcrumb {
+	font-size: 14px;
+	background: none;
+	margin:0 0 10px 0;
+	padding: 0;
+	a {
+		color: #666;
+	}
+
+}
 p.post-meta {
 	color: #666;
 	font-size: 14px;
 }
+p.link {
+	font-family: 'Paul Grotesk Bold', Helvetica, Arial, sans-serif;
+}
+p.categories {
+	color: #666;
+	line-height: 1.6em;
+	margin: 0;
+}
+
 .meta {
 	font-family: 'Paul Grotesk', Helvetica, Arial, sans-serif;
 	font-size: 14px;
@@ -191,17 +114,8 @@ p.post-meta {
 }
 
 .more-link {
-	text-align: center;
 	a {
-		padding: 10px 20px;
-		border-style: solid;
-		border-color: #000;
-		border-width: 1px;
-		border-radius: 3px;
-
-		&:hover {
-			border-color:#222;
-		}
+		font-weight: bold;
 	}
 }
 .page-meta {
@@ -210,22 +124,33 @@ p.post-meta {
 }
 
 // Navigation
+	.header {
+		border-color: #e7e7e7;
+		border-width: 0 0 1px 0;
+		border-style: solid;
+	}
 .navbar {
 	margin: 0;
-	border: none;
+	border:none!important;
 	background: #fff;
-}
 
+}
+.navbar-default {
+	border:none!important;
+}
 .navbar-default .navbar-brand {
 	font-family: 'Paul Grotesk Bold', Helvetica, Arial, sans-serif;
 	font-size: 16px;
+	line-height: 1.5em;
 	color: #000;
 }
-
+.navbar-default .navbar-nav > li > a {
+	font-size: 16px;
+	line-height: 1.5em;
+}
 // Menu overlay
 
 .menu-button {
-    display: block!important;
     position: relative;
     float: right!important;
     padding: 9px 10px;
@@ -302,18 +227,33 @@ p.post-meta {
 // Content displays
 
 .teaser {
- 	img { 
+	position: relative;
+
+ 	.thumbnail { 
  		width: 100%; 
  		height: 100%;
- 		margin-bottom: 30px;
-
+ 	}
+ 	.logo {
+ 		width: 60px; height: 60px;
+ 		position: absolute;
+ 		top:20px;
+ 		right: 35px;
  	}
 
 	h2 {margin-top: 0;}
 	h3 {margin: 15px 0 5px 0;}
-	p {padding: 0;}	
+	p {
+		padding: 0;
+		margin-bottom: 0;
+	}
+	p.post-meta {
+		margin-bottom: 10px;
+	}	
 	.intro {font-family: 'Paul Grotesk', Helvetica, Arial, sans-serif;}
- 	.teaser-inner {background-color:#fff;}
+}
+
+.image-container {
+	width: 300px
 }
 
 // Cards
@@ -327,92 +267,62 @@ p.post-meta {
 
 // Banner card
 
-.banner {
-	text-align: center;
 
-	.inner {
-		height: 600px;
-		padding: 150px 0;
-	}
-}
 
 // Specific cards
-.card.banner.home {
-	background-color: #FFFFFF;
-	background-image: url('../images/home/sketch.jpg');
+
+.home {
+	.banner {
+
+		h1 {
+			font-family: "Paul Grotesk Bold", Georgia, "Times New Roman", Times, serif;
+			margin: 0;		
+		}
+
+		h2.feature {
+			line-height: 1.2em;
+			font-family: "Paul Grotesk", Georgia, "Times New Roman", Times, serif;
+			font-size: 45px;
+			margin: 0 0 40px 0;
+
+			@media (min-width: $screen-sm-min) {
+	    		font-size: 50px;
+	  		}
+
+	  		@media (min-width: $screen-md-min) {
+				font-size: 60px;
+	  		}
+		}
+	}
+}
+.gallery {
+	margin-top: 40px;
+}
+.grid-item {
+	img {
+		width: 100%;
+		height: 100%;
+	}
+	margin-bottom: 50px;
+}
+
+.grid-width {
+	@media (min-width: $screen-sm-min) {
+		width: 50%;
+	}
+
+	@media (min-width: $screen-md-min) {
+		width: 33.333%;
+	}
+}
+.banner {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
+	margin: 40px 0;
 
 	.inner {
-		background-color: rgba(255,238,0,0.9);
-	}
-
-	h1 {
-		font-family: "Paul Grotesk Bold", Georgia, "Times New Roman", Times, serif;
-		margin: 0 0 20px 0;		
-	}
-
-	h2.feature {
-		line-height: 1.2em;
-		font-family: "Paul Grotesk", Georgia, "Times New Roman", Times, serif;
-		font-size: 45px;
-		margin: 0 0 40px 0;
-
-		@media (min-width: $screen-sm-min) {
-    		font-size: 50px;
-  		}
-
-  		@media (min-width: $screen-md-min) {
-			font-size: 60px;
-  		}
-	}
-
-	p.intro {
-	}
-
-}
-
-.card.banner.work {
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: top center;
-
-	a {color: #fff;}
-
-	.inner {
-		background-color: rgba(0, 0, 0, 0.8);
-		height: 560px;
-		color: #fff;
-		padding-top: 60px;
-
-		h1 {
-			color: #fff;
-			font-weight: normal;
-			padding: 0 0 20px 0;
-			font-size: 2.6em;
-			margin: 0 0 50px 0;
-
-      @media (min-width: $screen-sm-min) {
-        font-size: 3.2em;
-      }
-
-      @media (min-width: $screen-sm-min) {
-        font-size: 4em;
-      }
-
-		}
-		.intro {
-			font-size: 2em;
-			font-family: "Paul Grotesk", Georgia, "Times New Roman", Times, serif;
-		}
-    .logo {
-    	height: 160px;
-      img {
-        width: 160px;
-        margin-bottom: 30px;
-      }
-    }
+		height: 500px;
 	}
 }
 
@@ -500,10 +410,6 @@ ul li {
 		line-height: 1.8em;
 		}
 
-.content {
-	margin: 30px 0;
-
-}
 .image-left,
 .image-right {
   background-color: #222;
@@ -535,8 +441,10 @@ ul li {
 .site-footer {
 	background-color: #000;
 	color: #fff;
-	text-align: center;
 	padding: 20px 0;
-
-	p {margin: 0;}
+	margin: 20px 0 0 0;
+	p {
+		margin: 0;
+		font-size: 14px;
+	}
 }

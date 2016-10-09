@@ -11,10 +11,10 @@ image2:
 image3: 
 image4: 
 work-url: http://www.risingstars-uk.com
-project-type: NDP project
+project-type: NDP Studio
 roles:
-- Creative manager
-- UX designer
+- UX lead
+- Creative lead
 ---
 
 <p>Their aim was to give teachers access to the learning materials and related resources they or their schools had purchased by logging into a personalised members area.</p>
