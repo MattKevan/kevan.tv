@@ -1,6 +1,6 @@
 ---
-title: Putting the whys before the whats - the double diamond design process
-date: '2016-10-05 13:41:00'
+title: The double diamond design process
+date: '2016-10-05 00:00:00'
 layout: post
 tags: []
 lead: It’s easy as creatives or developers - or anyone really - to start with the
