@@ -8,12 +8,14 @@ banner-image: "/images/illo-banner.jpg"
 thumbnail: "/images/ks/ks-thumbnail.jpg"
 galleryid: ks
 slug: kennington-studio
-tags: 
+tags: []
 project-url: https://www.etsy.com/shop/KenningtonStudio
 url-title: Browse and buy prints on Etsy
 ---
 
-I've long been interested in photography and producing prints of my photographs. The cyanotype holds a facscinating balance between painterly abstraction and photographic realism.
+Kennington Studio is a joint project between my wife and myself. We've long been interested in photography and producing prints of our photographs. 
+
+The cyanotype holds a facscinating balance between painterly abstraction and photographic realism.
 
 ### About cyanotypes
 
