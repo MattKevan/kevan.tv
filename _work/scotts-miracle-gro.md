@@ -21,9 +21,9 @@ logo: "/images/scotts/miracle-gro-logo.png"
 work-url: https://www.lovethegarden.com
 project-type: NDP Studio
 roles:
-- Creative manager
 - UX lead
-- Developer
+- Creative lead
+- Development
 slug: scotts-miracle-gro
 tags: []
 ---

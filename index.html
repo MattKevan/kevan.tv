@@ -3,31 +3,31 @@ title:
 layout: default
 ---
 <div class="home">
-	<div class="card banner home">
-		<div class="inner">
-			<div class="col-xs-12 col-sm-8 col-sm-push-2">
+	<div class="banner">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
 
-				<h1 class="title">Matt Kevan</h1>
-				<h2 class="feature">User experience, design & Drupal</h2>
-				<p class="intro">"At its heart, design isn't simply about how something looks, it's about how it works &ndash; and it's also about people."</p>
+					<h1 class="title">Matt Kevan</h1>
+					<p class="lead">User experience, design & development</p>
+
+				</div>
 			</div>
 		</div>
 	</div>
 
 	<div class="card listing">
 		<div class="container">
-		<h2 class="title">Featured work</h2>
-					<div class="row">
-			<div class="col-xs-12 col-sm-10 col-sm-push-1">
-
+			<h2 class="title">Featured work</h2>
+			<div class="row">
 			    {% for work in site.work limit: 3 %}
 					{% include work-teaser-list.html %}
 				{% endfor %}
-
-				<p class="more-link"><a href="/work">See more work </a></p>
-
+				<div class="col-xs-12">
+					<p class="more-link"><a href="/work">See more work »</a></p>
+				</div>
 			</div>
 		</div>
 	</div>
-	</div>
+	
 </div>

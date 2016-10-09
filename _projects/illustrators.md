@@ -2,11 +2,11 @@
 title: Illustrators
 date: '2016-01-01 00:00:00'
 categories: []
-layout: project
+layout: work
 teaser: Creating a marketplace for the best of contemporary illustration
 lead: Illustrators is a marketplace for the best of contemporary illustration.
-banner-image: "/images/illo-banner.jpg"
-thumbnail: "/images/illo-thumbnail.jpg"
+banner-image: "/images/illo/illo-banner.jpg"
+thumbnail: "/images/illo/illo-thumbnail.jpg"
 carousel:
 - "/images/bcc-ia-home.jpg"
 - "/images/bcc-info.jpg"
@@ -21,15 +21,15 @@ roles:
 slug: illustrators
 tags: []
 ---
-###Background
+### Background
 
 I co-founded Illustrators in 2011, with the aim of helping raise the profile of contemporary illustration (which whilst widely admired is not collected or supported in the same way as other artforms) and also providing a platform for illustrators to sell their original works and prints from. It also enables the public to learn more about the inspiration and talent behind a particular illustration and to purchase the original illustration from a favourite newspaper, magazine or book.
 
-###The Challenge
+### The Challenge
 
 At the time of our launch there were very few websites which promoted the work of illustrators and many illustrators found it difficult and time consuming to promote and sell their work. Websites that did exist tended to be difficult to use and badly organised and unappealing.
 
-###Solution
+### Solution
 
 We created a website with illustration at it's very heart. It is easy for even the most non-technical illustrator to use, and it is curated and then presented in a way which highlights the work and also introduces the illustrator behind the works.
 
