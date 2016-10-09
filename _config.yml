@@ -51,3 +51,13 @@ defaults:
       type: "projects"
     values:
       layout: "work"
+      date: 
+      teaser: ""
+      lead: ""
+      banner-image: ""
+      thumbnail: ""
+      galleryid:
+      slug: 
+      tags: []
+      project-url: 
+      url-title: 
