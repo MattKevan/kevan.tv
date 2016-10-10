@@ -38,6 +38,16 @@ To run a test, you need people to participate - ideally ones who form your sites
 
 ### Face to face or online?
 
+It's possible to run tree tests manually, face to face, or online with a web-based tool.
+
+**Face to face.** Doing it this way will probably end up with better results as you'll have the opportunity to explore with users why they chose a particular option and get a greater understanding of their thought processes. Be prepared to use a lot of index cards.
+
+However running the tests and compiling the results will take time, limiting the number you'll be able to do and potentially negating the benefits of being able to get feedback quickly. 
+
+**Online.** Through a service like [Treejack](https://www.optimalworkshop.com/treejack), you'll be able to set up and run a test very quickly. They'll even recruit testers for you if necessary, and the tools to analyse the results are pretty good.
+
+The downsides are that you're limited to the information users give you, and there's little opportunity to get the deeper understanding that a face-to-face test might.
+
 ## Setting up the test
 
 ### Create your tree
