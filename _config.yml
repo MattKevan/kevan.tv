@@ -39,6 +39,8 @@ defaults:
       lead: ""
       thumbnail: ""
       banner: ""
+      tags: []
+      author: ""
   -
     scope:
       path: ""
