@@ -1,6 +1,6 @@
 ---
 title: Using tree testing to validate your information architecture
-date: '2016-10-07 12:47:00'
+date: '2016-10-10 00:00:00'
 layout: post
 tags:
 - Usability testing
