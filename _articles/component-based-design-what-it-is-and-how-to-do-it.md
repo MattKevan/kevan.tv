@@ -1,13 +1,15 @@
 ---
 title: 'Component-based design: what it is and how to do it'
-date: '2016-10-03 00:00:00'
+date: '2016-10-07 00:00:00'
 layout: post
 tags: []
 lead: As the web evolves and gains complexity, so our approach to designing websites
   needs to become more sophisticated.
 thumbnail: ''
 banner: ''
+author: Matt Kevan
 ---
+
 The design world has long had the concept of design systems. They can be as simple as a one page style guide, all the way up to a corporate brand manual running to hundreds of pages. Either way, they set out how colours, fonts, images and other graphic elements should be used to create consistent designs across a range of applications.
 
 These guides are vital for websites too – they ensure the site fits into the wider brand and can help maintain consistency within the site itself, especially if different sections have been developed at different times by different people.

@@ -10,6 +10,7 @@ lead: Developing a site structure is one of the most difficult and important par
   of creating information architecture. And the larger the site, the harder it gets.
 thumbnail: ''
 banner: ''
+author: Matt Kevan
 ---
 How content is organised and how it’s labelled it can make a big difference to a site’s overall usability, so it’s important to get feedback from users as early as possible.
 

@@ -56,18 +56,30 @@ h2, h3, h4 {
 
 h1.title {
 	margin: 0 0 10px 0;
-	font-size: 2em;
+	font-size: 2.5em;
 
 	@media (min-width: $screen-sm-min) {
     	font-size: 3em;
   	}
 }
+
 h2.title {
 	font-size: 2em;
 	margin: 0 0 40px 0;
 }
 
-h2 {margin-top: 0!important;}
+h2 {
+	margin-top: 0!important;
+	font-size: 1.6em;
+
+	@media (min-width: $screen-sm-min) {
+    	font-size: 2em;
+  	}
+
+}
+h3 {
+	font-size: 1.5em ;
+}
 
 .lead {
 	font-family: 'Paul Grotesk', Helvetica, Arial, sans-serif;
@@ -100,6 +112,7 @@ p.post-meta {
 }
 p.link {
 	font-family: 'Paul Grotesk Bold', Helvetica, Arial, sans-serif;
+	margin-top: 10px;
 }
 p.categories {
 	color: #666;
@@ -364,6 +377,10 @@ p.categories {
 	h3 {font-size: 24px;}
 	.teaser {
 		margin-bottom: 30px;
+		padding-bottom: 30px;
+		border-style: solid;
+		border-width: 0 0 1px 0;
+		border-color: #e7e7e7;
 		h2 {margin-top: 0;}
 
 	}
