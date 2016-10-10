@@ -1,19 +1,19 @@
 ---
 title: Reader's Digest
 date: '2016-01-01 00:00:00'
-teaser: Revamping the web presence of one of the world's best loved lifestyle magazines
+teaser: Revamping the web presence of a famous lifestyle magazine
 lead: Reader's Digest is one of the world's best known lifestyle magazines.
 banner-image: "/images/rd/rd-banner.png"
 thumbnail: "/images/rd/rd-thumbnail.jpg"
 work-url: http://www.readersdigest.co.uk
-image1: 
-image2: 
-image3: 
-image4: 
-owl1: 
-owl2: 
-owl3: 
-owl4: 
+image1: ''
+image2: ''
+image3: ''
+image4: ''
+owl1: ''
+owl2: ''
+owl3: ''
+owl4: ''
 logo: "/images/rd/logo.png"
 project-type: NDP Studio
 roles:
