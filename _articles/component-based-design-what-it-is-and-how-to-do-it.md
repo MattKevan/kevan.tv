@@ -1,6 +1,6 @@
 ---
 title: 'Component-based design: what it is and how to do it'
-date: '2016-10-07 17:45:00'
+date: '2016-10-07 00:00:00'
 layout: post
 tags: []
 lead: As the web evolves and gains complexity, so our approach to designing websites
@@ -16,14 +16,15 @@ However, there is a need for a deeper design system, which a normal style guide 
 
 In a ‘typical’ web design process, the designer creates a few different page layouts in Photoshop, for example a homepage, landing pages, listings and content pages. The developers then take these designs and build a set of templates into which content can be put. If new sections or big changes to existing ones are needed new templates need to be designed and developed, and often it may well be simpler to start again with a new site.
 
-When sites were fairly simple, and were really only viewed on desktop computers this was fine. Now however, they have to work on everything from a smartwatch up to a 4k display and integrate with a wide range of external services. Additionally, the amount of time and resources it takes to build a complex site means it’s no longer feasible to start again every few years. It should be simple to add new sections or amend existing ones, and the site should work well across all display devices. 
+When sites were fairly simple, and were really only viewed on desktop computers this was fine. Now however, they have to work on everything from a smartwatch up to a 5k display and integrate with a wide range of external services. Additionally, the amount of time and resources it takes to build a complex site means it’s no longer feasible to start again every few years. It should be simple to add new sections or amend existing ones, and the site should work well across all display devices. 
 Rather than thinking of a website as a collection of pages, we should think of them as a collection of components combined in various ways to create pages. 
 
 This is our deeper design system. What are the elements we need to build every part of the site? What are the rules for combining them?
 
 This isn’t a new idea. The concept of modular, or component-based design has been around for a while – most recently popularised by Brad Frost as ‘Atomic’ design. In this, ‘elements’, like headings, images and fields are combined into ‘molecules’. A molecule could be a post teaser, call to action block, header etc., which are then grouped to become ‘organisms’, or page templates.
 
-## The benefits
+## The benefits of component design
+
 **Enforces consistency** – by designing a set of components, and building page layouts from them it’s much more likely that the designs will be consistent.
 
 **Quicker to add new designs** – when new pages or sections are needed, it’s quicker to create a few new components than it is to design an entirely new page.
