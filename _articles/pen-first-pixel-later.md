@@ -1,6 +1,6 @@
 ---
 title: Pen first, pixel later - why you should sketch before you computer
-date: '2016-10-05 00:00:00'
+date: '2016-09-19 00:00:00'
 layout: post
 tags: []
 lead: A blank screen is a daunting prospect. There’s a strong temptation to get right
