@@ -1,6 +1,6 @@
 ---
 title: The double diamond design process
-date: '2016-10-05 00:00:00'
+date: '2016-09-26 00:00:00'
 layout: post
 tags: []
 lead: It’s easy as creatives or developers - or anyone really - to start with the
