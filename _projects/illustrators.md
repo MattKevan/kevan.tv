@@ -2,16 +2,12 @@
 title: Illustrators
 date: '2016-01-01 00:00:00'
 categories: []
-layout: work
+layout: project
 teaser: Creating a marketplace for the best of contemporary illustration
 lead: Illustrators is a marketplace for the best of contemporary illustration.
 banner-image: "/images/illo/illo-banner.jpg"
 thumbnail: "/images/illo/illo-thumbnail.jpg"
 carousel:
-- "/images/bcc-ia-home.jpg"
-- "/images/bcc-info.jpg"
-- "/images/bcc-blocks.jpg"
-- "/images/bcc-design-home.jpg"
 work-url: https://www.illustrators.co
 project-type: Personal project
 roles:
