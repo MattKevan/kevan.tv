@@ -70,7 +70,7 @@ It's only for Github, the features are basic and I found the interface confusing
 
 Free.
 
-## Siteleaf
+## [Siteleaf](http://www.siteleaf.com)
 
 Broadly similar to the other two services, Siteleaf has a couple of interesting features which make it stand out. 
 
@@ -85,8 +85,6 @@ Only syncs via FTP, S3 or GitHub - no BitBucket support. Can only connect to pub
 #### Pricing
 
 Free to $89+ per site per month. Multiple user roles need the team plan at $29 per site per month. 
-
-**[Siteleaf](http://www.siteleaf.com)**
 
 ## Honourable mentions
 
