@@ -1,6 +1,6 @@
 ---
 title: Content management systems for static sites
-date: '2016-10-10 20:41:00'
+date: '2016-10-12 20:41:00'
 layout: post
 tags:
 - 'Content management '
