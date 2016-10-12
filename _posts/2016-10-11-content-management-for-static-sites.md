@@ -1,15 +1,15 @@
 ---
 title: Content management systems for static sites
-date: '2016-10-11 20:41:00'
+date: '2016-10-11 00:00:00'
 layout: post
 tags:
 - 'Content management '
 - Static sites
 - Reviews
 - Development
-description: 'Static sites have been around since the dawn of the web, but thanks to the
-  rise of static site generators like Jekyll and Hugo they''re undergoing a bit of
-  a renaissance. '
+description: 'Static sites have been around since the dawn of the web, but thanks
+  to the rise of static site generators like Jekyll and Hugo they''re undergoing a
+  bit of a renaissance. '
 thumbnail: ''
 banner: ''
 author: Matt Kevan
@@ -20,7 +20,7 @@ If you're happy with the command line, Git repos and markdown files then it’s 
 
 However, there are a range of services which set out to solve this problem, combining the speed and low overheads of a static site with the ease of use of a traditional CMS. 
 
-## [Forestry.io](http://www.forestry.io)
+## Forestry.io
 
 Just by connecting your git repo or uploading your site as a Zip, Forestry.io will automatically generate a content management system from your pages, posts and custom collections. It even interprets your front matter to generate the correct fields - image uploaders, tags, text etc. 
 
@@ -38,7 +38,9 @@ The interface also doesn't work well on mobile, but apparently there are some up
 
 $99/month per site for 11+ users
 
-## [Cloudcannon](http://www.cloudcannon.com)
+**[Forestry.io](http://www.forestry.io)**
+
+## Cloudcannon
 
 Cloudcannon works similarly to Forestry.io in that it auto-generates a CMS from your site, but it has some additional features which make it a good option for larger or more complex sites. 
 
@@ -54,7 +56,9 @@ The pricing is probably too steep for a single site, but if you’re a freelance
 
 $25 per month per developer for the basic plan, or $75 per month per developer to access the custom user authentication features. All plans include unlimited websites.
 
-## [Prose.io](http://www.prose.io)
+**[Cloudcannon](http://www.cloudcannon.com)**
+
+## Prose.io
 
 Created by Development Seed (who dropped Drupal to go all-in on static-sites a few years ago), Prose.io is a basic content editor for Github-based sites.
 
@@ -70,7 +74,9 @@ It's only for Github, the features are basic and I found the interface confusing
 
 Free.
 
-## [Siteleaf](http://www.siteleaf.com)
+**[Prose.io](http://www.prose.io)**
+
+## Siteleaf
 
 Broadly similar to the other two services, Siteleaf has a couple of interesting features which make it stand out. 
 
@@ -85,6 +91,8 @@ Only syncs via FTP, S3 or GitHub - no BitBucket support. Can only connect to pub
 #### Pricing
 
 Free to $89+ per site per month. Multiple user roles need the team plan at $29 per site per month. 
+
+**[Siteleaf](http://www.siteleaf.com)**
 
 ## Honourable mentions
 
