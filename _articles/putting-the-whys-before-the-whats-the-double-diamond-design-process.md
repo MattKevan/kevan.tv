@@ -33,6 +33,8 @@ It splits a project into four main phases, showing the different types of thinki
 
 And, although every project is different, the process is flexible enough to be relevant, whether it’s creating a brand-new product or optimising a long-standing business model.
 
+![The Double Diamond]({{ site.baseurl }}/forestryio/images/double-diamond.png)
+
 ### Discover
 This is where we open up the project by gathering as much information as possible. About the service, the users, the company, the sector - everything.
 
