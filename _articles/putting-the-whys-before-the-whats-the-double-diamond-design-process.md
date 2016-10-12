@@ -29,11 +29,11 @@ Starting with the ‘what’ misses out the most important question, which is th
 
 Developed by the Design Council, the double diamond is a simple, graphical way to describe the design process, ensuring the right questions are asked at the right time. 
 
+![The Double Diamond]({{ site.baseurl }}/forestryio/images/double-diamond2.png)
+
 It splits a project into four main phases, showing the different types of thinking which should be used in each. The first two focus on deciding what the project should be about, and the last two on the outcome. Crucially, each of the four steps have equal weight: as much effort should be spent on defining a project as delivering it.
 
 And, although every project is different, the process is flexible enough to be relevant, whether it’s creating a brand-new product or optimising a long-standing business model.
-
-![The Double Diamond]({{ site.baseurl }}/forestryio/images/double-diamond.png)
 
 ### Discover
 This is where we open up the project by gathering as much information as possible. About the service, the users, the company, the sector - everything.
