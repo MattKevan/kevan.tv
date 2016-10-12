@@ -6,7 +6,7 @@ tags:
 - Usability testing
 - UX tools
 - Information architecture
-lead: Developing a site structure is one of the most difficult and important parts
+description: Developing a site structure is one of the most difficult and important parts
   of creating information architecture. And the larger the site, the harder it gets.
 thumbnail: ''
 banner: ''

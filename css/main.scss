@@ -22,7 +22,6 @@
     font-style: normal;
 }
 
-
 @font-face {
     font-family: 'Paul Grotesk Thin';
     src: url('fonts/paul-grotesk/paulgrotesk-thin-trail-webfont.woff2') format('woff2'),
@@ -44,28 +43,19 @@ a:hover {
 	text-decoration: underline;
 }
 
-h1 {
-	font-family: 'Paul Grotesk', Helvetica, Arial, sans-serif;
-}
-
-h2, h3, h4 {
+h1, h2, h3, h4 {
 	font-family: 'Paul Grotesk Bold', Helvetica, Arial, sans-serif;
 	font-weight: normal;
 	color: #222;
 }
 
-h1.title {
+h1 {
 	margin: 0 0 10px 0;
 	font-size: 2.5em;
 
 	@media (min-width: $screen-sm-min) {
     	font-size: 3em;
   	}
-}
-
-h2.title {
-	font-size: 2em;
-	margin: 0 0 40px 0;
 }
 
 h2 {
@@ -75,53 +65,58 @@ h2 {
 	@media (min-width: $screen-sm-min) {
     	font-size: 2em;
   	}
-
 }
+
 h3 {
 	font-size: 1.5em ;
 }
 
-.lead {
-	font-family: 'Paul Grotesk', Helvetica, Arial, sans-serif;
-    margin-bottom: 20px;
-}
 .page-content {
 	margin-top: 40px;
 }
 
 .content {
+
+	h2 {margin-top: 20px !important;}
+
 	img {
 		margin: 20px 0;
 		width: 100%;
 		height: 100%;
 	}
-}
-.teaser-text {font-size: 20px;}
 
-.teaser p {
-	font-size: 16px;
-	line-height: 1.4em;
+	a {color: #D0021B;}
+	a:hover {
+		color: #D0021B;
+		text-decoration: underline;
+	}
+
+	p {
+		font-size: 18px;
+		line-height: 1.8em;
+	}
+
+	p.lead {
+		font-family: 'Paul Grotesk', Helvetica, Arial, sans-serif;
+	    margin-bottom: 20px;
+	    font-size: 24px;
+		line-height: 1.4em;
+	}
 }
-.crumb {margin-bottom: 30px;}
 
 p.breadcrumb {
 	font-size: 14px;
 	background: none;
 	margin:0 0 10px 0;
 	padding: 0;
-	a {
-		color: #666;
-	}
-
+	a {color: #D0021B;}
 }
+
 p.post-meta {
 	color: #666;
 	font-size: 14px;
 }
-p.link {
-	font-family: 'Paul Grotesk Bold', Helvetica, Arial, sans-serif;
-	margin-top: 10px;
-}
+
 p.categories {
 	color: #666;
 	line-height: 1.6em;
@@ -134,41 +129,43 @@ p.categories {
 	line-height: 1.6em;
 }
 
-.more-link {
-	a {
-		font-weight: bold;
-	}
-}
-.page-meta {
-	font-family: 'Paul Grotesk Thin', Helvetica, Arial, sans-serif;
-	font-size: 24px;
+
+.link {
+	a {color: #D0021B;}
+	font-family: 'Paul Grotesk Bold', Helvetica, Arial, sans-serif;
 }
 
 // Navigation
-	.header {
-		border-color: #e7e7e7;
-		border-width: 0 0 1px 0;
-		border-style: solid;
-	}
+
+.header {
+	border-color: #e7e7e7;
+	border-width: 0 0 1px 0;
+	border-style: solid;
+}
+
 .navbar {
 	margin: 0;
 	border:none!important;
 	background: #fff;
 
 }
+
 .navbar-default {
 	border:none!important;
 }
+
 .navbar-default .navbar-brand {
 	font-family: 'Paul Grotesk Bold', Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	line-height: 1.5em;
 	color: #000;
 }
+
 .navbar-default .navbar-nav > li > a {
 	font-size: 16px;
 	line-height: 1.5em;
 }
+
 // Menu overlay
 
 .menu-button {
@@ -182,6 +179,7 @@ p.categories {
     border: 1px solid transparent;
     border-radius: 4px;
 }
+
 .menu-button .icon-bar {
 	display: block;
 	width: 22px;
@@ -248,7 +246,25 @@ p.categories {
 // Content displays
 
 .teaser {
+	margin-bottom: 30px;
+	padding-bottom: 20px;
+	border-style: solid;
+	border-width: 0 0 1px 0;
+	border-color: #e7e7e7;
+	
+	h2 {margin-top: 0;}
+	p {
+		font-size: 16px;
+		line-height: 1.4em;
+	}
+	p.post-meta {
+		margin-bottom: 10px;
+	}
+}
+
+.teaser-grid {
 	position: relative;
+	margin-bottom: 30px;
 
  	.thumbnail { 
  		width: 100%; 
@@ -266,6 +282,8 @@ p.categories {
 	p {
 		padding: 0;
 		margin-bottom: 0;
+		font-size: 16px;
+		line-height: 1.4em;
 	}
 	p.post-meta {
 		margin-bottom: 10px;
@@ -283,11 +301,7 @@ p.categories {
 
 .card {
   clear: both;
-
 }
-
-// Banner card
-
 
 
 // Specific cards
@@ -300,25 +314,15 @@ p.categories {
 			margin: 0;		
 		}
 
-		h2.feature {
-			line-height: 1.2em;
-			font-family: "Paul Grotesk", Georgia, "Times New Roman", Times, serif;
-			font-size: 45px;
-			margin: 0 0 40px 0;
-
-			@media (min-width: $screen-sm-min) {
-	    		font-size: 50px;
-	  		}
-
-	  		@media (min-width: $screen-md-min) {
-				font-size: 60px;
-	  		}
-		}
 	}
 }
+
+// Masonry grids
+
 .gallery {
 	margin-top: 40px;
 }
+
 .grid-item {
 	img {
 		width: 100%;
@@ -336,6 +340,7 @@ p.categories {
 		width: 33.333%;
 	}
 }
+
 .banner {
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -347,35 +352,6 @@ p.categories {
 	}
 }
 
-.card.content {
-	img {width: 100%; height: 100%;}
-}
-
-// Link card
-
-.card.link {
-	background-color: #e53780;
-	text-align: center;
-	font-size: 1.5em;
-	padding: 20px 10px;
-
-	a {
-		border-width: 1px;
-		border-color: #fff;
-		border-style: solid;
-		border-radius: 3px;
-		padding: 10px 80px;
-		margin: 0;
-		color: #fff;
-		display: inline-block;
-		text-decoration: none;
-		font-family: "Paul Grotesk Thin", Georgia, "Times New Roman", Times, serif;
-
-	}
-	a:hover {
-		text-decoration: underline;
-	}
-}
 
 // Listing card
 
@@ -383,15 +359,6 @@ p.categories {
 	padding: 40px 0;
 
 	h3 {font-size: 24px;}
-	.teaser {
-		margin-bottom: 30px;
-		padding-bottom: 30px;
-		border-style: solid;
-		border-width: 0 0 1px 0;
-		border-color: #e7e7e7;
-		h2 {margin-top: 0;}
-
-	}
 }
 
 
@@ -424,16 +391,6 @@ ul li {
 	line-height: 1.8em;
 }
 
-	p.lead {
-		font-size: 24px;
-		line-height: 1.4em;
-	}
-
-
-	p {
-		font-size: 18px;
-		line-height: 1.8em;
-		}
 
 .image-left,
 .image-right {

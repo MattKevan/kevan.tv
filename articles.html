@@ -10,14 +10,14 @@ permalink: "/articles/"
 	
     	<h1 class="title">Articles</h1>
       <div class="card listing first">
-        {% assign items = site.articles | sort: 'date' | reverse %}
-        {% for item in items %}
+        
+        {% for post in site.posts %}
 
           <div class="teaser">
-            <h2><a class="post-link" href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a></h2>
-            <p class="post-meta">{{ item.author }}, {{ item.date | date: "%-d %B  %Y" }}</p>
-            <p class="intro">{{ item.lead }}</p>
-            <p class="link"><a href="{{ item.url | prepend: site.baseurl }}">Read more »</a></p>
+            <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+            <p class="post-meta">{{ post.author }}, {{ post.date | date: "%-d %B  %Y" }}</p>
+            <p class="intro">{{ post.description }}</p>
+            <p class="link"><a href="{{ post.url | prepend: site.baseurl }}">Read more »</a></p>
           </div>
 
         {% endfor %}
