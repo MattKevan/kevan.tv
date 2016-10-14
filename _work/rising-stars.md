@@ -16,7 +16,6 @@ roles:
 - UX lead
 - Creative lead
 ---
+Their aim was to give teachers access to the learning materials and related resources they or their schools had purchased by logging into a personalised members area.
 
-<p>Their aim was to give teachers access to the learning materials and related resources they or their schools had purchased by logging into a personalised members area.</p>
-
-<p>As UX lead on the project, my role was to put together a comprehensive plan for the site, showing in detail how it would work. This process involved holding a series of workshops with different client stakeholders to capture their requirements and understand in-depth how they wanted it to function. </p>
+As UX lead on the project, my role was to put together a comprehensive plan for the site, showing in detail how it would work. This process involved holding a series of workshops with different client stakeholders to capture their requirements and understand in-depth how they wanted it to function.
