@@ -51,20 +51,20 @@ mini_magick:
 `destination:` is the folder for the generated images. This will be automatically added to the `_site` folder on build.
 `resize:` these are standard ImageMagick options. You can chain multiple commands together and they'll be processed in order.
 
-How you then get the images into your templates is up to you, but here's how I did it.
+How you then get the images into your templates is up to you, but here's how I did it:
 
 In my post front matter, I referenced images like this:
 
 `image1: myimage.jpg`
 
-Then as each preset is stored in its own folder, all you need to do is put in the right path for the preset you want just before printing the image field.
+Then as each preset is stored in its own folder, all I needed to do was put in the path for the preset I wanted just before printing the image field.
 
-All being well, the generated output will look something like this:
+The generated output looked something like this:
 
 ```
 <img src="/images/teaser/myimage.jpg" /> 
 ```
 
-As there’s no processing going on at the template level, it works when used in a layout file.
+As there’s no processing going on at the template level, it works when used in a layout file as well.
 
 So there we have it – an easy way to generate automatically resized images, while still keeping a strong separation between content and presentation.
