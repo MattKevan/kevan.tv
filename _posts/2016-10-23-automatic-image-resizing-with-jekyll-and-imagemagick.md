@@ -53,16 +53,14 @@ In my post front matter, I referenced images like this:
 
 `image1: myimage.jpg`
 
-Then as each preset is stored in its own folder, all you need to do is use the right path for the preset you want. I used a liquid filter to do this. For example:
+Then as each preset is stored in its own folder, all you need to do is put in the right path for the preset you want.
+
+All being well, the generated output will look something like this:
 
 ```
-<img src="/images/teaser/{{ page.image1 }}" />
+<img src="/images/teaser/myimage.jpg" /> 
 ```
 
-The generated HTML then looks like this:
-
-`<img src=“/images/teaser/myimage.jpg” />`
-
-As there’s no processing going on at the template level, it works even when used in a layout file.
+As there’s no processing going on at the template level, it works when used in a layout file.
 
 So there we have it – an easy way to generate automatically resized images, while still keeping a strong separation between content and presentation.
