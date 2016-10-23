@@ -3,7 +3,7 @@ title: Designing the design process
 date: '2016-10-23 00:00:00'
 layout: post
 tags: [Design process, NDP]
-description: The method used to create a design is as important as the design itself - and can be a big contributor to project’s success or failure. Here’s how I’ve designed the process at NDP. 
+description: The method used to create a design is as important as the design itself - and can be a big contributor to a project’s success or failure. Here’s how I’ve designed the process at NDP. 
 thumbnail: ''
 banner: ''
 author: Matt Kevan
@@ -11,9 +11,9 @@ author: Matt Kevan
 
 Design is about creatively solving problems within the boundaries we’re given. Boundaries like the brief. The budget. The client’s needs. Their audiences’ needs (not always the same thing). 
 
-But we need to approach how we do it carefully, to avoid painfully crashing into something. Spend a long time on one design idea only for the client to reject it at the last moment, and ouch, there goes the budget.
+But we need to approach how we do it carefully, to avoid painfully crashing into something. Spend a long time on one design idea only for the client to reject it at the last moment and, ouch, there goes the budget.
 
-That’s where process comes in: a way of doing things which helps us avoid the major pitfalls and hopefully arrive at the other side with a great design and a happy client.
+That’s where process comes in: a way of doing things which helps us avoid major pitfalls and hopefully arrive at the other side with a great design and a happy client.
 
 Over the last year I’ve been restructuring the studio’s design process, working closely with Robson our designer, to achieve those goals.
 
@@ -59,6 +59,6 @@ Once the team is happy (and David's stopped sighing), we send the client the ful
 
 ## Conclusion
 
-By consciously designing our design process in this way we’ve managed to substantially increase the quality of our work, increase client happiness and speed sign-offs. All while meeting deadlines and hitting budgets.
+By consciously designing our design process in this way, while there's still plenty of work to be done, we’ve managed to increase the quality of our work, reduce the amount of time it takes to get work signed off, and most importantly, our clients are much happier. All while continuing to meet deadlines and hit budgets.
 
 
