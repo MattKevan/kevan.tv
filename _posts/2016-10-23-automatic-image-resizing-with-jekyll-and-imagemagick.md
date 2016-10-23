@@ -2,6 +2,12 @@
 title: Automatic image resizing with Jekyll and ImageMagick
 date: '2016-10-23 14:27:00'
 layout: post
+description: How to get Jekyll to take care of the boring business of resizing and cropping images.
+tags:
+- Content management
+- Jekyll
+- Drupal
+author: Matt Kevan
 ---
 ## The problem
 I’ve recently been migrating some of my sites from Drupal to Jekyll. As part of this, I’ve been looking for Jekyll alternatives to some common pieces of Drupal functionality.
@@ -43,13 +49,15 @@ mini_magick:
 
 How you then get the images into your templates is up to you, but here's how I did it.
 
-In my post front matter, I referenced images like this, including the path to the image:
+In my post front matter, I referenced images like this:
 
-`image1: images/originals/myimage.jpg`
+`image1: myimage.jpg`
 
-As each image preset is stored in its own folder, all you need to do is change the path to use a different one. I used a liquid filter to do this.
+Then as each preset is stored in its own folder, all you need to do is use the right path for the preset you want. I used a liquid filter to do this. For example:
 
-`<img src="/{{ page.image1 | replace: "originals", "teaser"}}"`
+```
+<img src="/images/teaser/{{ page.image1 }}" />
+```
 
 The generated HTML then looks like this:
 
