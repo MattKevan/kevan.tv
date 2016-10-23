@@ -50,8 +50,11 @@ mini_magick:
 ```
 
 `teaser:/profile:` these are the preset names - change to whatever you want
+
 `source:` is the source directory location - change this to wherever you keep your images
+
 `destination:` is the folder for the generated images. This will be automatically added to the `_site` folder on build.
+
 `resize:` these are standard ImageMagick options. You can chain multiple commands together and they'll be processed in order.
 
 How you then get the images into your templates is up to you, but here's how I did it:
