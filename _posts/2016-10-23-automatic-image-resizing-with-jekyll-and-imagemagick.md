@@ -49,7 +49,7 @@ mini_magick:
     	...
 ```
 
-`teaser:/profile:` these are the preset names - change to whatever you want
+`teaser:` and `profile:` these are the preset names - change to whatever you want
 
 `source:` is the source directory location - change this to wherever you keep your images
 
