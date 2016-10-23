@@ -61,7 +61,9 @@ How you then get the images into your templates is up to you, but here's how I d
 
 In my post front matter, I referenced images like this:
 
-`image1: myimage.jpg`
+```
+image1: myimage.jpg
+```
 
 Then as each preset is stored in its own folder, all I needed to do was put in the path for the preset I wanted just before printing the image field.
 
