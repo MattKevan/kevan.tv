@@ -40,12 +40,16 @@ Put the file in your `_plugins` folder, make sure ImageMagick is installed, and 
 ```
 mini_magick:
     teaser: # preset name
-        source: images/originals # source directory - change this to wherever you keep your images
-        destination: images/teaser # generated destination directory
-        resize: "100x70^" # standard imagemagick options - you can chain multiple commands
+        source: images/originals
+        destination: images/teaser
+        resize: "100x70^"
         gravity: "center"
         extent: "100x70"        
 ```
+
+`source:` is the source directory location - change this to wherever you keep your images
+`destination:` is the folder for the generated images. This will be automatically added to the `_site` folder on build.
+`resize:` these are standard ImageMagick options. You can chain multiple commands together and they'll be processed in order.
 
 How you then get the images into your templates is up to you, but here's how I did it.
 
@@ -53,7 +57,7 @@ In my post front matter, I referenced images like this:
 
 `image1: myimage.jpg`
 
-Then as each preset is stored in its own folder, all you need to do is put in the right path for the preset you want.
+Then as each preset is stored in its own folder, all you need to do is put in the right path for the preset you want just before printing the image field.
 
 All being well, the generated output will look something like this:
 
