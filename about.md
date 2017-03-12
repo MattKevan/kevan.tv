@@ -5,7 +5,7 @@ lead: As a designer, I'm fascinated by what makes things work, and how best to c
   ideas.
 permalink: "/about/"
 ---
-I'm fascinated by what makes things work. I love the challenge of understanding a problem and discovering new ways to solve it, to make it function better, faster or more efficiently – whether it's a print publication, a website, a process or an organisation.
+I love the challenge of understanding a problem and discovering new ways to solve it, to make something function better, faster or more efficiently – whether it's a print publication, a website, a process or an organisation.
 
 I'm currently the senior UX designer at Mumsnet, where I work closely with the design, editorial and tech teams to develop new services and improve the site's usability, with the overall aim of making parent's lives easier. Having recently become a dad, I fully understand just how vital that goal is.
 
@@ -15,6 +15,6 @@ Although I now focus on UX design, I enjoy getting involved at all stages of the
 
 In my spare time I work on various side projects, including [Illustrators.co](http://www.illustrators.co){:target="_blank"}, a curated marketplace for illustrators to sell their work directly to the public.
 
-I live in central London with my wife, daughter and cat.  
+I live in central London with my wife, daughter and cat.
 
 To get in touch send me an email at hello@kevan.tv – I'd love to hear from you.
