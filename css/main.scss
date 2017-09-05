@@ -7,46 +7,40 @@
 @import "bootstrap";
 
 @font-face {
-    font-family: 'Paul Grotesk Bold';
-    src: url('fonts/paul-grotesk/paulgrotesk-bold-trail-webfont.woff2') format('woff2'),
-         url('fonts/paul-grotesk/paulgrotesk-bold-trail-webfont.woff') format('woff');
+    font-family: 'HK Grotesk Bold';
+    src: url('fonts/hk-grotesk/hkgrotesk-bold-webfont.woff2') format('woff2'),
+         url('fonts/hk-grotesk/hkgrotesk-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+
 }
 
 @font-face {
-    font-family: 'Paul Grotesk';
-    src: url('fonts/paul-grotesk/paulgrotesk-regular-trail-webfont.woff2') format('woff2'),
-         url('fonts/paul-grotesk/paulgrotesk-regular-trail-webfont.woff') format('woff');
+    font-family: 'HK Grotesk';
+    src: url('fonts/hk-grotesk/hkgrotesk-regular-webfont.woff2') format('woff2'),
+         url('fonts/hk-grotesk/hkgrotesk-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-}
 
-@font-face {
-    font-family: 'Paul Grotesk Thin';
-    src: url('fonts/paul-grotesk/paulgrotesk-thin-trail-webfont.woff2') format('woff2'),
-         url('fonts/paul-grotesk/paulgrotesk-thin-trail-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
 }
 
 body {
-	color: #222;
-	font-family: 'Paul Grotesk', Helvetica, Arial, sans-serif;
+	color: #000;
+	font-family: 'HK Grotesk', Helvetica, Arial, sans-serif;
   	background-color: #fff;
 }
 
-a {color: #222;}
+a {color: #FF00FF;}
 
 a:hover {
-	color: #444;
+	color: #FF00FF;
 	text-decoration: underline;
 }
 
 h1, h2, h3, h4 {
-	font-family: 'Paul Grotesk Bold', Helvetica, Arial, sans-serif;
-	font-weight: normal;
-	color: #222;
+	font-family: 'HK Grotesk Bold', Helvetica, Arial, sans-serif;
+	font-weight: 700;
+	color: #000;
 }
 
 h1 {
@@ -65,6 +59,12 @@ h2 {
 	@media (min-width: $screen-sm-min) {
     	font-size: 2em;
   	}
+}
+
+h2.title {
+	display: inline-block;
+	background-color: #FFFF00;
+	padding: 2px 5px;
 }
 
 h3 {
@@ -98,7 +98,6 @@ h3 {
 	}
 
 	p.lead {
-		font-family: 'Paul Grotesk', Helvetica, Arial, sans-serif;
 	    margin-bottom: 20px;
 	    font-size: 24px;
 		line-height: 1.4em;
@@ -119,22 +118,18 @@ p.post-meta {
 }
 
 p.categories {
-	color: #666;
 	line-height: 1.6em;
 	margin: 0;
 }
 
 .meta {
-	font-family: 'Paul Grotesk', Helvetica, Arial, sans-serif;
+	font-family: 'Muli', Helvetica, Arial, sans-serif;
 	font-size: 14px;
 	line-height: 1.6em;
 }
 
 
-.link {
-	a {color: #D0021B;}
-	font-family: 'Paul Grotesk Bold', Helvetica, Arial, sans-serif;
-}
+
 
 // Navigation
 
@@ -156,7 +151,7 @@ p.categories {
 }
 
 .navbar-default .navbar-brand {
-	font-family: 'Paul Grotesk Bold', Helvetica, Arial, sans-serif;
+	font-family: 'Muli', Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	line-height: 1.5em;
 	color: #000;
@@ -236,7 +231,6 @@ p.categories {
 	line-height: 1.5em;
   	float: none;
   	list-style: none;
-	font-family: 'Paul Grotesk Bold', Helvetica, Arial, sans-serif;
 
 	a:hover {
 		background: none;
@@ -289,7 +283,7 @@ p.categories {
 	p.post-meta {
 		margin-bottom: 10px;
 	}	
-	.intro {font-family: 'Paul Grotesk', Helvetica, Arial, sans-serif;}
+	.intro {}
 }
 
 .image-container {
@@ -309,10 +303,16 @@ p.categories {
 
 .home {
 	.banner {
+		background-image: url("/images/site/pattern1.png");
+		background-attachment: fixed;
+		height: 500px;
 
 		h1 {
-			font-family: "Paul Grotesk Bold", Georgia, "Times New Roman", Times, serif;
-			margin: 0;		
+			margin: 100px 0;	
+			display: inline-block;
+			color: #FFFF00;
+			background-color: #000;
+			padding: 2px 5px;
 		}
 
 	}
@@ -343,10 +343,7 @@ p.categories {
 }
 
 .banner {
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center center;
-	margin: 40px 0;
+	margin: 0;
 
 	.inner {
 		height: 500px;
@@ -358,6 +355,8 @@ p.categories {
 
 .card.listing {
 	padding: 40px 0;
+	background-color:#000;
+	color: #fff;
 
 	h3 {font-size: 24px;}
 }
@@ -422,7 +421,7 @@ ul li {
 // Footer
 
 .site-footer {
-	background-color: #000;
+	background-color: #333;
 	color: #fff;
 	padding: 20px 0;
 	p {

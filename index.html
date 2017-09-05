@@ -6,10 +6,10 @@ layout: default
 	<div class="banner">
 		<div class="container">
 			<div class="row">
-				<div class="col-xs-12">
+				<div class="col-xs-12 col-sm-8">
 
-					<h1 class="title">Matt Kevan</h1>
-					<p class="lead">User experience, design & development</p>
+					
+					<h1>User experience, design & development</h1>
 
 				</div>
 			</div>
@@ -20,7 +20,7 @@ layout: default
 		<div class="container">
 			<h2 class="title">Featured work</h2>
 			<div class="row">
-			    {% for work in site.work limit: 3 %}
+			    {% for work in site.work limit: 4 %}
 					{% include work-teaser-list.html %}
 				{% endfor %}
 				<div class="col-xs-12">
