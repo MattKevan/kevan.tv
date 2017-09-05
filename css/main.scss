@@ -72,7 +72,7 @@ h3 {
 }
 
 .page-content {
-	margin-top: 40px;
+	margin-top: 0px;
 }
 
 .content {
@@ -84,12 +84,6 @@ h3 {
 		margin: 20px 0;
 		width: 100%;
 		height: 100%;
-	}
-
-	a {color: #D0021B;}
-	a:hover {
-		color: #D0021B;
-		text-decoration: underline;
 	}
 
 	p {
@@ -109,11 +103,9 @@ p.breadcrumb {
 	background: none;
 	margin:0 0 10px 0;
 	padding: 0;
-	a {color: #D0021B;}
 }
 
 p.post-meta {
-	color: #666;
 	font-size: 14px;
 }
 
@@ -123,7 +115,6 @@ p.categories {
 }
 
 .meta {
-	font-family: 'Muli', Helvetica, Arial, sans-serif;
 	font-size: 14px;
 	line-height: 1.6em;
 }
@@ -134,32 +125,39 @@ p.categories {
 // Navigation
 
 .header {
-	border-color: #e7e7e7;
-	border-width: 0 0 1px 0;
-	border-style: solid;
 }
 
 .navbar {
 	margin: 0;
 	border:none!important;
-	background: #fff;
+	background: #000;
+	border-radius:0;
+	border-color: #000;
 
 }
 
 .navbar-default {
 	border:none!important;
+	border-color: #000;
 }
 
 .navbar-default .navbar-brand {
-	font-family: 'Muli', Helvetica, Arial, sans-serif;
 	font-size: 16px;
-	line-height: 1.5em;
+	line-height: 1em;
 	color: #000;
+	font-family: 'HK Grotesk Bold', Helvetica, Arial, sans-serif;
+	font-weight: 700;
+	background-color: #fff;
+	display: inline-block;
+	padding: 3px;
+	margin:13px 0 0 0;
+	height:25px;
 }
 
 .navbar-default .navbar-nav > li > a {
 	font-size: 16px;
 	line-height: 1.5em;
+	color: #FF00FF;
 }
 
 // Menu overlay
@@ -199,44 +197,6 @@ p.categories {
 	z-index: 10000;
 }
 
-/* Overlay closing cross */
-
-.overlay .overlay-close {
-	width: 58px;
-	height: 58px;
-	position: absolute;
-	right: 10px;
-	top: 10px;
-	overflow: hidden;
-	border: none;
-	background: url(/images/site/close.png) no-repeat center center;
-	text-indent: 200%;
-	color: transparent;
-	outline: none;
-	z-index: 100;
-}
-
-/* Menu style */
-
-.overlay ul {
-	text-align: center;
-	list-style: none;
-	margin: 40px 0 0 0;
-	padding: 0;
-}
-
-.overlay ul li {
-	text-align: center;
-	font-size: 2.5em;
-	line-height: 1.5em;
-  	float: none;
-  	list-style: none;
-
-	a:hover {
-		background: none;
-		text-decoration: underline;
-	}
-}
 
 // Content displays
 
@@ -349,7 +309,33 @@ p.categories {
 		height: 500px;
 	}
 }
+.banner.project {
+	background-size:cover;
+	margin:60px 0;
+	height: 600px;
+}
+.card.title {
 
+	.inner {
+			background-color: #000;
+	color: #fff;
+	padding:40px 15px;
+
+	}
+
+	h1.title {
+		color: #fff;
+	}
+}
+ 
+.work {
+	background-image: url("/images/site/pattern1.png");
+	background-attachment: fixed;
+	padding-top: 60px;
+	.content-col {
+		background-color: #fff;
+	}
+}
 
 // Listing card
 
@@ -366,7 +352,7 @@ p.categories {
 
 .card.carousel {
 	.inner {
-		background-color: #009fe3;
+		background-color: #000;
 		padding: 20px 0;
 	}
 	.carousel-image img {
