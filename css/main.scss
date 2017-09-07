@@ -45,7 +45,7 @@ h1, h2, h3, h4 {
 
 h1 {
 	margin: 0 0 10px 0;
-	font-size: 2.5em;
+	font-size: 3em;
 
 	@media (min-width: $screen-sm-min) {
     	font-size: 3em;
@@ -64,7 +64,8 @@ h2 {
 h2.title {
 	display: inline-block;
 	background-color: #FFFF00;
-	padding: 2px 5px;
+	padding: 0 5px 5px 5px;
+	margin-bottom: 60px;
 }
 
 h3 {
@@ -150,7 +151,7 @@ p.categories {
 	background-color: #fff;
 	display: inline-block;
 	padding: 3px;
-	margin:13px 0 0 0;
+	margin:13px 0 0 15px;
 	height:25px;
 }
 
@@ -263,16 +264,22 @@ p.categories {
 
 .home {
 	.banner {
-		background-image: url("/images/site/pattern1.png");
+		background-image: url("/images/site/Pattern1a.png");
 		background-attachment: fixed;
-		height: 500px;
+		background-position: left -28px;
+		
 
 		h1 {
 			margin: 100px 0;	
 			display: inline-block;
 			color: #FFFF00;
 			background-color: #000;
-			padding: 2px 5px;
+			padding: 10px 20px 20px 20px;
+		}
+		.banner-inner {
+			background-image: url("/images/site/Pattern1b.png");
+			height: 500px;
+			background-position: left center;
 		}
 
 	}
@@ -340,7 +347,7 @@ p.categories {
 // Listing card
 
 .card.listing {
-	padding: 40px 0;
+	padding: 80px 0;
 	background-color:#000;
 	color: #fff;
 

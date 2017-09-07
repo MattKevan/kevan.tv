@@ -5,7 +5,7 @@ layout: work
 teaser: Bringing 'the spirit of adventure' to the Web
 lead: Based on a lightvessel moored off the Essex coast, Fellowship Afloat is an outdoor
   activity centre like no other.
-banner-image: "/images/fact/fact-banner.jpg"
+banner-image: "/images/fact/fact-banner2.jpg"
 thumbnail: "/images/fact/fact-thumbnail.jpg"
 logo: "/images/fact/logo.png"
 image1: 
