@@ -346,14 +346,39 @@ p.categories {
 
 // Listing card
 
-.card.listing {
-	padding: 80px 0;
+.card.listing.wor1k {
 	background-color:#000;
+	background-image: transparent;
 	color: #fff;
+	padding: 80px 0;
 
 	h3 {font-size: 24px;}
 }
+.card.listing.projects {
+	background-image: url("/images/site/pattern2a.png");
+	background-attachment: fixed;
+	background-color: transparent;
+				background-position: left center;
 
+
+	.inner {
+			background-image: url("/images/site/pattern2b.png");
+	padding: 80px 0;
+				background-position: left -28px;
+
+				.teaser-inner{
+					background-color: #fff;
+					padding: 20px;
+					color: #000;
+
+					h3 {
+						margin-top: 0;
+					}
+				}
+
+	}
+
+}
 
 // Carousel card
 

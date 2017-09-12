@@ -18,7 +18,7 @@ layout: default
 		</div>
 	</div>
 
-	<div class="card listing">
+	<div class="card listing wor1k">
 		<div class="container">
 			<h2 class="title">Featured work</h2>
 			<div class="row">
@@ -30,6 +30,24 @@ layout: default
 				</div>
 			</div>
 		</div>
+	</div>
+
+	<div class="card listing projects">
+		<div class="inner">
+		<div class="container">
+			<h2 class="title">Projects</h2>
+			<div class="row">
+				<div class="row-wrap clearfix">
+			    {% for project in site.projects limit: 4 %}
+						 {% include project-teaser.html %}
+				{% endfor %}
+				<div class="col-xs-12">
+					<p class="link"><a href="/work">See more work »</a></p>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
 	</div>
 	
 </div>
