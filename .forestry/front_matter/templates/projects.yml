@@ -1,0 +1,95 @@
+---
+pages:
+- _projects/kennington-studio.md
+- _projects/the-dove-and-the-seagull.md
+- _projects/illustrators.md
+hide_body: false
+fields:
+- name: title
+  default: Illustrators
+  label: Title
+  type: text
+  hidden: false
+- name: date
+  default: 2016-01-01 00:00:00 +0000
+  label: Date
+  type: datetime
+  hidden: false
+- name: categories
+  default: []
+  label: Categories
+  type: list
+  hidden: false
+- name: layout
+  default: project
+  label: Layout
+  type: text
+  hidden: false
+- name: teaser
+  default: Creating a marketplace for the best of contemporary illustration
+  label: Teaser
+  type: text
+  hidden: false
+- name: lead
+  default: Illustrators is a marketplace for the best of contemporary illustration.
+  label: Lead
+  type: text
+  hidden: false
+- name: banner-image
+  default: "/images/illo/illo-banner.jpg"
+  label: Banner image
+  type: file
+  hidden: false
+- name: thumbnail
+  default: "/images/illo/illo-thumbnail.jpg"
+  label: Thumbnail
+  type: file
+  hidden: false
+- name: carousel
+  default: []
+  label: Carousel
+  type: list
+  hidden: false
+- name: work-url
+  default: https://www.illustrators.co
+  label: Work url
+  type: text
+  hidden: false
+- name: project-type
+  default: Personal project
+  label: Project type
+  type: text
+  hidden: false
+- name: roles
+  default:
+  - UX designer
+  - Web designer
+  - Developer
+  label: Roles
+  type: list
+  hidden: false
+- name: slug
+  default: illustrators
+  label: Slug
+  type: text
+  hidden: false
+- name: tags
+  default: []
+  label: Tags
+  type: list
+  hidden: false
+- name: galleryid
+  default: ks
+  label: Galleryid
+  type: text
+  hidden: false
+- name: project-url
+  default: https://www.etsy.com/shop/KenningtonStudio
+  label: Project url
+  type: text
+  hidden: false
+- name: url-title
+  default: Browse and buy prints on Etsy
+  label: Url title
+  type: text
+  hidden: false
