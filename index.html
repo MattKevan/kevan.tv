@@ -10,7 +10,7 @@ layout: default
 				<div class="col-xs-12 col-sm-8">
 
 					
-					<h1>User experience, design & development</h1>
+					<h1 class="editable">User experience, design & development</h1>
 
 				</div>
 			</div>
@@ -20,7 +20,7 @@ layout: default
 
 	<div class="card listing wor1k">
 		<div class="container">
-			<h2 class="title">Featured work</h2>
+			<h2 class="title editable">Featured work</h2>
 			<div class="row">
 			    {% for work in site.work limit: 4 %}
 					{% include work-teaser-list.html %}
@@ -35,7 +35,7 @@ layout: default
 	<div class="card listing projects">
 		<div class="inner">
 		<div class="container">
-			<h2 class="title">Projects</h2>
+			<h2 class="title editable">Projects</h2>
 			<div class="row">
 				<div class="row-wrap clearfix">
 			    {% for project in site.projects limit: 4 %}
