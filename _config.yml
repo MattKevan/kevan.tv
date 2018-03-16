@@ -56,3 +56,9 @@ defaults:
       description: ""
       tags: []
       author: "Matt Kevan"
+   -
+    scope:
+      path: ""
+      type: "resource"
+    values:
+      layout: "page"
