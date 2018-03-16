@@ -7,18 +7,26 @@
 @import "bootstrap";
 
 @font-face {
-    font-family: 'HK Grotesk Bold';
-    src: url('fonts/hk-grotesk/hkgrotesk-bold-webfont.woff2') format('woff2'),
-         url('fonts/hk-grotesk/hkgrotesk-bold-webfont.woff') format('woff');
+    font-family: 'Plex Sans';
+    src: url('fonts/plex/ibmplexsans-regular-webfont.woff2') format('woff2'),
+         url('fonts/plex/ibmplexsans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Plex Mono Bold';
+    src: url('fonts/plex/ibmplexmono-bold-webfont.woff2') format('woff2'),
+         url('fonts/plex/ibmplexmono-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
 
 @font-face {
-    font-family: 'HK Grotesk';
-    src: url('fonts/hk-grotesk/hkgrotesk-regular-webfont.woff2') format('woff2'),
-         url('fonts/hk-grotesk/hkgrotesk-regular-webfont.woff') format('woff');
+    font-family: 'Plex Mono';
+    src: url('fonts/plex/ibmplexmono-regular-webfont.woff2') format('woff2'),
+         url('fonts/plex/ibmplexmono-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -26,7 +34,7 @@
 
 body {
 	color: #000;
-	font-family: 'HK Grotesk', Helvetica, Arial, sans-serif;
+	font-family: 'Plex Sans', Helvetica, Arial, sans-serif;
   	background-color: #fff;
 }
 
@@ -38,7 +46,7 @@ a:hover {
 }
 
 h1, h2, h3, h4 {
-	font-family: 'HK Grotesk Bold', Helvetica, Arial, sans-serif;
+	font-family: 'Plex Mono', Helvetica, Arial, sans-serif;
 	font-weight: 700;
 	color: #000;
 }
@@ -46,7 +54,7 @@ h1, h2, h3, h4 {
 h1 {
 	margin: 0 0 10px 0;
 	font-size: 3em;
-
+	font-family: 'Plex Mono Bold', Helvetica, Arial, sans-serif;
 	@media (min-width: $screen-sm-min) {
     	font-size: 3em;
   	}
@@ -55,6 +63,7 @@ h1 {
 h2 {
 	margin-top: 0!important;
 	font-size: 1.6em;
+	font-family: 'Plex Mono Bold', Helvetica, Arial, sans-serif;
 
 	@media (min-width: $screen-sm-min) {
     	font-size: 2em;
@@ -96,6 +105,7 @@ h3 {
 	    margin-bottom: 20px;
 	    font-size: 24px;
 		line-height: 1.4em;
+		font-family: 'Plex Mono', Helvetica, Arial, sans-serif;
 	}
 }
 
@@ -113,6 +123,7 @@ p.post-meta {
 p.categories {
 	line-height: 1.6em;
 	margin: 0;
+	font-family: 'Plex Mono', Helvetica, Arial, sans-serif;
 }
 
 .meta {
@@ -131,7 +142,7 @@ p.categories {
 .navbar {
 	margin: 0;
 	border:none!important;
-	background: #000;
+	background: #fff;
 	border-radius:0;
 	border-color: #000;
 
@@ -146,7 +157,7 @@ p.categories {
 	font-size: 16px;
 	line-height: 1em;
 	color: #000;
-	font-family: 'HK Grotesk Bold', Helvetica, Arial, sans-serif;
+	font-family: 'Plex Mono', Helvetica, Arial, sans-serif;
 	font-weight: 700;
 	background-color: #fff;
 	display: inline-block;
@@ -234,7 +245,7 @@ p.categories {
  	}
 
 	h2 {margin-top: 0;}
-	h3 {margin: 15px 0 5px 0;}
+	h3 {margin: 0 0 5px 0;}
 	p {
 		padding: 0;
 		margin-bottom: 0;
@@ -246,7 +257,11 @@ p.categories {
 	}	
 	.intro {}
 }
-
+.teaser-inner {
+	border-style: solid;
+	border-width: 1px;
+	padding: 15px;
+}
 .image-container {
 	width: 300px
 }
@@ -436,11 +451,79 @@ ul li {
   }
 }
 
+// Modals
+
+.grid-item {
+	height: 200px;
+	margin-bottom: 20px;
+	background-color: #fff;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #000;
+	line-height: 1.4em;
+	padding: 20px;
+	h3, h4 {
+		margin: 0 0 5px 0;
+		color: #FF00FF;
+	}
+	p.tags, .grid-tags {
+		margin: 0;
+		line-height: 1.4em;
+		font-size: .8em;
+		color: #666;
+	}
+	p.author {
+		font-size: .9em;
+	}
+	img.logo {
+		float: right;
+		width: 70px;
+		margin: 0 0 0 15px;
+		height: auto;
+		
+	}
+	
+}
+.modal-content {
+	border-radius: 0!important;
+	border-color: #000!important;
+
+}
+
+.read-item {
+	margin-bottom: 20px;
+	h4 {margin-top:0;}
+	p.weblink a { color: #999; }
+	&:last {margin-bottom:0;}
+}
+
+
+
+
+.grid-item:hover h3,
+.grid-item:hover h4{
+	text-decoration: underline;
+}
+
+.modal-body {
+	img {width: 100%;}
+	p.author {
+		margin: 15px 0 0 0;
+	}
+	
+}
+.modal-content {
+	box-shadow: none!important;
+}
+.modal-footer {
+	text-align: left;
+}
+
+
+
 // Footer
 
 .site-footer {
-	background-color: #333;
-	color: #fff;
 	padding: 20px 0;
 	p {
 		margin: 0;
