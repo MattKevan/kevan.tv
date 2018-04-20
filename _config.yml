@@ -8,7 +8,8 @@
 # Site settings
 title: Matt Kevan
 email: m@kevan.tv
-description: User experience, design & Drupal
+description: >
+  User experience, design & Drupal
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.kevan.tv" # the base hostname & protocol for your site
 twitter_username: jekyllrb
@@ -16,6 +17,14 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
+
+gems:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
 
 collections:
   work:
@@ -32,6 +41,7 @@ defaults:
       type: "work"
     values:
       layout: "work"
+      title: ""
   -
     scope:
       path: ""
@@ -56,7 +66,7 @@ defaults:
       description: ""
       tags: []
       author: "Matt Kevan"
-   -
+  -
     scope:
       path: ""
       type: "resource"
