@@ -15,13 +15,10 @@ intro: My favourite books on UX design and related subjects.
 				<div class="grid-content">
 					<img class="logo" src="/images/books/{{ book.image }}" alt="{{ book.title }}" />
 			      	<h4>{{ book.title }}</h4>
-			      	<p class="author">By {{ book.author }}</p>
+			      	<p class="meta"><strong>By:</strong> {{ book.author }}<br />
+			      	{{ book.tags | join: ', ' }}</p>
 			      	
 		      	</div>
-		      	<div class="grid-tags">
-					<p>{{ book.tags | join: ', ' }}</p>
-				</div>
-
 		    </div>
 
 			<!-- Modal -->
@@ -38,9 +35,9 @@ intro: My favourite books on UX design and related subjects.
 			      		<div class="row">
 				      		
 						    <div class="col-xs-7">
-						        {{ book.description }}
-						        <p class="author"><strong>By:</strong> {{ book.author }}</p>
-						        <p class="publisher"><strong>Publisher:</strong> {{ book.publisher }}, {{ book.date }}</p>
+						        <p>{{ book.description }}</p>
+						        <p class="meta"><strong>By:</strong> {{ book.author }}<br />
+						        <strong>Publisher:</strong> {{ book.publisher }}, {{ book.date }}</p>
 						    </div>
 						    <div class="col-xs-5">
 						    	<img class="book-image" src="/images/books/{{ book.image }}" alt="{{ book.title }}" />

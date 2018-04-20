@@ -213,11 +213,12 @@ p.categories {
 // Content displays
 
 .teaser {
-	margin-bottom: 30px;
-	padding-bottom: 20px;
+	margin:20px 0;
+	padding: 20px;
 	border-style: solid;
-	border-width: 0 0 1px 0;
-	border-color: #e7e7e7;
+	border-width: 1px;
+	border-color: #000;
+	display: block;
 	
 	h2 {margin-top: 0;}
 	p {
