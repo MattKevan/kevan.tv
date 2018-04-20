@@ -5,6 +5,7 @@
 
   <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <link href="https://fonts.googleapis.com/css?family=Muli:400,700" rel="stylesheet">
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/js/owl.carousel/owl.carousel.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/js/owl.carousel/owl.theme.css" | prepend: site.baseurl }}">

@@ -1,0 +1,18 @@
+---
+layout: page
+title: Software and services
+permalink: /software/
+intro: Useful tools
+---
+
+<div class="row">
+
+{% assign sorted_software = site.data.software | sort:'name' %}
+	{% for software in sorted_software %}
+		
+		<div class="col-xs-12 col-md-6">
+			{% include software-grid.html %}
+		</div>
+
+	{% endfor %}
+</div>

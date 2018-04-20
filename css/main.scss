@@ -7,52 +7,54 @@
 @import "bootstrap";
 
 @font-face {
-    font-family: 'Paul Grotesk Bold';
-    src: url('fonts/paul-grotesk/paulgrotesk-bold-trail-webfont.woff2') format('woff2'),
-         url('fonts/paul-grotesk/paulgrotesk-bold-trail-webfont.woff') format('woff');
+    font-family: 'Plex Sans';
+    src: url('fonts/plex/ibmplexsans-regular-webfont.woff2') format('woff2'),
+         url('fonts/plex/ibmplexsans-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+
+}
+@font-face {
+    font-family: 'Plex Mono Bold';
+    src: url('fonts/plex/ibmplexmono-bold-webfont.woff2') format('woff2'),
+         url('fonts/plex/ibmplexmono-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 @font-face {
-    font-family: 'Paul Grotesk';
-    src: url('fonts/paul-grotesk/paulgrotesk-regular-trail-webfont.woff2') format('woff2'),
-         url('fonts/paul-grotesk/paulgrotesk-regular-trail-webfont.woff') format('woff');
+    font-family: 'Plex Mono';
+    src: url('fonts/plex/ibmplexmono-regular-webfont.woff2') format('woff2'),
+         url('fonts/plex/ibmplexmono-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-}
 
-@font-face {
-    font-family: 'Paul Grotesk Thin';
-    src: url('fonts/paul-grotesk/paulgrotesk-thin-trail-webfont.woff2') format('woff2'),
-         url('fonts/paul-grotesk/paulgrotesk-thin-trail-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
 }
 
 body {
-	color: #222;
-	font-family: 'Paul Grotesk', Helvetica, Arial, sans-serif;
+	color: #000;
+	font-family: 'Plex Sans', Helvetica, Arial, sans-serif;
   	background-color: #fff;
 }
 
-a {color: #222;}
+a {color: #FF00FF;}
 
 a:hover {
-	color: #444;
+	color: #FF00FF;
 	text-decoration: underline;
 }
 
 h1, h2, h3, h4 {
-	font-family: 'Paul Grotesk Bold', Helvetica, Arial, sans-serif;
-	font-weight: normal;
-	color: #222;
+	font-family: 'Plex Mono', Helvetica, Arial, sans-serif;
+	font-weight: 700;
+	color: #000;
 }
 
 h1 {
 	margin: 0 0 10px 0;
-	font-size: 2.5em;
-
+	font-size: 3em;
+	font-family: 'Plex Mono Bold', Helvetica, Arial, sans-serif;
 	@media (min-width: $screen-sm-min) {
     	font-size: 3em;
   	}
@@ -61,10 +63,18 @@ h1 {
 h2 {
 	margin-top: 0!important;
 	font-size: 1.6em;
+	font-family: 'Plex Mono Bold', Helvetica, Arial, sans-serif;
 
 	@media (min-width: $screen-sm-min) {
     	font-size: 2em;
   	}
+}
+
+h2.title {
+	display: inline-block;
+	background-color: #FFFF00;
+	padding: 0 5px 5px 5px;
+	margin-bottom: 60px;
 }
 
 h3 {
@@ -72,7 +82,7 @@ h3 {
 }
 
 .page-content {
-	margin-top: 40px;
+	margin-top: 0px;
 }
 
 .content {
@@ -86,22 +96,16 @@ h3 {
 		height: 100%;
 	}
 
-	a {color: #D0021B;}
-	a:hover {
-		color: #D0021B;
-		text-decoration: underline;
-	}
-
 	p {
 		font-size: 18px;
 		line-height: 1.8em;
 	}
 
 	p.lead {
-		font-family: 'Paul Grotesk', Helvetica, Arial, sans-serif;
 	    margin-bottom: 20px;
 	    font-size: 24px;
 		line-height: 1.4em;
+		font-family: 'Plex Mono', Helvetica, Arial, sans-serif;
 	}
 }
 
@@ -110,61 +114,62 @@ p.breadcrumb {
 	background: none;
 	margin:0 0 10px 0;
 	padding: 0;
-	a {color: #D0021B;}
 }
 
 p.post-meta {
-	color: #666;
 	font-size: 14px;
 }
 
 p.categories {
-	color: #666;
 	line-height: 1.6em;
 	margin: 0;
+	font-family: 'Plex Mono', Helvetica, Arial, sans-serif;
 }
 
 .meta {
-	font-family: 'Paul Grotesk', Helvetica, Arial, sans-serif;
 	font-size: 14px;
 	line-height: 1.6em;
 }
 
 
-.link {
-	a {color: #D0021B;}
-	font-family: 'Paul Grotesk Bold', Helvetica, Arial, sans-serif;
-}
+
 
 // Navigation
 
 .header {
-	border-color: #e7e7e7;
-	border-width: 0 0 1px 0;
-	border-style: solid;
 }
 
 .navbar {
 	margin: 0;
 	border:none!important;
 	background: #fff;
+	border-radius:0;
+	border-color: #000;
 
 }
 
 .navbar-default {
 	border:none!important;
+	border-color: #000;
 }
 
 .navbar-default .navbar-brand {
-	font-family: 'Paul Grotesk Bold', Helvetica, Arial, sans-serif;
 	font-size: 16px;
-	line-height: 1.5em;
+	line-height: 1em;
 	color: #000;
+	font-family: 'Plex Mono', Helvetica, Arial, sans-serif;
+	font-weight: 700;
+	background-color: #fff;
+	display: inline-block;
+	padding: 3px;
+	margin:13px 0 0 15px;
+	height:25px;
 }
 
 .navbar-default .navbar-nav > li > a {
 	font-size: 16px;
 	line-height: 1.5em;
+	color: #FF00FF;
 }
 
 // Menu overlay
@@ -204,54 +209,16 @@ p.categories {
 	z-index: 10000;
 }
 
-/* Overlay closing cross */
-
-.overlay .overlay-close {
-	width: 58px;
-	height: 58px;
-	position: absolute;
-	right: 10px;
-	top: 10px;
-	overflow: hidden;
-	border: none;
-	background: url(/images/site/close.png) no-repeat center center;
-	text-indent: 200%;
-	color: transparent;
-	outline: none;
-	z-index: 100;
-}
-
-/* Menu style */
-
-.overlay ul {
-	text-align: center;
-	list-style: none;
-	margin: 40px 0 0 0;
-	padding: 0;
-}
-
-.overlay ul li {
-	text-align: center;
-	font-size: 2.5em;
-	line-height: 1.5em;
-  	float: none;
-  	list-style: none;
-	font-family: 'Paul Grotesk Bold', Helvetica, Arial, sans-serif;
-
-	a:hover {
-		background: none;
-		text-decoration: underline;
-	}
-}
 
 // Content displays
 
 .teaser {
-	margin-bottom: 30px;
-	padding-bottom: 20px;
+	margin:20px 0;
+	padding: 20px;
 	border-style: solid;
-	border-width: 0 0 1px 0;
-	border-color: #e7e7e7;
+	border-width: 1px;
+	border-color: #000;
+	display: block;
 	
 	h2 {margin-top: 0;}
 	p {
@@ -279,7 +246,7 @@ p.categories {
  	}
 
 	h2 {margin-top: 0;}
-	h3 {margin: 15px 0 5px 0;}
+	h3 {margin: 0 0 5px 0;}
 	p {
 		padding: 0;
 		margin-bottom: 0;
@@ -289,9 +256,13 @@ p.categories {
 	p.post-meta {
 		margin-bottom: 10px;
 	}	
-	.intro {font-family: 'Paul Grotesk', Helvetica, Arial, sans-serif;}
+	.intro {}
 }
-
+.teaser-inner {
+	border-style: solid;
+	border-width: 1px;
+	padding: 15px;
+}
 .image-container {
 	width: 300px
 }
@@ -309,10 +280,22 @@ p.categories {
 
 .home {
 	.banner {
+		background-image: url("/images/site/Pattern1a.png");
+		background-attachment: fixed;
+		background-position: left -28px;
+		
 
 		h1 {
-			font-family: "Paul Grotesk Bold", Georgia, "Times New Roman", Times, serif;
-			margin: 0;		
+			margin: 100px 0;	
+			display: inline-block;
+			color: #FFFF00;
+			background-color: #000;
+			padding: 10px 20px 20px 20px;
+		}
+		.banner-inner {
+			background-image: url("/images/site/Pattern1b.png");
+			height: 500px;
+			background-position: left center;
 		}
 
 	}
@@ -343,31 +326,81 @@ p.categories {
 }
 
 .banner {
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center center;
-	margin: 40px 0;
+	margin: 0;
 
 	.inner {
 		height: 500px;
 	}
 }
+.banner.project {
+	background-size:cover;
+	margin:60px 0;
+	height: 600px;
+}
+.card.title {
 
+	.inner {
+			background-color: #000;
+	color: #fff;
+	padding:40px 15px;
+
+	}
+
+	h1.title {
+		color: #fff;
+	}
+}
+ 
+.work {
+	background-image: url("/images/site/pattern1.png");
+	background-attachment: fixed;
+	padding-top: 60px;
+	.content-col {
+		background-color: #fff;
+	}
+}
 
 // Listing card
 
-.card.listing {
-	padding: 40px 0;
+.card.listing.wor1k {
+	background-color:#000;
+	background-image: transparent;
+	color: #fff;
+	padding: 80px 0;
 
 	h3 {font-size: 24px;}
 }
+.card.listing.projects {
+	background-image: url("/images/site/pattern2a.png");
+	background-attachment: fixed;
+	background-color: transparent;
+				background-position: left center;
 
+
+	.inner {
+			background-image: url("/images/site/pattern2b.png");
+	padding: 80px 0;
+				background-position: left -28px;
+
+				.teaser-inner{
+					background-color: #fff;
+					padding: 20px;
+					color: #000;
+
+					h3 {
+						margin-top: 0;
+					}
+				}
+
+	}
+
+}
 
 // Carousel card
 
 .card.carousel {
 	.inner {
-		background-color: #009fe3;
+		background-color: #000;
 		padding: 20px 0;
 	}
 	.carousel-image img {
@@ -419,11 +452,79 @@ ul li {
   }
 }
 
+// Modals
+
+.grid-item {
+	height: 200px;
+	margin-bottom: 20px;
+	background-color: #fff;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #000;
+	line-height: 1.4em;
+	padding: 20px;
+	h3, h4 {
+		margin: 0 0 5px 0;
+		color: #FF00FF;
+	}
+	p.tags, .grid-tags {
+		margin: 0;
+		line-height: 1.4em;
+		font-size: .8em;
+		color: #666;
+	}
+	p.author {
+		font-size: .9em;
+	}
+	img.logo {
+		float: right;
+		width: 70px;
+		margin: 0 0 0 15px;
+		height: auto;
+		
+	}
+	
+}
+.modal-content {
+	border-radius: 0!important;
+	border-color: #000!important;
+
+}
+
+.read-item {
+	margin-bottom: 20px;
+	h4 {margin-top:0;}
+	p.weblink a { color: #999; }
+	&:last {margin-bottom:0;}
+}
+
+
+
+
+.grid-item:hover h3,
+.grid-item:hover h4{
+	text-decoration: underline;
+}
+
+.modal-body {
+	img {width: 100%;}
+	p.author {
+		margin: 15px 0 0 0;
+	}
+	
+}
+.modal-content {
+	box-shadow: none!important;
+}
+.modal-footer {
+	text-align: left;
+}
+
+
+
 // Footer
 
 .site-footer {
-	background-color: #000;
-	color: #fff;
 	padding: 20px 0;
 	p {
 		margin: 0;
