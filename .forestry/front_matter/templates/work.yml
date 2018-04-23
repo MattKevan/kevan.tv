@@ -1,19 +1,20 @@
 ---
 pages:
 - _work/test.md
+- _work/new-schools-network.md
+- _work/make-a-wish-uk.md
+- _work/chartered-institute-of-taxation.md
+- _work/rising-stars.md
 - _work/fellowship-afloat.md
 - _work/readers-digest.md
 - _work/speak-network.md
-- _work/chartered-institute-of-taxation.md
-- _work/make-a-wish-uk.md
 - _work/middle-east-eye.md
-- _work/new-schools-network.md
 - _work/breast-cancer-care.md
-- _work/rising-stars.md
 - _work/scotts-miracle-gro.md
 - _work/history-today.md
 - _work/jesuits-in-britain.md
 hide_body: false
+is_partial: false
 fields:
 - name: title
   default: Breast Cancer Care

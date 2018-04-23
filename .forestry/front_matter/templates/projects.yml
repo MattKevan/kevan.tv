@@ -1,9 +1,10 @@
 ---
 pages:
 - _projects/kennington-studio.md
-- _projects/the-dove-and-the-seagull.md
 - _projects/illustrators.md
+- _projects/the-dove-and-the-seagull.md
 hide_body: false
+is_partial: false
 fields:
 - name: title
   default: Illustrators
