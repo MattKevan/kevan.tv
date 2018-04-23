@@ -18,17 +18,7 @@ teaser: Developers have used version control systems like Git for years. Lots of
 lead: Developers have used version control systems like Git for years. Lots of people
   can collaborate on a project, everyone has access to the latest version and mistakes
   can be rolled back. So why can't we use them for design?
-banner-image: ''
-work-url: 'version-control-for-sketch-in-2018 '
-project-type: ''
-roles: []
-categories: []
-image1: ''
-image2: ''
-image3: ''
-image4: ''
-logo: ''
-slug: ''
+
 ---
 
 It's complicated. But thanks to some services which have appeared over the last few months and some specific features of Sketch, it's now possible.
