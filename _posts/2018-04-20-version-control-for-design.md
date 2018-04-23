@@ -18,7 +18,7 @@ teaser: Developers have used version control systems like Git for years. Lots of
 lead: Developers have used version control systems like Git for years. Lots of people
   can collaborate on a project, everyone has access to the latest version and mistakes
   can be rolled back. So why can't we use them for design?
-banner-image: "/images/h4h-banner.jpg"
+banner-image: ''
 work-url: ''
 project-type: ''
 roles: []
