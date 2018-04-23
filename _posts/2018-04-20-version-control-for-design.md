@@ -3,28 +3,32 @@ title: Version control for Sketch in 2018  – Plant, Abstract and Kactus review
 date: 2018-04-20 00:00:00 +0000
 layout: post
 tags:
-- Design process
-- NDP
+- Design
+- Sketch
+- Version Control
 description: Developers have used version control systems like Git for years. Lots
   of people can collaborate on a project, everyone has access to the latest version
   and mistakes can be rolled back. So why can't we use them for design?
 thumbnail: ''
 banner: ''
 author: Matt Kevan
-teaser: Responding to the tragedy of refugees fleeing from war-torn countries
-lead: Based on a lightvessel moored off the Essex coast, Fellowship Afloat is an outdoor
-  activity centre like no other.
+teaser: Developers have used version control systems like Git for years. Lots of people
+  can collaborate on a project, everyone has access to the latest version and mistakes
+  can be rolled back. So why can't we use them for design?
+lead: Developers have used version control systems like Git for years. Lots of people
+  can collaborate on a project, everyone has access to the latest version and mistakes
+  can be rolled back. So why can't we use them for design?
 banner-image: "/images/h4h-banner.jpg"
-work-url: http://www.harvestforhope.org
-project-type: Pro-bono project
+work-url: ''
+project-type: ''
 roles: []
 categories: []
 image1: ''
 image2: ''
 image3: ''
 image4: ''
-logo: "/images/scotts/miracle-gro-logo.png"
-slug: make-a-wish-uk
+logo: ''
+slug: ''
 ---
 
 It's complicated. But thanks to some services which have appeared over the last few months and some specific features of Sketch, it's now possible.
