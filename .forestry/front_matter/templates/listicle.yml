@@ -1,0 +1,24 @@
+---
+hide_body: false
+is_partial: false
+fields:
+- type: textarea
+  name: introduction
+  label: Introduction
+- type: field_group_list
+  name: item
+  label: Item
+  fields:
+  - type: file
+    label: Image
+    name: image
+  - type: text
+    label: Title
+    name: title
+  - type: textarea
+    name: description
+    label: Description
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
