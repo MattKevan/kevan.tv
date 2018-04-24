@@ -1,4 +1,6 @@
 ---
+pages:
+- _posts/2018-04-24-the-six-best-product-management-books.md
 hide_body: false
 is_partial: false
 fields:
@@ -19,6 +21,9 @@ fields:
   - type: text
     label: Title
     name: title
+  - type: text
+    label: Author
+    name: author
   - type: textarea
     name: description
     label: Description
@@ -29,3 +34,7 @@ fields:
   - type: file
     name: pattern
     label: Pattern
+- type: select
+  config:
+    source:
+      type: datafiles

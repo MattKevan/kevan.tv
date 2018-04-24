@@ -9,8 +9,8 @@ author: Matt Kevan
 title: The six best product management books
 date: 2016-01-01 00:00:00 +0000
 teaser: Responding to the tragedy of refugees fleeing from war-torn countries
-lead: Based on a lightvessel moored off the Essex coast, Fellowship Afloat is an outdoor
-  activity centre like no other.
+lead: Product management is an evolving field. These are books I've found useful as
+  a product manager and I hope you will too.
 banner-image: "/images/h4h-banner.jpg"
 thumbnail: "/images/h4h-thumbnail.jpg"
 work-url: http://www.harvestforhope.org
@@ -21,4 +21,10 @@ roles:
 categories: []
 logo: "/images/scotts/miracle-gro-logo.png"
 slug: make-a-wish-uk
+item:
+- image: "/images/making.jpg"
+  title: 'Making it Right: Product Management for a Startup World'
+  description: A practical introduction to the role and practice of product management.
+    While it's targeted to startups the advice is relevant to those in more established
+    organisations. A worthwhile read.
 ---
