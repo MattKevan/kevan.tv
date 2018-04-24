@@ -3,8 +3,12 @@ hide_body: false
 is_partial: false
 fields:
 - type: textarea
-  name: introduction
-  label: Introduction
+  name: lead
+  label: Lead
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
 - type: field_group_list
   name: item
   label: Item
@@ -22,3 +26,6 @@ fields:
       wysiwyg: true
       schema:
         format: markdown
+  - type: file
+    name: pattern
+    label: Pattern
