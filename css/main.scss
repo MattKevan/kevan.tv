@@ -6,32 +6,35 @@
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import "bootstrap";
 
+
+// Fonts
 @font-face {
     font-family: 'Plex Sans';
-    src: url('fonts/plex/ibmplexsans-regular-webfont.woff2') format('woff2'),
-         url('fonts/plex/ibmplexsans-regular-webfont.woff') format('woff');
+    src: url('fonts/plex/IBMPlexSans-Regular.woff2') format('woff2'),
+         url('fonts/plex/IBMPlexSans-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
 @font-face {
-    font-family: 'Plex Mono Bold';
-    src: url('fonts/plex/ibmplexmono-bold-webfont.woff2') format('woff2'),
-         url('fonts/plex/ibmplexmono-bold-webfont.woff') format('woff');
+    font-family: 'Plex Bold';
+    src: url('fonts/plex/IBMPlexSans-Bold.woff2') format('woff2'),
+         url('fonts/plex/IBMPlexSans-Bold.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
 
 @font-face {
-    font-family: 'Plex Mono';
-    src: url('fonts/plex/ibmplexmono-regular-webfont.woff2') format('woff2'),
-         url('fonts/plex/ibmplexmono-regular-webfont.woff') format('woff');
+    font-family: 'Plex Italic';
+    src: url('fonts/plex/IBMPlexSans-Italic.woff2') format('woff2'),
+         url('fonts/plex/IBMPlexSans-Italic.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
 
+// Basic typography 
 body {
 	color: #000;
 	font-family: 'Plex Sans', Helvetica, Arial, sans-serif;
@@ -46,27 +49,41 @@ a:hover {
 }
 
 h1, h2, h3, h4 {
-	font-family: 'Plex Mono', Helvetica, Arial, sans-serif;
+	font-family: 'Plex Bold', Helvetica, Arial, sans-serif;
 	font-weight: 700;
 	color: #000;
+
+	a {color: #000;}
+	a:hover {color: #000;}
 }
 
 h1 {
 	margin: 0 0 10px 0;
-	font-size: 3em;
-	font-family: 'Plex Mono Bold', Helvetica, Arial, sans-serif;
+	font-size: 2.2em;
+	font-family: 'Plex Bold', Helvetica, Arial, sans-serif;
 	@media (min-width: $screen-sm-min) {
     	font-size: 3em;
   	}
+
 }
 
 h2 {
 	margin-top: 0!important;
 	font-size: 1.6em;
-	font-family: 'Plex Mono Bold', Helvetica, Arial, sans-serif;
+	font-family: 'Plex Bold', Helvetica, Arial, sans-serif;
 
 	@media (min-width: $screen-sm-min) {
     	font-size: 2em;
+  	}
+  	  	a {
+	  		border-style:solid;
+	  		border-width: 0 0 3px 0;
+	  		border-color: #FF00FF;
+	  		padding: 0 0 -1px 0;
+	  		line-height: 1.4em;
+  	}
+  	a:hover {
+  		text-decoration: none;
   	}
 }
 
@@ -105,7 +122,6 @@ h3 {
 	    margin-bottom: 20px;
 	    font-size: 24px;
 		line-height: 1.4em;
-		font-family: 'Plex Mono', Helvetica, Arial, sans-serif;
 	}
 }
 
@@ -123,7 +139,6 @@ p.post-meta {
 p.categories {
 	line-height: 1.6em;
 	margin: 0;
-	font-family: 'Plex Mono', Helvetica, Arial, sans-serif;
 }
 
 .meta {
@@ -137,6 +152,8 @@ p.categories {
 // Navigation
 
 .header {
+	margin-bottom: 20px;
+	border:none!important;
 }
 
 .navbar {
@@ -147,17 +164,22 @@ p.categories {
 	border-color: #000;
 
 }
-
+.navbar-header {
+	border:none!important;
+}
 .navbar-default {
 	border:none!important;
 	border-color: #000;
 }
-
+.navbar-default .navbar-collapse, 
+.navbar-default .navbar-form {
+	border:none!important;
+}
 .navbar-default .navbar-brand {
 	font-size: 16px;
 	line-height: 1em;
 	color: #000;
-	font-family: 'Plex Mono', Helvetica, Arial, sans-serif;
+	font-family: 'Plex Bold', Helvetica, Arial, sans-serif;
 	font-weight: 700;
 	background-color: #fff;
 	display: inline-block;
@@ -172,6 +194,13 @@ p.categories {
 	color: #FF00FF;
 }
 
+.navbar-brand {
+	height: 30px !important;
+	margin: 8px 0 0 15px !important;
+	img {
+		width: 60px;
+	}
+}
 // Menu overlay
 
 .menu-button {
@@ -213,11 +242,7 @@ p.categories {
 // Content displays
 
 .teaser {
-	margin:20px 0;
-	padding: 20px;
-	border-style: solid;
-	border-width: 1px;
-	border-color: #000;
+	margin: 0 0 60px 0 ;
 	display: block;
 	
 	h2 {margin-top: 0;}
@@ -452,6 +477,16 @@ ul li {
   }
 }
 
+p.tags {
+	font-size: 12px;
+	margin:0;
+
+	span {
+		background-color: #00FFFF;
+		padding: 3px 5px;
+		margin-right: 10px;
+	}
+}
 // Modals
 
 .grid-item {
@@ -520,6 +555,21 @@ ul li {
 	text-align: left;
 }
 
+.list-item {
+	margin-bottom: 60px;
+}
+.list-image {
+	text-align: center;
+	padding: 40px 0;
+	background-color: #000;
+	img { 
+		height: 300px; 
+		border: 1px solid;
+	}
+}
+.author {
+	font-family: "Plex Italic", sans-serif;
+}
 
 
 // Footer
