@@ -301,8 +301,6 @@ p.categories {
 .home {
 	.banner {
 		background-color: #FFFF00;
-		background-attachment: fixed;
-		background-position: left -28px;
 				
 
 		h1 {
@@ -313,11 +311,11 @@ p.categories {
 			padding: 10px 20px 20px 20px;
 		}
 		.banner-inner {
-		background-image: url("/images/patterns/2.svg");			
+			background-image: url("/images/patterns/2.svg");			
 			height: 500px;
 			background-position: left top;
 			background-size: 120px 120px;
-		
+			background-attachment: fixed;
 		}
 
 	}
