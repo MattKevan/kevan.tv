@@ -98,11 +98,30 @@ h3 {
 	font-size: 1.5em ;
 }
 
+.navbar-brand {
+	animation: cyc 30s infinite;
+	height: 30px !important;
+	margin: 10px 0 0 15px !important;
+	img {
+		width: 60px;
+	}
+}
+@keyframes cyc {
+	0% { background-color:  #FFFF00; }
+	33% { background-color: #FF00FF; }
+	66% { background-color: #00FFFF; }
+	100% { background-color:#FFFF00; }
+}
+
 .wrapper-2{
 	margin-top: 0px;
 	background-size: 120px;
 	background-attachment: fixed;
-	background-position: left top;
+	animation: pos 30s infinite;
+}
+@keyframes pos {
+	0% { background-position: left 0; }
+	100% { background-position: left 120px; }
 }
 .p1 {background-image: url('/images/patterns/1.svg');}
 .p2 {background-image: url('/images/patterns/2.svg');}
