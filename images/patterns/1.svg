@@ -1,39 +1,37 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="120" height="120" viewBox="0, 0, 120, 120">
-  <g id="Background">
-    <rect x="0" y="0" width="120" height="120" fill="#FFFFFF"/>
-  </g>
-  <g id="Layer_3_Copy_Copy_Copy_Copy">
-    <g>
-      <path d="M110,10 L60,10 L60,20 L110,20 z" fill="#000000"/>
-      <path d="M100,10 L100,60 L110,60 L110,10 z" fill="#000000"/>
-      <path d="M90,30 L60,30 L60,40 L90,40 z" fill="#000000"/>
-      <path d="M70,50 L60,50 L60,60 L70,60 z" fill="#000000"/>
-      <path d="M80,30 L80,60 L90,60 L90,30 z" fill="#000000"/>
-    </g>
-    <g>
-      <path d="M120,120 L60,120 L60,110 L120,110 z" fill="#000000"/>
-      <path d="M110,120 L110,60 L120,60 L120,120 z" fill="#000000"/>
-      <path d="M100,100 L60,100 L60,90 L100,90 z" fill="#000000"/>
-      <path d="M90,100 L90,60 L100,60 L100,100 z" fill="#000000"/>
-      <path d="M80,80 L60,80 L60,70 L80,70 z" fill="#000000"/>
-      <path d="M70,80 L70,60 L80,60 L80,80 z" fill="#000000"/>
-    </g>
-    <g>
-      <path d="M10,110 L60,110 L60,100 L10,100 z" fill="#000000"/>
-      <path d="M20,110 L20,60 L10,60 L10,110 z" fill="#000000"/>
-      <path d="M30,90 L60,90 L60,80 L30,80 z" fill="#000000"/>
-      <path d="M50,70 L60,70 L60,60 L50,60 z" fill="#000000"/>
-      <path d="M40,90 L40,60 L30,60 L30,90 z" fill="#000000"/>
-    </g>
-    <g>
-      <path d="M0,0 L60,0 L60,10 L0,10 z" fill="#000000"/>
-      <path d="M10,0 L10,60 L0,60 L0,0 z" fill="#000000"/>
-      <path d="M20,20 L60,20 L60,30 L20,30 z" fill="#000000"/>
-      <path d="M30,20 L30,60 L20,60 L20,20 z" fill="#000000"/>
-      <path d="M40,40 L60,40 L60,50 L40,50 z" fill="#000000"/>
-      <path d="M50,40 L50,60 L40,60 L40,40 z" fill="#000000"/>
-    </g>
-  </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 120 120" style="enable-background:new 0 0 120 120;" xml:space="preserve">
+<g id="Layer_3_Copy_Copy_Copy_Copy">
+	<g>
+		<path d="M110,10H60v10h50V10z"/>
+		<path d="M100,10v50h10V10H100z"/>
+		<path d="M90,30H60v10h30V30z"/>
+		<path d="M70,50H60v10h10V50z"/>
+		<path d="M80,30v30h10V30H80z"/>
+	</g>
+	<g>
+		<path d="M120,120H60v-10h60V120z"/>
+		<path d="M110,120V60h10v60H110z"/>
+		<path d="M100,100H60V90h40V100z"/>
+		<path d="M90,100V60h10v40H90z"/>
+		<path d="M80,80H60V70h20V80z"/>
+		<path d="M70,80V60h10v20H70z"/>
+	</g>
+	<g>
+		<path d="M10,110h50v-10H10V110z"/>
+		<path d="M20,110V60H10v50H20z"/>
+		<path d="M30,90h30V80H30V90z"/>
+		<path d="M50,70h10V60H50V70z"/>
+		<path d="M40,90V60H30v30H40z"/>
+	</g>
+	<g>
+		<path d="M0,0h60v10H0V0z"/>
+		<path d="M10,0v60H0V0H10z"/>
+		<path d="M20,20h40v10H20V20z"/>
+		<path d="M30,20v40H20V20H30z"/>
+		<path d="M40,40h20v10H40V40z"/>
+		<path d="M50,40v20H40V40H50z"/>
+	</g>
+</g>
 </svg>

@@ -152,7 +152,7 @@ p.categories {
 // Navigation
 
 .header {
-	margin-bottom: 20px;
+	//margin-bottom: 20px;
 	border:none!important;
 }
 
@@ -257,7 +257,6 @@ p.categories {
 
 .teaser-grid {
 	position: relative;
-	margin-bottom: 30px;
 
  	.thumbnail { 
  		width: 100%; 
@@ -283,11 +282,7 @@ p.categories {
 	}	
 	.intro {}
 }
-.teaser-inner {
-	border-style: solid;
-	border-width: 1px;
-	padding: 15px;
-}
+
 .image-container {
 	width: 300px
 }
@@ -305,27 +300,32 @@ p.categories {
 
 .home {
 	.banner {
-		background-image: url("/images/site/Pattern1a.png");
+		background-color: #FFFF00;
 		background-attachment: fixed;
 		background-position: left -28px;
-		
+				
 
 		h1 {
 			margin: 100px 0;	
 			display: inline-block;
-			color: #FFFF00;
-			background-color: #000;
+			color: #000;
+			background-color: #fff;
 			padding: 10px 20px 20px 20px;
 		}
 		.banner-inner {
-			background-image: url("/images/site/Pattern1b.png");
+		background-image: url("/images/patterns/2.svg");			
 			height: 500px;
-			background-position: left center;
+			background-position: left top;
+			background-size: 120px 120px;
+		
 		}
 
 	}
 }
-
+.projects-wrap {
+	padding: 20px 0;
+	background-color: #fff;
+}
 // Masonry grids
 
 .gallery {
@@ -349,7 +349,10 @@ p.categories {
 		width: 33.333%;
 	}
 }
+.teaser-inner {
+	margin-bottom: 40px;
 
+}
 .banner {
 	margin: 0;
 
@@ -377,8 +380,6 @@ p.categories {
 }
  
 .work {
-	background-image: url("/images/site/pattern1.png");
-	background-attachment: fixed;
 	padding-top: 60px;
 	.content-col {
 		background-color: #fff;
@@ -387,37 +388,21 @@ p.categories {
 
 // Listing card
 
-.card.listing.wor1k {
+.card.listing.work {
 	background-color:#000;
-	background-image: transparent;
 	color: #fff;
 	padding: 80px 0;
 
-	h3 {font-size: 24px;}
+	h2 a {color: #fff;}
 }
 .card.listing.projects {
-	background-image: url("/images/site/pattern2a.png");
+	background-image: url("/images/patterns/7.svg");
+	background-size: 120px 120px;
 	background-attachment: fixed;
 	background-color: transparent;
-				background-position: left center;
-
-
-	.inner {
-			background-image: url("/images/site/pattern2b.png");
+	background-position: left center;
 	padding: 80px 0;
-				background-position: left -28px;
 
-				.teaser-inner{
-					background-color: #fff;
-					padding: 20px;
-					color: #000;
-
-					h3 {
-						margin-top: 0;
-					}
-				}
-
-	}
 
 }
 
