@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="120" height="120" viewBox="0, 0, 120, 120">
+  <g id="Background">
+    <rect x="0" y="0" width="120" height="120" fill="#FFFFFF"/>
+  </g>
+  <g id="Layer_3_Copy_Copy">
+    <g>
+      <path d="M0,-0 L60,-0 L60,10 L0,10 z" fill="#000000"/>
+      <path d="M10,0 L10,60 L-0,60 L-0,0 z" fill="#000000"/>
+      <path d="M20,20 L60,20 L60,30 L20,30 z" fill="#000000"/>
+      <path d="M30,20 L30,60 L20,60 L20,20 z" fill="#000000"/>
+      <path d="M40,40 L60,40 L60,50 L40,50 z" fill="#000000"/>
+      <path d="M50,40 L50,60 L40,60 L40,40 z" fill="#000000"/>
+    </g>
+    <g>
+      <path d="M60,-0 L120,-0 L120,10 L60,10 z" fill="#000000"/>
+      <path d="M70,0 L70,60 L60,60 L60,0 z" fill="#000000"/>
+      <path d="M80,20 L120,20 L120,30 L80,30 z" fill="#000000"/>
+      <path d="M90,20 L90,60 L80,60 L80,20 z" fill="#000000"/>
+      <path d="M100,40 L120,40 L120,50 L100,50 z" fill="#000000"/>
+      <path d="M110,40 L110,60 L100,60 L100,40 z" fill="#000000"/>
+    </g>
+    <g>
+      <path d="M0,60 L60,60 L60,70 L0,70 z" fill="#000000"/>
+      <path d="M10,60 L10,120 L0,120 L0,60 z" fill="#000000"/>
+      <path d="M20,80 L60,80 L60,90 L20,90 z" fill="#000000"/>
+      <path d="M30,80 L30,120 L20,120 L20,80 z" fill="#000000"/>
+      <path d="M40,100 L60,100 L60,110 L40,110 z" fill="#000000"/>
+      <path d="M50,100 L50,120 L40,120 L40,100 z" fill="#000000"/>
+    </g>
+    <g>
+      <path d="M60,60 L120,60 L120,70 L60,70 z" fill="#000000"/>
+      <path d="M70,60 L70,120 L60,120 L60,60 z" fill="#000000"/>
+      <path d="M80,80 L120,80 L120,90 L80,90 z" fill="#000000"/>
+      <path d="M90,80 L90,120 L80,120 L80,80 z" fill="#000000"/>
+      <path d="M100,100 L120,100 L120,110 L100,110 z" fill="#000000"/>
+      <path d="M110,100 L110,120 L100,120 L100,100 z" fill="#000000"/>
+    </g>
+  </g>
+</svg>

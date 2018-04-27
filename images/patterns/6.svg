@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="120" height="120" viewBox="0, 0, 120, 120">
+  <g id="Background">
+    <rect x="0" y="0" width="120" height="120" fill="#FFFFFF"/>
+  </g>
+  <g id="Layer_3_Copy_Copy_Copy_Copy">
+    <g>
+      <path d="M110,110 L60,110 L60,100 L110,100 z" fill="#000000"/>
+      <path d="M100,110 L100,60 L110,60 L110,110 z" fill="#000000"/>
+      <path d="M90,90 L60,90 L60,80 L90,80 z" fill="#000000"/>
+      <path d="M70,70 L60,70 L60,60 L70,60 z" fill="#000000"/>
+      <path d="M80,90 L80,60 L90,60 L90,90 z" fill="#000000"/>
+    </g>
+    <g>
+      <path d="M120,-0 L60,-0 L60,10 L120,10 z" fill="#000000"/>
+      <path d="M110,-0 L110,60 L120,60 L120,-0 z" fill="#000000"/>
+      <path d="M100,20 L60,20 L60,30 L100,30 z" fill="#000000"/>
+      <path d="M90,20 L90,60 L100,60 L100,20 z" fill="#000000"/>
+      <path d="M80,40 L60,40 L60,50 L80,50 z" fill="#000000"/>
+      <path d="M70,40 L70,60 L80,60 L80,40 z" fill="#000000"/>
+    </g>
+    <g>
+      <path d="M10,110 L60,110 L60,100 L10,100 z" fill="#000000"/>
+      <path d="M20,110 L20,60 L10,60 L10,110 z" fill="#000000"/>
+      <path d="M30,90 L60,90 L60,80 L30,80 z" fill="#000000"/>
+      <path d="M50,70 L60,70 L60,60 L50,60 z" fill="#000000"/>
+      <path d="M40,90 L40,60 L30,60 L30,90 z" fill="#000000"/>
+    </g>
+    <g>
+      <path d="M0,0 L60,0 L60,10 L0,10 z" fill="#000000"/>
+      <path d="M10,0 L10,60 L0,60 L0,0 z" fill="#000000"/>
+      <path d="M20,20 L60,20 L60,30 L20,30 z" fill="#000000"/>
+      <path d="M30,20 L30,60 L20,60 L20,20 z" fill="#000000"/>
+      <path d="M40,40 L60,40 L60,50 L40,50 z" fill="#000000"/>
+      <path d="M50,40 L50,60 L40,60 L40,40 z" fill="#000000"/>
+    </g>
+  </g>
+</svg>
