@@ -209,10 +209,14 @@ p.categories {
 	font-weight: 700;
 	background-color: #fff;
 	display: inline-block;
-	padding: 3px;
-	margin:13px 0 0 15px;
-	height:25px;
+	padding: 0;
+	height:30px;
+	width: 60px!important;
 }
+.cycle {
+	
+}
+
 
 .navbar-default .navbar-nav > li > a {
 	font-size: 16px;
@@ -221,12 +225,20 @@ p.categories {
 }
 
 .navbar-brand {
+	animation: cyc 30s infinite;
 	height: 30px !important;
-	margin: 8px 0 0 15px !important;
+	margin: 10px 0 0 15px !important;
 	img {
 		width: 60px;
 	}
 }
+@keyframes cyc {
+	0% { background-color:  #FFFF00; }
+	33% { background-color: #FF00FF; }
+	66% { background-color: #00FFFF; }
+	100% { background-color:#FFFF00; }
+}
+
 // Menu overlay
 
 .menu-button {
