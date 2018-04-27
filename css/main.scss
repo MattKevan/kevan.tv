@@ -117,12 +117,9 @@ h3 {
 	margin-top: 0px;
 	background-size: 120px;
 	background-attachment: fixed;
-	animation: pos 30s infinite;
+	background-position: left top;
 }
-@keyframes pos {
-	0% { background-position: left 0; }
-	100% { background-position: left 120px; }
-}
+
 .p1 {background-image: url('/images/patterns/1.svg');}
 .p2 {background-image: url('/images/patterns/2.svg');}
 .p3 {background-image: url('/images/patterns/3.svg');}
