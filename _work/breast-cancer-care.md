@@ -18,7 +18,8 @@ project-type: NDP Studio
 roles:
 - UX lead
 - Creative lead
-
+pattern: p7
+bg: bgyc
 slug: breast-cancer-care
 tags: []
 ---
