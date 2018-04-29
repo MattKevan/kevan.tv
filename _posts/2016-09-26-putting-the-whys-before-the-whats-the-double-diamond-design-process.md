@@ -1,5 +1,5 @@
 ---
-title: The double diamond design process
+title: The double diamond design process – putting the whys before the whats
 date: '2016-09-26 00:00:00'
 layout: post
 tags: []
@@ -7,29 +7,16 @@ description: It’s easy as creatives or developers - or anyone really - to star
   ‘whats’. What can we do? What should we do? What is it we’re going to do?
 thumbnail: ''
 banner: ''
+tags:
+- Design process
+- How to
 author: Matt Kevan
+pattern: p2
+bg: bgmy
 ---
 Thinking about these things is fun - I love starting new projects because I’ve had an idea about what I could do. And for companies it’s easy to prioritise delivery of a thing over the strategic impact that it may have. But by starting with ‘what’, we miss out some vital questions which must be answered first.
 
-## A history lesson
-
-Back in 2010 Microsoft launched a new range of phones called the Kin. It had a good lineage: it was to be the next in a successful range of phones called the Hiptop, with a strong emphasis on social sharing and messaging.
-
-Microsoft had bought Danger (founded by Andy Rubin, who also founded Android), the company behind it a few years previously for around half a billion dollars, so big things were expected. 
-
-Danger’s track record plus Microsoft’s near infinite resources should have resulted in a sure thing, right?
-
-Not so much. The Kin was discontinued after less than two months on the market. 
-
-In all the excitement of building and launching it, it seems that no-one senior enough asked why. Why should we do this and not that? In this case: ‘Why should we develop the Kin when Windows Mobile is still a long way behind the iPhone?’
-
-Starting with the ‘what’ misses out the most important question, which is the ’why?’
-
-## The process
-
 Developed by the Design Council, the double diamond is a simple, graphical way to describe the design process, ensuring the right questions are asked at the right time. 
-
-![The Double Diamond]({{ site.baseurl }}/forestryio/images/double-diamond2.png)
 
 It splits a project into four main phases, showing the different types of thinking which should be used in each. The first two focus on deciding what the project should be about, and the last two on the outcome. Crucially, each of the four steps have equal weight: as much effort should be spent on defining a project as delivering it.
 
