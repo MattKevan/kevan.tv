@@ -226,6 +226,7 @@ p.categories {
 .navbar-default .navbar-collapse, 
 .navbar-default .navbar-form {
 	border:none!important;
+	padding: 0;
 }
 .navbar-default .navbar-brand {
 	line-height: 1em;
@@ -258,17 +259,20 @@ p.categories {
 	100% { background-color:#FFFF00; }
 }
 
-
+.nav > li > a {
+	padding: 13px 0 13px 30px;
+}
 .navbar-default .navbar-nav > li > a {
 	font-size: 16px;
 	line-height: 1.5em;
 	color: #000;
-	transition: color 0.2s ease;
 	font-family: 'Plex Bold', Helvetica, Arial, sans-serif;
 
-	&:hover {
-  		text-decoration: none;
-  		color: #FF00FF;
+  	&:hover {
+  		text-decoration: underline;
+  	}
+  	&:active {
+  		text-decoration: underline;
   	}
 }
 			  	
@@ -278,28 +282,20 @@ p.categories {
 
 // Menu overlay
 
-.menu-button {
-    position: relative;
-    float: right!important;
-    padding: 9px 10px;
-    margin-top: 8px;
-    margin-bottom: 8px;
-    background-color: transparent;
-    background-image: none;
-    border: 1px solid transparent;
-    border-radius: 4px;
-}
-
-.menu-button .icon-bar {
-	display: block;
-	width: 22px;
-	height: 2px;
-	border-radius: 1px;
-	background-color: #000;
-}
-
-.menu-button .icon-bar + .icon-bar {
-	margin-top: 4px;
+button.overlay-button {
+	border:none;
+	background-color: #fff;
+	position: fixed;
+	top:12px;
+	right: 10px;
+	font-family: 'Plex Bold', Helvetica, Arial, sans-serif;
+	transition: color 0.2s ease;
+  	&:hover {
+  		text-decoration: underline;
+  	}
+  	&:active {
+  		text-decoration: underline;
+  	}
 }
 
 .overlay {
@@ -319,15 +315,6 @@ p.categories {
 		height: 100%;
 		padding: 15px;
 		font-family: 'Plex Bold', Helvetica, Arial, sans-serif;
-		
-
-		button {
-			border:none;
-			background-color: #fff;
-			position: fixed;
-			top:10px;
-			right: 10px;
-		}
 
 		ul {
 			list-style: none;
@@ -346,16 +333,14 @@ p.categories {
 					padding: 5px 10px;
 			  		line-height: 1.4em;
 			  		transition: color 0.2s ease;
-			  	}
-			  	a:hover {
-			  		text-decoration: none;
-			  		color: #FF00FF;
-			  	}
-			  	a:active, a:focus {
-			  		text-decoration: none;
-			  		color: #00FFFF;
-			  	}
-				
+		
+				  	&:hover {
+				  		text-decoration: underline;
+				  	}
+				  	&:active {
+				  		text-decoration: underline;
+				  	}	
+				}
 			}
 		}
 	}
