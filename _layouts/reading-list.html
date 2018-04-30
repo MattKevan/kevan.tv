@@ -6,24 +6,21 @@ layout: default
 <div class="container">
 	<div class="row">
 		 <div class="col-xs-12 col-lg-10 col-lg-push-1">
-		 	<div class="content">
-				<p class="breadcrumb"><a href="/">Home</a> » <a href="/articles">Articles</a> »</p>
-			    <h1 class="title" itemprop="name headline">{{ page.title }}</h1>
-				 <p class="tags">
-				 	{% for tag in page.tags %}
-					 	<span>{{ tag }}</span>
-					{% endfor %}
-				</p>
-				<p class="lead">{{ page.lead }}</p>
-				<div class="post-content" itemprop="articleBody">
-					{{ content }}			
+		
+				<div class="content">
+					<p class="breadcrumb"><a href="/">Home</a> » <a href="/articles">Articles</a> »</p>
+					<h1 class="title" itemprop="name headline">{{ page.title }}</h1>
+					<p class="tags">
+						{% for tag in page.tags %}
+							<span>{{ tag }}</span>
+						{% endfor %}
+					</p>
+					<p class="lead">{{ page.lead }}</p>
+					<div class="post-content" itemprop="articleBody">
+						{{ content }}			
+					</div>
 				</div>
-			</div>
 		</div>
-
-
-
-
 	</div>
 </div>
 
@@ -32,17 +29,13 @@ layout: default
 		{% if book.id == item.i %}
 
 <div class="list-item">
-	
-
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-lg-10 col-lg-push-1">
 
 				<div class="bgk list-image">
-
 					<img src="/images/books/{{ book.image }}" alt="{{ book.title }}" />
-					</div>
-
+				</div>
 
 				<div class="content-inline">
 					<h3>{{ book.title }}</h3>
@@ -50,10 +43,10 @@ layout: default
 					<p>{{ book.description }}</p>
 					<p><a href="{{ book.link }}" target="_blank">Read more »</a></p>
 				</div>
+				
 			</div>
 		</div>
 	</div>
-
 </div>
 {% endif %}
 {% endfor %}

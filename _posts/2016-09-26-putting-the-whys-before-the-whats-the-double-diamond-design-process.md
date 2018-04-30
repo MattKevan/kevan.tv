@@ -34,7 +34,7 @@ This stage is where we review, filter, refine and often discard ideas from the p
 
 Activities could include grouping user journeys into ‘epics’, writing audience personas, building proof-of-concepts and creating low resolution wireframes.
 
-At the end of this phase you’ll likely have a good idea as to how successful the project will be, and is often the place where the decision to stop or continue is made. The Kin probably shouldn’t have got any further than here.
+At the end of this phase you’ll likely have a good idea as to how successful the project will be, and is often the place where the decision to stop or continue is made.
 
 ### Develop
 This stage is where things get a bit more open again. We’ve got our clear set of problems, so we can have fun developing concepts and solutions to solve them. 
