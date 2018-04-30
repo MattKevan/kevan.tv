@@ -78,7 +78,7 @@ defaults:
       layout: "page"
   -
     scope:
-      path:""
+      path: ""
       type: "articles"
     values: 
       layout: "post"
