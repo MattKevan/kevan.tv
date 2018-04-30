@@ -131,11 +131,11 @@ h3 {
 	h3 {margin-top: 0;}
 }
 
-	.content {
-		background-color: #fff;
-		margin:30px 0;
-		padding: 20px;
-	}
+.content {
+	background-color: #fff;
+	margin:30px 0;
+	padding: 20px;
+}
 .content {
 	h2 {margin-top: 20px !important;}
 
@@ -170,12 +170,12 @@ h3 {
 .bgm {background-color: #FF00FF;}
 .bgk {background-color: #000000;}
 
-.bgcy {background: linear-gradient(to bottom, #00FFFF 0%,#FFFF00 100%);}
-.bgcm {background: linear-gradient(to bottom, #00FFFF 0%,#FF00FF 100%);}
-.bgmc {background: linear-gradient(to bottom, #FF00FF 0%,#00FFFF 100%);}
-.bgmy {background: linear-gradient(to bottom, #FF00FF 0%,#FFFF00 100%);}
-.bgyc {background: linear-gradient(to bottom, #FFFF00 0%,#00FFFF 100%);}
-.bgym {background: linear-gradient(to bottom, #FFFF00 0%,#FF00FF 100%);}
+.cy {background: linear-gradient(to bottom, #00FFFF 0%,#FFFF00 100%);}
+.cm {background: linear-gradient(to bottom, #00FFFF 0%,#FF00FF 100%);}
+.mc {background: linear-gradient(to bottom, #FF00FF 0%,#00FFFF 100%);}
+.my {background: linear-gradient(to bottom, #FF00FF 0%,#FFFF00 100%);}
+.yc {background: linear-gradient(to bottom, #FFFF00 0%,#00FFFF 100%);}
+.ym {background: linear-gradient(to bottom, #FFFF00 0%,#FF00FF 100%);}
 
 p.breadcrumb {
 	font-size: 14px;
@@ -228,34 +228,27 @@ p.categories {
 	border:none!important;
 }
 .navbar-default .navbar-brand {
-	font-size: 16px;
 	line-height: 1em;
-	color: #000;
-	font-family: 'Plex Bold', Helvetica, Arial, sans-serif;
-	font-weight: 700;
-	background-color: #fff;
 	display: inline-block;
 	padding: 0;
 	height:30px;
 	width: 60px!important;
 }
-.cycle {
-	
-}
-
-
-.navbar-default .navbar-nav > li > a {
-	font-size: 16px;
-	line-height: 1.5em;
-	color: #FF00FF;
-}
 
 .navbar-brand {
 	animation: cyc 30s infinite;
 	height: 30px !important;
-	margin: 10px 0 0 15px !important;
+	margin-top: 10px;
+	margin-left: 15px;
 	img {
 		width: 60px;
+	}
+	@media (min-width: $screen-sm-min) {
+		margin-left: 0!important;
+	}
+
+	@media (min-width: $screen-md-min) {
+		
 	}
 }
 @keyframes cyc {
@@ -264,6 +257,24 @@ p.categories {
 	66% { background-color: #00FFFF; }
 	100% { background-color:#FFFF00; }
 }
+
+
+.navbar-default .navbar-nav > li > a {
+	font-size: 16px;
+	line-height: 1.5em;
+	color: #000;
+	transition: color 0.2s ease;
+	font-family: 'Plex Bold', Helvetica, Arial, sans-serif;
+
+	&:hover {
+  		text-decoration: none;
+  		color: #FF00FF;
+  	}
+}
+			  	
+
+
+
 
 // Menu overlay
 
@@ -306,8 +317,9 @@ p.categories {
 		background-size: 120px;
 		background-repeat: repeat;
 		height: 100%;
-		padding: 15px;		
+		padding: 15px;
 		font-family: 'Plex Bold', Helvetica, Arial, sans-serif;
+		
 
 		button {
 			border:none;
