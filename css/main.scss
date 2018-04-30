@@ -48,7 +48,8 @@ a:hover {
 	text-decoration: underline;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4,
+.h1, .h2, .h3, .h4 {
 	font-family: 'Plex Bold', Helvetica, Arial, sans-serif;
 	font-weight: 700;
 	color: #000;
@@ -67,7 +68,7 @@ h1 {
 
 }
 
-h2 {
+h2, .h2{
 	margin-top: 0!important;
 	font-size: 1.6em;
 	font-family: 'Plex Bold', Helvetica, Arial, sans-serif;
@@ -92,7 +93,6 @@ h2 {
   		border-color: #FFFF00;
   	}
 }
-.h2 { @extend h2}
 
 h2.title,
 .h2.title {
