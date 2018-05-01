@@ -64,18 +64,24 @@ permalink: "/about/"
 				<div class="content continued">
 					<p class="title">Get in touch</p>
 					<form name="contact" method="POST" netlify>
-					  <p>
-					    <label>Your Name:</label>  <input type="text" name="name">  
-					  </p>
-					  <p>
-					    <label>Your Email:</label> <input type="email" name="email">
-					  </p>
-					  <p>
-					    <label>Message:</label> <textarea name="message"></textarea>
-					  </p>
-					  <p><div data-netlify-recaptcha></div>
-					    <button type="submit">Send</button>
-					  </p>
+					  	<div class="form-group">
+					    <label>Your name:</label>  
+					    <input type="text" name="name" class="form-control">  
+					  </div>
+					  <div class="form-group">
+					    <label>Your email:</label>
+					    <input type="email" name="email" class="form-control">
+					</div>
+					<div class="form-group">
+					    <label>Your message:</label> 
+					    <textarea name="message" class="form-control" rows="4"></textarea>
+
+					  </div>
+					  <div class="form-group">
+					  	<div data-netlify-recaptcha></div>
+					  </div>
+					    <button type="submit" class="btn btn-default">Send</button>
+					  
 					</form>
 				</div>	
 				<div class="content bgk">

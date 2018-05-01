@@ -47,7 +47,7 @@ a:hover {
 	color: #FF00FF;
 	text-decoration: underline;
 }
-strong {
+strong, label {
 	font-family: 'Plex Bold', Helvetica, Arial, sans-serif;
 	font-weight: normal;
 }
@@ -100,7 +100,7 @@ h2, .h2{
 
 .content p.title {
 		font-size: 1.4em;
-		margin: 10px 0 30px 0;
+		margin: 0 0 30px 0;
 		line-height: 1.2em;
 		background-color: #FFFF00;
 		font-family: 'Plex Bold', Helvetica, Arial, sans-serif;
@@ -148,6 +148,8 @@ h3 {
 	padding: 20px;
 	&.continued {
 		margin: 0;
+		padding: 20px 20px 40px 20px;
+
 	}
 }
 .content {
