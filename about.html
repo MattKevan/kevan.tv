@@ -21,8 +21,9 @@ permalink: "/about/"
 	
 				<div class="row">
 					<div class="col-xs-6 col-sm-3">
-						<img src="/images/about/circle-white.svg" />
-						<h4>Product management</h4>
+						<div class="circle">
+						<div>Product management</div>
+						</div>
 					</div>
 
 					<div class="col-xs-6 col-sm-3">
@@ -61,10 +62,24 @@ permalink: "/about/"
 				</div>	
 				<div class="content">
 					<p class="h2 title">Get in touch</p>
+					<form name="contact" method="POST" netlify>
+					  <p>
+					    <label>Your Name:</label>  <input type="text" name="name">  
+					  </p>
+					  <p>
+					    <label>Your Email:</label> <input type="email" name="email">
+					  </p>
+					  <p>
+					    <label>Message:</label> <textarea name="message"></textarea>
+					  </p>
+					  <p><div data-netlify-recaptcha></div>
+					    <button type="submit">Send</button>
+					  </p>
+					</form>
 				</div>	
 				<div class="content">
 					<p><strong>About this site</strong></p>
-					<p>I built this site with <a href="https://jekyllrb.com" target="_blank">Jekyll</a> and Bootstrap. It's stored in Bitbucket and hosted by Netlify. I coded it using Working Copy on iOS and Sublime Text on macOS and used Autodesk Graphic on iOS to create the illustrations.</p>
+					<p>I built this site with <a href="https://jekyllrb.com" target="_blank">Jekyll</a> and Bootstrap. It's stored in Bitbucket and hosted by <a href="https://www.netlify.com" target="_blank">Netlify</a>. I used Autodesk Graphic on iOS to create the graphics and coded it with Working Copy on iOS and Sublime Text on macOS. </p>
 					<p>The font is IBM Plex Sans.</p>
 				</div>	
 				
