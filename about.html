@@ -18,6 +18,14 @@ permalink: "/about/"
 				
 				<div class="content bgk">
 					<p class="h2 title">Selected clients</p>
+					<div class="row">
+						{% for client in site.data.clients %}
+							<div class="col-sm-4 col-sm-3 col-md-2">
+								<img src="{{ client.logo }}" alt="{{ client.name }}" />
+								</div>
+						{% endfor %}
+						
+						</div>
 				</div>
 				<div class="content">
 					<p class="h2 title">Featured case studies</p>
