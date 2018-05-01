@@ -16,12 +16,13 @@ permalink: "/about/"
 					<p	class="lead">{{ page.lead }}</p>
 				</div>
 				
-				<div class="content bgk">
+				<div class="content">
 					<p class="h2 title">Selected clients</p>
 					<div class="row">
-						{% for client in site.data.clients %}
-							<div class="col-sm-4 col-sm-3 col-md-2">
-								<img src="{{ client.logo }}" alt="{{ client.name }}" />
+						{% assign sorted_clients = (site.data.clients | sort: 'name') %}
+						{% for client in sorted_clients %}
+							<div class="col-xs-4 col-sm-3 col-md-2">
+								<img src="/images/about/{{ client.logo }}" alt="{{ client.name }}" />
 								</div>
 						{% endfor %}
 						

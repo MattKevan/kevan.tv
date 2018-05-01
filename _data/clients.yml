@@ -1,25 +1,25 @@
 ---
 - name: RCPCH
-  logo: /images/clients/rcpch.svg
+  logo: rcpch.jpg
 - name: New Schools Network
-  logo: 
+  logo: newschools.jpg
 - name: Breast Cancer Care
-  logo:
+  logo: bcc.jpg
 - name: Make-A-Wish UK
-  logo:
+  logo: makeawish.jpg
 - name: Jesuits in Britain
-  logo:
+  logo: jesuits.jpg
 - name: Big Society Capital
-  logo:
-- name: Warchild 
-  logo:
+  logo: bigsociety.jpg
+- name: Chartered Institute of Taxation 
+  logo: ciot.jpg
 - name: Children in Crisis
-  logo:
+  logo: cic.jpg
 - name: Mumsnet
-  logo:
+  logo: mumsnet.jpg
 - name: Fellowship Afloat
-  logo:
-- name: "Readers' Digest"
-  logo:
-- name: Everychild
-  logo:
+  logo: fact.jpg
+- name: History Today
+  logo: historytoday.jpg
+- name: Mall Galleries
+  logo: mall.jpg

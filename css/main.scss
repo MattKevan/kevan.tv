@@ -93,6 +93,14 @@ h2, .h2{
   		border-color: #FFFF00;
   	}
 }
+.content {
+	p.h2.title {
+		font-size: 2em;
+		margin-bottom: 30px;
+		line-height: 1.2em;
+		padding: 5px;
+	}
+}
 
 h2.title,
 .h2.title {
