@@ -1,29 +1,25 @@
 ---
-title: 
+title: Product managment, user experience, design &amp; development
 layout: default
 ---
-
-<div class="home">
-	<div class="banner">
-		<div class="banner-inner">
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-12 col-sm-8">
-
+<div class="container">
+	<div class="row">
+		 <div class="col-xs-12 col-lg-10 col-lg-push-1">
+			<div class="content">
 					
-					<h1 class="editable">
-					  Product managment, user experience, design &amp; development
-					</h1>
+				<h1>{{ page.title }}</h1>
 
-				</div>
 			</div>
 		</div>
-		</div>
 	</div>
+</div>
 
-	<div class="card listing work">
-		<div class="container">
-			<h2 class="titleu editable">Featured work</h2>
+<div class="container bgk">
+	<div class="row">
+		 <div class="col-xs-12 col-lg-10 col-lg-push-1">
+			<div class="content">
+
+			<p class="title">Featured work</p>
 			<div class="row">
 			    {% for work in site.work limit: 4 %}
 					{% include work-teaser-list.html %}
@@ -32,8 +28,12 @@ layout: default
 					<p class="link"><a href="/work">See more work »</a></p>
 				</div>
 			</div>
+
+			</div>
 		</div>
 	</div>
+</div>
+
 
 	<div class="card listing projects">
 		<div class="inner">
