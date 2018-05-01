@@ -16,37 +16,38 @@ permalink: "/about/"
 					<p	class="lead">{{ page.lead }}</p>
 				</div>
 
-				<div class="content bgk">
-					<p class="h2 title">What I do</p>
+				<div class="content continued bgk">
+					<p class="title">What I do</p>
 	
-				<div class="row">
+				<div class="row text-center">
 					<div class="col-xs-6 col-sm-3">
-						<div class="circle">
-						<div>Product management</div>
-						</div>
+						
+						<img src="/images/about/product-management.svg" alt="Product management" />
+						<p>Product management</p>
+						
 					</div>
 
 					<div class="col-xs-6 col-sm-3">
-						<img src="/images/about/circle-cyan.svg" />
-						<h4>User experience</h4>
+						<img src="/images/about/user-experience.svg" alt="User experience" />
+						<p>User experience</p>
 					</div>
 
 					<div class="col-xs-6 col-sm-3">
-						<img src="/images/about/circle-magenta.svg" />						
-						<h4>Graphic design</h4>
+						<img src="/images/about/graphic-design.svg" alt="Graphic design" />						
+						<p>Graphic design</p>
 					</div>
 
 					<div class="col-xs-6 col-sm-3">
-						<img src="/images/about/circle-yellow.svg" />						
-						<h4>Web development</h4>
+						<img src="/images/about/web-development.svg" alt="Web development" />						
+						<p>Web development</p>
 					</div>
 					</div>
 
 
 				</div>
 				
-				<div class="content">
-					<p class="h2 title">Who I've worked with</p>
+				<div class="content continued">
+					<p class="title">Who I've worked with</p>
 					<div class="row">
 						{% assign sorted_clients = (site.data.clients | sort: 'name') %}
 						{% for client in sorted_clients %}
@@ -57,11 +58,11 @@ permalink: "/about/"
 						
 						</div>
 				</div>
-				<div class="content">
-					<p class="h2 title">Featured case studies</p>
+				<div class="content continued bgk">
+					<p class="title">Featured case studies</p>
 				</div>	
-				<div class="content">
-					<p class="h2 title">Get in touch</p>
+				<div class="content continued">
+					<p class="title">Get in touch</p>
 					<form name="contact" method="POST" netlify>
 					  <p>
 					    <label>Your Name:</label>  <input type="text" name="name">  
@@ -77,7 +78,7 @@ permalink: "/about/"
 					  </p>
 					</form>
 				</div>	
-				<div class="content">
+				<div class="content bgk">
 					<p><strong>About this site</strong></p>
 					<p>I built this site with <a href="https://jekyllrb.com" target="_blank">Jekyll</a> and Bootstrap. It's stored in Bitbucket and hosted by <a href="https://www.netlify.com" target="_blank">Netlify</a>. I used Autodesk Graphic on iOS to create the graphics and coded it with Working Copy on iOS and Sublime Text on macOS. </p>
 					<p>The font is IBM Plex Sans.</p>
