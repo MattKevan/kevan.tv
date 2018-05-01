@@ -178,7 +178,12 @@ h3 {
 .bgy {background-color: #FFFF00;}
 .bgc {background-color: #00FFFF;}
 .bgm {background-color: #FF00FF;}
-.bgk {background-color: #000000;}
+.bgk {
+	background-color: #000000;
+	h3, h4 {
+		color: #fff;
+	}
+}
 
 .cy {background: linear-gradient(to bottom, #00FFFF 0%,#FFFF00 100%);}
 .cm {background: linear-gradient(to bottom, #00FFFF 0%,#FF00FF 100%);}

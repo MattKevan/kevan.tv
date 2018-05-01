@@ -15,9 +15,37 @@ permalink: "/about/"
 					<h1 class="title" itemprop="name headline">{{ page.title }}</h1>
 					<p	class="lead">{{ page.lead }}</p>
 				</div>
+
+				<div class="content bgk">
+					<p class="h2 title">What I do</p>
+	
+				<div class="row">
+					<div class="col-xs-6 col-sm-3">
+						<img src="/images/about/circle-white.svg" />
+						<h4>Product management</h4>
+					</div>
+
+					<div class="col-xs-6 col-sm-3">
+						<img src="/images/about/circle-cyan.svg" />
+						<h4>User experience</h4>
+					</div>
+
+					<div class="col-xs-6 col-sm-3">
+						<img src="/images/about/circle-magenta.svg" />						
+						<h4>Graphic design</h4>
+					</div>
+
+					<div class="col-xs-6 col-sm-3">
+						<img src="/images/about/circle-yellow.svg" />						
+						<h4>Web development</h4>
+					</div>
+					</div>
+
+
+				</div>
 				
 				<div class="content">
-					<p class="h2 title">Selected clients</p>
+					<p class="h2 title">Who I've worked with</p>
 					<div class="row">
 						{% assign sorted_clients = (site.data.clients | sort: 'name') %}
 						{% for client in sorted_clients %}
@@ -30,6 +58,14 @@ permalink: "/about/"
 				</div>
 				<div class="content">
 					<p class="h2 title">Featured case studies</p>
+				</div>	
+				<div class="content">
+					<p class="h2 title">Get in touch</p>
+				</div>	
+				<div class="content">
+					<p><strong>About this site</strong></p>
+					<p>I built this site with <a href="https://jekyllrb.com" target="_blank">Jekyll</a> and Bootstrap. It's stored in Bitbucket and hosted by Netlify. I coded it using Working Copy on iOS and Sublime Text on macOS and used Autodesk Graphic on iOS to create the illustrations.</p>
+					<p>The font is IBM Plex Sans.</p>
 				</div>	
 				
 		</div>
