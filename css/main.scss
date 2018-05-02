@@ -52,8 +52,7 @@ strong, label {
 	font-weight: normal;
 }
 
-h1, h2, h3, h4,
-.h1, .h2, .h3, .h4 {
+h1, h2, h3, h4 {
 	font-family: 'Plex Bold', Helvetica, Arial, sans-serif;
 	font-weight: 700;
 	color: #000;
@@ -72,7 +71,7 @@ h1 {
 
 }
 
-h2, .h2{
+h2{
 	margin-top: 0!important;
 	font-size: 1.6em;
 	font-family: 'Plex Bold', Helvetica, Arial, sans-serif;
@@ -99,15 +98,19 @@ h2, .h2{
 }
 
 .content p.title {
-		font-size: 1.4em;
-		margin: 0 0 30px 0;
-		line-height: 1.2em;
-		background-color: #FFFF00;
-		font-family: 'Plex Bold', Helvetica, Arial, sans-serif;
-		color: #000;
-		display: inline-block;
-		padding: 2px 5px;
+	font-size: 1.6em;
+	margin: 0 0 30px 0;
+	line-height: 1.2em;
+	background-color: #FFFF00;
+	font-family: 'Plex Bold', Helvetica, Arial, sans-serif;
+	color: #000;
+	display: inline-block;
+	padding: 2px 5px;
+
+	@media (min-width: $screen-md-min) {
+		font-size: 2em;
 	}
+}
 
 
 
@@ -184,7 +187,15 @@ h3 {
 .bgy {background-color: #FFFF00;}
 .bgc {background-color: #00FFFF;}
 .bgm {background-color: #FF00FF;}
-.bgk {background-color: #000000;}
+.bgk {
+	background-color: #000000;
+	p, h1, h2, h3, h2 a, h3 a {
+	color: #fff;
+	}
+	p.tags {
+		color: #000;
+	}
+}
 
 .cy {background: linear-gradient(to bottom, #00FFFF 0%,#FFFF00 100%);}
 .cm {background: linear-gradient(to bottom, #00FFFF 0%,#FF00FF 100%);}
@@ -192,9 +203,7 @@ h3 {
 .my {background: linear-gradient(to bottom, #FF00FF 0%,#FFFF00 100%);}
 .yc {background: linear-gradient(to bottom, #FFFF00 0%,#00FFFF 100%);}
 .ym {background: linear-gradient(to bottom, #FFFF00 0%,#FF00FF 100%);}
-.bgk p {
-	color: #fff;
-}
+ 
 p.breadcrumb {
 	font-size: 14px;
 	background: none;
@@ -215,20 +224,6 @@ p.categories {
 	font-size: 14px;
 	line-height: 1.6em;
 }
-
-.circle {
-    display: table-cell;
-	height: 200px;
-	width: 200px;
-	text-align: center;
-	vertical-align: middle;
-	text-align: center;
-	border-radius: 50%; /* may require vendor prefixes */
-	background: yellow;
-	line-height: 1em;
-	margin-top: -.5em;
-}
-
 
 
 // Navigation
@@ -384,42 +379,13 @@ button.overlay-button {
 	display: block;
 	
 	h2 {margin-top: 0;}
-	p {
-		font-size: 16px;
-		line-height: 1.4em;
-	}
-	p.post-meta {
-		margin-bottom: 10px;
+
+	p.tags {
+		margin:15px 0;
 	}
 }
 
-.teaser-grid {
-	position: relative;
 
- 	.thumbnail { 
- 		width: 100%; 
- 		height: 100%;
- 	}
- 	.logo {
- 		width: 60px; height: 60px;
- 		position: absolute;
- 		top:20px;
- 		right: 35px;
- 	}
-
-	h2 {margin-top: 0;}
-	h3 {margin: 0 0 5px 0;}
-	p {
-		padding: 0;
-		margin-bottom: 0;
-		font-size: 16px;
-		line-height: 1.4em;
-	}
-	p.post-meta {
-		margin-bottom: 10px;
-	}	
-	.intro {}
-}
 
 .image-container {
 	width: 300px
@@ -433,35 +399,6 @@ button.overlay-button {
   clear: both;
 }
 
-
-// Specific cards
-
-.home {
-	.banner {
-		background-color: #FFFF00;
-				
-
-		h1 {
-			margin: 100px 0;	
-			display: inline-block;
-			color: #000;
-			background-color: #fff;
-			padding: 10px 20px 20px 20px;
-		}
-		.banner-inner {
-			background-image: url("/images/patterns/2.svg");			
-			height: 500px;
-			background-position: left top;
-			background-size: 120px 120px;
-			background-attachment: fixed;
-		}
-
-	}
-}
-.projects-wrap {
-	padding: 20px 0;
-	background-color: #fff;
-}
 // Masonry grids
 
 .gallery {
@@ -489,72 +426,9 @@ button.overlay-button {
 	margin-bottom: 40px;
 
 }
-.banner {
-	margin: 0;
-
-	.inner {
-		height: 500px;
-	}
-}
-.banner.project {
-	background-size:cover;
-	margin:60px 0;
-	height: 600px;
-}
-.card.title {
-
-	.inner {
-			background-color: #000;
-	color: #fff;
-	padding:40px 15px;
-
-	}
-
-	h1.title {
-		color: #fff;
-	}
-}
- 
-.work {
-	padding-top: 60px;
-	.content-col {
-		background-color: #fff;
-	}
-}
 
 
 
-// Listing card
-
-.card.listing.work {
-	background-color:#000;
-	color: #fff;
-	padding: 80px 0;
-
-	h2 a {color: #fff;}
-}
-.card.listing.projects {
-	background-image: url("/images/patterns/7.svg");
-	background-size: 120px 120px;
-	background-attachment: fixed;
-	background-color: transparent;
-	background-position: left center;
-	padding: 80px 0;
-
-
-}
-
-// Carousel card
-
-.card.carousel {
-	.inner {
-		background-color: #000;
-		padding: 20px 0;
-	}
-	.carousel-image img {
-		width: 100%; height: 100%;
-	}
-}
 
 // Full-width image card
 

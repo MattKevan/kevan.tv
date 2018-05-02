@@ -1,25 +1,16 @@
 ---
 title: Articles
-layout: page
+layout: default
 permalink: "/articles/"
-pattern: p8
-bg: bgcm
 ---
-<p class="breadcrumb"><a href="/">Home </a>»</p>
-<h1 class="title">Articles</h1>
-<div class="card listing first">
-  {% for post in site.posts %}
-    <div class="teaser">
-      <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-      <p class="intro">{{ post.lead }}</p>
-      							<p class="tags">
-							 	{% for tag in page.tags %}
-								 	<span>{{ tag }}</span>
-								{% endfor %}
-							</p>
-      <p class="link"><a href="{{ post.url | prepend: site.baseurl }}">Read more »</a></p>
-    </div>
+<div class="content">
+  <p class="breadcrumb"><a href="/">Home </a>»</p>
+  <h1 class="title">{{ page.title }}</h1>
+
+  {% for article in site.articles %}
+    {% include article-teaser.html %}
   {% endfor %}
+
 </div>
 
 

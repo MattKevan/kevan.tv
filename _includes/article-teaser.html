@@ -1,0 +1,9 @@
+<div class="teaser">
+	<h2><a href="{{ post.url | prepend: site.baseurl }}">{{ article.title }}</a></h2>
+	<p>{{ article.lead }}</p>
+	<p class="tags">
+		{% for tag in article.tags %}
+			<span>{{ tag }}</span>
+		{% endfor %}
+	</p>
+</div>

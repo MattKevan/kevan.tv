@@ -6,92 +6,96 @@ lead: As a designer, I'm fascinated by what makes things work, and how best to c
 permalink: "/about/"
 ---
 
-<div class="container">
-	<div class="row">
-		 <div class="col-xs-12 col-lg-10 col-lg-push-1">
 		
-				<div class="content">
-					<p class="breadcrumb"><a href="/">Home</a> »</p>
-					<h1 class="title" itemprop="name headline">{{ page.title }}</h1>
-					<p	class="lead">{{ page.lead }}</p>
-				</div>
+<div class="content">
+	<p class="breadcrumb"><a href="/">Home</a> »</p>
+	<h1 class="title" itemprop="name headline">{{ page.title }}</h1>
+	<p	class="lead">{{ page.lead }}</p>
+</div>
 
-				<div class="content continued bgk">
-					<p class="title">What I do</p>
-	
-				<div class="row text-center">
-					<div class="col-xs-6 col-sm-3">
-						
-						<img src="/images/about/product-management.svg" alt="Product management" />
-						<p>Product management</p>
-						
-					</div>
+<div class="content continued bgk">
+	<p class="title">What I do</p>
 
-					<div class="col-xs-6 col-sm-3">
-						<img src="/images/about/user-experience.svg" alt="User experience" />
-						<p>User experience</p>
-					</div>
+	<div class="row text-center">
+		<div class="col-xs-6 col-sm-3">
+			
+			<img src="/images/about/product-management.svg" alt="Product management" />
+			<p>Product management</p>
+			
+		</div>
 
-					<div class="col-xs-6 col-sm-3">
-						<img src="/images/about/graphic-design.svg" alt="Graphic design" />						
-						<p>Graphic design</p>
-					</div>
+		<div class="col-xs-6 col-sm-3">
+			<img src="/images/about/user-experience.svg" alt="User experience" />
+			<p>User experience</p>
+		</div>
 
-					<div class="col-xs-6 col-sm-3">
-						<img src="/images/about/web-development.svg" alt="Web development" />						
-						<p>Web development</p>
-					</div>
-					</div>
+		<div class="col-xs-6 col-sm-3">
+			<img src="/images/about/graphic-design.svg" alt="Graphic design" />						
+			<p>Graphic design</p>
+		</div>
 
-
-				</div>
-				
-				<div class="content continued">
-					<p class="title">Who I've worked with</p>
-					<div class="row">
-						{% assign sorted_clients = (site.data.clients | sort: 'name') %}
-						{% for client in sorted_clients %}
-							<div class="col-xs-4 col-sm-3 col-md-2">
-								<img src="/images/about/{{ client.logo }}" alt="{{ client.name }}" />
-								</div>
-						{% endfor %}
-						
-						</div>
-				</div>
-				<div class="content continued bgk">
-					<p class="title">Featured case studies</p>
-				</div>	
-				<div class="content continued">
-					<p class="title">Get in touch</p>
-					<form name="contact" method="POST" netlify>
-					  	<div class="form-group">
-					    <label>Your name:</label>  
-					    <input type="text" name="name" class="form-control">  
-					  </div>
-					  <div class="form-group">
-					    <label>Your email:</label>
-					    <input type="email" name="email" class="form-control">
-					</div>
-					<div class="form-group">
-					    <label>Your message:</label> 
-					    <textarea name="message" class="form-control" rows="4"></textarea>
-
-					  </div>
-					  <div class="form-group">
-					  	<div data-netlify-recaptcha></div>
-					  </div>
-					    <button type="submit" class="btn btn-default">Send</button>
-					  
-					</form>
-				</div>	
-				<div class="content bgk">
-					<p><strong>About this site</strong></p>
-					<p>I built this site with <a href="https://jekyllrb.com" target="_blank">Jekyll</a> and Bootstrap. It's stored in Bitbucket and hosted by <a href="https://www.netlify.com" target="_blank">Netlify</a>. I used Autodesk Graphic on iOS to create the graphics and coded it with Working Copy on iOS and Sublime Text on macOS. </p>
-					<p>The font is IBM Plex Sans.</p>
-				</div>	
-				
+		<div class="col-xs-6 col-sm-3">
+			<img src="/images/about/web-development.svg" alt="Web development" />						
+			<p>Web development</p>
 		</div>
 	</div>
 </div>
+
+<div class="content continued">
+	<p class="title">Who I've worked with</p>
+	<div class="row">
+		{% assign sorted_clients = (site.data.clients | sort: 'name') %}
+		{% for client in sorted_clients %}
+			<div class="col-xs-4 col-sm-3 col-md-2">
+				<img src="/images/about/{{ client.logo }}" alt="{{ client.name }}" />
+			</div>
+		{% endfor %}
+	</div>
+</div>
+
+<div class="content continued bgk">
+	<p class="title">Featured case studies</p>
+
+	{% for article in site.articles %}
+		{% for tag in article.tags %}
+			{% if tag == "Case study" %}
+			    {% include article-teaser.html %}
+			{% endif %}
+		{% endfor %}
+	{% endfor %}
+
+
+</div>
+
+<div class="content continued">
+	<p class="title">Get in touch</p>
+	<form name="contact" method="POST" netlify>
+	  	<div class="form-group">
+	    <label>Your name:</label>  
+	    <input type="text" name="name" class="form-control">  
+	  </div>
+	  <div class="form-group">
+	    <label>Your email:</label>
+	    <input type="email" name="email" class="form-control">
+	</div>
+	<div class="form-group">
+	    <label>Your message:</label> 
+	    <textarea name="message" class="form-control" rows="4"></textarea>
+
+	  </div>
+	  <div class="form-group">
+	  	<div data-netlify-recaptcha></div>
+	  </div>
+	    <button type="submit" class="btn btn-default">Send</button>
+	  
+	</form>
+</div>
+
+<div class="content bgk">
+	<p><strong>About this site</strong></p>
+	<p>I built this site with <a href="https://jekyllrb.com" target="_blank">Jekyll</a> and Bootstrap. It's stored in Bitbucket and hosted by <a href="https://www.netlify.com" target="_blank">Netlify</a>. I used Autodesk Graphic on iOS to create the graphics and coded it with Working Copy on iOS and Sublime Text on macOS. </p>
+	<p>The font is IBM Plex Sans.</p>
+</div>	
+
 
 
