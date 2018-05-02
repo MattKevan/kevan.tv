@@ -2,8 +2,7 @@
 title: Breast Cancer Care
 date: '2016-01-01 00:00:00'
 categories: []
-layout: work
-teaser: Re-architecting the website of a great cause
+layout: post
 lead: Breast Cancer Care is the only UK-wide organisation providing information and
   support to people affected by breast cancer.
 logo: "/images/bcc/logo.png"
@@ -18,8 +17,6 @@ project-type: NDP Studio
 roles:
 - UX lead
 - Creative lead
-pattern: p7
-bg: bgyc
 slug: breast-cancer-care
 tags: []
 ---

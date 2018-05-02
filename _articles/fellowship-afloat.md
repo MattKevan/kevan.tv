@@ -22,7 +22,7 @@ roles:
 - UX
 - Design
 - Development
- tags:
+tags:
 - Case study 
 ---
 

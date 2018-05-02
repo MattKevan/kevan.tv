@@ -7,7 +7,7 @@ tags:
 - Static sites
 - Reviews
 - Development
-description: 'Static sites have been around since the dawn of the web, but thanks
+lead: 'Static sites have been around since the dawn of the web, but thanks
   to the rise of static site generators like Jekyll and Hugo they''re undergoing a
   bit of a renaissance. '
 thumbnail: ''
