@@ -54,7 +54,7 @@ strong, label {
 
 h1, h2, h3, h4 {
 	font-family: 'Plex Bold', Helvetica, Arial, sans-serif;
-	font-weight: 700;
+	font-weight: normal;
 	color: #000;
 
 	a {color: #000;}
@@ -97,20 +97,7 @@ h2{
   	}
 }
 
-.content p.title {
-	font-size: 1.6em;
-	margin: 0 0 30px 0;
-	line-height: 1.2em;
-	background-color: #FFFF00;
-	font-family: 'Plex Bold', Helvetica, Arial, sans-serif;
-	color: #000;
-	display: inline-block;
-	padding: 2px 5px;
 
-	@media (min-width: $screen-md-min) {
-		font-size: 2em;
-	}
-}
 
 
 
@@ -139,42 +126,56 @@ h3 {
 	background-attachment: fixed;
 	background-position: left top;
 }
-.content-inline {
-	background-color: #fff;
-	padding: 20px;
-	h3 {margin-top: 0;}
-}
+
 
 .content {
 	background-color: #fff;
 	margin:30px 0;
 	padding: 20px;
+
 	&.continued {
 		margin: 0;
 		padding: 20px 20px 40px 20px;
+	}
+
+	h2 {
+		margin-top: 20px !important;
+	}	
+
+	p {
+		font-size: 18px;
+		line-height: 1.8em;
+
+		&.lead {
+		    margin-bottom: 20px;
+		    font-size: 24px;
+			line-height: 1.4em;
+		}
+	
+		&.title {
+			font-size: 1.6em;
+			margin: 0 0 30px 0;
+			line-height: 1.2em;
+			background-color: #FFFF00;
+			font-family: 'Plex Bold', Helvetica, Arial, sans-serif;
+			color: #000;
+			display: inline-block;
+			padding: 2px 5px;
+
+			@media (min-width: $screen-md-min) {
+				font-size: 2em;
+			}
+		}
 
 	}
-}
-.content {
-	h2 {margin-top: 20px !important;}
 
 	img {
 		margin: 20px 0;
 		width: 100%;
 		height: 100%;
 	}
-
-	p {
-		font-size: 18px;
-		line-height: 1.8em;
-	}
-
-	p.lead {
-	    margin-bottom: 20px;
-	    font-size: 24px;
-		line-height: 1.4em;
-	}
 }
+
 .p1 {background-image: url('/images/patterns/1.svg');}
 .p2 {background-image: url('/images/patterns/2.svg');}
 .p3 {background-image: url('/images/patterns/3.svg');}
@@ -209,20 +210,6 @@ p.breadcrumb {
 	background: none;
 	margin:0 0 10px 0;
 	padding: 0;
-}
-
-p.post-meta {
-	font-size: 14px;
-}
-
-p.categories {
-	line-height: 1.6em;
-	margin: 0;
-}
-
-.meta {
-	font-size: 14px;
-	line-height: 1.6em;
 }
 
 
@@ -301,10 +288,6 @@ p.categories {
   	}
 }
 			  	
-
-
-
-
 // Menu overlay
 
 button.overlay-button {
@@ -391,14 +374,6 @@ button.overlay-button {
 	width: 300px
 }
 
-// Cards
-
-// General card styles
-
-.card {
-  clear: both;
-}
-
 // Masonry grids
 
 .gallery {
@@ -426,27 +401,6 @@ button.overlay-button {
 	margin-bottom: 40px;
 
 }
-
-
-
-
-// Full-width image card
-
-
-.card.full-width-image {
-  background-color: #222;
-  img {
-    width: 100%;
-    height: 100%;
-  }
-}
-
-// Page content
-ul li {
-	font-size: 18px;
-	line-height: 1.8em;
-}
-
 
 .image-left,
 .image-right {
