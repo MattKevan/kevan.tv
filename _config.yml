@@ -31,9 +31,6 @@ collections:
   work:
     output: true
     permalink: /work/:path/
-  projects:
-    output: true
-    permalink: /projects/:path/
   articles:
     output: true
     permalink: /articles/:path/
@@ -46,21 +43,6 @@ defaults:
     values:
       layout: "work"
       title: ""
-  -
-    scope:
-      path: ""
-      type: "projects"
-    values:
-      layout: "work"
-      teaser: ""
-      lead: ""
-      banner-image: ""
-      thumbnail: ""
-      galleryid: ""
-      slug: ""
-      tags: []
-      project-url: ""
-      url-title: ""
   -
     scope:
       path: ""
