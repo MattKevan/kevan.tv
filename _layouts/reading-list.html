@@ -3,54 +3,39 @@ layout: default
 ---
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-<div class="container">
-	<div class="row">
-		 <div class="col-xs-12 col-lg-10 col-lg-push-1">
-		
-				<div class="content">
-					<p class="breadcrumb"><a href="/">Home</a> » <a href="/articles">Articles</a> »</p>
-					<h1 class="title" itemprop="name headline">{{ page.title }}</h1>
-					<p class="tags">
-						{% for tag in page.tags %}
-							<span>{{ tag }}</span>
-						{% endfor %}
-					</p>
-					<p class="lead">{{ page.lead }}</p>
-					<div class="post-content" itemprop="articleBody">
-						{{ content }}			
-					</div>
-				</div>
+	<div class="content">
+		<p class="s"><a href="/">Home</a> » <a href="/articles">Articles</a> »</p>
+		<h1 itemprop="name headline">{{ page.title }}</h1>
+		<p class="tags xs">
+			{% for tag in page.tags %}
+				<span>{{ tag }}</span>
+			{% endfor %}
+		</p>
+		<p class="lead">{{ page.lead }}</p>
+		<div class="post-content" itemprop="articleBody">
+			{{ content }}			
 		</div>
 	</div>
-</div>
 
-{% for item in page.booklist %}
-	{% for book in site.data.books %}
-		{% if book.id == item.i %}
 
-<div class="list-item">
-	<div class="container">
-		<div class="row">
-			<div class="col-xs-12 col-lg-10 col-lg-push-1">
+	{% for item in page.booklist %}
+		{% for book in site.data.books %}
+			{% if book.id == item.i %}
 
-				<div class="bgk list-image">
-					<img src="/images/books/{{ book.image }}" alt="{{ book.title }}" />
+				<div class="content continued text-center bgk">
+					<img src="/images/books/{{ book.image }}" alt="{{ book.title }}" class="book-cover" />
 				</div>
 
-				<div class="content-inline">
+				<div class="content">
 					<h3>{{ book.title }}</h3>
 					<p class="author">{{ book.author }}</p>
 					<p>{{ book.description }}</p>
 					<p><a href="{{ book.link }}" target="_blank">Read more »</a></p>
 				</div>
-				
-			</div>
-		</div>
-	</div>
-</div>
-{% endif %}
-{% endfor %}
-{% endfor %}
+					
+			{% endif %}
+		{% endfor %}
+	{% endfor %}
 
 </article>
 

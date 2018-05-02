@@ -7,7 +7,8 @@ permalink: "/articles/"
   <p class="breadcrumb"><a href="/">Home </a>»</p>
   <h1 class="title">{{ page.title }}</h1>
 
-  {% for article in site.articles %}
+	{% assign datesort = (site.articles | sort: 'date' | reverse) %}
+	  {% for article in datesort %}
     {% include article-teaser.html %}
   {% endfor %}
 
