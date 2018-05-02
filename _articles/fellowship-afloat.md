@@ -1,7 +1,7 @@
 ---
 title: Fellowship Afloat
 date: '2016-01-01 00:00:00'
-layout: work
+layout: case-study
 teaser: Bringing 'the spirit of adventure' to the Web
 lead: Based on a lightvessel moored off the Essex coast, Fellowship Afloat is an outdoor
   activity centre like no other.
