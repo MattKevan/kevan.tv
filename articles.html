@@ -4,13 +4,13 @@ layout: default
 permalink: "/articles/"
 ---
 <div class="content">
-  <p class="breadcrumb"><a href="/">Home </a>»</p>
-  <h1 class="title">{{ page.title }}</h1>
+	<p class="breadcrumb"><a href="/">Home </a>»</p>
+	<h1 class="title">{{ page.title }}</h1>
 
 	{% assign datesort = (site.articles | sort: 'date' | reverse) %}
-	  {% for article in datesort %}
-    {% include article-teaser.html %}
-  {% endfor %}
+	{% for article in datesort %}
+	    {% include article-teaser.html %}
+	{% endfor %}
 
 </div>
 

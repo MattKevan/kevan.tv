@@ -1,13 +1,13 @@
 ---
-title: Pen first, pixel later - why you should sketch before you computer
+title: Pen first, pixel later &mdash; why you should sketch before you computer
 date: '2016-09-19 00:00:00'
 layout: post
-tags: []
-lead: A blank screen is a daunting prospect. There’s a strong temptation to
+tags:
+- Design
+- User experience
+lead: "A blank screen is a daunting prospect. There’s a strong temptation to
   get right in there with your wireframing software and start drawing boxes. But don’t
-  give in. It’s a trap.
-thumbnail: ''
-banner: ''
+  give in. It’s a trap."
 author: Matt Kevan
 ---
 **Surface design can hide deeper problems.** Emphasising visual design at the wrong stage of a project, or a focus on style before getting the substance right can mask structural issues which only appear when it’s too late.
@@ -54,8 +54,8 @@ However, only once you understand the important parts of the site and have a fee
 
 ## Further reading
 
-- [http://uxmovement.com/wireframes/why-its-important-to-sketch-before-you-wireframe/](http://uxmovement.com/wireframes/why-its-important-to-sketch-before-you-wireframe/)
-- [http://www.smashingmagazine.com/2011/12/the-messy-art-of-ux-sketching/](http://www.smashingmagazine.com/2011/12/the-messy-art-of-ux-sketching/)
-- [http://blog.brightfind.com/web-technology/3-tips-for-sketching-wireframes](http://blog.brightfind.com/web-technology/3-tips-for-sketching-wireframes)
-- [http://www.uxmatters.com/mt/archives/2010/05/sketches-and-wireframes-and-prototypes-oh-my-creating-your-own-magical-wizard-experience.php](http://www.uxmatters.com/mt/archives/2010/05/sketches-and-wireframes-and-prototypes-oh-my-creating-your-own-magical-wizard-experience.php)
-- [http://bradfrost.com/blog/post/sketch-iterate-repeat-prototyping-your-website-design/](http://bradfrost.com/blog/post/sketch-iterate-repeat-prototyping-your-website-design/)
+- [Why it's important to sketch before you wireframe](http://uxmovement.com/wireframes/why-its-important-to-sketch-before-you-wireframe/)
+- [The messy art of UX sketching](http://www.smashingmagazine.com/2011/12/the-messy-art-of-ux-sketching/)
+- [3 tips for sketching wireframes](http://blog.brightfind.com/web-technology/3-tips-for-sketching-wireframes)
+- [Sketches, wireframes and prototypes](http://www.uxmatters.com/mt/archives/2010/05/sketches-and-wireframes-and-prototypes-oh-my-creating-your-own-magical-wizard-experience.php)
+- [Sketch, iterate, repeat](http://bradfrost.com/blog/post/sketch-iterate-repeat-prototyping-your-website-design/)

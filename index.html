@@ -11,8 +11,10 @@ layout: default
 
 <div class="content bgk">
 	<p class="title">Latest articles</p>
-    {% for article in site.articles limit: 4 %}
-		{% include article-teaser.html %}
+
+	{% assign datesort = (site.articles | sort: 'date' | reverse) %}
+	{% for article in datesort limit: 4 %}
+	    {% include article-teaser.html %}
 	{% endfor %}
 	<p class="link"><a href="/articles">See more »</a></p>
 </div>
