@@ -13,7 +13,7 @@ permalink: "/about/"
 	<p	class="lead">{{ page.lead }}</p>
 </div>
 
-<div class="content continued bgk">
+<div class="content bgk">
 	<p class="title">What I do</p>
 
 	<div class="row text-center">
@@ -41,7 +41,7 @@ permalink: "/about/"
 	</div>
 </div>
 
-<div class="content continued">
+<div class="content">
 	<p class="title">Who I've worked with</p>
 	<div class="row">
 		{% assign sorted_clients = (site.data.clients | sort: 'name') %}
@@ -53,7 +53,7 @@ permalink: "/about/"
 	</div>
 </div>
 
-<div class="content continued bgk">
+<div class="content bgk">
 	<p class="title">Featured case studies</p>
 	{% for article in site.articles %}
 		{% for tag in article.tags %}
@@ -64,7 +64,7 @@ permalink: "/about/"
 	{% endfor %}
 </div>
 
-<div class="content continued">
+<div class="content">
 	<p class="title">Get in touch</p>
 	<form name="contact" method="POST" netlify>
 	  	<div class="form-group">
