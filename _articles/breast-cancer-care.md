@@ -2,7 +2,7 @@
 title: Breast Cancer Care
 date: '2016-01-01 00:00:00'
 categories: []
-layout: post
+layout: case-study
 lead: Breast Cancer Care is the only UK-wide organisation providing information and
   support to people affected by breast cancer.
 logo: "/images/bcc/logo.png"
@@ -18,7 +18,9 @@ roles:
 - UX lead
 - Creative lead
 slug: breast-cancer-care
-tags: []
+tags:
+- Case study
+- User experience 
 ---
 
 ## What was needed

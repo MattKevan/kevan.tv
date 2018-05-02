@@ -4,9 +4,8 @@ date: '2016-10-17 14:27:00'
 layout: post
 lead: How to get Jekyll to take care of the boring business of resizing and cropping images.
 tags:
-- Content management
+- Web development
 - Jekyll
-- Drupal
 author: Matt Kevan
 ---
 ## The problem

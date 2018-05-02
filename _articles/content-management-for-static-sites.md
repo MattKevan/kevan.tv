@@ -3,15 +3,9 @@ title: Content management systems for static sites
 date: '2016-10-11 00:00:00'
 layout: post
 tags:
-- 'Content management '
-- Static sites
+- Web development
 - Reviews
-- Development
-lead: 'Static sites have been around since the dawn of the web, but thanks
-  to the rise of static site generators like Jekyll and Hugo they''re undergoing a
-  bit of a renaissance. '
-thumbnail: ''
-banner: ''
+lead: 'Static sites have been around since the dawn of the web, but thanks to the rise of static site generators like Jekyll and Hugo they''re undergoing a bit of a renaissance. '
 author: Matt Kevan
 ---
 However, where they’re weakest - and the reason why content management systems were created in the first place - is in how they manage content. 
