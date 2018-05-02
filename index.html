@@ -1,6 +1,6 @@
 ---
 title: Matt Kevan
-lead: Product managment, user experience, design &amp; development
+lead: Product managment, user experience, design &amp; development.
 layout: default
 ---
 
@@ -9,25 +9,12 @@ layout: default
 	<p class="lead">{{ page.lead }}</p>
 </div>
 
-
 <div class="content bgk">
 	<p class="title">Latest articles</p>
-	
-	    {% for article in site.articles limit: 4 %}
-			<div class="teaser">
-				<h2><a class="post-link" href="{{ article.url | prepend: site.baseurl }}">{{ article.title }}</a></h2>
-				<p class="intro">{{ article.lead }}</p>
-				<p class="tags">
-				 	{% for tag in article.tags %}
-					 	<span>{{ tag }}</span>
-					{% endfor %}
-				</p>
-						<p class="link"><a href="{{ article.url | prepend: site.baseurl }}">Read more »</a></p>
-			</div>
-		{% endfor %}
-			<p class="link"><a href="/articles">See more »</a></p>
-		
-	
+    {% for article in site.articles limit: 4 %}
+		{% include article-teaser.html %}
+	{% endfor %}
+	<p class="link"><a href="/articles">See more »</a></p>
 </div>
 
 

@@ -55,7 +55,6 @@ permalink: "/about/"
 
 <div class="content continued bgk">
 	<p class="title">Featured case studies</p>
-
 	{% for article in site.articles %}
 		{% for tag in article.tags %}
 			{% if tag == "Case study" %}
@@ -63,8 +62,6 @@ permalink: "/about/"
 			{% endif %}
 		{% endfor %}
 	{% endfor %}
-
-
 </div>
 
 <div class="content continued">
@@ -81,7 +78,6 @@ permalink: "/about/"
 	<div class="form-group">
 	    <label>Your message:</label> 
 	    <textarea name="message" class="form-control" rows="4"></textarea>
-
 	  </div>
 	  <div class="form-group">
 	  	<div data-netlify-recaptcha></div>

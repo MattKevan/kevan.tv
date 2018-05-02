@@ -289,6 +289,20 @@ p.breadcrumb {
 }
 			  	
 // Menu overlay
+button.menu-button {
+	border:none;
+	background-color: #fff;
+	margin-top:12px;
+	margin-right: 10px;
+	font-family: 'Plex Bold', Helvetica, Arial, sans-serif;
+	transition: color 0.2s ease;
+  	&:hover {
+  		text-decoration: underline;
+  	}
+  	&:active {
+  		text-decoration: underline;
+  	}
+}
 
 button.overlay-button {
 	border:none;
