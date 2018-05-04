@@ -6,8 +6,7 @@
   <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
   {% seo %}
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-  <link rel="stylesheet" href="{{ "/js/owl.carousel/owl.carousel.css" | prepend: site.baseurl }}">
-  <link rel="stylesheet" href="{{ "/js/owl.carousel/owl.theme.css" | prepend: site.baseurl }}">
+
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
   <link rel="icon" type="image/gif" href="{{ "/images/site/icon.gif" | prepend: site.baseurl }}" >
