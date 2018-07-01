@@ -17,4 +17,11 @@ $(document).ready(function() {
       $(".overlay").fadeIn("fast");
   });
 
+
+ var containerEl = document.querySelector('.grid');
+
+var mixer = mixitup(containerEl);
+  $('.item').matchHeight();
+
+
 });

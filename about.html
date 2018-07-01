@@ -45,7 +45,7 @@ permalink: "/about/"
 <div class="content">
 	<p class="title">Who I've worked with</p>
 	<div class="row">
-		{% assign sorted_clients = (site.data.clients | sort: 'name') %}
+		{% assign sorted_clients = (site.data.clients-info | sort: 'name') %}
 		{% for client in sorted_clients %}
 			<div class="col-xs-4 col-sm-3 col-md-2">
 				<img src="/images/about/{{ client.logo }}" alt="{{ client.name }}" />
