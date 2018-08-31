@@ -15,6 +15,4 @@ booklist:
 - i: 13
 - i: 14
 - i: 15
-pattern: p8
-bg: bgmy
 ---

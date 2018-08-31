@@ -16,11 +16,13 @@ layout: default
 			{{ content }}			
 		</div>
 	</div>
+{{ page.book1 }}
 
-
-	{% for item in page.booklist %}
 		{% for book in site.data.books %}
-			{% if book.id == item.i %}
+			{% assign no = book.id | plus: 0 %}
+			{% for item in page.booklist %}
+
+				{% if item.i == no %}
 
 				<div class="cover continued text-center bgk">
 					<a href="{{ book.link }}" target="_blank">
@@ -36,8 +38,9 @@ layout: default
 				</div>
 					
 			{% endif %}
+					{% endfor %}
 		{% endfor %}
-	{% endfor %}
+
 
 </article>
 
