@@ -183,7 +183,12 @@ h3 {
 	padding: 20px;
 }
 
-.teaser { margin: 0 0 60px 0; }
+.teaser { margin-bottom: 30px; 
+	img {width: 100%;}
+	.inner {
+		padding: 10px 20px;
+	}
+}
 
 .footer {
 	padding: 20px 0;

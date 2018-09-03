@@ -1,18 +1,24 @@
 ---
 title: Work
-layout: page
+layout: grid
 permalink: "/work/"
-pattern: p5
-bg: bgmy
 ---
-<p class="breadcrumb"><a href="/">Home </a>»</p>
-<h1 class="title">{{ page.title }}</h1>
-<div class="card listing first">
-  {% for work in site.work %}
-    <div class="teaser">
-      <h2><a class="post-link" href="{{ work.url | prepend: site.baseurl }}">{{ work.title }}</a></h2>
-      <p class="intro">{{ work.teaser }}</p>
-      <p class="link"><a href="{{ work.url | prepend: site.baseurl }}">Read more »</a></p>
-    </div>
-  {% endfor %}
+<div class="container">
+	<div class="row">
+		<div class="col-xs-12">
+			<div class="content">
+				<p class="breadcrumb"><a href="/">Home </a>»</p>
+				<h1>{{ page.title }}</h1>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="row">
+		{% for work in site.work %}
+			<div class="col-xs-12 col-sm-6">
+			    {% include work-teaser.html %}
+			</div>
+		{% endfor %}
+	</div>
 </div>

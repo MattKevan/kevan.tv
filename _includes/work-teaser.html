@@ -1,0 +1,13 @@
+<div class="teaser bgk">
+	<img src="{{ work.thumbnail }}" />
+	<div class="inner">
+
+	<h2><a href="{{ work.url | prepend: site.baseurl }}">{{ work.title }}</a></h2>
+	<p>{{ work.lead }}</p>
+	<p class="tags xs">
+		{% for tag in work.tags %}
+			<span>{{ tag }}</span>
+		{% endfor %}
+	</p>
+	</div>
+</div>

@@ -1,18 +1,20 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
 
+  <body>
+   {% include header.html %}
 
-<div class="content">
-	<h1>{{ page.title }}</h1>
-	<p class="lead">{{ page.lead }}</p>
-</div>
+    <div class="wrapper-1">
+       <div class="wrapper-2">
+       
+			{{ content }}
+			
+      </div>
+  </div>
 
-<div class="row grid">
-	{{ content }}
-</div>
+    {% include footer.html %}
 
+  </body>
 
-
-
-
+</html>
