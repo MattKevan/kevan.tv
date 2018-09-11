@@ -5,7 +5,7 @@ categories: []
 layout: case-study
 lead: Creating an online gallery space for the Federation of British Artists.
 logo: "/images/bcc/logo.png"
-thumbnail: "/images/bcc/bcc-thumbnail.jpg"
+thumbnail: "/images/mall-galleries.png"
 banner-image: "/images/bcc/bcc-banner.jpg"
 image1: "/images/bcc/bcc-ia.png"
 image2: "/images/bcc/bcc-sitemap.jpg"

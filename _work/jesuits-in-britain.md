@@ -6,7 +6,7 @@ layout: case-study
 lead: Breast Cancer Care is the only UK-wide organisation providing information and
   support to people affected by breast cancer.
 logo: "/images/bcc/logo.png"
-thumbnail: "/images/bcc/bcc-thumbnail.jpg"
+thumbnail: "/images/jesuits.png"
 banner-image: "/images/bcc/bcc-banner.jpg"
 image1: "/images/bcc/bcc-ia.png"
 image2: "/images/bcc/bcc-sitemap.jpg"
