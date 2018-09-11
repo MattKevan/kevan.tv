@@ -161,7 +161,7 @@ h3 {
 
 .wrapper-2{
 	margin-top: 0px;
-	background-size: 120px;
+	background-size: 80px;
 	background-attachment: fixed;
 	background-position: left top;
 	padding: 20px 0 0 0;
@@ -183,7 +183,12 @@ h3 {
 	padding: 20px;
 }
 
-.teaser { margin: 0 0 60px 0; }
+.teaser { margin-bottom: 30px; 
+	img {width: 100%;}
+	.inner {
+		padding: 10px 20px;
+	}
+}
 
 .footer {
 	padding: 20px 0;
