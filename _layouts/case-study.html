@@ -5,14 +5,15 @@ layout: default
 	<p class="s"><a href="/">Home </a>» <a href="/work">Work</a> »</p>
 	<h1>{{ page.title }}</h1>
 	<p class="lead">{{ page.lead }}</p>
-	<p class="tags"><strong>Project type:</strong> {{ page.project-type }} <br />
-	<strong>Roles:</strong> {{ page.roles | join: ', ' }}</p>
+	<p class="tags xs">
+		{% for tag in page.tags %}
+			<span>{{ tag }}</span>
+		{% endfor %}
+	</p>	
 </div>
 
-<div class="content" style="background-image: url('{{ page.banner-image }}');">
-	<div class="inner">
-		
-	</div>
+<div class="content bgk">
+	<img src="{{ page.image1}}" />
 </div>
 
 <div class="content">

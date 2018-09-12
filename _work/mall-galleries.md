@@ -21,10 +21,6 @@ tags:
 - User experience 
 ---
 
-
-## Category
-User experience
-
 ## My role
 * Lead UX designer
 * Creative manager
