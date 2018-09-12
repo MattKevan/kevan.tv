@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div class="content bgk">
+<div class="content">
 	<p class="s"><a href="/">Home </a>» <a href="/work">Work</a> »</p>
 	<h1>{{ page.title }}</h1>
 	<p class="lead">{{ page.lead }}</p>
@@ -12,15 +12,15 @@ layout: default
 	</p>	
 </div>
 
-<div class="content bgk">
-	<img src="{{ page.image1}}" />
-</div>
+	<div class="content bgk">
+		{% include carousel.html %}
+	</div>
+
 
 <div class="content">
 	{{ content }}
 	<p class="link"><a href="{{ page.work-url }}" target="_blank">Visit the site »</a></p>
 </div>
-
 
 
 <!-- images -->

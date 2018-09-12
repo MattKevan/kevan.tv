@@ -41,7 +41,7 @@ defaults:
       path: ""
       type: "work"
     values:
-      layout: "work"
+      layout: "case-study"
       title: ""
   -
     scope:

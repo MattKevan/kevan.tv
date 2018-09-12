@@ -1,18 +1,21 @@
 ---
 title: Mall Galleries
 date: '2018-08-30 00:00:00'
-categories: []
-layout: case-study
 lead: Creating an online gallery space for the Federation of British Artists.
-logo: "/images/bcc/logo.png"
 thumbnail: "/images/mall-galleries.png"
-banner-image: "/images/bcc/bcc-banner.jpg"
-image1: "/images/bcc/bcc-ia.png"
-image2: "/images/bcc/bcc-sitemap.jpg"
-image3: "/images/bcc/bcc-screen.jpg"
-image4: "/images/bcc/bcc-components.png"
-work-url: http://www.breastcancercare.org.uk
-project-type: NDP Studio
+slide1: 
+  i: "/images/mall1.png"
+  c: "Site map"
+slide2: 
+  i: "/images/bcc/bcc-sitemap.jpg" 
+  c:
+slide3:
+  i: "/images/bcc/bcc-screen.jpg"
+  c:
+slide4:
+  i: "/images/bcc/bcc-components.png"
+  c: "Component index – an overview of all the componenets used across the site"
+work-url: http://www.mallgalleries.org.uk
 roles:
 - UX lead
 - Creative lead

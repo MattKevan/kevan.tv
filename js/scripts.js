@@ -20,8 +20,11 @@ $(document).ready(function() {
 
  var containerEl = document.querySelector('.grid');
 
-var mixer = mixitup(containerEl);
   $('.item').matchHeight();
 
+  $(".owl-carousel").owlCarousel({
+    items: 1,
+    loop: true,
+  });
 
 });
