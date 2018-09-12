@@ -206,6 +206,7 @@ h3 {
 .p7 {background-image: url('/images/patterns/7.svg');}
 .p8 {background-image: url('/images/patterns/8.svg');}
 
+.bgw {background-color: #fff;}
 .bgy {background-color: #FFFF00;}
 .bgc {background-color: #00FFFF;}
 .bgm {background-color: #FF00FF;}
@@ -386,7 +387,6 @@ button.overlay-button {
 	}
 	@media (min-width: $screen-md-min) {
 		height: 200px;
-
 	}
 }
 
