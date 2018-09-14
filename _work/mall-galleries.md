@@ -4,29 +4,33 @@ date: '2018-08-30 00:00:00'
 lead: Creating an online gallery space for the Federation of British Artists.
 thumbnail: "/images/mall-galleries.png"
 slide1: 
-  i: "/images/mall1.png"
-  c: "Site map"
+  i: "/images/work/mall-galleries-slide-1.png"
+  c: "Mobile wireframes"
 slide2: 
-  i: "/images/bcc/bcc-sitemap.jpg" 
-  c:
+  i: "/images/work/mall-galleries-slide-2.png"
+  c: Desktop wireframes
 slide3:
-  i: "/images/bcc/bcc-screen.jpg"
-  c:
+  i: "/images/work/mall-galleries-slide-3.png"
+  c: Desktop wireframes
 slide4:
-  i: "/images/bcc/bcc-components.png"
-  c: "Component index – an overview of all the componenets used across the site"
+  i: "/images/work/mall-galleries-slide-4.png"
+  c: Site map (detail)
 work-url: http://www.mallgalleries.org.uk
 roles:
 - UX lead
 - Creative lead
+tech:
+- "CMS: Drupal"
+- "Framework: Bootstrap"
+- "Wireframes: UXPin"
+credits:
+- "Design: Robson Slonski"
+- "Agency: NDP Studio"
 slug: mall-galleries
 tags:
 - User experience 
----
 
-## My role
-* Lead UX designer
-* Creative manager
+---
 
 ## Background
 The Mall Galleries, with its prestigious location on the Mall, is the London home of the Federation of British Artists (FBA), the umbrella body for a wide range of artist societies including the Royal Society of Watercolour Artists and [name]. 
@@ -47,10 +51,3 @@ Lastly, there would be a shop section, where it would be possible to explore the
 
 Over time, the website would build a history of all the artists who exhibitied at the gallery, alongside a collection of all their work.
 
-## Credits
-Agency: NDP Studio
-Visual design: Robson Slonski
-
-## Technology
-* Drupal 7
-* Bootstrap

@@ -6,39 +6,11 @@
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import "bootstrap";
 
-
-// Fonts
-@font-face {
-    font-family: 'Plex Sans';
-    src: url('fonts/plex/IBMPlexSans-Regular.woff2') format('woff2'),
-         url('fonts/plex/IBMPlexSans-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-@font-face {
-    font-family: 'Plex Bold';
-    src: url('fonts/plex/IBMPlexSans-Bold.woff2') format('woff2'),
-         url('fonts/plex/IBMPlexSans-Bold.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'Plex Italic';
-    src: url('fonts/plex/IBMPlexSans-Italic.woff2') format('woff2'),
-         url('fonts/plex/IBMPlexSans-Italic.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
 // Basic typography 
 
 body {
 	color: #000;
-	font-family: 'Plex Sans', Helvetica, Arial, sans-serif;
+	font-family: 'IBM Plex Sans', Helvetica, Arial, sans-serif;
   	background-color: #fff;
 }
 
@@ -64,15 +36,15 @@ a:hover {
 }
 
 strong, label {
-	font-family: 'Plex Bold', Helvetica, Arial, sans-serif;
-	font-weight: normal;
+	font-family: 'IBM Plex Sans', Helvetica, Arial, sans-serif;
+	font-weight: 700;
 }
 
 // Headings
 
 h1, h2, h3, h4 {
-	font-family: 'Plex Bold', Helvetica, Arial, sans-serif;
-	font-weight: normal;
+	font-family: 'IBM Plex Sans', Helvetica, Arial, sans-serif;
+	font-weight: 700;
 	color: #000;
 	a {
 		color: #000;
@@ -127,7 +99,8 @@ h3 {
 	margin: 0 0 30px 0;
 	line-height: 1.2em;
 	background-color: #FFFF00;
-	font-family: 'Plex Bold', Helvetica, Arial, sans-serif;
+	font-family: 'IBM Plex Sans', Helvetica, Arial, sans-serif;
+	font-weight: 700;
 	color: #000;
 	display: inline-block;
 	padding: 2px 5px;
@@ -143,22 +116,45 @@ h3 {
 
 .tags {
 	margin:0 0 40px 0;
+	font-family: "IBM Plex Mono", sans-serif;
+
 	span {
 		background-color: #00FFFF;
 		padding: 3px 5px;
 		margin-right: 5px;
 	}
 }
+
 .caption {
 	margin: 10px 0 0 0;
 }
-.author {font-family: "Plex Italic", sans-serif;}
+
+.author {
+	font-family: "IBM Plex Mono", sans-serif;
+	}
+
+p.link {
+	font-family: "IBM Plex Mono", sans-serif;
+	font-weight: 700;
+	margin: 0;
+}
 
 .book-cover {
 	text-align: center;
 	height: 300px;
 }
 
+.info {
+	font-family: "IBM Plex Mono", sans-serif;
+	h4 {
+		font-family: "IBM Plex Mono", sans-serif;
+		font-weight:700;
+		}
+	ul {padding: 0;}
+	li {
+		list-style-type: none;
+	}
+}
 // Page structure
 
 .wrapper-2{
@@ -218,12 +214,7 @@ h3 {
 	.tags, .title {color: #000;}
 }
 
-.cy {background: linear-gradient(to bottom, #00FFFF 0%,#FFFF00 100%);}
-.cm {background: linear-gradient(to bottom, #00FFFF 0%,#FF00FF 100%);}
-.mc {background: linear-gradient(to bottom, #FF00FF 0%,#00FFFF 100%);}
-.my {background: linear-gradient(to bottom, #FF00FF 0%,#FFFF00 100%);}
-.yc {background: linear-gradient(to bottom, #FFFF00 0%,#00FFFF 100%);}
-.ym {background: linear-gradient(to bottom, #FFFF00 0%,#FF00FF 100%);}
+
 
 // Header & navigation
 
@@ -284,7 +275,8 @@ h3 {
 	font-size: 16px;
 	line-height: 1.5em;
 	color: #000;
-	font-family: 'Plex Bold', Helvetica, Arial, sans-serif;
+	font-family: 'IBM Plex Sans', Helvetica, Arial, sans-serif;
+	font-weight: 700;
 
   	&:hover {
   		text-decoration: underline;
@@ -301,7 +293,8 @@ button.menu-button {
 	background-color: #fff;
 	margin-top:12px;
 	margin-right: 10px;
-	font-family: 'Plex Bold', Helvetica, Arial, sans-serif;
+	font-family: 'IBM Plex Sans', Helvetica, Arial, sans-serif;
+	font-weight: 700;
 	transition: color 0.2s ease;
   	&:hover {
   		text-decoration: underline;
@@ -317,8 +310,8 @@ button.overlay-button {
 	position: fixed;
 	top:12px;
 	right: 10px;
-	font-family: 'Plex Bold', Helvetica, Arial, sans-serif;
-	transition: color 0.2s ease;
+	font-family: 'IBM Plex Sans', Helvetica, Arial, sans-serif;
+	font-weight: 700;
   	&:hover {
   		text-decoration: underline;
   	}
@@ -343,7 +336,8 @@ button.overlay-button {
 		background-repeat: repeat;
 		height: 100%;
 		padding: 15px;
-		font-family: 'Plex Bold', Helvetica, Arial, sans-serif;
+		font-family: 'IBM Plex Sans', Helvetica, Arial, sans-serif;
+		font-weight: 700;
 
 		ul {
 			list-style: none;
