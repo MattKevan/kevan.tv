@@ -54,17 +54,6 @@ permalink: "/about/"
 	</div>
 </div>
 
-<div class="content bgk">
-	<p class="title">Featured case studies</p>
-	{% for article in site.articles %}
-		{% for tag in article.tags %}
-			{% if tag == "Case study" %}
-			    {% include article-teaser.html %}
-			{% endif %}
-		{% endfor %}
-	{% endfor %}
-</div>
-
 <div class="content">
 	<p class="title">Get in touch</p>
 	<form name="contact" method="POST" netlify>
