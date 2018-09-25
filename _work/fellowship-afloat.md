@@ -2,26 +2,34 @@
 title: Fellowship Afloat
 date: '2016-01-01 00:00:00'
 layout: case-study
-teaser: Bringing 'the spirit of adventure' to the Web
+description: Bringing 'the spirit of adventure' to the Web.
 lead: Based on a lightvessel moored off the Essex coast, Fellowship Afloat is an outdoor
   activity centre like no other.
 banner-image: "/images/fact/fact-banner2.jpg"
 thumbnail: "/images/fact.png"
 logo: "/images/fact/logo.png"
-image1: 
-image2: 
-image3: 
-image4: 
-owl1: "/images/fact/fact-home.png"
-owl2: "/images/fact/fact-activities.png"
-owl3: "/images/fact/fact-activity.png"
-owl4: 
+slide1: 
+  i:
+  c:
+slide2: 
+  i:
+  c: Desktop wireframes
+slide3:
+  i: "/images/work/mall-galleries-slide-3.png"
+  c: Desktop wireframes
+slide4:
+  i: "/images/work/mall-galleries-slide-4.png"
+  c: Site map (detail)
 work-url: http://www.fact.org.uk
 project-type: Pro-bono project
 roles:
-- UX
-- Design
-- Development
+- Information architecture
+- Visual design
+- Web development
+tech:
+- Drupal 7
+- Bootstrap
+- Sketch
 tags:
 - User experience
 - Design

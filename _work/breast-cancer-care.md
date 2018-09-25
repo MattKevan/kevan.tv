@@ -1,7 +1,7 @@
 ---
 title: Breast Cancer Care
 date: '2016-01-01 00:00:00'
-lead: Designing a new mobile-first, component-based website for Breast Cancer Care, the UK's premier information and support charity.
+description: Designing a new mobile-first, component-based website for Breast Cancer Care, the UK's premier information and support charity.
 thumbnail: "/images/bcc-sketch.png"
 slide1: 
   i: "/images/bcc/bcc-ia.png"
@@ -19,6 +19,10 @@ work-url: http://www.breastcancercare.org.uk
 roles:
 - UX lead
 - Creative lead
+tech:
+- Drupal 7
+- Bootstrap
+- UXPin
 slug: breast-cancer-care
 tags:
 - User experience 

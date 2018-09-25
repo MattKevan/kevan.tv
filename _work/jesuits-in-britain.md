@@ -3,7 +3,7 @@ title: Jesuits in Britain
 date: '2018-08-30 00:00:00'
 categories: []
 layout: case-study
-lead: Breast Cancer Care is the only UK-wide organisation providing information and
+description: Breast Cancer Care is the only UK-wide organisation providing information and
   support to people affected by breast cancer.
 logo: "/images/bcc/logo.png"
 thumbnail: "/images/jesuits.png"
@@ -17,6 +17,10 @@ project-type: NDP Studio
 roles:
 - UX lead
 - Creative lead
+tech:
+- Drupal 7
+- Bootstrap
+- UXPin
 slug: jesuits-in-britain
 tags:
 - User experience
@@ -35,12 +39,4 @@ The brief was that each centre should have its own section in the new site, buil
 
 I conducted a thorough audit of each site to discover where the functionality and content types could be shared – these became the core microsite features.
 
-To help people go deeper on their faith journey, I leveraged the power of Drupal’s taxonomy system. As well as tagging content by topic, content could be tagged by depth. So content for people just starting out would be tagged with level 1 and content for people with more experience would be tagged with level five. On each page, I created a ‘Going deeper’ block that showed content with the same topic tag, but one level higher than the current page level.
-
-## Credits
-Agency: NDP Studio
-Visual design: Robson Slonski
-
-## Technology
-* Drupal 7
-* Bootstrap
+To help people go deeper on their faith journey, I leveraged the power of Drupal’s taxonomy system. As well as tagging content by topic, content could be tagged by depth. So content for people just starting out would be tagged with level 1 and content for people with more experience would be tagged with level five. 

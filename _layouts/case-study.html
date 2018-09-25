@@ -49,10 +49,11 @@ layout: default
 
 				{{ content }}
 			</div>
-
+			{% if page.slide1.i %}
 			<div class="content bgk">
 				{% include carousel.html %}
 			</div>
+			{% endif %}
 
 
 			<div class="bgg">
