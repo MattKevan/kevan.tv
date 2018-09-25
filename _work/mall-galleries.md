@@ -1,7 +1,7 @@
 ---
 title: Federation of British Artists
 date: '2018-08-30 00:00:00'
-lead: Creating an online gallery space for the Federation of British Artists.
+description: Creating an online gallery space for the Federation of British Artists.
 thumbnail: "/images/mall-galleries.png"
 slide1: 
   i: "/images/work/mall-galleries-slide-1.png"
