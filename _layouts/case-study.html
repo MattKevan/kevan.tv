@@ -1,61 +1,65 @@
 ---
 layout: default
 ---
-<div class="content">
-	<p class="s"><a href="/">Home </a>» <a href="/work">Work</a> »</p>
-	<h1>{{ page.title }}</h1>
-	<p class="tags xs">
-		{% for tag in page.tags %}
-			<span>{{ tag }}</span>
-		{% endfor %}
-	</p>	
-</div>
 
+<div class="container">
 
-<div class="content bgg">
-		<p class="lead">{{ page.lead }}</p>
-
-	{{ content }}
-</div>
-
-<div class="content bgk">
-	{% include carousel.html %}
-</div>
-
-<div class="content bgg">
-	<div class="info">
-		<div class="row">
-			<div class="col-xs-12 col-sm-4">
-				<h4>My roles</h4>
-				<ul>
-					{% for role in page.roles %}
-						<li>{{role}}</li>
-				    {% endfor %}
-				</ul>
+	<div class="row">
+		<div class="col-xs-12">
+			<div class="content">
+				<p class="crumb s"><a href="/">Home </a>» <a href="/work">Work</a> »</p>
+				<h1>{{ page.title }}</h1>
+				<p class="tags xs">
+					{% for tag in page.tags %}
+						<span>{{ tag }}</span>
+					{% endfor %}
+				</p>	
 			</div>
-			<div class="col-xs-12 col-sm-4">
-				<h4>Technology</h4>
-				<ul>
-					{% for tek in page.tech %}
-						<li>{{ tek }}</li>
-				    {% endfor %}
-				</ul>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-xs-12 col-md-2 aside">
+			<div class="inner">
+			<div class="row">
+				<div class="col-xs-6 col-md-12">
+			<h4>My roles</h4>
+			<ul>
+				{% for role in page.roles %}
+					<li>{{role}}</li>
+			    {% endfor %}
+			</ul>
+		</div>
+<div class="col-xs-6 col-md-12">
+			<h4>Technology</h4>
+			<ul>
+				{% for tek in page.tech %}
+					<li>{{ tek }}</li>
+			    {% endfor %}
+			</ul>
+		</div>
+	</div>
+	</div>
+
+		</div>
+	
+		<div class="col-xs-12  col-md-8">
+			<div class="bgg">
+					<p class="lead">{{ page.lead }}</p>
+
+				{{ content }}
 			</div>
-			<div class="col-xs-12 col-sm-4">
-				<h4>Credits</h4>
-				<ul>
-					{% for credit in page.credits %}
-						<li>{{ credit }}</li>
-				    {% endfor %}
-				</ul>
+
+			<div class="content bgk">
+				{% include carousel.html %}
+			</div>
+
+
+			<div class="bgg">
+				<p class="link"><a href="{{ page.work-url }}" target="_blank">Visit the site »</a></p>
 			</div>
 		</div>
 
-	</div><!--/info-->
+		</div>
+	</div>
 </div>
-
-<div class="content">
-	<p class="link"><a href="{{ page.work-url }}" target="_blank">Visit the site »</a></p>
-</div>
-
-

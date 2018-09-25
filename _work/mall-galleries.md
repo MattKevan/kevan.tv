@@ -20,12 +20,9 @@ roles:
 - UX lead
 - Creative lead
 tech:
-- "CMS: Drupal"
-- "Framework: Bootstrap"
-- "Wireframes: UXPin"
-credits:
-- "Design: Robson Slonski"
-- "Agency: NDP Studio"
+- Drupal
+- Bootstrap
+- UXPin
 slug: mall-galleries
 tags:
 - User experience 
