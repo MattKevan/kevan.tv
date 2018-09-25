@@ -3,15 +3,25 @@ title: Articles
 layout: default
 permalink: "/articles/"
 ---
-<div class="content">
-	<p class="s"><a href="/">Home </a>»</p>
-	<h1>{{ page.title }}</h1>
+<div class="container">
+	<div class="row">
+		<div class="col-xs-12">
 
-	{% assign datesort = (site.articles | sort: 'date' | reverse) %}
-	{% for article in datesort %}
-	    {% include article-teaser.html %}
-	{% endfor %}
+			<div class="content masthead">
+				<p class="s"><a href="/">Home </a>»</p>
+				<h1>{{ page.title }}</h1>
+			</div>
 
+			{% assign datesort = (site.articles | sort: 'date' | reverse) %}
+			{% for article in datesort %}
+				<div class="content">
+				    {% include article-teaser.html %}
+				</div>
+			{% endfor %}
+
+
+		</div>
+	</div>
 </div>
 
 
