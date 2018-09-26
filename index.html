@@ -1,24 +1,33 @@
 ---
 title: Matt Kevan
-lead: Product managment, user experience, design &amp; development.
+lead: Product management, user experience, design &amp; development.
 layout: default
 ---
-
-<div class="content">
+<div class="container">
+	<div class="row">
+		<div class="col-xs-12">
+		
+<div class="content masthead">
 	<h1>{{ page.title }}</h1>
 	<p class="lead">{{ page.lead }}</p>
 </div>
 
-<div class="content bgk">
+
 	<p class="title">Latest articles</p>
 
 	{% assign datesort = (site.articles | sort: 'date' | reverse) %}
 	{% for article in datesort limit: 4 %}
+	<div class="content bgk">
 	    {% include article-teaser.html %}
+	    </div>
+
+	    
 	{% endfor %}
 	<p class="link"><a href="/articles">See more »</a></p>
-</div>
 
+			</div>
+		</div>
+	</div>
 
 
 

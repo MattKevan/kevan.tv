@@ -85,8 +85,33 @@ h3 {
 	margin-top: 0!important;
 }
 
-// Content styles
 
+// Content styles
+.masthead{
+	border-style: solid;
+	border-color: #00FFFF;
+	border-width: 0 0 0 5px;
+
+}
+
+.aside {
+	font-size: .8em;
+	font-family: 'IBM Plex Mono', sans-serif;
+	margin-bottom: 30px;
+
+
+	ul {padding: 0;}
+	li {
+		list-style: none;
+		margin-bottom: 5px;}
+	h4 {
+		font-size: 1em;
+		text-transform: uppercase;
+		margin-bottom: 5px;
+	}
+	.inner {
+	}
+}
 .breadcrumb {
 	font-size: 14px;
 	background: none;
@@ -125,6 +150,9 @@ h3 {
 	}
 }
 
+.crumb {
+	font-family: "IBM Plex Mono", sans-serif;
+}
 .caption {
 	margin: 10px 0 0 0;
 }
@@ -157,7 +185,7 @@ p.link {
 }
 // Page structure
 
-.wrapper-2{
+.wrap-2{
 	margin-top: 0px;
 	background-size: 80px;
 	background-attachment: fixed;
