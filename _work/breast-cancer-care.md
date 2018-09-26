@@ -5,13 +5,13 @@ description: Designing a new mobile-first, component-based website for Breast Ca
 thumbnail: "/images/bcc-sketch.png"
 slide1: 
   i: "/images/bcc/bcc-ia.png"
-  c: "Site map"
+  c: "Mobile and desktop wireframes"
 slide2: 
   i: "/images/bcc/bcc-sitemap.jpg" 
-  c:
+  c: "A detail of the site map"
 slide3:
   i: "/images/bcc/bcc-screen.jpg"
-  c:
+  c: "The finished design"
 slide4:
   i: "/images/bcc/bcc-components.png"
   c: "Component index – an overview of all the componenets used across the site"
