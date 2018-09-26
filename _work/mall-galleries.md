@@ -41,11 +41,15 @@ The FBA had larger ambitions than just wanting a better version of their existin
 
 ## The solution
 
-Gallery sites are good at providing information about their exhibitions, but the artwork itself tends to be omitted – if you want to see the work, visit the gallery.
+Gallery sites (done well) give you all the information you need about their exhibitions, but the artwork itself, beyond a few examples, is often omitted. If you want to see the work, the attitude tends to be, then visit the gallery.
 
-I wanted to change this. Wouldn't it be better if it were possible to view and purchase any artwork in an exhibition directly on the website?
+In the age of art marketplaces like Artfinder and Artsy -- which aggregates thousands of galleries, exhibitions and artworks from around the world, this approach seemed out of step. 
 
-Approaching the design of the site as though it was an art marketplace, rather than an event listings site like most galleries, I started by creating an artwork detail page.
+The first decision I made with the client was that every artwork shown in an exhibition or that was part of their permanent collection would be listed on the site. This tied neatly into the FBA's plans to better promote the work of their member artists and enable people to buy art directly, rather than just in an exhibition.
 
-This contained a series of high-quality images and purchasing options, plus information about the piece including the artist, exhibitions it had featured in and more. I then created an artist profile page, which contained a list of their artwork, their artist statement, the society they belonged to and the exhibtions they'd participated in.
+Approaching the design as though it were an art marketplace, I first created the artwork detail page. This became the core of the site, everything else layering on top.
+
+The detail page contained a series of high-quality images, information about the piece, the artist name, exhibitions the artwork had appeared in -- and most importantly, the price and purchasing information.
+
+I then grouped the artwork into artist profiles and exhibition listings. As well as their artwork, artist profiles contained their artist statement, which society they belonged to and contact details to arrange a commission. Exhibition pages contained the exhibition details, and listed the artwork and artists involved.
 
