@@ -7,34 +7,21 @@
         <a class="navbar-brand" href="{{ site.baseurl }}/"> <img src="/images/site/logo.svg" alt="{{ site.title }}" /></a>
       </div>
 
-          <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav pull-right hidden-xs">
-              <li><a href="/">Home</a></li>
-              <li><a href="/about">About</a></li>
-              <li><a href="/articles">Articles</a></li>     
-              <li><a href="/work">Work</a></li>
-            </ul>
-          </div><!--/.nav-collapse -->
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav pull-right hidden-xs">
+         {% include links.html %}
+        </ul>
+      </div><!--/.nav-collapse -->
 
-    <div class="overlay wrapper-1">
-      <div class="inner wrapper-2">
+      <div class="overlay wrap bgg">
+        <div class="inner">
 
- <button type="button" class="overlay-button overlay-close">Close</button>
-      <ul class="navigation">
-             <li><a href="/">Home</a></li>
-              <li><a href="/about">About</a></li>
-              <li><a href="/articles">Articles</a></li>   
-              <li><a href="/work">Work</a></li>
-
-        <!--{% for my_page in site.pages %}
-          {% if my_page.title %}
-          <li><a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
-          {% endif %}
-        {% endfor %}-->
-
-             </ul>
+         <button type="button" class="overlay-button overlay-close">Close</button>
+          <ul class="navigation">
+            {% include links.html %}
+          </ul>
         </div>
-    </div><!-- /overlay -->
+      </div><!-- /overlay -->
 
     </div><!--/.container-fluid -->
   </nav>

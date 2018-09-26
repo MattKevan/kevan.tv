@@ -5,7 +5,7 @@ layout: post
 tags:
 - Web development
 - Reviews
-lead: 'Static sites have been around since the dawn of the web, but thanks to the rise of static site generators like Jekyll and Hugo they''re undergoing a bit of a renaissance. '
+description: 'Static sites have been around since the dawn of the web, but thanks to the rise of static site generators like Jekyll and Hugo they''re undergoing a bit of a renaissance. '
 author: Matt Kevan
 ---
 However, where they’re weakest - and the reason why content management systems were created in the first place - is in how they manage content. 

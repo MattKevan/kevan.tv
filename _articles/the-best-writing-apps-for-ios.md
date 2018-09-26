@@ -5,7 +5,7 @@ layout: post
 tags:
 - Best of
 - Productivity
-lead: Focusing on the best writing apps, this is the first in a series exploring the best tools to get stuff done using iOS. 
+description: Focusing on the best writing apps, this is the first in a series exploring the best tools to get stuff done using iOS. 
 author: Matt Kevan
 
 ---

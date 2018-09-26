@@ -2,8 +2,7 @@
 title: 'Component-based design: what it is and how to do it'
 date: '2016-10-07 00:00:00'
 layout: post
-tags: []
-lead: As the web evolves and gains complexity, so our approach to designing websites needs to become more sophisticated.
+description: As the web evolves and gains complexity, so our approach to designing websites needs to become more sophisticated.
 tags:
 - How to
 - Design

@@ -33,4 +33,3 @@ From the very start we have had a warm reception from both the public and import
 
 The website has changed and developed over time, in response to both the marketplace, advances in technology and of course the input of our artists, recently launching version three of the site.
 
-Illustration by [Josh Hurley](https://www.illustrators.co/artwork/totem-red){:target="_blank"}.

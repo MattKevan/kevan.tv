@@ -2,10 +2,9 @@
 title: Designing the design process
 date: '2016-10-23 00:00:00'
 layout: post
-tags: [Design process, NDP]
-lead: The method used to create a design is as important as the design itself - and can be a big contributor to a project’s success or failure. Here’s how I’ve designed the process at NDP. 
-thumbnail: ''
-banner: ''
+tags:
+- Design process
+description: The method used to create a design is as important as the design itself - and can be a big contributor to a project’s success or failure. Here’s how I’ve designed the process at NDP. 
 author: Matt Kevan
 ---
 

@@ -3,8 +3,9 @@ title: "Can an artificial intelligence be unreasonable?"
 date: 2018-09-24 00:00:00 +0000
 layout: post
 tags:
-- Artificial intelligence
-lead: Mumsnet’s Am I being unreasonable? forum is famous for the hilarious, disturbing and hilariously disturbing topics discussed. I wondered, what would happen if I used it to train a neural network?
+- Machine learning
+- Project
+description: Mumsnet’s Am I being unreasonable? forum is famous for the hilarious, disturbing and hilariously disturbing topics discussed. I wondered, what would happen if I used it to train a neural network?
 author: Matt Kevan
 
 ---
