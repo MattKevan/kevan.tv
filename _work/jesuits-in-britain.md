@@ -28,6 +28,8 @@ tags:
 
 ## Background
 
+The Jesuits are a Catholic religious order, founded in 1540 by St Ignatius of Loyola, carrying out their mission in over 100 countries worldwide.
+
 ## The challenge
 Jesuits in Britain wanted a new website to help seekers on their journey of faith. It would contain daily prayers, resources, events, retreats and more.
 
@@ -35,6 +37,7 @@ The new site would also replace the websites of their three retreat centres, bri
 
 ## The solution
 The first thing I did was to create a migration strategy for the existing sites.
+
 The brief was that each centre should have its own section in the new site, built from a common set of content types and components, while allowing enough customisation for each to have its own identity.
 
 I conducted a thorough audit of each site to discover where the functionality and content types could be shared – these became the core microsite features.
