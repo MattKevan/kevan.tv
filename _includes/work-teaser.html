@@ -3,7 +3,7 @@
 	<div class="inner" data-mh="col-text">
 
 	<h2><a href="{{ work.url | prepend: site.baseurl }}">{{ work.title }}</a></h2>
-	<p>{{ work.lead }}</p>
+	<p>{{ work.description }}</p>
 	<p class="tags xs">
 		{% for tag in work.tags %}
 			<span>{{ tag }}</span>

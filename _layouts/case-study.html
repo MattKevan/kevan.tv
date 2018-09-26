@@ -9,6 +9,7 @@ layout: default
 			<div class="content masthead">
 				<p class="crumb s"><a href="/">Home </a>» <a href="/work">Work</a> »</p>
 				<h1>{{ page.title }}</h1>
+				<p class="lead">{{ page.description }}</p>
 				<p class="tags xs">
 					{% for tag in page.tags %}
 						<span>{{ tag }}</span>
@@ -19,48 +20,46 @@ layout: default
 	</div>
 
 	<div class="row">
-		<div class="col-xs-12 col-md-2 aside">
-			<div class="inner">
-			<div class="row">
-				<div class="col-xs-6 col-md-12">
-			<h4>My roles</h4>
-			<ul>
-				{% for role in page.roles %}
-					<li>{{role}}</li>
-			    {% endfor %}
-			</ul>
+		<div class="col-xs-12">
+
+			{% if page.slide1.i %}
+				<div class="content bgw">
+					{% include carousel.html %}
+				</div>
+			{% endif %}
 		</div>
-<div class="col-xs-6 col-md-12">
-			<h4>Technology</h4>
-			<ul>
-				{% for tek in page.tech %}
-					<li>{{ tek }}</li>
-			    {% endfor %}
-			</ul>
-		</div>
-	</div>
 	</div>
 
+	<div class="row">
+
+		<div class="col-xs-12 col-md-2 aside">
+			<div class="row">
+				<div class="col-xs-6 col-md-12">
+					<h4>My role</h4>
+					<ul>
+						{% for role in page.roles %}
+							<li>{{role}}</li>
+					    {% endfor %}
+					</ul>
+				</div>
+
+				<div class="col-xs-6 col-md-12">
+					<h4>Technology</h4>
+					<ul>
+						{% for tek in page.tech %}
+							<li>{{ tek }}</li>
+					    {% endfor %}
+					</ul>
+
+				</div>
+			</div>
 		</div>
 	
 		<div class="col-xs-12  col-md-8">
-			<div class="bgg">
-					<p class="lead">{{ page.description }}</p>
-
-				{{ content }}
-			</div>
-			{% if page.slide1.i %}
-			<div class="content bgk">
-				{% include carousel.html %}
-			</div>
-			{% endif %}
-
-
-			<div class="bgg">
-				<p class="link"><a href="{{ page.work-url }}" target="_blank">Visit the site »</a></p>
-			</div>
-		</div>
+			{{ content }}
+			<p><a href="{{ page.work-url }}" target="_blank">Visit the site »</a></p>
 
 		</div>
+
 	</div>
 </div>

@@ -20,7 +20,7 @@ roles:
 - UX lead
 - Creative lead
 tech:
-- Drupal
+- Drupal 7
 - Bootstrap
 - UXPin
 slug: mall-galleries
@@ -34,13 +34,13 @@ The Federation of British Artists (FBA) consists of nine artist societies, repre
 
 ## The challenge
 
-The FBA had larger ambitions than just wanting a better version of their existing site: they wanted to create an online space that both complimented and extended the exhibitons held in the gallery and showcased the work of their members.
+The FBA had larger ambitions than just wanting a better version of their existing site: they wanted to create an online space that would both compliment and extend their galley exhibtions and showcase the work of their members.
 
 ## The solution
 
-Gallery sites (done well) give you all the information you need about their exhibitions, but the artwork itself, beyond a few examples, is often omitted. If you want to see the work, the attitude tends to be, then visit the gallery.
+Gallery sites (done well) give you all the information you need about their exhibitions, but the artwork itself, beyond a few examples, is often omitted. If you want to see the work, the attitude seems to be,  visit the gallery.
 
-In the age of art marketplaces like Artfinder and Artsy -- which aggregates thousands of galleries, exhibitions and artworks from around the world, this approach seemed out of step. 
+In the age of art marketplaces like Artfinder and Artsy -- which aggregate galleries, exhibitions and artwork from around the world, this approach seemed out of step. 
 
 The first decision I made with the client was that every artwork shown in an exhibition or that was part of their permanent collection would be listed on the site. This tied neatly into the FBA's plans to better promote the work of their member artists and enable people to buy art directly, rather than just in an exhibition.
 
