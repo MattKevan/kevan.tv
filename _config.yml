@@ -11,7 +11,7 @@ email: m@kevan.tv
 description: >
   Product managment, user experience, design & development
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.kevan.tv" # the base hostname & protocol for your site
+url: "https://www.kevan.tv" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
 author: Matt Kevan
