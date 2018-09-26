@@ -2,7 +2,7 @@
 title: Breast Cancer Care
 date: '2016-01-01 00:00:00'
 description: Designing a new mobile-first, component-based website for Breast Cancer Care, the UK's premier information and support charity.
-thumbnail: "/images/bcc-sketch.png"
+thumbnail: "https://res.cloudinary.com/dl4abuxel/image/upload/q_auto/v1537975996/bcc-sketch.jpg"
 slide1: 
   i: "/images/bcc/bcc-ia.png"
   c: "Mobile and desktop wireframes"

@@ -2,7 +2,7 @@
 title: Federation of British Artists
 date: '2018-08-30 00:00:00'
 description: Creating an online gallery space for the Federation of British Artists.
-thumbnail: "/images/mall-galleries.png"
+thumbnail: "https://res.cloudinary.com/dl4abuxel/image/upload/q_auto/v1537975996/mall-galleries.jpg"
 slide1: 
   i: "/images/work/mall-galleries-slide-1.png"
   c: "Mobile wireframes"
