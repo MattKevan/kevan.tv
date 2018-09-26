@@ -1,5 +1,5 @@
 ---
-layout: reading-list
+layout: post
 title: The six best product management books
 description: Product management is an evolving field. These are books I've found useful as
   a product manager and I hope you will too.
