@@ -1,18 +1,18 @@
 <div class="owl-carousel owl-theme">
-	<div>
-		<img src="{{ page.slide1.i }}" alt="{{ page.slide1.c }}" />
-		<p class="caption">{{ page.slide1.c }}
-	</div>
-	<div>
-		<img src="{{ page.slide2.i }}" alt="{{ page.slide2.c }}" />
-		<p class="caption">{{ page.slide2.c }}
-	</div>
-	<div>
-		<img src="{{ page.slide3.i }}" alt="{{ page.slide3.c }}" />
-		<p class="caption">{{ page.slide3.c }}
-	</div>
-	<div>
-		<img src="{{ page.slide4.i }}" alt="{{ page.slide4.c }}" />
-		<p class="caption">{{ page.slide4.c }}
-	</div>
+	{% for slide in page.slides %}
+
+		<div class="slide">
+			<img src="{{ slide.i }}" />
+							<div class="row">
+
+			{% for caption in slide.captions %}
+					<div class="col-xs-12 col-sm-{{ slide.cols }}">
+						<p class="caption s">{{ caption.c }}</p>
+					</div>
+			{% endfor %}
+							</div>
+
+		</div>
+
+	{% endfor %}
 </div>

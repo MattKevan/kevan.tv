@@ -3,23 +3,34 @@ title: Federation of British Artists
 date: '2018-08-30 00:00:00'
 description: Creating an online gallery space for the Federation of British Artists.
 thumbnail: "https://res.cloudinary.com/dl4abuxel/image/upload/q_auto/v1537975996/mall-galleries.jpg"
-slide1: 
-  i: "/images/work/mall-galleries-slide-1.png"
-  c: "Mobile wireframes"
-slide2: 
-  i: "/images/work/mall-galleries-slide-2.png"
-  c: Desktop wireframes
-slide3:
-  i: "/images/work/mall-galleries-slide-3.png"
-  c: Desktop wireframes
-slide4:
-  i: "/images/work/mall-galleries-slide-4.png"
-  c: Site map (detail)
+
+slides:
+  - i: "/images/work/mall-galleries-slide-1.png"
+    cols: 3
+    captions:
+      - c: "The homepage showing a promoted exhibition."
+      - c: "Detail of an artwork page"
+      - c:
+      - c: "Part of an exhibition page, showing the details."
+  - i: "/images/work/mall-galleries-slide-2.png"
+    cols: 6
+    captions:
+      - c: "The homepage showing a promoted exhibition plus upcoming events."
+      - c: "Part of an exhibition page, showing the details"
+  - i: "/images/work/mall-galleries-slide-3.png"
+    cols: 6
+    captions:
+      - c: "An artwork page, showing information about the piece and artist and purchasing details."
+      - c: "Users can commission artists through the site. This is the jumping-off point for the process."
+  - i: "/images/work/mall-galleries-slide-4.png"
+    cols: 12
+    captions:
+      - c: "Part of the site map, showing the different content types and how they fit together."
 work-url: http://www.mallgalleries.org.uk
 roles:
 - UX lead
 - Creative lead
-- Front end developer
+- Front-end
 tech:
 - Drupal 7
 - Bootstrap
