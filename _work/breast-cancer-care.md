@@ -3,18 +3,26 @@ title: Breast Cancer Care
 date: '2016-01-01 00:00:00'
 description: Designing a new mobile-first, component-based website for Breast Cancer Care, the UK's premier information and support charity.
 thumbnail: "https://res.cloudinary.com/dl4abuxel/image/upload/q_auto/v1537975996/bcc-sketch.jpg"
-slide1: 
-  i: "/images/bcc/bcc-ia.png"
-  c: "Mobile and desktop wireframes"
-slide2: 
-  i: "/images/bcc/bcc-sitemap.jpg" 
-  c: "A detail of the site map"
-slide3:
-  i: "/images/bcc/bcc-screen.jpg"
-  c: "The finished design"
-slide4:
-  i: "/images/bcc/bcc-components.png"
-  c: "Component index – an overview of all the componenets used across the site"
+slides:
+  - i: "/images/bcc/bcc-ia.png"
+    cols: 6
+    captions:
+      - c: "Wireframe of the desktop homepage."
+      - c: "Various mobile wireframes."
+  - i: "/images/bcc/bcc-sitemap.jpg"
+    cols: 12
+    captions:
+      - c: "A small detail from the site map – the site was so large it ran to ten sides of A3 paper."
+  - i: "/images/bcc/bcc-components.png"
+    cols: 12
+    captions:
+      - c: "Part of the BCC component library, a complete index of all components used throughout the site."
+  - i: "/images/bcc/bcc-screen.jpg"
+    cols: 12
+    captions:
+      - c: "The finished site in situ. Though the site has been redesigned since launch, my component-based structure remains in place."
+
+
 work-url: http://www.breastcancercare.org.uk
 roles:
 - UX lead
