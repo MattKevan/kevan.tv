@@ -37,14 +37,14 @@ tags:
 ---
 
 ## Background
+Based on the Essex coast, Fellowship Afloat is a sailing and outdoor activity centre like no other. There’s a full range of things to do, including sailing, powerboating, canoeing, climbing and archery, but the most striking difference it that it’s based on a giant red lightship, visible for miles around.
 
-Fellowship Afloat has been offering outdoor adventures to people of all ages for over 40 years, offering a wide range of activities including sailing, powerboating, canoeing, climbing, archery, and nature studies. However their fantastic location and great team of staff and volunteers are what really makes them special.
+It’s also a place that means a lot to me as I spent a lot of time there growing up, helping out with groups, having fun on boats or just generally getting muddy. So when Fellowship Afloat asked me to help create a new website I was happy to help, as it was an opportunity to give something back.
 
 ## The challenge
+Everyone who’s actually been to the centre agrees what an amazing place it is – the experience of staying on a lightship surrounded by miles of nature, the range of activities and the warmth of the staff and volunteers (not to mention the great food).
 
-Built back when 56k modems ruled, FACT's website had served them well but was showing its age.
-
-Fellowship Afloat needed a site which communicated the fun and excitement of being at the centre, could be easily content managed, worked well on mobiles, and provided a modern base to add further functionality.
+My brief was to design and build a website that communicated the fun and excitement of staying at the centre, and the many different activities on offer.
 
 ## The solution
 
