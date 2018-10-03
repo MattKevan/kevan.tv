@@ -7,24 +7,24 @@ description: "Creating an information architecture that helps people go deeper i
 logo: "/images/bcc/logo.png"
 thumbnail: "https://res.cloudinary.com/dl4abuxel/image/upload/q_auto/v1537975996/jesuits.jpg"
 slides:
-  - i: "/images/work/js1.png"
+  - i: "/images/work/j1.png"
     cols: 3
     captions:
       - c: "1. The homepage showing the hero banner and the prayers of the day."
       - c: "2. Retreat centre microsite. The images and colours could be customised to the centres' branding."
       - c: "3. The prayer life listing page, collating all the different types of prayers available."
       - c: "4. Map page, showing the locations of all the community groups."
-  - i: "/images/work/js2.png"
+  - i: "/images/work/j2.png"
     cols: 6
     captions:
       - c: "1. The homepage showing the featured prayer, plus a grid of the latest content."
       - c: "2. A content page, showing the 'going deeper' sidebar, pulling out content tagged with the next 'depth' level."
-  - i: "/images/work/js3.png"
+  - i: "/images/work/j3.png"
     cols: 6
     captions:
       - c: "1. A retreat centre microsite."
       - c: "2. An event page, showing the 'going deeper' sidebar plus a link to the relevant retreat centre."
-  - i: "/images/work/js4.png"
+  - i: "/images/work/j4.png"
     cols: 12
     captions:
       - c: "The full site map, showing how the four different retreat centre microsites are integrated into the wider site."
