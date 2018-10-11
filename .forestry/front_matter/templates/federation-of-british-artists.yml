@@ -70,3 +70,5 @@ fields:
     default: ''
   hidden: false
   default: ''
+pages:
+- _work/test-title.md
