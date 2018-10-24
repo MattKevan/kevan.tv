@@ -35,6 +35,9 @@ collections:
   articles:
     output: true
     permalink: /articles/:path/
+  projects: 
+    output: true
+    permalink: /projects/:path/
 
 defaults:
   -
@@ -65,6 +68,14 @@ defaults:
       type: "articles"
     values: 
       layout: "post"
-      lead: ""
+      description: ""
       tags: []
+      author: "Matt Kevan"
+  -
+    scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "post"
+      description: ""
       author: "Matt Kevan"
