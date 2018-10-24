@@ -223,6 +223,12 @@ p.link {
 	p {margin: 0;}
 }
 
+.grid-image {
+	padding: 20px;
+	vertical-align: middle;
+    display: table-cell;
+}
+
 // Patterns & colours
 
 .p1 {background-image: url('/images/patterns/1.svg');}
