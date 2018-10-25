@@ -65,11 +65,3 @@ defaults:
       description: ""
       tags: []
       author: "Matt Kevan"
-  -
-    scope:
-      path: ""
-      type: "projects"
-    values:
-      layout: "post"
-      description: ""
-      author: "Matt Kevan"
