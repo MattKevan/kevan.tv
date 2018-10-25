@@ -2,7 +2,7 @@
 title: Cyanotypes
 date: '2018-10-24 00:00:00'
 description: Hand printed Cyanotypes - an early photographic process
-thumbnail: "/images/projects/ks-thumbnail.jpg"
+thumbnail: "/images/projects/cyanotype.jpg"
 gallery:
   - l: "/images/projects/waterloo.jpg"
     t: "/images/projects/waterloo.jpg"

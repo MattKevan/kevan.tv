@@ -2,7 +2,7 @@
 title: Doodles and drawings
 date: '2018-10-24 00:00:00'
 description: Black and white drawings, usually done in meetings...
-thumbnail: "/images/projects/doodle-1.jpg"
+thumbnail: "/images/projects/doodle-thumb.jpg"
 gallery:
   - l: "/images/projects/doodle-x.jpg"
     t: "/images/projects/doodle-x.jpg"
