@@ -1,0 +1,36 @@
+---
+label: Articles
+hide_body: false
+is_partial: false
+fields:
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: post
+- name: lead
+  label: Lead
+  type: text
+  hidden: false
+  default: ''
+- name: tags
+  label: Tags
+  type: tag_list
+  hidden: false
+  default: []
+- name: author
+  label: Author
+  type: text
+  hidden: false
+  default: Matt Kevan
+pages:
+- _articles/component-based-design-what-it-is-and-how-to-do-it.md
+- _articles/pen-first-pixel-later.md
+- _articles/how-to-use-tree-testing-to-validate-your-information-architecture.md
+- _articles/designing-the-design-process.md
+- _articles/content-management-for-static-sites.md
+- _articles/the-double-diamond-design-process.md
+- _articles/automatic-image-resizing-with-jekyll-and-imagemagick.md
+- _articles/the-best-writing-apps-for-ios.md
+- _articles/the-best-product-management-books.md
+- _articles/plant-abstract-and-kactus-reviewed-version-control-for-design.md

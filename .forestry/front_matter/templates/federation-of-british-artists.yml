@@ -1,0 +1,74 @@
+---
+label: Work
+hide_body: false
+is_partial: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: ''
+- name: description
+  label: Description
+  type: textarea
+  hidden: false
+  default: ''
+- name: thumbnail
+  label: Thumbnail
+  type: file
+  hidden: false
+  default: ''
+- name: work-url
+  label: Work url
+  type: text
+  hidden: false
+  default: ''
+- name: roles
+  label: Roles
+  type: list
+  hidden: false
+  default: ''
+- name: tech
+  label: Tech
+  type: list
+  hidden: false
+  default: ''
+- name: tags
+  label: Tags
+  type: tag_list
+  hidden: false
+  default: ''
+- name: slides
+  label: Slides
+  type: field_group_list
+  fields:
+  - name: i
+    label: I
+    type: file
+    hidden: false
+    default: ''
+  - name: cols
+    label: Cols
+    type: text
+    hidden: false
+    default: ''
+  - name: captions
+    label: Captions
+    type: field_group_list
+    fields:
+    - name: c
+      label: C
+      type: text
+      hidden: false
+      default: ''
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
+pages:
+- _work/test-title.md

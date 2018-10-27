@@ -5,10 +5,8 @@
 
   <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
   {% seo %}
-  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,700|IBM+Plex+Sans:400,700|IBM+Plex+Serif" rel="stylesheet">  
-  <link rel="stylesheet" href="{{ "/css/owl.carousel.min.css" | prepend: site.baseurl }}">
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400|IBM+Plex+Sans:400,700" rel="stylesheet">  
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-  <link rel="stylesheet" href="{{ "/css/owl.theme.default.min.css" | prepend: site.baseurl }}">
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">

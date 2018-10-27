@@ -9,7 +9,7 @@
 title: Matt Kevan
 email: m@kevan.tv
 description: >
-  Product managment, user experience, design & development
+  Product managment, user experience, design & development.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.kevan.tv" # the base hostname & protocol for your site
 author: Matt Kevan
@@ -17,6 +17,9 @@ author: Matt Kevan
 # Build settings
 markdown: kramdown
 
+sass:
+  style: compressed
+  
 gems:
   - jekyll-feed
   - jekyll-seo-tag
@@ -32,6 +35,9 @@ collections:
   articles:
     output: true
     permalink: /articles/:path/
+  projects:
+    output: true
+    permalink: /projects/:path/
 
 defaults:
   -
@@ -44,8 +50,8 @@ defaults:
   -
     scope:
       path: ""
-      type: "posts"
-    values:
+      type: "articles"
+    values: 
       layout: "post"
       description: ""
       tags: []
@@ -53,15 +59,9 @@ defaults:
   -
     scope:
       path: ""
-      type: "resource"
-    values:
-      layout: "page"
-  -
-    scope:
-      path: ""
-      type: "articles"
+      type: "projects"
     values: 
-      layout: "post"
+      layout: "project"
       description: ""
       tags: []
       author: "Matt Kevan"

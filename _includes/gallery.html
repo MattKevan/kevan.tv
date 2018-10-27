@@ -1,0 +1,30 @@
+{% assign counter = 0 %}
+{% for image in page.gallery %}
+	<div class="col-xs-12 col-sm-{{ image.s }} grid">
+
+		<div class="teaser bgw">
+			<div class="grid-image bgw" data-mh="col-text">
+
+			<img src="{{ image.t }}" data-toggle="modal" data-target="#{{ counter }}a" />
+		</div>
+		<div class="inner">
+			<p class="s">{{ image.c }}</p>
+		</div>
+
+			<!-- Modal -->
+			<div class="modal fade" id="{{ counter }}a" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			  	<div class="modal-dialog" role="document">
+				    <div class="modal-content">
+				      	<div class="modal-body">
+					      	<div class="row">
+						       <img src="{{ image.l }}"/>
+							</div>
+				      	</div>
+				    </div>
+				</div>
+			</div><!--/modal-->
+		</div>
+		{% capture counter %}{{ counter | plus:'1' }}{% endcapture %}
+	</div>
+{% endfor %}
+
