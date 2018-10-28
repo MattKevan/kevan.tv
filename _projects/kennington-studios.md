@@ -1,7 +1,7 @@
 ---
-title: Cyanotypes
+title: Kennington Studios 
 date: '2018-10-24 00:00:00'
-description: Hand printed Cyanotypes - an early photographic process
+description: Hand printed Cyanotypes from ten centre of London
 thumbnail: "/images/projects/cyanotype.jpg"
 gallery:
   - l: "/images/projects/waterloo.jpg"
@@ -32,7 +32,5 @@ gallery:
     t: "/images/projects/jellyfish.jpg"
     c: "This is a caption"
     s: 4
-
-      
-slug: cyanotypes
+slug: kennington-studios
 ---

@@ -1,7 +1,7 @@
 ---
-title: Doodles and drawings
+title: General Creative
 date: '2018-10-24 00:00:00'
-description: Black and white drawings, usually done in meetings...
+description: 
 thumbnail: "/images/projects/doodle-thumb.jpg"
 gallery:
   - l: "/images/projects/doodle-x.jpg"
@@ -52,6 +52,4 @@ gallery:
     t: "/images/projects/doodle-6.jpg"
     c: "Pen and ink."
     s: 4 
-   
-slug: drawings
 ---
