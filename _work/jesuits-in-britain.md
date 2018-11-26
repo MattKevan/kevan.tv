@@ -28,7 +28,7 @@ slides:
     cols: 12
     captions:
       - c: "The full site map, showing how the four different retreat centre microsites are integrated into the wider site."
-work-url: http://www.breastcancercare.org.uk
+work-url: https://www.pathwaystogod.org
 project-type: NDP Studio
 roles:
 - UX lead
