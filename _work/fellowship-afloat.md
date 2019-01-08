@@ -34,6 +34,8 @@ tags:
 - User experience
 - Design
 - Development
+
+weight: 5
 ---
 
 ## Background
