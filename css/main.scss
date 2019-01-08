@@ -251,6 +251,9 @@ p.link {
 	.tags, .title {color: #000;}
 }
 
+::selection {
+	background: #FF00FF;
+}
 
 
 // Header & navigation
@@ -422,6 +425,19 @@ button.overlay-button {
 		height: 200px;
 	}
 }
+.masonry {
+	margin-top: 20px;
+}
+.masonry-sizer,
+.masonry-item {
+	img {width: 100%;}
+	margin-bottom: 30px;
+	.modal-body {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+}
+
 
 // Footer
 

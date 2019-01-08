@@ -19,4 +19,16 @@ $(document).ready(function() {
     autoHeight:true
   });
 
+  // init Isotope
+  var $grid = $('.masonry').isotope({
+      itemSelector: '.masonry-item',
+      columnWidth: '.masonry-sizer',
+
+  });
+  // layout Isotope after each image loads
+  $grid.imagesLoaded().progress( function() {
+    $grid.isotope('layout');
+  });
+
+
 });

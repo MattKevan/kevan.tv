@@ -1,0 +1,93 @@
+---
+layout: default
+---
+
+<div class="container">
+
+	<div class="row">
+		<div class="col-xs-12">
+			<div class="content masthead">
+				<p class="crumb s"><a href="/">Home </a>» <a href="/work">Work</a> »</p>
+				<h1>{{ page.title }}</h1>
+				<p class="lead">{{ page.description }}</p>
+				<p class="tags xs">
+					{% for tag in page.tags %}
+						<span>{{ tag }}</span>
+					{% endfor %}
+				</p>	
+			</div>
+		</div>
+	</div>
+	<div class="row">
+
+		<div class="col-xs-12 col-md-2 aside">
+			<div class="row">
+				<div class="col-xs-6 col-md-12">
+					<h4>My role</h4>
+					<ul>
+						{% for role in page.roles %}
+							<li>{{role}}</li>
+					    {% endfor %}
+					</ul>
+				</div>
+
+				<div class="col-xs-6 col-md-12">
+					<h4>Technology</h4>
+					<ul>
+						{% for tek in page.tech %}
+							<li>{{ tek }}</li>
+					    {% endfor %}
+					</ul>
+
+				</div>
+			</div>
+		</div>
+	
+		<div class="col-xs-12  col-md-8">
+			{{ content }}
+		</div>
+
+	</div>
+	
+		{% assign counter = 0 %}
+		{% for g in page.group %}
+		<div class="row">
+			<div class="col-xs-12 clearfix">
+				<h4>{{ g.grouptitle }}</h4>
+			</div>
+		</div>
+			<div class="row masonry">
+
+			{% for i in g.images %}
+
+				<div class="masonry-item col-xs-6 col-md-4">
+					<img src="{{ i.img }}" data-toggle="modal" data-target="#{{ counter }}a" />
+					<!-- Modal -->
+					<div class="modal fade" id="{{ counter }}a" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+					  	<div class="modal-dialog" role="document">
+						    <div class="modal-content">
+						    	<div class="modal-header">
+							        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							        <h4 class="modal-title">{{ i.cap }}</h4>
+							      </div>
+						      	<div class="modal-body">
+							      	<div class="row">
+								       <img src="{{ i.img }}"/>
+								       
+									</div>
+						      	</div>
+						    </div>
+						</div>
+					</div><!--/modal-->
+
+
+				{% capture counter %}{{ counter | plus:'1' }}{% endcapture %}
+
+				</div>
+			{% endfor %}
+			</div>
+
+		{% endfor %}
+
+	
+</div>

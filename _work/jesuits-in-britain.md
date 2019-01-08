@@ -40,6 +40,8 @@ tech:
 slug: jesuits-in-britain
 tags:
 - User experience
+
+weight: 3
 ---
 
 ## Background
