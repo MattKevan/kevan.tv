@@ -38,7 +38,7 @@ tech:
 slug: mall-galleries
 tags:
 - User experience 
-weight: 4
+weight: 5
 ---
 
 ## Background

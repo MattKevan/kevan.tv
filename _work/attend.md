@@ -36,7 +36,7 @@ tech:
 - Photoshop
 - Illustrator
 
-weight: 7
+weight: 8
 
 ---
 
