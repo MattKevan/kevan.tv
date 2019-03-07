@@ -12,11 +12,22 @@ layout: default
 	<p class="lead">{{ page.description }}</p>
 </div>
 
-
+<p class="title">Recent work</p>
+<div class="section">
+<div class="row">
+		{% assign sort = (site.work | sort: 'date' | reverse ) %}
+		{% for work in sort limit: 2 %}
+			<div class="col-xs-12 col-sm-6 grid">
+			    {% include work-teaser.html %}
+			</div>
+		{% endfor %}
+</div>
+<p class="link"><a href="/work">See more »</a></p>
+</div>
 	<p class="title">Latest articles</p>
 
 	{% assign datesort = (site.articles | sort: 'date' | reverse) %}
-	{% for article in datesort limit: 4 %}
+	{% for article in datesort limit: 3 %}
 	<div class="content">
 	    {% include article-teaser.html %}
 	    </div>
