@@ -1,6 +1,6 @@
 ---
 title: Attend
-date: '2019-01-01 00:00:00'
+date: '2018-08-01 00:00:00'
 description: Publication designs for Attend, the national organisation for hospital and community volunteers.
 thumbnail: "/images/attend/attend2.png"
 layout: print-design
@@ -36,7 +36,7 @@ tech:
 - Photoshop
 - Illustrator
 
-weight: 8
+weight: 1
 
 ---
 

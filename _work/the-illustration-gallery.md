@@ -1,6 +1,6 @@
 ---
 title: The Illustration Gallery
-date: '2019-01-01 00:00:00'
+date: '2018-09-01 00:00:00'
 description: Branding and design for a gallery dedicated to contemporary illustration.
 thumbnail: "/images/tig/gallery.png"
 layout: print-design

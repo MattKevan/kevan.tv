@@ -1,6 +1,6 @@
 ---
 title: Jesuits in Britain
-date: '2018-08-30 00:00:00'
+date: '2018-12-25 00:00:00'
 categories: []
 layout: case-study
 description: "Creating an information architecture that helps people go deeper in their journey of faith."
