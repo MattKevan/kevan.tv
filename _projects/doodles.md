@@ -1,9 +1,17 @@
 ---
-title: General Creative
+title: Doodles
 date: '2018-10-24 00:00:00'
-description: 
+description: "Collected pen, ink and tablet drawings."
 thumbnail: "/images/projects/doodle-thumb.jpg"
 gallery:
+  - l: "/images/projects/doodle-x2.jpg"
+    t: "/images/projects/doodle-x2.jpg"
+    c: "iPad Pro, Procreate and Apple Pencil."
+    s: 12
+  - l: "/images/projects/doodle-x1.jpg"
+    t: "/images/projects/doodle-x1.jpg"
+    c: "iPad Pro, Procreate and Apple Pencil."
+    s: 12
   - l: "/images/projects/doodle-x.jpg"
     t: "/images/projects/doodle-x.jpg"
     c: "iPad Pro, Procreate and Apple Pencil."

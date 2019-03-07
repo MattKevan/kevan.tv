@@ -1,8 +1,8 @@
 ---
-title: Projects
+title: Personal projects
 layout: grid
 permalink: "/projects/"
-description: "Personal projects and experiments"
+description: "Experiments, personal projects, photography and artwork."
 ---
 <div class="container">
   <div class="row">
@@ -17,7 +17,7 @@ description: "Personal projects and experiments"
 
 
   <div class="row">
-    {% for project in site.projects %}
+    {% for project in site.projects | reverse %}
       <div class="col-xs-12 col-sm-6 grid">
           {% include projects-teaser.html %}
       </div>
