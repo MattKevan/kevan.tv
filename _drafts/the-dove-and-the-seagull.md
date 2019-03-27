@@ -1,8 +1,8 @@
 ---
-title: Drawing
+title: The Dove & The Seagull
 date: '2018-10-24 00:00:00'
-description: "Abstract pen, ink and tablet drawing."
-thumbnail: "/images/projects/doodle.png"
+description: High quality retro & vintage inspired art poster prints.
+thumbnail: "/images/projects/dns.png"
 gallery:
   - l: "/images/projects/doodle-x2.jpg"
     t: "/images/projects/doodle-x2.jpg"

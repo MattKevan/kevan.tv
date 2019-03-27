@@ -6,17 +6,31 @@
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import "bootstrap";
 
+@font-face {
+    font-family: 'Inter';
+    src: url('fonts/Inter-Regular.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('fonts/Inter-Bold.woff');
+    font-weight: bold;
+    font-style: normal;
+}
 // Basic typography 
 
 body {
-	color: #191a1b;
-	font-family: 'IBM Plex Sans', Helvetica, Arial, sans-serif;
+	color: #1B1B1B;
+	font-family: 'Inter', Helvetica, Arial, sans-serif;
   	background-color: #fff;
+  	font-weight: normal;
 }
 
 p {
-	font-size: 18px;
-	line-height: 1.6em;
+	font-size: 16px;
+	line-height: 1.8em;
 	&.s {
 		font-size: 14px;
 		line-height: 1.4em;
@@ -36,8 +50,7 @@ a:hover {
 }
 
 strong, label {
-	font-family: 'IBM Plex Sans', Helvetica, Arial, sans-serif;
-	font-weight: 700;
+	font-weight: bold;
 }
 
 blockquote {
@@ -47,17 +60,15 @@ blockquote {
 // Headings
 
 h1, h2, h3, h4 {
-	font-family: 'IBM Plex Sans', Helvetica, Arial, sans-serif;
-	font-weight: 700;
-	color: #000;
-	a {
-		color: #191a1b;
-		&:hover {color: #191a1b;}
-	}
+	font-family: 'Inter', Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	color: #1B1B1B;
+	line-height: 1.4em;
+	
 }
 
 h1 {
-	margin: 0 0 20px 0;
+	margin: 0;
 	font-size: 2.2em;
 	@media (min-width: $screen-sm-min) {font-size: 3.2em;}
 }
@@ -66,22 +77,6 @@ h2{
 	margin-top: 0!important;
 	font-size: 1.6em;
 	@media (min-width: $screen-sm-min) {font-size: 2em;}
-  	a {
-		border-style:solid;
-		border-width: 0 0 3px 0;
-		border-color: #FF00FF;
-		padding: 0 0 -1px 0;
-		line-height: 1.4em;
-		transition: border-color 0.2s ease;
-  	}
-  	a:hover {
-  		text-decoration: none;
-  		border-color: #00FFFF;
-  	}
-  	a:active {
-  		text-decoration: none;
-  		border-color: #FFFF00;
-  	}
 }
 
 h3 {
@@ -89,21 +84,31 @@ h3 {
 	margin-top: 0!important;
 }
 
+h2 a, h3 a {
+	border-style: solid;
+	border-width: 0 0 3px 0;
+	border-color: #f0f;
+	line-height: 1.4em;
+	transition: border-color .2s ease;
+	color: #1B1B1B;
 
+	&:hover {
+		color: #1B1B1B;
+		text-decoration: none;
+		border-color: #FFFF00;
+	}
+}
 // Content styles
 .masthead{
-	border-style: solid;
-	border-color: #00FFFF;
-	border-width: 0 0 0 5px;
+	margin-bottom: 60px!important;
 
 }
 .section {
-	margin-bottom: 80px;
+	margin-bottom: 60px;
 }
 
 .aside {
 	font-size: .8em;
-	font-family: 'IBM Plex Mono', sans-serif;
 	margin-bottom: 30px;
 
 
@@ -127,16 +132,11 @@ h3 {
 }
 
 .title {
-	font-size: 1.6em;
+	font-size: 1.4em;
 	margin: 0 0 30px 0;
 	line-height: 1.2em;
-	background-color: #FFFF00;
-	font-family: 'IBM Plex Sans', Helvetica, Arial, sans-serif;
 	font-weight: 700;
-	color: #000;
-	display: inline-block;
-	padding: 2px 5px;
-	@media (min-width: $screen-md-min) {font-size: 2em;}
+	padding: 30px 0 0 0;
 }
 
 .lead {
@@ -144,11 +144,11 @@ h3 {
     line-height: 1.5em;
     font-size: 22px;
     @media (min-width: $screen-sm-min) {font-size: 26px;}
+    font-weight: normal;
 }
 
 .tags {
 	margin:0 0 40px 0;
-	font-family: "IBM Plex Mono", sans-serif;
 
 	span {
 		background-color: #00FFFF;
@@ -158,23 +158,16 @@ h3 {
 }
 
 .crumb {
-	font-family: "IBM Plex Mono", sans-serif;
 }
 .caption {
 	margin: 10px 0 0 0;
 }
 
 .author {
-	font-family: "IBM Plex Mono", sans-serif;
 	}
 
 p.link {
-	font-family: "IBM Plex Sans", sans-serif;
-	font-weight: 700;
 	margin: 0;
-
-	a{color: #191a1b;}
-	
 }
 
 .book-cover {
@@ -183,9 +176,7 @@ p.link {
 }
 
 .info {
-	font-family: "IBM Plex Mono", sans-serif;
 	h4 {
-		font-family: "IBM Plex Mono", sans-serif;
 		font-weight:700;
 		}
 	ul {padding: 0;}
@@ -201,9 +192,7 @@ p.link {
 }
 
 .content {
-	background-color: #fff;
 	margin: 0 0 30px 0;
-	padding: 20px;
 	&.continued {margin: 0;}
 	img {width: 100%;}
 
@@ -214,12 +203,13 @@ p.link {
 	padding: 20px;
 }
 
-.teaser { margin-bottom: 30px; 
+.teaser { margin-bottom: 60px; 
 	img {width: 100%;}
 	.inner {
-		padding: 10px 20px;
+		padding: 20px 0;
 	}
 }
+
 
 .footer {
 	padding: 20px 0;
@@ -251,7 +241,7 @@ p.link {
 .bgk {
 	background-color: #191a1b;
 	p, h1, h2, h3, h2 a, h3 a { color: #fff;}
-	.tags, .title {color: #000;}
+	.tags, .title {color: #1B1B1B;}
 }
 
 ::selection {
@@ -270,7 +260,7 @@ p.link {
 	border:none!important;
 	background: #fff;
 	border-radius:0;
-	border-color: #000;
+	border-color: #1B1B1B;
 
 }
 .navbar-header {
@@ -278,7 +268,7 @@ p.link {
 }
 .navbar-default {
 	border:none!important;
-	border-color: #000;
+	border-color: #1B1B1B;
 }
 .navbar-default .navbar-collapse, 
 .navbar-default .navbar-form {
@@ -317,9 +307,8 @@ p.link {
 .navbar-default .navbar-nav > li > a {
 	font-size: 16px;
 	line-height: 1.5em;
-	color: #000;
-	font-family: 'IBM Plex Sans', Helvetica, Arial, sans-serif;
-	font-weight: 700;
+	color: #1B1B1B;
+	font-weight: bold;
 
   	&:hover {
   		text-decoration: underline;
@@ -336,8 +325,7 @@ button.menu-button {
 	background-color: #fff;
 	margin-top:12px;
 	margin-right: 10px;
-	font-family: 'IBM Plex Sans', Helvetica, Arial, sans-serif;
-	font-weight: 700;
+	font-weight: bold;
 	transition: color 0.2s ease;
   	&:hover {
   		text-decoration: underline;
@@ -353,8 +341,7 @@ button.overlay-button {
 	position: fixed;
 	top:12px;
 	right: 10px;
-	font-family: 'IBM Plex Sans', Helvetica, Arial, sans-serif;
-	font-weight: 700;
+	font-weight: bold;
   	&:hover {
   		text-decoration: underline;
   	}
@@ -379,8 +366,7 @@ button.overlay-button {
 		background-repeat: repeat;
 		height: 100%;
 		padding: 15px;
-		font-family: 'IBM Plex Sans', Helvetica, Arial, sans-serif;
-		font-weight: 700;
+		font-weight: bold;
 
 		ul {
 			list-style: none;
@@ -392,7 +378,7 @@ button.overlay-button {
 				margin: 0;
 				padding: 0;
 				a {
-					color: #000;
+					color: #1B1B1B;
 					background-color: #fff;
 					display: inline-block;
 					margin: 0 0 10px 0;
@@ -411,7 +397,14 @@ button.overlay-button {
 		}
 	}
 }
-
+.grid {
+	.teaser {
+		margin-bottom: 30px;
+	}
+	p.tags {
+		margin-bottom: 0;
+	}
+}
 .grid-item {
 	.logo {
 		float: right;

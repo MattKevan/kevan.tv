@@ -5,11 +5,11 @@ layout: default
 	<div class="container">
 		<div class="row">
 
-			<div class="col-xs-12">
+			<div class="col-xs-12 col-md-10 col-md-push-1">
 				<div class="content masthead">
 					<p class="s"><a href="/">Home </a>» <a href="/articles">Articles</a> »</p>
 					<h1 itemprop="name headline">{{ page.title }}</h1>
-					<p class="lead">{{ page.description }}</p>
+					
 
 					<p class="tags xs">
 					 	{% for tag in page.tags %}
@@ -23,6 +23,7 @@ layout: default
 
 			<div class="col-xs-12 col-md-10 col-md-push-1">
 				<div itemprop="articleBody">
+					<p class="lead">{{ page.description }}</p>
 					{{ content }}
 				</div>
 

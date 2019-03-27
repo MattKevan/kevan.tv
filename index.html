@@ -1,6 +1,6 @@
 ---
 title: Matt Kevan
-description: Product management, user experience, design &amp; development.
+description: User experience, design & development.
 layout: default
 ---
 <div class="container">
@@ -14,10 +14,10 @@ layout: default
 
 <p class="title">Recent work</p>
 <div class="section">
-<div class="row">
+<div class="row grid">
 		{% assign sort = (site.work | sort: 'date' | reverse ) %}
-		{% for work in sort limit: 2 %}
-			<div class="col-xs-12 col-sm-6 grid">
+		{% for work in sort limit: 3 %}
+			<div class="col-xs-12 col-sm-6 col-md-4">
 			    {% include work-teaser.html %}
 			</div>
 		{% endfor %}

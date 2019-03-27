@@ -1,8 +1,8 @@
 ---
-title: Drawing
+title: Shapes Lines Colours
 date: '2018-10-24 00:00:00'
-description: "Abstract pen, ink and tablet drawing."
-thumbnail: "/images/projects/doodle.png"
+description: "Creating at least three unique artworks every day for a year."
+thumbnail: "/images/projects/slc.png"
 gallery:
   - l: "/images/projects/doodle-x2.jpg"
     t: "/images/projects/doodle-x2.jpg"
