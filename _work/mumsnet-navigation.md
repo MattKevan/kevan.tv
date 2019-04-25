@@ -50,7 +50,7 @@ Mumsnet was founded over 20 years ago, and over the years new sections, features
 
 This resulted in a site that was almost impossible to navigate, as sections in the main menu in one part of the site became buried two or three levels down or were non-existent in others. The mobile version of some pages had a different main navigation to the desktop version. Across the site, there were seven different headers and three different footers.
 
-This situation was hurting usability as there was no consistent site structure, and it also wasn’t helping SEO as search engines would get a different view of the site depending on which page – or version of the page – they indexed. In addition, over 94% of Mumsnet’s traffic goes to forum content – editorial content is not widely viewed unless it’s found through search – so a secondary goal was to increase traffic to articles by making them easier to get to.
+This situation was hurting usability as there was no consistent site structure, and it also wasn’t helping SEO as search engines would get a different view of the site depending on which page – or version of the page – they indexed. In addition, a large amount of Mumsnet’s traffic goes to forum content – editorial content is not widely viewed unless it’s found through search – so a secondary goal was to increase traffic to articles by making them easier to get to.
 
 My challenge was to create a consistent header and footer that could be rolled out across the site, irrespective of the underlying technology or front-end framework.
 
