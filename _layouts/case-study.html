@@ -33,17 +33,21 @@ layout: default
 	<div class="row">
 
 		<div class="col-xs-12 col-md-2 aside">
+												<div class="content-sm">
+
 			<div class="row">
+
 				<div class="col-xs-6 col-md-12">
 					<h4>My role</h4>
 					<ul>
 						{% for role in page.roles %}
 							<li>{{role}}</li>
 					    {% endfor %}
-					</ul>
+					</ul>	
 				</div>
 
-				<div class="col-xs-6 col-md-12">
+					<div class="content-sm">
+
 					<h4>Technology</h4>
 					<ul>
 						{% for tek in page.tech %}
@@ -53,11 +57,14 @@ layout: default
 
 				</div>
 			</div>
+			</div>
 		</div>
 	
-		<div class="col-xs-12 col-md-8 content">
+		<div class="col-xs-12 col-md-8">
+			<div class="content">
 			{{ content }}
 			<p><a href="{{ page.work-url }}" target="_blank">Visit the site »</a></p>
+		</div>
 		</div>
 
 	</div>

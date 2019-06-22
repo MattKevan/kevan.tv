@@ -28,9 +28,7 @@ layout: default
 
 	{% assign datesort = (site.articles | sort: 'date' | reverse) %}
 	{% for article in datesort limit: 3 %}
-	<div class="content">
 	    {% include article-teaser.html %}
-	    </div>
 
 	    
 	{% endfor %}
@@ -39,6 +37,4 @@ layout: default
 			</div>
 		</div>
 	</div>
-
-
 
