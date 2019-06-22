@@ -7,15 +7,15 @@
 @import "bootstrap";
 
 @font-face {
-    font-family: 'Inter';
-    src: url('fonts/Inter-Regular.woff');
+    font-family: 'Plex';
+    src: url('fonts/plex/IBMPlexSans-Regular.woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Inter';
-    src: url('fonts/Inter-Bold.woff');
+    font-family: 'Plex';
+    src: url('fonts/plex/IBMPlexSans-Bold.woff');
     font-weight: bold;
     font-style: normal;
 }
@@ -23,7 +23,7 @@
 
 body {
 	color: #1B1B1B;
-	font-family: 'Inter', Helvetica, Arial, sans-serif;
+	font-family: 'Plex', Helvetica, Arial, sans-serif;
   	background-color: #fff;
   	font-weight: normal;
 }
@@ -60,7 +60,7 @@ blockquote {
 // Headings
 
 h1, h2, h3, h4 {
-	font-family: 'Inter', Helvetica, Arial, sans-serif;
+	font-family: 'Plex', Helvetica, Arial, sans-serif;
 	font-weight: bold;
 	color: #1B1B1B;
 	line-height: 1.4em;
@@ -98,9 +98,17 @@ h2 a, h3 a {
 		border-color: #FFFF00;
 	}
 }
+.pad {
+	padding: 20px;
+}
 // Content styles
 .masthead{
 	margin-bottom: 60px!important;
+	background-color: #fff;
+	padding: 20px 20px 30px 20px;
+	border-width: 0 0 0 5px;
+	border-color: #FFFF00;
+	border-style: solid;
 
 }
 .section {
@@ -122,21 +130,24 @@ h2 a, h3 a {
 		margin-bottom: 5px;
 	}
 	.inner {
+
 	}
 }
 .breadcrumb {
 	font-size: 14px;
 	background: none;
-	margin:0 0 10px 0;
+	margin:0;
 	padding: 0;
 }
 
 .title {
 	font-size: 1.4em;
-	margin: 0 0 30px 0;
+	margin: 0 0 20px 0;
 	line-height: 1.2em;
 	font-weight: 700;
-	padding: 30px 0 0 0;
+	padding: 5px;
+	background-color: #FFFF00;
+	display: inline-block;
 }
 
 .lead {
@@ -203,10 +214,13 @@ p.link {
 	padding: 20px;
 }
 
-.teaser { margin-bottom: 60px; 
+.teaser { margin-bottom: 30px; 
 	img {width: 100%;}
 	.inner {
-		padding: 20px 0;
+		padding: 20px;
+	}
+	p.tags {
+		margin-bottom: 10px;
 	}
 }
 
