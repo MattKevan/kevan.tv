@@ -21,6 +21,7 @@ layout: default
 	<div class="row">
 
 		<div class="col-xs-12 col-md-2 aside">
+			<div class="content">
 			<div class="row">
 				<div class="col-xs-6 col-md-12">
 					<h4>My role</h4>
@@ -42,12 +43,16 @@ layout: default
 				</div>
 			</div>
 		</div>
+		</div>
 	
 		<div class="col-xs-12  col-md-8">
+			<div class="content">
 			{{ content }}
+		</div>
 		</div>
 
 	</div>
+	<div class="content bgk">
 	
 		{% assign counter = 0 %}
 		{% for g in page.group %}
@@ -88,6 +93,6 @@ layout: default
 			</div>
 
 		{% endfor %}
-
+</div>
 	
 </div>

@@ -180,6 +180,12 @@ p.link {
 	margin: 0;
 }
 
+p.link-bgk a {
+	background-color: #1B1B1B;
+	color: #fff;
+	padding: 5px 10px;
+}
+
 .book-cover {
 	text-align: center;
 	height: 300px;
@@ -460,7 +466,7 @@ button.overlay-button {
 	}
 }
 .masonry {
-	margin-top: 20px;
+	margin: 10px 0;
 }
 .masonry-sizer,
 .masonry-item {
