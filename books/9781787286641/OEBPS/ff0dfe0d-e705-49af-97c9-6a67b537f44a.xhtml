@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:pls="http://www.w3.org/2005/01/pronunciation-lexicon" xmlns:ssml="http://www.w3.org/2001/10/synthesis" xmlns:svg="http://www.w3.org/2000/svg">
+<head>
+  <meta charset="UTF-8" />
+  <title>Creating a single HTML page</title>
+  <link type="text/css" rel="stylesheet" media="all" href="style.css" />
+  <link type="text/css" rel="stylesheet" media="all" href="core.css" />
+</head>
+<body>
+  <div id="sbo-rt-content"><section>
+
+                            <header>
+                    <h1 class="header-title">Creating a single HTML page</h1>
+                </header>
+            
+            <article>
+                
+<p>First, in our <kbd>photogenik</kbd> theme folder we will create a new file named <kbd>single.php</kbd>:</p>
+<div class="CDPAlignCenter CDPAlign"><img height="223" width="311" src="images/c4b02cd9-a1be-49ab-bf6c-5cb8373eeeda.png" /></div>
+<p>Next, we will go into the <kbd>index.php</kbd> file and copy and paste its code it in the <kbd>single.php</kbd> file as shown here:</p>
+<pre>&lt;?php get_header(); ?&gt;<br/><br/>&lt;?php if(have_posts()) : ?&gt;<br/>  &lt;?php while(have_posts()) : the_post(); ?&gt;<br/>    &lt;?php get_template_part('content', get_post_format()); ?&gt;<br/>  &lt;?php endwhile; ?&gt;<br/><br/>&lt;?php else : ?&gt;<br/>  &lt;?php echo wpautop('Sorry, there are no posts'); ?&gt;<br/>&lt;?php endif; ?&gt;<br/><br/>&lt;?php get_footer(); ?&gt;</pre>
+<p>We will now remove <kbd>get_template_part</kbd> in this code:</p>
+<pre>&lt;?php get_header(); ?&gt;<br/><br/>&lt;?php if(have_posts()) : ?&gt;<br/>  &lt;?php while(have_posts()) : the_post(); ?&gt;<br/>   <br/>  &lt;?php endwhile; ?&gt;<br/><br/>&lt;?php else : ?&gt;<br/>  &lt;?php echo wpautop('Sorry, there are no posts'); ?&gt;<br/>&lt;?php endif; ?&gt;<br/><br/>&lt;?php get_footer(); ?&gt;</pre>
+<p>And in place of the <kbd>while</kbd> loop, we will put our article, which we have created in our <kbd>single.html</kbd> file. Open the <kbd>single.html</kbd> file and copy the entire <kbd>&lt;article&gt;</kbd> section. Now paste this code in the <kbd>while</kbd> loop in the <kbd>single.php</kbd> file as show here:</p>
+<pre>&lt;?php get_header(); ?&gt;<br/><br/>&lt;?php if(have_posts()) : ?&gt;<br/>  &lt;?php while(have_posts()) : the_post(); ?&gt;<br/>    &lt;article class="post"&gt;<br/>      &lt;p class="meta"&gt;<br/>      Posted at 2:00pm on 03-29-2017 by Brad<br/>      &lt;/p&gt;<br/><br/>      &lt;hr/&gt;<br/>      <br/>      &lt;img src="images/1.jpg" class="pic w3-animate-rigt"&gt;<br/>      &lt;div class="w3-row"&gt;<br/>        &lt;div class="w3-col l2"&gt;<br/>          &lt;br /&gt;<br/>          &lt;a href="index.html" class="w3-btn w3-red"&gt;Back&lt;/a&gt;<br/>        &lt;/div&gt;<br/>        &lt;div class="w3-col l10"&gt;<br/>        &lt;h1&gt;Photo Title&lt;/h1&gt;<br/>        &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p&gt;<br/>        &lt;/div&gt;<br/>      &lt;/div&gt;<br/>    &lt;/article&gt;  </pre>
+
+
+            </article>
+
+            
+        </section>
+    </div>
+</body>
+</html>

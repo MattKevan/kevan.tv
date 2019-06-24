@@ -1,0 +1,1027 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+    <head>
+        <meta name="dtb:uid" content="9781787286641" />
+        <meta name="dtb:generator" content="epub-nicohaenggi"/>
+        <meta name="dtb:depth" content="1"/>
+        <meta name="dtb:totalPageCount" content="0"/>
+        <meta name="dtb:maxPageNumber" content="0"/>
+    </head>
+    <docTitle>
+        <text>Learn to Create WordPress Themes by Building 5 Projects</text>
+    </docTitle>
+    <docAuthor>
+        <text>Eduonix Learning Solutions</text>
+    </docAuthor>
+    <navMap>
+        
+                <navPoint id="tocxhtmlfile" playOrder="0" class="chapter">
+                    <navLabel>
+                        <text>Learn to Create WordPress Themes by Building 5 Projects</text>
+                    </navLabel>
+                    <content src="cover.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="tocxhtmlfile" playOrder="0" class="chapter">
+                    <navLabel>
+                        <text>Title Page</text>
+                    </navLabel>
+                    <content src="113e5985-e459-4979-ad43-582f51d640e1.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="tocxhtmlfile" playOrder="0" class="chapter">
+                    <navLabel>
+                        <text>Copyright</text>
+                    </navLabel>
+                    <content src="eb764f58-b01f-4d8a-a747-0f7b61efbfbf.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="tocxhtmlfile" playOrder="0" class="chapter">
+                    <navLabel>
+                        <text>Learn to Create WordPress Themes by Building 5 Projects</text>
+                    </navLabel>
+                    <content src="d04e08b4-d178-4522-8e24-3fb96ecd0fad.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="tocxhtmlfile" playOrder="0" class="chapter">
+                    <navLabel>
+                        <text>Credits</text>
+                    </navLabel>
+                    <content src="1e5af9a2-3a8b-4d3d-8380-67d3456a2f6e.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="tocxhtmlfile" playOrder="0" class="chapter">
+                    <navLabel>
+                        <text>About the Author</text>
+                    </navLabel>
+                    <content src="934c075e-92a8-40f4-b287-0dca6f94b82d.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="tocxhtmlfile" playOrder="0" class="chapter">
+                    <navLabel>
+                        <text>www.PacktPub.com</text>
+                    </navLabel>
+                    <content src="40b43568-2046-48c3-81a4-3444792bd399.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="tocxhtmlfile" playOrder="0" class="chapter">
+                    <navLabel>
+                        <text>Why subscribe?</text>
+                    </navLabel>
+                    <content src="dcd184c7-7736-441e-ac8d-1390cb1ac942.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="tocxhtmlfile" playOrder="0" class="chapter">
+                    <navLabel>
+                        <text>Customer Feedback</text>
+                    </navLabel>
+                    <content src="f71b1ed9-d78a-4110-b026-a5cd06f22fda.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="tocxhtmlfile" playOrder="0" class="chapter">
+                    <navLabel>
+                        <text>Table of Contents</text>
+                    </navLabel>
+                    <content src="toc.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-c867f482-87cb-41b0-9d26-a988d259fb7c" playOrder="1" class="chapter">
+                    <navLabel>
+                        <text>Preface</text>
+                    </navLabel>
+                    <content src="c867f482-87cb-41b0-9d26-a988d259fb7c.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-603c5887-2a47-41bf-8e89-92233b8efa2f" playOrder="2" class="chapter">
+                    <navLabel>
+                        <text>What this book covers</text>
+                    </navLabel>
+                    <content src="603c5887-2a47-41bf-8e89-92233b8efa2f.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-1ba0acdb-4144-420c-bdcc-8c2eef727334" playOrder="3" class="chapter">
+                    <navLabel>
+                        <text>What you need for this book</text>
+                    </navLabel>
+                    <content src="1ba0acdb-4144-420c-bdcc-8c2eef727334.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-54e669ce-48d0-41b4-b79f-ea1dbb61f766" playOrder="4" class="chapter">
+                    <navLabel>
+                        <text>Who this book is for</text>
+                    </navLabel>
+                    <content src="54e669ce-48d0-41b4-b79f-ea1dbb61f766.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-177285a8-26e8-4c39-8d45-fd21b93c38a9" playOrder="5" class="chapter">
+                    <navLabel>
+                        <text>Conventions</text>
+                    </navLabel>
+                    <content src="177285a8-26e8-4c39-8d45-fd21b93c38a9.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-03c2cdb3-d7df-42ac-8c8e-ed2cdde51610" playOrder="6" class="chapter">
+                    <navLabel>
+                        <text>Reader feedback</text>
+                    </navLabel>
+                    <content src="03c2cdb3-d7df-42ac-8c8e-ed2cdde51610.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-988973d9-78c0-4a28-9a7e-7cdbeae2d11d" playOrder="7" class="chapter">
+                    <navLabel>
+                        <text>Customer support</text>
+                    </navLabel>
+                    <content src="988973d9-78c0-4a28-9a7e-7cdbeae2d11d.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-a64a2f8a-8a21-475e-8209-626533b78a11" playOrder="8" class="chapter">
+                    <navLabel>
+                        <text>Downloading the example code</text>
+                    </navLabel>
+                    <content src="a64a2f8a-8a21-475e-8209-626533b78a11.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-a50ff8e4-693f-4974-a9a2-c5b3879f6d46" playOrder="9" class="chapter">
+                    <navLabel>
+                        <text>Downloading the color images of this book</text>
+                    </navLabel>
+                    <content src="a50ff8e4-693f-4974-a9a2-c5b3879f6d46.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-b795419b-e987-4286-80a0-572411918d79" playOrder="10" class="chapter">
+                    <navLabel>
+                        <text>Errata</text>
+                    </navLabel>
+                    <content src="b795419b-e987-4286-80a0-572411918d79.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-6a7ed380-1855-48d7-a92d-b32701771f0a" playOrder="11" class="chapter">
+                    <navLabel>
+                        <text>Piracy</text>
+                    </navLabel>
+                    <content src="6a7ed380-1855-48d7-a92d-b32701771f0a.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-41698083-6af4-48bf-b9ca-9df0b61cad55" playOrder="12" class="chapter">
+                    <navLabel>
+                        <text>Questions</text>
+                    </navLabel>
+                    <content src="41698083-6af4-48bf-b9ca-9df0b61cad55.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-b273bb09-f622-4e35-8c16-0884cdbf5322" playOrder="13" class="chapter">
+                    <navLabel>
+                        <text>Creating a Simple Theme with WordPress</text>
+                    </navLabel>
+                    <content src="b273bb09-f622-4e35-8c16-0884cdbf5322.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-eb687432-bab6-40d8-826d-679957e4dd61" playOrder="14" class="chapter">
+                    <navLabel>
+                        <text>Installing and setting up WordPress</text>
+                    </navLabel>
+                    <content src="eb687432-bab6-40d8-826d-679957e4dd61.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-4bd7c981-18cd-4ad2-9c50-bf9ca0a23895" playOrder="15" class="chapter">
+                    <navLabel>
+                        <text>Creating and enabling themes</text>
+                    </navLabel>
+                    <content src="4bd7c981-18cd-4ad2-9c50-bf9ca0a23895.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-dbd84b3c-f783-49eb-a482-053b33b5f93e" playOrder="16" class="chapter">
+                    <navLabel>
+                        <text>Creating an HTML structure</text>
+                    </navLabel>
+                    <content src="dbd84b3c-f783-49eb-a482-053b33b5f93e.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-98abd9ed-f521-41b9-b1a2-52119d26bba4" playOrder="17" class="chapter">
+                    <navLabel>
+                        <text>Working with the style sheet</text>
+                    </navLabel>
+                    <content src="98abd9ed-f521-41b9-b1a2-52119d26bba4.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-8057070e-6ecf-4a6b-aa96-aab354ef7180" playOrder="18" class="chapter">
+                    <navLabel>
+                        <text>Adding a function in the head tag</text>
+                    </navLabel>
+                    <content src="8057070e-6ecf-4a6b-aa96-aab354ef7180.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-295e2210-490c-4548-a1f4-b787c2b5b77f" playOrder="19" class="chapter">
+                    <navLabel>
+                        <text>Building the HTML body</text>
+                    </navLabel>
+                    <content src="295e2210-490c-4548-a1f4-b787c2b5b77f.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-ba032be8-dd5e-47b3-964b-1c0385466693" playOrder="20" class="chapter">
+                    <navLabel>
+                        <text>Base styling</text>
+                    </navLabel>
+                    <content src="ba032be8-dd5e-47b3-964b-1c0385466693.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-9b100cbc-83ea-4156-8c41-736a3181fe8c" playOrder="21" class="chapter">
+                    <navLabel>
+                        <text>Single posts and thumbnails</text>
+                    </navLabel>
+                    <content src="9b100cbc-83ea-4156-8c41-736a3181fe8c.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-ab181f49-4226-4df3-8c10-ebbb4c96a45e" playOrder="22" class="chapter">
+                    <navLabel>
+                        <text>Adding an image to the post</text>
+                    </navLabel>
+                    <content src="ab181f49-4226-4df3-8c10-ebbb4c96a45e.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-065040d8-5ab5-47fb-980f-7c2f9329e820" playOrder="23" class="chapter">
+                    <navLabel>
+                        <text>Pages and menus</text>
+                    </navLabel>
+                    <content src="065040d8-5ab5-47fb-980f-7c2f9329e820.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-c26c73bf-994a-4f37-ad02-fd7c34332530" playOrder="24" class="chapter">
+                    <navLabel>
+                        <text>Widget locations and comments</text>
+                    </navLabel>
+                    <content src="c26c73bf-994a-4f37-ad02-fd7c34332530.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-7c9e6ec8-39fa-4fef-aed7-9c82f1e6848c" playOrder="25" class="chapter">
+                    <navLabel>
+                        <text>Working with widgets</text>
+                    </navLabel>
+                    <content src="7c9e6ec8-39fa-4fef-aed7-9c82f1e6848c.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-d08cb713-f22a-4f6e-9410-da12e2ff1efc" playOrder="26" class="chapter">
+                    <navLabel>
+                        <text>Adding the comment functionality</text>
+                    </navLabel>
+                    <content src="d08cb713-f22a-4f6e-9410-da12e2ff1efc.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-59682aaa-cdb8-42b4-a9fe-ee9e2ffb7c8a" playOrder="27" class="chapter">
+                    <navLabel>
+                        <text>Summary</text>
+                    </navLabel>
+                    <content src="59682aaa-cdb8-42b4-a9fe-ee9e2ffb7c8a.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-8b3befb9-a246-404f-86b5-9271607afc87" playOrder="28" class="chapter">
+                    <navLabel>
+                        <text>Building a WordPress Theme</text>
+                    </navLabel>
+                    <content src="8b3befb9-a246-404f-86b5-9271607afc87.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-e80505cb-09d3-4c77-8739-dce563334ca7" playOrder="29" class="chapter">
+                    <navLabel>
+                        <text>Post formats</text>
+                    </navLabel>
+                    <content src="e80505cb-09d3-4c77-8739-dce563334ca7.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-b86398bf-1090-4fc3-bcf4-cfbff301a191" playOrder="30" class="chapter">
+                    <navLabel>
+                        <text>Creating a design using HTML and CSS</text>
+                    </navLabel>
+                    <content src="b86398bf-1090-4fc3-bcf4-cfbff301a191.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-237a9b80-504f-4424-bd7e-9b99195276b6" playOrder="31" class="chapter">
+                    <navLabel>
+                        <text>Building the HTML body</text>
+                    </navLabel>
+                    <content src="237a9b80-504f-4424-bd7e-9b99195276b6.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-7b1a02d1-bbc5-432b-8243-6b018c494638" playOrder="32" class="chapter">
+                    <navLabel>
+                        <text>Adding CSS</text>
+                    </navLabel>
+                    <content src="7b1a02d1-bbc5-432b-8243-6b018c494638.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-d43d34d9-bd6c-4521-83a5-73fc168d1752" playOrder="33" class="chapter">
+                    <navLabel>
+                        <text>Creating a WordPress theme</text>
+                    </navLabel>
+                    <content src="d43d34d9-bd6c-4521-83a5-73fc168d1752.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-b91c81e1-83c8-4d6c-a233-87d5c33963b1" playOrder="34" class="chapter">
+                    <navLabel>
+                        <text>Displaying blog post</text>
+                    </navLabel>
+                    <content src="b91c81e1-83c8-4d6c-a233-87d5c33963b1.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-ad6a408c-5a50-4f86-9424-7169c72f0d51" playOrder="35" class="chapter">
+                    <navLabel>
+                        <text>Creating a single post and adding an image</text>
+                    </navLabel>
+                    <content src="ad6a408c-5a50-4f86-9424-7169c72f0d51.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-1e1316d6-b247-4c69-b823-0adb6362a036" playOrder="36" class="chapter">
+                    <navLabel>
+                        <text>Creating custom archive pages</text>
+                    </navLabel>
+                    <content src="1e1316d6-b247-4c69-b823-0adb6362a036.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-553792a2-82fc-493d-8a4d-bdd4cbb08927" playOrder="37" class="chapter">
+                    <navLabel>
+                        <text>Different post formats</text>
+                    </navLabel>
+                    <content src="553792a2-82fc-493d-8a4d-bdd4cbb08927.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-65245c45-bb33-4fe9-9bc3-f4799be29aad" playOrder="38" class="chapter">
+                    <navLabel>
+                        <text>Pages, custom templates, and sub navigation</text>
+                    </navLabel>
+                    <content src="65245c45-bb33-4fe9-9bc3-f4799be29aad.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-a575c154-c1c4-4119-9cf6-c88fe6590638" playOrder="39" class="chapter">
+                    <navLabel>
+                        <text>Working with Theme Widgets</text>
+                    </navLabel>
+                    <content src="a575c154-c1c4-4119-9cf6-c88fe6590638.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-b2ee5431-bd93-4039-8547-8e78f59eafe6" playOrder="40" class="chapter">
+                    <navLabel>
+                        <text>Custom home page</text>
+                    </navLabel>
+                    <content src="b2ee5431-bd93-4039-8547-8e78f59eafe6.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-4d74dbac-ae9d-45a5-8708-cfbf061ae873" playOrder="41" class="chapter">
+                    <navLabel>
+                        <text>Comment Functionality</text>
+                    </navLabel>
+                    <content src="4d74dbac-ae9d-45a5-8708-cfbf061ae873.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-9976d70c-d65c-4d7b-8071-5fe86ac47b18" playOrder="42" class="chapter">
+                    <navLabel>
+                        <text>Summary</text>
+                    </navLabel>
+                    <content src="9976d70c-d65c-4d7b-8071-5fe86ac47b18.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-7d23425a-c730-418a-9c20-1f05481df839" playOrder="43" class="chapter">
+                    <navLabel>
+                        <text>Building a WordPress Theme for Photo Gallery</text>
+                    </navLabel>
+                    <content src="7d23425a-c730-418a-9c20-1f05481df839.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-fc10840e-ca42-4786-9b5e-e36a0a39a44d" playOrder="44" class="chapter">
+                    <navLabel>
+                        <text>Creating the layout of the home page in HTML and CSS</text>
+                    </navLabel>
+                    <content src="fc10840e-ca42-4786-9b5e-e36a0a39a44d.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-d8dd666c-bee7-410f-bf6e-1032dc030e6a" playOrder="45" class="chapter">
+                    <navLabel>
+                        <text>Creating the HTML layout</text>
+                    </navLabel>
+                    <content src="d8dd666c-bee7-410f-bf6e-1032dc030e6a.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-30d7fc28-24ba-4121-9a11-b94227a6d69d" playOrder="46" class="chapter">
+                    <navLabel>
+                        <text>Creating the header</text>
+                    </navLabel>
+                    <content src="30d7fc28-24ba-4121-9a11-b94227a6d69d.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-0598489a-d851-44cf-b5c1-21e34201c124" playOrder="47" class="chapter">
+                    <navLabel>
+                        <text>Adding the title and search box</text>
+                    </navLabel>
+                    <content src="0598489a-d851-44cf-b5c1-21e34201c124.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-ecdb4602-fa71-4567-b7db-ec22860ae9e8" playOrder="48" class="chapter">
+                    <navLabel>
+                        <text>Shifting the search box</text>
+                    </navLabel>
+                    <content src="ecdb4602-fa71-4567-b7db-ec22860ae9e8.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-8a7966e5-0ac6-4e79-9b84-1058d0303f04" playOrder="49" class="chapter">
+                    <navLabel>
+                        <text>Adding the sidebar and main area</text>
+                    </navLabel>
+                    <content src="8a7966e5-0ac6-4e79-9b84-1058d0303f04.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-b7ff96ce-7359-4acf-8267-ccb34beeec70" playOrder="50" class="chapter">
+                    <navLabel>
+                        <text>Adding the sidebar</text>
+                    </navLabel>
+                    <content src="b7ff96ce-7359-4acf-8267-ccb34beeec70.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-6abf5948-010c-4b35-9129-30244977da9c" playOrder="51" class="chapter">
+                    <navLabel>
+                        <text>Changing the color of the background and text of the sidebar</text>
+                    </navLabel>
+                    <content src="6abf5948-010c-4b35-9129-30244977da9c.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-da0dd3bc-f7d2-49f4-b769-76fa53e9df43" playOrder="52" class="chapter">
+                    <navLabel>
+                        <text>Adding the main area</text>
+                    </navLabel>
+                    <content src="da0dd3bc-f7d2-49f4-b769-76fa53e9df43.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-e86948ba-5ad7-4cae-8f8c-ccd3eac3e122" playOrder="53" class="chapter">
+                    <navLabel>
+                        <text>Adding images to the column</text>
+                    </navLabel>
+                    <content src="e86948ba-5ad7-4cae-8f8c-ccd3eac3e122.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-586e80de-0423-4fc3-9439-0af28df818b1" playOrder="54" class="chapter">
+                    <navLabel>
+                        <text>Adding a footer in the main area</text>
+                    </navLabel>
+                    <content src="586e80de-0423-4fc3-9439-0af28df818b1.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-c93682e2-7ad4-4628-9435-020b10404e3b" playOrder="55" class="chapter">
+                    <navLabel>
+                        <text>Implementing the animation and single.html page</text>
+                    </navLabel>
+                    <content src="c93682e2-7ad4-4628-9435-020b10404e3b.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-ea2ed277-f523-4be1-9394-486f303e3be7" playOrder="56" class="chapter">
+                    <navLabel>
+                        <text>Implementing the Fade In animation</text>
+                    </navLabel>
+                    <content src="ea2ed277-f523-4be1-9394-486f303e3be7.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-4e504bfc-e847-483e-94c3-7faa3821ce29" playOrder="57" class="chapter">
+                    <navLabel>
+                        <text>Creating animation on the single page</text>
+                    </navLabel>
+                    <content src="4e504bfc-e847-483e-94c3-7faa3821ce29.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-894cc4c0-f545-4639-ad56-0bd28ec7f3b0" playOrder="58" class="chapter">
+                    <navLabel>
+                        <text>Adding a single image for animation</text>
+                    </navLabel>
+                    <content src="894cc4c0-f545-4639-ad56-0bd28ec7f3b0.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-023a0775-5835-4914-b620-f9215f7609fe" playOrder="59" class="chapter">
+                    <navLabel>
+                        <text>Adding the theme header and footer</text>
+                    </navLabel>
+                    <content src="023a0775-5835-4914-b620-f9215f7609fe.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-7bbf4cd0-aef8-4f17-8cfb-66b139f5d412" playOrder="60" class="chapter">
+                    <navLabel>
+                        <text>Creating a theme inside the wpthemes folder</text>
+                    </navLabel>
+                    <content src="7bbf4cd0-aef8-4f17-8cfb-66b139f5d412.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-dd80e6f2-eb4e-45fe-9e99-50dc0eb58457" playOrder="61" class="chapter">
+                    <navLabel>
+                        <text>Adding a theme</text>
+                    </navLabel>
+                    <content src="dd80e6f2-eb4e-45fe-9e99-50dc0eb58457.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-51bb3403-26e0-401b-a573-51b282c72f9e" playOrder="62" class="chapter">
+                    <navLabel>
+                        <text>Activating the theme</text>
+                    </navLabel>
+                    <content src="51bb3403-26e0-401b-a573-51b282c72f9e.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-192ec695-3633-40c0-a8ee-80ef2fe0c03f" playOrder="63" class="chapter">
+                    <navLabel>
+                        <text>Converting static markup to WordPress</text>
+                    </navLabel>
+                    <content src="192ec695-3633-40c0-a8ee-80ef2fe0c03f.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-9f27e81c-6f9e-43e0-96e2-16a62b6425b7" playOrder="64" class="chapter">
+                    <navLabel>
+                        <text>Adding the wp_head function</text>
+                    </navLabel>
+                    <content src="9f27e81c-6f9e-43e0-96e2-16a62b6425b7.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-fa9c60a0-bd75-4540-845d-98c67116b418" playOrder="65" class="chapter">
+                    <navLabel>
+                        <text>Adding the body_class function</text>
+                    </navLabel>
+                    <content src="fa9c60a0-bd75-4540-845d-98c67116b418.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-029eeeba-e4fc-4ab1-a982-19410cbd68f1" playOrder="66" class="chapter">
+                    <navLabel>
+                        <text>Adding the footer</text>
+                    </navLabel>
+                    <content src="029eeeba-e4fc-4ab1-a982-19410cbd68f1.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-d12d8533-f8fa-459e-a5fa-26c884382107" playOrder="67" class="chapter">
+                    <navLabel>
+                        <text>Splitting the header and footer</text>
+                    </navLabel>
+                    <content src="d12d8533-f8fa-459e-a5fa-26c884382107.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-4088fe0d-ad01-406d-9fba-f54eb10a8338" playOrder="68" class="chapter">
+                    <navLabel>
+                        <text>Changing the site name</text>
+                    </navLabel>
+                    <content src="4088fe0d-ad01-406d-9fba-f54eb10a8338.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-3b7d3724-be10-438c-bd88-a86d4d29a5ab" playOrder="69" class="chapter">
+                    <navLabel>
+                        <text>The post loop</text>
+                    </navLabel>
+                    <content src="3b7d3724-be10-438c-bd88-a86d4d29a5ab.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-6d5f5ea6-bba4-4dd4-aefb-efdb0bbdb073" playOrder="70" class="chapter">
+                    <navLabel>
+                        <text>Adding the theme support function</text>
+                    </navLabel>
+                    <content src="6d5f5ea6-bba4-4dd4-aefb-efdb0bbdb073.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-47dd645d-0ecc-4d4a-a6f7-4327d2f5b051" playOrder="71" class="chapter">
+                    <navLabel>
+                        <text>Passing the function into action</text>
+                    </navLabel>
+                    <content src="47dd645d-0ecc-4d4a-a6f7-4327d2f5b051.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-d8e1c488-4f61-4dca-8f90-be197449244e" playOrder="72" class="chapter">
+                    <navLabel>
+                        <text>Working on index.php for the content post</text>
+                    </navLabel>
+                    <content src="d8e1c488-4f61-4dca-8f90-be197449244e.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-d5b03745-31f0-4a9d-bd75-f6e3fe835355" playOrder="73" class="chapter">
+                    <navLabel>
+                        <text>Adding the while loop for the post</text>
+                    </navLabel>
+                    <content src="d5b03745-31f0-4a9d-bd75-f6e3fe835355.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-d7c7737b-8dad-4d4e-b4fc-645d2e8c9016" playOrder="74" class="chapter">
+                    <navLabel>
+                        <text>Adding an else statement</text>
+                    </navLabel>
+                    <content src="d7c7737b-8dad-4d4e-b4fc-645d2e8c9016.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-a947a4f1-85b9-4080-a344-ad62f00c0b60" playOrder="75" class="chapter">
+                    <navLabel>
+                        <text>Displaying the post content</text>
+                    </navLabel>
+                    <content src="a947a4f1-85b9-4080-a344-ad62f00c0b60.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-c17f5940-d5f7-4161-86c8-29d0c36ab571" playOrder="76" class="chapter">
+                    <navLabel>
+                        <text>Adding a regular post content</text>
+                    </navLabel>
+                    <content src="c17f5940-d5f7-4161-86c8-29d0c36ab571.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-33854361-faff-4592-8cb9-da3df9901d10" playOrder="77" class="chapter">
+                    <navLabel>
+                        <text>Adding a title to the regular post content</text>
+                    </navLabel>
+                    <content src="33854361-faff-4592-8cb9-da3df9901d10.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-0c6439b2-bdf4-43c1-b813-49e84ce43d32" playOrder="78" class="chapter">
+                    <navLabel>
+                        <text>Adding metadata</text>
+                    </navLabel>
+                    <content src="0c6439b2-bdf4-43c1-b813-49e84ce43d32.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-9a31d0ff-5cb5-47c7-9ecc-2b312cb315d7" playOrder="79" class="chapter">
+                    <navLabel>
+                        <text>Checking the thumbnail in content post</text>
+                    </navLabel>
+                    <content src="9a31d0ff-5cb5-47c7-9ecc-2b312cb315d7.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-f1a49127-1b1d-4893-89ac-b1ce7fb623e9" playOrder="80" class="chapter">
+                    <navLabel>
+                        <text>Adding a gallery post</text>
+                    </navLabel>
+                    <content src="f1a49127-1b1d-4893-89ac-b1ce7fb623e9.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-f68564ca-0b72-499d-9fb7-13abfee805e0" playOrder="81" class="chapter">
+                    <navLabel>
+                        <text>Checking the thumbnail in the gallery post</text>
+                    </navLabel>
+                    <content src="f68564ca-0b72-499d-9fb7-13abfee805e0.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-58628579-9b6a-410d-b97e-72a48ec5cfb9" playOrder="82" class="chapter">
+                    <navLabel>
+                        <text>Creating an array of attributes</text>
+                    </navLabel>
+                    <content src="58628579-9b6a-410d-b97e-72a48ec5cfb9.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-dd61cef3-d6e0-446c-a0bc-caf3cbf3d46d" playOrder="83" class="chapter">
+                    <navLabel>
+                        <text>Adding a new post</text>
+                    </navLabel>
+                    <content src="dd61cef3-d6e0-446c-a0bc-caf3cbf3d46d.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-7026b1ad-91ff-410e-b5af-c9578e9b5bc8" playOrder="84" class="chapter">
+                    <navLabel>
+                        <text>Adding proper proportions to the image</text>
+                    </navLabel>
+                    <content src="7026b1ad-91ff-410e-b5af-c9578e9b5bc8.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-07198a28-cb84-4565-993b-9a7d6d57f5a5" playOrder="85" class="chapter">
+                    <navLabel>
+                        <text>Adding the category widget and search option</text>
+                    </navLabel>
+                    <content src="07198a28-cb84-4565-993b-9a7d6d57f5a5.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-d98c199c-08fb-4de7-ad9a-eaed36ac5d46" playOrder="86" class="chapter">
+                    <navLabel>
+                        <text>Adding a function to use the category widget</text>
+                    </navLabel>
+                    <content src="d98c199c-08fb-4de7-ad9a-eaed36ac5d46.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-da81b8e6-c79a-48ff-81fd-f88781b64020" playOrder="87" class="chapter">
+                    <navLabel>
+                        <text>Specifying the widget locations</text>
+                    </navLabel>
+                    <content src="da81b8e6-c79a-48ff-81fd-f88781b64020.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-0b7db3b6-3611-4559-bc16-adf56607d83b" playOrder="88" class="chapter">
+                    <navLabel>
+                        <text>Registering the widgets</text>
+                    </navLabel>
+                    <content src="0b7db3b6-3611-4559-bc16-adf56607d83b.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-de8a3ca4-464c-438b-bab5-f90316ddb80d" playOrder="89" class="chapter">
+                    <navLabel>
+                        <text>Styling our category widgets</text>
+                    </navLabel>
+                    <content src="de8a3ca4-464c-438b-bab5-f90316ddb80d.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-03f91b52-ea7a-48a2-9602-c28237e52f7b" playOrder="90" class="chapter">
+                    <navLabel>
+                        <text>Adding the widget to the code</text>
+                    </navLabel>
+                    <content src="03f91b52-ea7a-48a2-9602-c28237e52f7b.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-92244f96-7234-474b-ac77-f895ebf69773" playOrder="91" class="chapter">
+                    <navLabel>
+                        <text>Removing the title</text>
+                    </navLabel>
+                    <content src="92244f96-7234-474b-ac77-f895ebf69773.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-6ca97382-584e-4ad5-a3f8-2e5559644e01" playOrder="92" class="chapter">
+                    <navLabel>
+                        <text>Adding the class</text>
+                    </navLabel>
+                    <content src="6ca97382-584e-4ad5-a3f8-2e5559644e01.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-168d1710-b94b-423d-801a-f039d462d174" playOrder="93" class="chapter">
+                    <navLabel>
+                        <text>Adding a link at the top of the widgets</text>
+                    </navLabel>
+                    <content src="168d1710-b94b-423d-801a-f039d462d174.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-c8a85303-aa92-4c3b-93b6-506bc4b50b28" playOrder="94" class="chapter">
+                    <navLabel>
+                        <text>Changing the top margin of the page</text>
+                    </navLabel>
+                    <content src="c8a85303-aa92-4c3b-93b6-506bc4b50b28.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-c4cd2fc9-371d-4203-b21e-43fb16187328" playOrder="95" class="chapter">
+                    <navLabel>
+                        <text>Making the search bar functional</text>
+                    </navLabel>
+                    <content src="c4cd2fc9-371d-4203-b21e-43fb16187328.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-e65ee56b-2f6d-4126-a994-ab84d13ff615" playOrder="96" class="chapter">
+                    <navLabel>
+                        <text>Working on the single post theme</text>
+                    </navLabel>
+                    <content src="e65ee56b-2f6d-4126-a994-ab84d13ff615.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-ff0dfe0d-e705-49af-97c9-6a67b537f44a" playOrder="97" class="chapter">
+                    <navLabel>
+                        <text>Creating a single HTML page</text>
+                    </navLabel>
+                    <content src="ff0dfe0d-e705-49af-97c9-6a67b537f44a.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-1d3f8dd6-8471-432d-9d57-3d2e7e508f83" playOrder="98" class="chapter">
+                    <navLabel>
+                        <text>Making metadata dynamic</text>
+                    </navLabel>
+                    <content src="1d3f8dd6-8471-432d-9d57-3d2e7e508f83.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-4ee2c429-fe53-4c75-a8fc-516e810fe3a5" playOrder="99" class="chapter">
+                    <navLabel>
+                        <text>Changing the static image</text>
+                    </navLabel>
+                    <content src="4ee2c429-fe53-4c75-a8fc-516e810fe3a5.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-4d184b41-0065-43a3-a63c-078b7caeb10a" playOrder="100" class="chapter">
+                    <navLabel>
+                        <text>Changing the back button, title, and content</text>
+                    </navLabel>
+                    <content src="4d184b41-0065-43a3-a63c-078b7caeb10a.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-ca3f61ad-1dc5-4f46-a218-674d6ec49b6c" playOrder="101" class="chapter">
+                    <navLabel>
+                        <text>Summary</text>
+                    </navLabel>
+                    <content src="ca3f61ad-1dc5-4f46-a218-674d6ec49b6c.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-36aaf6f0-dc0b-4d60-bd52-799d84832bc4" playOrder="102" class="chapter">
+                    <navLabel>
+                        <text>Building a Twitter Bootstrap WordPress Theme</text>
+                    </navLabel>
+                    <content src="36aaf6f0-dc0b-4d60-bd52-799d84832bc4.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-2adf2536-9580-4f31-8e7a-f4bb8339eb56" playOrder="103" class="chapter">
+                    <navLabel>
+                        <text>Building a Bootstrap theme</text>
+                    </navLabel>
+                    <content src="2adf2536-9580-4f31-8e7a-f4bb8339eb56.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-480d6289-eecd-486f-a0f7-7e2059168163" playOrder="104" class="chapter">
+                    <navLabel>
+                        <text>Adding the sidebar</text>
+                    </navLabel>
+                    <content src="480d6289-eecd-486f-a0f7-7e2059168163.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-10e9dd97-b26a-4ae4-9ba9-62641a55c1e3" playOrder="105" class="chapter">
+                    <navLabel>
+                        <text>Adding the footer</text>
+                    </navLabel>
+                    <content src="10e9dd97-b26a-4ae4-9ba9-62641a55c1e3.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-cc03ab59-7daf-46a4-ba44-a11ac8d0ac14" playOrder="106" class="chapter">
+                    <navLabel>
+                        <text>Header and footer</text>
+                    </navLabel>
+                    <content src="cc03ab59-7daf-46a4-ba44-a11ac8d0ac14.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-17891809-f30b-450d-a5a3-982b12bb8fdb" playOrder="107" class="chapter">
+                    <navLabel>
+                        <text>The post loop</text>
+                    </navLabel>
+                    <content src="17891809-f30b-450d-a5a3-982b12bb8fdb.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-66fa921e-aae0-4c8d-8fab-ed05cff3bbfc" playOrder="108" class="chapter">
+                    <navLabel>
+                        <text>The Featured Image area</text>
+                    </navLabel>
+                    <content src="66fa921e-aae0-4c8d-8fab-ed05cff3bbfc.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-4f383aec-a8b7-4cea-98d5-48b34b6cfa9c" playOrder="109" class="chapter">
+                    <navLabel>
+                        <text>Creating categories</text>
+                    </navLabel>
+                    <content src="4f383aec-a8b7-4cea-98d5-48b34b6cfa9c.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-887906fc-67c6-4af8-af61-627c2ad677ee" playOrder="110" class="chapter">
+                    <navLabel>
+                        <text>Formatting the post</text>
+                    </navLabel>
+                    <content src="887906fc-67c6-4af8-af61-627c2ad677ee.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-7092e62a-a11d-4632-a26f-89812f1ad1ca" playOrder="111" class="chapter">
+                    <navLabel>
+                        <text>Wrapping the post in an article tag</text>
+                    </navLabel>
+                    <content src="7092e62a-a11d-4632-a26f-89812f1ad1ca.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-870af95f-980d-41ce-8f9f-377dac4ec3c1" playOrder="112" class="chapter">
+                    <navLabel>
+                        <text>Adding content to the post</text>
+                    </navLabel>
+                    <content src="870af95f-980d-41ce-8f9f-377dac4ec3c1.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-15f05cda-7a6c-44b1-8768-3f334f257afd" playOrder="113" class="chapter">
+                    <navLabel>
+                        <text>Adding a Read More button</text>
+                    </navLabel>
+                    <content src="15f05cda-7a6c-44b1-8768-3f334f257afd.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-0e613205-623f-4d1b-94d8-ab99616d4e74" playOrder="114" class="chapter">
+                    <navLabel>
+                        <text>Dealing with post without an image</text>
+                    </navLabel>
+                    <content src="0e613205-623f-4d1b-94d8-ab99616d4e74.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-b7251659-e77d-4494-a2c5-1bf113e0972e" playOrder="115" class="chapter">
+                    <navLabel>
+                        <text>Adding a bit of style</text>
+                    </navLabel>
+                    <content src="b7251659-e77d-4494-a2c5-1bf113e0972e.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-64b82542-6325-4bd0-a7a2-574890aa1a30" playOrder="116" class="chapter">
+                    <navLabel>
+                        <text>Implementing Navbar</text>
+                    </navLabel>
+                    <content src="64b82542-6325-4bd0-a7a2-574890aa1a30.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-624e4097-3681-4dbc-920d-3b397dbbe3b4" playOrder="117" class="chapter">
+                    <navLabel>
+                        <text>Displaying menu</text>
+                    </navLabel>
+                    <content src="624e4097-3681-4dbc-920d-3b397dbbe3b4.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-f9a77777-2168-4854-83dd-8580a733fab9" playOrder="118" class="chapter">
+                    <navLabel>
+                        <text>Setting the sidebar</text>
+                    </navLabel>
+                    <content src="f9a77777-2168-4854-83dd-8580a733fab9.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-f940f360-2575-44a7-9023-f1e6d0ad4495" playOrder="119" class="chapter">
+                    <navLabel>
+                        <text>Adding a search bar and single post page</text>
+                    </navLabel>
+                    <content src="f940f360-2575-44a7-9023-f1e6d0ad4495.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-b55db225-0986-4cd8-bf82-000843736f0a" playOrder="120" class="chapter">
+                    <navLabel>
+                        <text>Dealing with the search box</text>
+                    </navLabel>
+                    <content src="b55db225-0986-4cd8-bf82-000843736f0a.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-7928899f-c585-4d7b-b25d-7711db01806c" playOrder="121" class="chapter">
+                    <navLabel>
+                        <text>Dealing with the single post page</text>
+                    </navLabel>
+                    <content src="7928899f-c585-4d7b-b25d-7711db01806c.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-c44f8fd7-9c0e-427e-bfd7-324f1d1c3ea0" playOrder="122" class="chapter">
+                    <navLabel>
+                        <text>The comment functionality</text>
+                    </navLabel>
+                    <content src="c44f8fd7-9c0e-427e-bfd7-324f1d1c3ea0.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-ab32f40e-bccc-4a72-ac65-efa0cfd24e74" playOrder="123" class="chapter">
+                    <navLabel>
+                        <text>Summary</text>
+                    </navLabel>
+                    <content src="ab32f40e-bccc-4a72-ac65-efa0cfd24e74.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-2801fa10-2b56-45c2-8442-3c6dc7aca624" playOrder="124" class="chapter">
+                    <navLabel>
+                        <text>The Foundation E-Commerce Theme</text>
+                    </navLabel>
+                    <content src="2801fa10-2b56-45c2-8442-3c6dc7aca624.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-c5c6a317-18ac-4a5e-ad34-f129f3d1ec8e" playOrder="125" class="chapter">
+                    <navLabel>
+                        <text>E-commerce HTML template – Part A</text>
+                    </navLabel>
+                    <content src="c5c6a317-18ac-4a5e-ad34-f129f3d1ec8e.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-e626a69d-4958-4027-bded-9a4f7892edcf" playOrder="126" class="chapter">
+                    <navLabel>
+                        <text>E-commerce HTML template – Part B</text>
+                    </navLabel>
+                    <content src="e626a69d-4958-4027-bded-9a4f7892edcf.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-c9978692-1472-49c3-9804-c907d7ff11ce" playOrder="127" class="chapter">
+                    <navLabel>
+                        <text>Theme setup, logo, and navigation</text>
+                    </navLabel>
+                    <content src="c9978692-1472-49c3-9804-c907d7ff11ce.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-f66dae45-22cf-4bf6-b5e5-b6f24f935f0e" playOrder="128" class="chapter">
+                    <navLabel>
+                        <text>The custom showcase widget plugin</text>
+                    </navLabel>
+                    <content src="f66dae45-22cf-4bf6-b5e5-b6f24f935f0e.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-909582c5-da8e-42c1-ba9b-70c53a914216" playOrder="129" class="chapter">
+                    <navLabel>
+                        <text>The sidebar widget setup</text>
+                    </navLabel>
+                    <content src="909582c5-da8e-42c1-ba9b-70c53a914216.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-b7465ad8-bbe9-4daa-82f6-ada4aaf42210" playOrder="130" class="chapter">
+                    <navLabel>
+                        <text>The main product post page</text>
+                    </navLabel>
+                    <content src="b7465ad8-bbe9-4daa-82f6-ada4aaf42210.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-eb8d0e27-20df-416c-9b10-ddb22a8d8406" playOrder="131" class="chapter">
+                    <navLabel>
+                        <text>Single product and single page</text>
+                    </navLabel>
+                    <content src="eb8d0e27-20df-416c-9b10-ddb22a8d8406.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-0e043836-0fa9-4eee-9cd1-df116f0ab0d1" playOrder="132" class="chapter">
+                    <navLabel>
+                        <text>Adding multiple images</text>
+                    </navLabel>
+                    <content src="0e043836-0fa9-4eee-9cd1-df116f0ab0d1.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-5d20dfb2-d5b2-4a7a-b3c0-b8f6e4408331" playOrder="133" class="chapter">
+                    <navLabel>
+                        <text>Summary</text>
+                    </navLabel>
+                    <content src="5d20dfb2-d5b2-4a7a-b3c0-b8f6e4408331.xhtml"/>
+                </navPoint>
+        
+                <navPoint id="uuid-71505844-39ae-4d69-b900-bc90b42ca13e" playOrder="134" class="chapter">
+                    <navLabel>
+                        <text>Conclusion</text>
+                    </navLabel>
+                    <content src="71505844-39ae-4d69-b900-bc90b42ca13e.xhtml"/>
+                </navPoint>
+        
+    </navMap>
+</ncx>

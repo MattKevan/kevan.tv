@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:pls="http://www.w3.org/2005/01/pronunciation-lexicon" xmlns:ssml="http://www.w3.org/2001/10/synthesis" xmlns:svg="http://www.w3.org/2000/svg">
+<head>
+  <meta charset="UTF-8" />
+  <title>Adding a function to use the category widget</title>
+  <link type="text/css" rel="stylesheet" media="all" href="style.css" />
+  <link type="text/css" rel="stylesheet" media="all" href="core.css" />
+</head>
+<body>
+  <div id="sbo-rt-content"><section>
+
+                            <header>
+                    <h1 class="header-title">Adding a function to use the category widget</h1>
+                </header>
+            
+            <article>
+                
+<p>In order to use widgets, first we have to include the initialization code in our <kbd>functions.php</kbd> file:</p>
+<pre>&lt;?php <br/>// Theme Support<br/>function theme_setup(){<br/>  // Featured Image Support<br/>  add_theme_support('post-thumbnails');<br/>  set_post_thumbnail_size(900, 600);<br/><br/>  // Post Format Support<br/>  add_theme_support('post-formats', array('gallery'));<br/>}<br/><br/>add_action('after_setup_theme', 'theme_setup');</pre>
+
+
+            </article>
+
+            
+        </section>
+    </div>
+</body>
+</html>

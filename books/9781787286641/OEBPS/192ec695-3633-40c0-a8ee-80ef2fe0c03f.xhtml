@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:pls="http://www.w3.org/2005/01/pronunciation-lexicon" xmlns:ssml="http://www.w3.org/2001/10/synthesis" xmlns:svg="http://www.w3.org/2000/svg">
+<head>
+  <meta charset="UTF-8" />
+  <title>Converting static markup to WordPress</title>
+  <link type="text/css" rel="stylesheet" media="all" href="style.css" />
+  <link type="text/css" rel="stylesheet" media="all" href="core.css" />
+</head>
+<body>
+  <div id="sbo-rt-content"><section>
+
+                            <header>
+                    <h1 class="header-title">Converting static markup to WordPress</h1>
+                </header>
+            
+            <article>
+                
+<p>Let's go to the top of the <kbd>index.php</kbd> page, and the first thing will do is include the correct style sheets in the code:</p>
+<pre>&lt;!DOCTYPE html&gt;<br/>&lt;html&gt;<br/>&lt;head&gt;<br/>  &lt;title&gt;PhotoGenik&lt;/title&gt;<br/>  &lt;link rel="stylesheet" <br/>        href="http://www.w3schools.com/lib/w3.css"&gt;<br/>  &lt;link rel="stylesheet" href="style.css"&gt;<br/>&lt;/head&gt;<br/>&lt;body&gt;</pre>
+<p>We will take out the <kbd>style.css</kbd> from the <kbd>href</kbd> link in the preceding code and replace it with <kbd>php bloginfo();</kbd>. In the parentheses, we'll add <kbd>stylesheet_url</kbd> as shown here:</p>
+<pre>&lt;head&gt;<br/>  &lt;title&gt;PhotoGenik&lt;/title&gt;<br/>  &lt;link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css"&gt;<br/>  &lt;link rel="stylesheet" <strong>href="&lt;?php bloginfo('stylesheet_url'); </strong><strong>?&gt;"</strong>&gt;<br/>&lt;/head&gt;</pre>
+<p>Save this, go to the frontend page, and reload it. You will now see the stylesheet is included as shown in the following screenshot:</p>
+<div class="CDPAlignCenter CDPAlign"><img height="449" width="546" src="images/0ef1279a-ff97-4bd3-8ce3-a523d4563b32.png" /></div>
+<div class="packt_infobox">You might not see the images because the path is wrong. We'll look into that in a later section.</div>
+
+
+            </article>
+
+            
+        </section>
+    </div>
+</body>
+</html>

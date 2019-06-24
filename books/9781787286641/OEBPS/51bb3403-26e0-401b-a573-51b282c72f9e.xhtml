@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:pls="http://www.w3.org/2005/01/pronunciation-lexicon" xmlns:ssml="http://www.w3.org/2001/10/synthesis" xmlns:svg="http://www.w3.org/2000/svg">
+<head>
+  <meta charset="UTF-8" />
+  <title>Activating the theme</title>
+  <link type="text/css" rel="stylesheet" media="all" href="style.css" />
+  <link type="text/css" rel="stylesheet" media="all" href="core.css" />
+</head>
+<body>
+  <div id="sbo-rt-content"><section>
+
+                            <header>
+                    <h1 class="header-title">Activating the theme</h1>
+                </header>
+            
+            <article>
+                
+<p>Now, let's activate this theme by pressing the <span class="packt_screen">Activate</span> button on the theme. If we go to the frontend page and reload it, we're obviously not going to get anything there.</p>
+<p>The first thing to do in this case is to put in the style, the CSS. We will open the stylesheet (<kbd>style.css</kbd>) from our HTML template, copy its code, and then put it right under the comment we have added earlier:</p>
+<pre class="mce-root CDPAlignLeft CDPAlign">/*<br/>    Theme Name: PhotoGenik<br/>    Author: Brad Traversy<br/>    Author URI: http://eduonix.com<br/>    Description: Photo gallery theme<br/>    Version: 1.0.0<br/>*/<br/><br/>body{<br/>  background: #000;<br/>  color: #fff;<br/>}<br/>a{<br/>  text-decoration: none;<br/>}<br/>li{<br/>  list-style: none;<br/>}<br/>input{<br/>  color: #333;<br/>}<br/>img{<br/>  width:100%;<br/>}<br/>.post{<br/>  padding:20px;<br/>}<br/>.pic{<br/>  text-align: center;<br/>}<br/>header input{<br/>  margin-top:15px;<br/>}<br/>footer{<br/>  text-align: center;<br/>  margin-top: 40px;<br/>  border-top: #333 solid 1px;<br/>}</pre>
+<p>If we go to the frontend page and reload it, it's still not going to make any change in our frontend page because we have nothing in our <kbd>index.php</kbd> file.</p>
+<p>Open the <kbd>index.php</kbd> file, paste everything that we have in our <kbd>index.html</kbd> file, and save it. After this, if we go and reload the frontend page, it will show us the static HTML:</p>
+<div class="CDPAlignCenter CDPAlign"><img src="images/c11cef38-8c34-42e5-81da-bd6e907340e9.png" /></div>
+<p>Now, none of this static HTML is coming from WordPress. We will slowly convert it from static markup to WordPress.</p>
+
+
+            </article>
+
+            
+        </section>
+    </div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:pls="http://www.w3.org/2005/01/pronunciation-lexicon" xmlns:ssml="http://www.w3.org/2001/10/synthesis" xmlns:svg="http://www.w3.org/2000/svg">
+<head>
+  <meta charset="UTF-8" />
+  <title>Adding images to the column</title>
+  <link type="text/css" rel="stylesheet" media="all" href="style.css" />
+  <link type="text/css" rel="stylesheet" media="all" href="core.css" />
+</head>
+<body>
+  <div id="sbo-rt-content"><section>
+
+                            <header>
+                    <h1 class="header-title">Adding images to the column</h1>
+                </header>
+            
+            <article>
+                
+<p>Now, we have three columns, so we need an image inside there and then also text underneath the images. Now as far as the images go, you should have those in your project files. So, I have added some black and white images and they're named <kbd>1.jpg</kbd> through <kbd>6.jpg</kbd> as shown here:</p>
+<div class="CDPAlignCenter CDPAlign"><img height="177" width="501" src="images/c96bf3aa-6520-41a8-92b8-65c35a7f9b9c.png" /></div>
+<p>Let's go back to our code editor and add the <kbd>&lt;image&gt;</kbd> tag. We'll point to each one, so add <kbd>src</kbd> and then that's going to go to <kbd>images/1.jpg</kbd>. We'll also have a paragraph underneath with some sample text as shown here:</p>
+<pre><span>&lt;div class="w3-row"&gt;</span><br/><strong>  </strong>&lt;div class="w3-col m4 l4"&gt;<br/>    &lt;img src="images/1.jpg"&gt;<br/>    &lt;p&gt;Lorem ipsum dolor sit amet, <br/>    consectetur adipiscing elit.&lt;/p&gt;   <br/>  &lt;/div&gt;</pre>
+<p>We'll need to do this for all of our columns as shown here:</p>
+<pre><span>&lt;div class="w3-row"&gt;</span><br/><strong>  </strong>&lt;div class="w3-col m4 l4"&gt;<br/>    &lt;img src="images/1.jpg"&gt;<br/>    &lt;p&gt;Lorem ipsum dolor sit amet, <br/>    consectetur adipiscing elit.&lt;/p&gt;   <br/>  &lt;/div&gt;<br/>  &lt;div class="w3-col m4 l4"&gt;<br/>    &lt;img src="images/2.jpg"&gt;<br/>    &lt;p&gt;Lorem ipsum dolor sit amet, <br/>    consectetur adipiscing elit.&lt;/p&gt;   <br/>  &lt;/div&gt;<br/>  &lt;div class="w3-col m4 l4"&gt;<br/>    &lt;img src="images/3.jpg"&gt;<br/>    &lt;p&gt;Lorem ipsum dolor sit amet, <br/>    consectetur adipiscing elit.&lt;/p&gt;   <br/>  &lt;/div&gt;<br/>&lt;/div&gt;</pre>
+<p>We'll save it, reload our page, and can see the images as follows:</p>
+<div class="CDPAlignCenter CDPAlign"><img src="images/c1a83ee7-3aee-4630-b042-eaed9f55ccc9.png" /></div>
+<p>Now we need to set the width of these images to a 100% of their container because as shown in the preceding screenshot, they're busting out of their container. So in the <kbd>style.css</kbd> sheet, we'll add the image and set <kbd>width</kbd> to <kbd>100%</kbd>:</p>
+<pre>img{<br/>  width:100%;<br/>}</pre>
+<p>If we go and reload our page, we'll see the following:</p>
+<div class="CDPAlignCenter CDPAlign"><img src="images/790560b5-491d-4a18-a074-739f9d023b68.png" /></div>
+<p>These are all fit nice and neat. In order for us to get more images, we have to put in some more rows. In the <kbd>index.html</kbd> file, copy the three divs we have defined and just put that right underneath the previously added <kbd>&lt;img&gt;</kbd> tags. We'll then change the image source filenames to <kbd>4.jpg</kbd>, <kbd>5.jpg</kbd>, and <kbd>6.jpg</kbd>. We also want to center the text underneath the images as well. So in each <kbd>&lt;div&gt;</kbd> tag, we'll also going to add a class of <kbd>pic</kbd>, so that each picture div has its own class as shown here:</p>
+<pre>&lt;div class="w3-col m4 l4 pic"&gt;<br/>  &lt;img src="images/4.jpg"&gt;<br/>  &lt;p&gt;Lorem ipsum dolor sit amet, <br/>  consectetur adipiscing elit.&lt;/p&gt;   <br/>&lt;/div&gt;<br/>&lt;div class="w3-col m4 l4 pic"&gt;<br/>  &lt;img src="images/5.jpg"&gt;<br/>  &lt;p&gt;Lorem ipsum dolor sit amet, <br/>  consectetur adipiscing elit.&lt;/p&gt;   <br/>&lt;/div&gt;<br/>&lt;div class="w3-col m4 l4 pic"&gt;<br/>  &lt;img src="images/6.jpg"&gt;<br/>  &lt;p&gt;Lorem ipsum dolor sit amet, <br/>  consectetur adipiscing elit.&lt;/p&gt;   <br/>&lt;/div&gt;</pre>
+<p>Now, in the <kbd>style.css</kbd>, we'll add <kbd>.pic</kbd> and <kbd>text-align: center</kbd>, as shown in this code, so that the text below the images look aligned:</p>
+<pre>.pic{<br/>  text-align: center;<br/>}</pre>
+<p>If we now go and reload our page, we can see in the following screenshot that we have six images and our text is aligned:</p>
+<div class="CDPAlignCenter CDPAlign"><img src="images/4be41467-281b-41f3-8ff2-28c10806be0c.png" /></div>
+
+
+            </article>
+
+            
+        </section>
+    </div>
+</body>
+</html>

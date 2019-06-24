@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:pls="http://www.w3.org/2005/01/pronunciation-lexicon" xmlns:ssml="http://www.w3.org/2001/10/synthesis" xmlns:svg="http://www.w3.org/2000/svg">
+<head>
+  <meta charset="UTF-8" />
+  <title>Working with the style sheet</title>
+  <link type="text/css" rel="stylesheet" media="all" href="style.css" />
+  <link type="text/css" rel="stylesheet" media="all" href="core.css" />
+</head>
+<body>
+  <div id="sbo-rt-content"><section>
+
+                            <header>
+                    <h1 class="header-title">Working with the style sheet</h1>
+                </header>
+            
+            <article>
+                
+<p>The next thing we will do is include our style sheet:</p>
+<ol>
+<li>Open the <kbd>style.css</kbd> file and enter the following code:</li>
+</ol>
+<pre>      body{<br/>          background:#000;<br/>      }</pre>
+<ol start="2">
+<li>Save this and reload; we'll not get a black background as the style sheet is not being read:</li>
+</ol>
+<div class="mce-root CDPAlignCenter CDPAlign"><img height="419" width="523" class="aligncenter size-full wp-image-733 image-border" src="images/9dff0604-b202-4dee-a82a-388a606b6fe0.png" /></div>
+<ol start="3">
+<li>In order for that style sheet to be seen, we'll enter the following code:</li>
+</ol>
+<pre class="packt_figure">      &lt;!DOCTYPE html&gt;<br/>      &lt;html &lt;? php language_attributes(); ?&gt;&gt;<br/>      &lt;head&gt;<br/>         &lt;meta charset="&lt;?php bloginfo('charset'); ?&gt;"&gt;<br/>         &lt;title&gt;&lt;?php bloginfo('name'); ?&gt;&lt;/title&gt;<br/>         <strong>&lt;link rel="stylesheet" </strong><br/><strong>          href="&lt;?php bloginfo('stylesheet_url'); ?&gt;"&gt;</strong></pre>
+<p style="padding-left: 60px">The preceding code will get the style sheet from the correct location.</p>
+<ol start="4">
+<li>Save this code and reload. We can now see a black background:</li>
+</ol>
+<div class="mce-root CDPAlignCenter CDPAlign"><img height="348" width="531" class="aligncenter size-full wp-image-734 image-border" src="images/0dc2bb58-567b-4108-b0ff-cec4f1f88ecb.png" /></div>
+<p><span>So whatever we put in our style sheet will now be registered.</span></p>
+
+
+            </article>
+
+            
+        </section>
+    </div>
+</body>
+</html>

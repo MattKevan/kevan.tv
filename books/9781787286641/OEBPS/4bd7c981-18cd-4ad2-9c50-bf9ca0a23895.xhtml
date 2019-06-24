@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:pls="http://www.w3.org/2005/01/pronunciation-lexicon" xmlns:ssml="http://www.w3.org/2001/10/synthesis" xmlns:svg="http://www.w3.org/2000/svg">
+<head>
+  <meta charset="UTF-8" />
+  <title>Creating and enabling themes</title>
+  <link type="text/css" rel="stylesheet" media="all" href="style.css" />
+  <link type="text/css" rel="stylesheet" media="all" href="core.css" />
+</head>
+<body>
+  <div id="sbo-rt-content"><section>
+
+                            <header>
+                    <h1 class="header-title">Creating and enabling themes</h1>
+                </header>
+            
+            <article>
+                
+<p>In this section, we'll see how to create our theme files and enable a theme. We'll use Sublime Text and add the project folder, so that we can access the files easily:</p>
+<ol>
+<li>Go to <kbd>C:\Ampps\www\wpthemes</kbd>.</li>
+<li>The folder in which you want to create your theme is going to be <kbd>themes</kbd>, which is within the <kbd>wp-content</kbd> folder:</li>
+</ol>
+<div class="packt_figure CDPAlignCenter CDPAlign"><img height="406" width="199" class="aligncenter size-full wp-image-724 image-border" src="images/b3d8e69f-e1df-4ee7-805a-c2907429a357.png" /></div>
+<p style="padding-left: 60px">You can see here that we have the three themes that come with WordPress already installed, namely <kbd>twentyfifteen</kbd>, <kbd>twentyseventeen</kbd>, and <kbd>twentysixteen</kbd>.</p>
+<ol start="3">
+<li>We'll create a new folder and call it <kbd>simple</kbd>. This is going to be the name of our theme:</li>
+</ol>
+<div class="packt_figure CDPAlignCenter CDPAlign"><img height="135" width="249" class="aligncenter size-full wp-image-725 image-border" src="images/4fde87e4-2103-44ca-9c9f-4538b3795a86.png" /></div>
+<p style="padding-left: 60px">There are two files that you absolutely need in order to enable your theme: one will be <kbd>style.css</kbd>, and the other will be <kbd>index.php</kbd>. Now, the reason we need <kbd>style.css</kbd> is because that's where all of our declarations, such as theme name and the descriptions, go.</p>
+<ol start="4">
+<li>We'll open up a comment block and enter the fields, shown as follows:</li>
+</ol>
+<div class="packt_infobox">You can refer to the documentation at <a href="https://codex.wordpress.org/Theme_Development">https://codex.wordpress.org/Theme_Development</a>, which shows all the different fields that you can use. We'll not use all of them as they're not required. <kbd>Theme Name</kbd> is all that's required, but it's good to have some other information as well.</div>
+<div class="mce-root CDPAlignCenter CDPAlign"><img height="171" width="500" src="images/dbfb9b7d-9f96-4a5f-a9a9-daceea28fc3f.png" /></div>
+<ol start="5">
+<li><span>We will enter the</span> <kbd>Theme Name</kbd> <span>as</span> <kbd>Simple</kbd><span>. We also need to have an</span> <kbd>Author</kbd><span>; you can put your own name there if you'd like. We'll also have</span> <kbd>Author URI</kbd><span>. If you are creating themes for clients, you'd probably want to put your company's website there. We can have a</span> <kbd>Description</kbd><span>. We'll enter</span> <kbd>Very Simple Wordpress Theme</kbd><span>, and then enter</span> <kbd>Version: 1.0</kbd><span>. Let's save this. Now, just having this information will allow WordPress to see your theme.</span></li>
+<li>Now let's go back into our <kbd><span class="URLPACKT">localhost/wpthemes/wp-admin/themes.php</span></kbd> backend, and go to <span class="packt_screen">Appearance</span> and then <span class="packt_screen">Themes</span>; you can see the <span class="packt_screen">Simple</span> theme, and we can actually activate it:</li>
+</ol>
+<div class="packt_figure CDPAlignCenter CDPAlign"><img height="1024" width="1280" class="aligncenter size-full wp-image-726 image-border" src="images/6767a557-05b8-4493-9865-d8604cc633ca.png" /></div>
+<ol start="7">
+<li>Now, in order for a screenshot to show in the <span class="packt_screen">Simple</span> theme, we need to put an image in the root of the theme folder and call it <kbd>screenshot.png</kbd>:</li>
+</ol>
+<div class="mce-root CDPAlignCenter CDPAlign"><img height="141" width="516" class="aligncenter size-full wp-image-727 image-border" src="images/ef7d13d1-5b20-4974-a437-4e4038d5dc63.png" /></div>
+<ol start="8">
+<li>Let's create a sample screenshot using Photoshop, which just says <span class="packt_screen">SimpleTheme</span>, and place that in our <kbd>theme</kbd> folder, as shown in the preceding screenshot. Go to the server root, <kbd>www\wpthemes\wp-content\themes</kbd>, and then <kbd>simple</kbd>. We'll just paste that screenshot in there. Now if we go back to the backend and reload, you can see that we have a screenshot, as shown here:</li>
+</ol>
+<div class="mce-root CDPAlignCenter CDPAlign"><img height="415" width="518" class="aligncenter size-full wp-image-728 image-border" src="images/ab65a2aa-f54e-46ce-8434-9cd66cae70ab.png" /></div>
+<p style="padding-left: 60px"><span>Well, it's not really a screenshot but it's an image.</span></p>
+<ol start="9">
+<li>Now if we go ahead and activate our theme for this, and go to our frontend and reload—we get absolutely nothing because we haven't added any code yet:</li>
+</ol>
+<div class="packt_figure CDPAlignCenter CDPAlign"><img height="775" width="968" class="aligncenter size-full wp-image-729 image-border" src="images/78fccd00-c55f-4f9e-aa62-ac0bc1cf6abf.png" /></div>
+<p style="padding-left: 60px">Our theme just contains nothing, it's completely blank.</p>
+<ol start="10">
+<li>Now let's open the <kbd>index.php</kbd> file and enter <kbd>TEST</kbd>, then save and reload; we can see that we get <kbd>TEST</kbd> on our frontend too:</li>
+</ol>
+<div class="mce-root CDPAlignCenter CDPAlign"><img height="709" width="1279" class="aligncenter size-full wp-image-730 image-border" src="images/4e893e2b-086d-49b7-b968-f2cf1f5d38f8.png" /></div>
+<p style="padding-left: 60px"><span>Basically, it's reading our</span> <kbd>index.php</kbd> <span>file by default.</span></p>
+
+
+            </article>
+
+            
+        </section>
+    </div>
+</body>
+</html>

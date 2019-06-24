@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:pls="http://www.w3.org/2005/01/pronunciation-lexicon" xmlns:ssml="http://www.w3.org/2001/10/synthesis" xmlns:svg="http://www.w3.org/2000/svg">
+<head>
+  <meta charset="UTF-8" />
+  <title>Working with widgets</title>
+  <link type="text/css" rel="stylesheet" media="all" href="style.css" />
+  <link type="text/css" rel="stylesheet" media="all" href="core.css" />
+</head>
+<body>
+  <div id="sbo-rt-content"><section>
+
+                            <header>
+                    <h1 class="header-title">Working with widgets</h1>
+                </header>
+            
+            <article>
+                
+<ol>
+<li>Let's take a look at <kbd>index.php</kbd>, where we have this <kbd>&lt;div&gt;</kbd> tag with the class of <kbd>main</kbd>. What we want to do is go right between <kbd>main</kbd> and the ending <kbd>&lt;/div&gt;</kbd> tag. We'll create a <kbd>&lt;div&gt;</kbd> tag with the class of <kbd>sidebar</kbd>, as shown in the following code:</li>
+</ol>
+<pre>      &lt;div class="sidebar"&gt;<br/>      TEST<br/>      &lt;/div&gt;</pre>
+<p style="padding-left: 60px">We have also added <kbd>TEST</kbd> in the next line, which shows up as follows:</p>
+<div class="CDPAlignCenter CDPAlign"><img height="176" width="413" class="aligncenter size-full wp-image-780 image-border" src="images/576c6fee-da07-45b7-8e7b-8ea7ed28b20b.png" /></div>
+<p style="padding-left: 60px">Now we want to float the main <kbd>&lt;div&gt;</kbd> and set a width, and then have the sidebar float to the right.</p>
+<ol start="2">
+<li>Let's go to the style sheet, where we have <kbd>main</kbd> with <kbd>margin:15px</kbd>, both at the top and bottom. Let's go ahead and float this to the left, and let's set a width of <kbd>68%</kbd>, as shown in the following code block:</li>
+</ol>
+<pre>      .main{<br/>          margin:15px 0;<br/>          float:left;<br/>          width:68%;<br/>      }<br/><br/>      footer{<br/>          background:#393939;<br/>          color:#fff;<br/>          padding:10px 10px;<br/>          text-align:center;<br/>      }</pre>
+<p style="padding-left: 60px">Let's see what that gives us:</p>
+<div class="CDPAlignCenter CDPAlign"><img height="724" width="1280" class="aligncenter size-full wp-image-781 image-border" src="images/9ae820ed-c9fc-4af9-90b4-adf23d73ed57.png" /></div>
+<p style="padding-left: 60px">The reason that this looks really weird is because we didn't clear the float.</p>
+<ol start="3">
+<li>So what we'll do is go under the <kbd>sidebar</kbd> div and enter <kbd>&lt;div class="clr"&gt;</kbd>:</li>
+</ol>
+<pre>      &lt;div class="sidebar"&gt;<br/>      TEST<br/>      &lt;/div&gt;<br/><br/>      &lt;div class="clr"&gt;&lt;/div&gt;</pre>
+<ol start="4">
+<li>Now, we'll go to our CSS, add a class called <kbd>clr</kbd>, and we'll just say <kbd>clear:both;</kbd>:</li>
+</ol>
+<pre>      .clr{<br/>          clear:both;<br/>      }</pre>
+<ol start="5">
+<li>Then let's add the <kbd>sidebar</kbd> class; that's going to float to the right, and we'll set a width of <kbd>28%</kbd>, as shown in the following code:</li>
+</ol>
+<pre>      .sidebar{<br/>          float:right;<br/>          width:28%;<br/>      }</pre>
+<ol start="6">
+<li>Now, we'll want to put a container around both of the files—<kbd>index.php</kbd> and <kbd>style.css</kbd>, because right now, <kbd>main</kbd> has a container inside of it, but what we want is to remove that and put it above <kbd>main</kbd>, as shown in the following code:</li>
+</ol>
+<pre>      &lt;?php get_header(); ?&gt;<br/><br/>      <strong>&lt;div class="container"&gt;</strong><br/>         &lt;div class="main"&gt;</pre>
+<p style="padding-left: 60px">We will end it here:</p>
+<pre>         &lt;div class="sidebar"&gt;<br/>         TEST<br/>         &lt;/div&gt;<br/><br/>         &lt;div class="clr"&gt;&lt;/div&gt;<br/>      <strong>&lt;/div&gt;</strong><br/>      &lt;?php get_footer(); ?&gt;</pre>
+<p style="padding-left: 60px" class="mce-root">Now, let's run this:</p>
+<div class="mce-root CDPAlignCenter CDPAlign"><img height="1024" width="1280" class="aligncenter size-full wp-image-782 image-border" src="images/0e0305be-5010-4d23-9d35-2b2d2e01e271.png" /></div>
+<ol start="7">
+<li>So now we have the main area and a sidebar.</li>
+</ol>
+<ol start="8">
+<li>Next, we will see how to add widgets, and to do that, we'll go to <kbd>functions.php</kbd>. Here, we can actually use widgets and define what location we want the widgets to be allowed in. We'll go down to the very bottom of the file and create a function, as shown in the following code block. We'll call it <kbd>init_widgets</kbd>, and that'll take in <kbd>id</kbd>, and we'll call it <kbd>register_sidebar</kbd>. Now we will create a sidebar widget, but just know that no matter where you put it, <kbd>register_sidebar</kbd> is the function that we'll use, even if it's not a sidebar—if it's down below, or in the header, or wherever it may be, this is what's used to actually register widget locations. Now, that's going to take in an array, and it's going to take a <kbd>name</kbd>; let's set that to <kbd>Sidebar</kbd>, and then the ID, which is usually the same, just lowercase and no spaces. You can use hyphens if there's more than one word. Then, we can also use <kbd>before_widget</kbd>. We can also use <kbd>&lt;div class="side-widget"&gt;</kbd>, and then we can add <kbd>after_widget</kbd>; that's going to be the ending <kbd>&lt;/div&gt;</kbd> tag. Then, we can also add <kbd>before_title</kbd> and <kbd>after_title</kbd> for the widget, as shown in the following code block. We want an <kbd>&lt;h3&gt;</kbd> tag before the title. Now, this code isn't going to run yet. We need to perform <kbd>add_action</kbd>, and the hook we want is called <kbd>widgets_init</kbd>; we want to put in our function name, which is <kbd>init_widgets</kbd>:</li>
+</ol>
+<pre class="mce-root">      //Excerpt Length<br/>      function set_excerpt_length(){<br/>          return 60;<br/>      }<br/><br/>      add_filter('excerpt_length', 'set_excerpt_length');<br/><br/>      <strong>//Widget Locations</strong><br/><strong>      function init_widgets($id){</strong><br/><strong>          register_sidebar(array(</strong><br/><strong>              'name' =&gt; 'Sidebar',</strong><br/><strong>              'id' =&gt; 'sidebar',</strong><br/><strong>              'before_widget' =&gt; '&lt;div class="side-widget"&gt;',</strong><br/><strong>              'after_widget' =&gt; '&lt;/div&gt;',</strong><br/><strong>              'before_title' =&gt; '&lt;h3&gt;',</strong><br/><strong>              'after_title' =&gt; '&lt;/h3&gt;'</strong><br/><strong>          ));</strong><br/><strong>      }</strong><br/><br/><strong>      add_action('widgets_init', 'init_widgets');</strong></pre>
+<ol start="9">
+<li>Now we'll save the code. If we go back and reload, we get this:</li>
+</ol>
+<div class="CDPAlignCenter CDPAlign"><img height="1024" width="1280" class="aligncenter size-full wp-image-783 image-border" src="images/c4299102-56e6-487b-a5f4-19615cfba565.png" /></div>
+<p style="padding-left: 60px">We have a <span class="packt_screen">Widgets</span> item at the side and a <span class="packt_screen">Sidebar</span> location.</p>
+<ol start="10">
+<li>Let's drag the <span class="packt_screen">Categories</span> widget and bring that over to the <span class="packt_screen">Sidebar</span>. We will also bring <span class="packt_screen">Recent Posts</span>:</li>
+</ol>
+<div class="CDPAlignCenter CDPAlign"><img height="388" width="313" class="aligncenter size-full wp-image-784 image-border" src="images/ffaa78ac-4201-4372-aa3c-7914bab9bc0d.png" /></div>
+<p style="padding-left: 60px">Save and go to the frontend; if we reload now, we'll not see anything because we need to add it to our template.</p>
+<ol start="11">
+<li>Let's go down to where we have the sidebar in the <kbd>index.php</kbd> file, and we'll first check for the widget using the following code:</li>
+</ol>
+<pre>      &lt;div class="sidebar"&gt;<br/>         <strong>&lt;?php if(is_active_sidebar('sidebar')) : ?&gt;</strong><br/><strong>            &lt;?php dynamic_sidebar('sidebar'); ?&gt;</strong><br/><strong>         &lt;?php endif; ?&gt;</strong><br/>      &lt;/div&gt;</pre>
+<p style="padding-left: 60px">We'll check whether it'll be a function called <kbd>is_active_sidebar()</kbd>, and like I said before, even if it's not a sidebar, this is still going to work. We will also add our location, which happens to be sidebar. We will also add a <kbd>dynamic_sidebar()</kbd> function, and then the ID of the widget again is sidebar.</p>
+<ol start="12">
+<li>Save it, reload, and take a look at it:</li>
+</ol>
+<div class="mce-root CDPAlignCenter CDPAlign"><img height="472" width="1280" class="aligncenter size-full wp-image-785 image-border" src="images/5f712735-d9e4-4894-b883-cd7882813b67.png" /></div>
+<p style="padding-left: 60px">We get our two widgets: <span class="packt_screen">Categories</span> and <span class="packt_screen">Recent Posts</span>.</p>
+<ol start="13">
+<li>Now, remember that we put the <kbd>side-widget</kbd> class in the <kbd>function.php</kbd> file so that we can style widgets using the <kbd>style.css</kbd> file, as shown in the following code block:</li>
+</ol>
+<pre>      .side-widget{<br/>          border:1px #ccc solid;<br/>          padding:10px 10px;<br/>          margin-bottom:20px;<br/>          margin-top:20px;<br/>      }</pre>
+<p style="padding-left: 60px">We have added <kbd>side-widget</kbd> with a border and padding of <kbd>10px 10px</kbd>. We have added <kbd>margin-bottom</kbd>. Now if we reload, you can see that they have a border. Therefore, we will add <kbd>margin-top</kbd> too. We'll say <kbd>margin-top:20px</kbd>.</p>
+<ol start="14">
+<li>To make this look a little better, we will use the following code:</li>
+</ol>
+<pre>      .Side-widget li{<br/>          list-style: none;<br/>          line-height:2.2em;<br/>          border-bottom:dotted 1px #ccc;<br/>      }<br/><br/>      .Side-widget a{<br/>          text-decoration: none;<br/>      }</pre>
+<p style="padding-left: 60px">Here, we have taken away <kbd>text-decoration</kbd>.</p>
+<ol start="15">
+<li>When you save and reload, you get this:</li>
+</ol>
+<div class="CDPAlignCenter CDPAlign"><img height="259" width="227" class="aligncenter size-full wp-image-786 image-border" src="images/4c54490b-5f47-42c0-8e00-3fabfa892a0c.png" /></div>
+<p style="padding-left: 60px">So this looks good.</p>
+<ol start="16">
+<li>We can see that the pages will be messed up now:</li>
+</ol>
+<div class="CDPAlignCenter CDPAlign"><img height="720" width="1280" class="aligncenter size-full wp-image-787 image-border" src="images/f1c669f9-a08d-4440-833a-9394dc80b865.png" /></div>
+<p style="padding-left: 60px">This is because in <kbd>page.php</kbd>, we still have the <kbd>container</kbd> class inside of <kbd>main</kbd>.</p>
+<ol start="17">
+<li>What we want to do is just copy what we did in <kbd>index.php</kbd>:</li>
+</ol>
+<pre>         &lt;div class="sidebar"&gt;<br/>            &lt;?php if(is_active_sidebar('sidebar')) : ?&gt;<br/>               &lt;?php dynamic_sidebar('sidebar'); ?&gt;<br/>            &lt;?php endif; ?&gt;<br/>         &lt;/div&gt;<br/><br/>         &lt;div class="clr"&gt;&lt;/div&gt;<br/>         &lt;/div&gt;<br/>      &lt;?php get_footer(); ?&gt;</pre>
+<p style="padding-left: 60px">We need to add the sidebar after main ends, and then we actually want to take the container out and put that above <kbd>main</kbd>. We'll need to make sure to take the ending <kbd>&lt;/div&gt;</kbd> tag and put that on the outside down.</p>
+<ol start="18">
+<li>Let's go ahead and check that out:</li>
+</ol>
+<div class="CDPAlignCenter CDPAlign"><img height="889" width="1280" class="aligncenter size-full wp-image-796 image-border" src="images/680c9f2f-698d-4410-bcb2-0ccc74afea0d.png" /></div>
+<p style="padding-left: 60px">So this looks good.</p>
+<ol start="19">
+<li>We will repeat the same thing with <kbd>Single.php</kbd>, and we will get the following result:</li>
+</ol>
+<div class="CDPAlignCenter CDPAlign"><img height="913" width="1280" class="aligncenter size-full wp-image-797 image-border" src="images/a13745bd-d5a5-437c-8818-1439a36e898d.png" /></div>
+<p style="padding-left: 60px">So all the different formats and all the different pages are all set; they have the sidebar implemented. And, of course, if you didn't want the sidebar on one of those, you don't have to have it. If we want to kind of minimize the code a little bit, we can put the following code inside the <kbd>footer.php</kbd>:</p>
+<pre>      &lt;div class="sidebar"&gt;<br/>      &lt;?php if(is_active_sidebar('sidebar')) : ?&gt;<br/>         &lt;?php dynamic_sidebar('sidebar'); ?&gt;<br/>      &lt;?php endif; ?&gt;<br/>      &lt;/div&gt;<br/><br/>      &lt;div class="clr"&gt;&lt;/div&gt;<br/>      &lt;/div&gt;</pre>
+<ol start="20">
+<li>We can cut and save, and then add that code in <kbd>footer.php</kbd> at the top, as shown here:</li>
+</ol>
+<pre><strong>      &lt;div class="sidebar"&gt;</strong><br/><strong>         &lt;?php if(is_active_sidebar('sidebar')) : ?&gt;</strong><br/><strong>            &lt;?php dynamic_sidebar('sidebar'); ?&gt;</strong><br/><strong>         &lt;?php endif; ?&gt;</strong><br/><strong>      &lt;/div&gt;</strong><br/>      &lt;div class="clr"&gt;&lt;/div&gt;<br/>      &lt;/div&gt;<br/><br/>      &lt;footer&gt;<br/>         &lt;div class="container"&gt;<br/>           &lt;p&gt;&amp;copy; &lt;?php the_date('Y'); ?&gt; - &lt;?php bloginfo('name'); ?&gt;<br/>           &lt;/p&gt;<br/>         &lt;/div&gt;<br/>      &lt;/footer&gt;<br/><br/>      &lt;?php wp_footer(); ?&gt;<br/>      &lt;/body&gt;<br/>      &lt;/html&gt;</pre>
+<ol start="21">
+<li>Save, and then <span>get rid of the following code</span> from <kbd>page.php</kbd> and <kbd>index.php</kbd>, because it's now in <kbd>footer.php</kbd>:</li>
+</ol>
+<pre>      &lt;div class="sidebar"&gt;<br/>      &lt;?php if(is_active_sidebar('sidebar')) : ?&gt;<br/>         &lt;?php dynamic_sidebar('sidebar'); ?&gt;<br/>      &lt;?php endif; ?&gt;<br/>      &lt;/div&gt;<br/><br/>      &lt;div class="clr"&gt;&lt;/div&gt;<br/>      &lt;/div&gt;</pre>
+<p>Our frontend should look the exact same way. So that's good, that's widgets.</p>
+
+
+            </article>
+
+            
+        </section>
+    </div>
+</body>
+</html>

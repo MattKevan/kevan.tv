@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:pls="http://www.w3.org/2005/01/pronunciation-lexicon" xmlns:ssml="http://www.w3.org/2001/10/synthesis" xmlns:svg="http://www.w3.org/2000/svg">
+<head>
+  <meta charset="UTF-8" />
+  <title>Adding the class</title>
+  <link type="text/css" rel="stylesheet" media="all" href="style.css" />
+  <link type="text/css" rel="stylesheet" media="all" href="core.css" />
+</head>
+<body>
+  <div id="sbo-rt-content"><section>
+
+                            <header>
+                    <h1 class="header-title">Adding the class</h1>
+                </header>
+            
+            <article>
+                
+<p>Next, we will add our class. So we need to find where <kbd>ul</kbd> starts:</p>
+<pre><strong>  &lt;ul&gt;</strong><br/>&lt;?php <br/>  $cat_args['title_li'] = '';<br/>  <br/>  /**<br/>   * Filter the arguments for the Categories widget.<br/>   *<br/>   * @since 2.8.0<br/>   *<br/>   * @param array $cat_args An array of Categories widget options.<br/>   */<br/>  wp_list_categories( apply_filters( <br/>    ' widget_categories_args', $cat_args));</pre>
+<p>In this line, we will add <kbd>class="w3-ul"</kbd>:</p>
+<pre>&lt;ul class="w3-ul"&gt;</pre>
+<p>Now, reload the frontend page, and now it looks like it did before as shown in the following screenshot:</p>
+<div class="CDPAlignCenter CDPAlign"><img src="images/4541d170-74fe-460b-81f3-f62cffc58417.png" /></div>
+
+
+            </article>
+
+            
+        </section>
+    </div>
+</body>
+</html>
