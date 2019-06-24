@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:pls="http://www.w3.org/2005/01/pronunciation-lexicon" xmlns:ssml="http://www.w3.org/2001/10/synthesis" xmlns:svg="http://www.w3.org/2000/svg">
+<head>
+  <meta charset="UTF-8" />
+  <title>Adding a bit of style</title>
+  <link type="text/css" rel="stylesheet" media="all" href="style.css" />
+  <link type="text/css" rel="stylesheet" media="all" href="core.css" />
+</head>
+<body>
+  <div id="sbo-rt-content"><section>
+
+                            <header>
+                    <h1 class="header-title">Adding a bit of style</h1>
+                </header>
+            
+            <article>
+                
+<p>Now we will add a little bit of CSS to make the post look a little better:</p>
+<ol>
+<li>Let's go to <kbd>style.css</kbd> and use the <kbd>article.post</kbd> with a border at the bottom of each post. The border will be gray, <kbd>solid</kbd> and <kbd>1px</kbd>. Also, let's add some padding using <kbd>padding-bottom: 20px</kbd> and <kbd>margin-bottom: 30px</kbd>:</li>
+</ol>
+<pre>      article.post{<br/>          border-bottom: #ccc solid 1px;<br/>          padding-bottom: 20px;<br/>          margin-bottom: 30px;<br/>      }</pre>
+<ol start="2">
+<li>Let's add the last article or post. We don't want to have a border for it. We will add <kbd>article.post</kbd> and use <kbd>last-child</kbd> to target that last one and we'll set <kbd>border-bottom</kbd> to <kbd>none</kbd>:</li>
+</ol>
+<pre>      article.post:last-child{<br/>          border-bottom:none;<br/>      }</pre>
+<ol start="3">
+<li>For the metadata, we will add a little bit of style using <kbd>article.post .meta</kbd> and give it a light gray background. We will also add a little padding, <kbd>8px</kbd> and <kbd>12px</kbd>. Let's add a color; we'll use dark gray.</li>
+</ol>
+<p style="padding-left: 60px">Let's save that and reload:</p>
+<div class="CDPAlignCenter CDPAlign"><img height="711" width="691" class="aligncenter size-full wp-image-1205 image-border" src="images/65987f49-4bb3-45e5-b25e-2146973b7534.png" /></div>
+<p style="padding-left: 60px">Now that looks a little better.</p>
+<p>In the next section, we will see how to get the navbar set up with the <kbd>custom-walker</kbd> class.</p>
+
+
+            </article>
+
+            
+        </section>
+    </div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:pls="http://www.w3.org/2005/01/pronunciation-lexicon" xmlns:ssml="http://www.w3.org/2001/10/synthesis" xmlns:svg="http://www.w3.org/2000/svg">
+<head>
+  <meta charset="UTF-8" />
+  <title>Creating an array of attributes</title>
+  <link type="text/css" rel="stylesheet" media="all" href="style.css" />
+  <link type="text/css" rel="stylesheet" media="all" href="core.css" />
+</head>
+<body>
+  <div id="sbo-rt-content"><section>
+
+                            <header>
+                    <h1 class="header-title">Creating an array of attributes</h1>
+                </header>
+            
+            <article>
+                
+<p>We want to do a little extra in the <kbd>content-gallery.php</kbd> file. We will add a class to the images so that we can do the animation and stuff like that. For this, we will create an array of attributes. In the div, let's add the following code:</p>
+<pre>&lt;div class="post-thumbnail"&gt;<br/>  &lt;?php <br/>    $attr = array(<br/>    <br/>    ); <br/>  ?&gt;<br/>&lt;/div&gt;</pre>
+<p>Next, in the array, we will put in <kbd>class</kbd> and we want that to be <kbd>w3-animate-opacity</kbd> class. Then, we also want a hover effect for which we can use <kbd>w3-hover-opacity</kbd>:</p>
+<pre>&lt;div class="post-thumbnail"&gt;<br/>  &lt;?php <br/>    $attr = array(<br/>      'class' =&gt; 'w3-animate-opacity w3-hover-opacity'<br/>     ); <br/>   ?&gt;<br/>&lt;/div&gt;</pre>
+<p>Now, each image is going to have a link around it. So, after the array of attribute, we will add <kbd>&lt;a href="php echo the_permalink()"&gt;&lt;/a&gt;</kbd>:</p>
+<pre>  &lt;a href="&lt;?php echo the_permalink(); ?&gt;"&gt;<br/>  &lt;/a&gt;<br/>&lt;/div&gt;</pre>
+<p>This link will take us to the single post. Then to show the thumbnail we will add <kbd>&lt;?php echo get_the_post_thumbnail(); ?&gt;</kbd> in the anchor tag as shown here:</p>
+<pre>&lt;a href="&lt;?php echo the_permalink(); ?&gt;"&gt;<br/>  &lt;?php echo get_the_post_thumbnail(); ?&gt;<br/>&lt;/a&gt;</pre>
+<p>In the <kbd>get_the_post_thumbnail()</kbd> function, we will pass in ID, the size which will be <kbd>large</kbd>, and then the attributes as shown here:</p>
+<pre>&lt;a href="&lt;?php echo the_permalink(); ?&gt;"&gt;<br/>  &lt;?php echo get_the_post_thumbnail($id, 'large', $attr); ?&gt;<br/>&lt;/a&gt;</pre>
+<p>Next, underneath the <kbd>endif</kbd> statement, we will put the content:</p>
+<pre>  &lt;?php endif; ?&gt;<br/>  &lt;?php the_content(); ?&gt;<br/>&lt;/div&gt;</pre>
+<p>Now save the code and reload the home page. We will not see anything because we didn't actually add any content to that photo post:</p>
+<div class="CDPAlignCenter CDPAlign"><img src="images/f2ad62be-a88f-4b23-8846-d8666b01a114.png" /></div>
+
+
+            </article>
+
+            
+        </section>
+    </div>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:pls="http://www.w3.org/2005/01/pronunciation-lexicon" xmlns:ssml="http://www.w3.org/2001/10/synthesis" xmlns:svg="http://www.w3.org/2000/svg">
+<head>
+  <meta charset="UTF-8" />
+  <title>Theme setup, logo, and navigation</title>
+  <link type="text/css" rel="stylesheet" media="all" href="style.css" />
+  <link type="text/css" rel="stylesheet" media="all" href="core.css" />
+</head>
+<body>
+  <div id="sbo-rt-content"><section>
+
+                            <header>
+                    <h1 class="header-title">Theme setup, logo, and navigation</h1>
+                </header>
+            
+            <article>
+                
+<p>Now that the HTML template is done, we can now start to convert it into a WordPress theme.</p>
+<p>We have a default installation of WordPress. Let's create a new theme folder. We will go to <kbd>wp-content</kbd> | <kbd>themes</kbd> and create a new folder, <kbd>MyShop</kbd>. Inside <kbd>MyShop</kbd>, we'll create an <kbd>index.php</kbd> file and a <kbd>style.css</kbd> file. Let's go ahead and put our declaration in our <kbd>style.css</kbd> file as shown in the following snippet:</p>
+<pre>/* <br/>    Theme name: MyShop<br/>    Author: Brad Traversy<br/>    Author URI: http://eduonix.com<br/>    Description: Simple ecommerce theme<br/>    Version: 1.0.0<br/>*/</pre>
+<p>Let's save that. Now if we go to the backend in our webpage and go to <span class="packt_screen">Appearance</span> | <span class="packt_screen">Themes</span>, we'll see <span class="packt_screen">MyShop</span> as seen in the following screenshot:</p>
+<div class="packt_figure CDPAlignCenter CDPAlign"><img height="308" width="735" class="aligncenter size-full wp-image-1593 image-border" src="images/6a31e264-b5f6-4649-bc06-68b467d8c340.png" /></div>
+<p>We have a screenshot that we can pop above the <span class="packt_screen">MyShop</span> preview image in our project files. Paste this inside the <kbd>MyShop</kbd> folder. So now we have <span class="packt_screen">MyShop</span>, let's go ahead and activate it. Obviously, right now if we go and reload the frontend, it'll just be blank.</p>
+<p>We'll open the <kbd>MyShop</kbd> and <kbd>myshop_html</kbd> folders, which is the HTML template that we created, and bring over the <kbd>css</kbd> and the <kbd>js</kbd> folders into the <kbd>MyShop</kbd> folder. Now we have a <kbd>style.css</kbd> in our WordPress site. We'll take everything out of the <kbd>app.css</kbd> file from our template, cut that out, put it into <kbd>style.css</kbd>, and save it. Then we can completely delete the <kbd>app.css</kbd>.</p>
+<p>We'll now put everything from our <kbd>index.html</kbd> folder into <kbd>index.php</kbd>. Let's save that, and if we go to our website and reload the page, we can see all of our HTML there. The CSS isn't connected yet so we're not seeing that, but you can see the HTML:</p>
+<div class="CDPAlignCenter CDPAlign"><img height="475" width="599" src="images/0b1b2444-fe12-48a3-9b3a-23256a0a847a.png" /></div>
+<p>Let's go to the top of the file. We will add our title and fix the stylesheet declarations:</p>
+<pre>   &lt;title&gt;&lt;?php bloginfo('name'); ?&gt;&lt;/title&gt;<br/>   &lt;link rel="stylesheet" href="&lt;?php echo bloginfo('template_url'); ?&gt;/css/foundation.css"&gt;<br/>   &lt;link rel="stylesheet" href="&lt;?php echo bloginfo('stylesheet_url'); ?&gt;"&gt;<br/>   &lt;?php wp_head(); ?&gt;<br/>&lt;/head&gt;</pre>
+<p>Let's save that, reload our webpage, and now we can see that our CSS is in effect:</p>
+<div class="CDPAlignCenter CDPAlign"><img height="363" width="505" src="images/a493e3c0-8871-4ffb-8483-ee08d6636006.png" /></div>
+<p>We're just going to work from the top down. So next is the body! We also want to add our body class. So beside our <kbd>body</kbd> tag, let's add <kbd>&lt;?php echo body_class() ?&gt;</kbd>.</p>
+<p>Now for the logo, we'll do something that we haven't done yet; we'll implement an image, a logo upload from the theme customizer. In order to do that, we need to create a <kbd>functions.php</kbd> file. So in our <kbd>themes</kbd> folder, let's create a file called <kbd>functions.php</kbd> and create a function for <kbd>Theme Support</kbd>. Here's what the code should look like inside <kbd>functions.php</kbd>:</p>
+<pre>&lt;?php <br/>    // Theme Support<br/>    function ms_theme_setup(){<br/>        add_theme_support('custom-logo');<br/>    }<br/> <br/>    add_action('after_setup_theme', 'ms_theme_setup');</pre>
+<p>Save that and let's now go to the <kbd>index.php</kbd> file. Let's remove <kbd>&lt;img src="./img/logo.jpg"&gt;</kbd> and replace it with the following code snippet:</p>
+<pre>&lt;header class="grid-x grid-padding-x"&gt;<br/>   &lt;div class="large-6 cell"&gt;<br/>      &lt;?php <br/>        if(function_exists('the_custom_logo')){<br/>          the_custom_logo();<br/>        }<br/>      ?&gt;<br/>   &lt;/div&gt; </pre>
+<p>We now go to our backend. In the <span class="packt_screen">Themes</span> we'll click on <span class="packt_screen">Customize</span>, go to <span class="packt_screen">Site</span> <span class="packt_screen">Identity</span>, and now you should have the area as seen in the following screenshot for a logo:</p>
+<div class="packt_figure CDPAlignCenter CDPAlign"><img height="153" width="768" class="aligncenter size-full wp-image-1594 image-border" src="images/340094a9-8500-45db-ba43-e735e5d77a77.png" /></div>
+<p>We are going to click on <span class="packt_screen">Select Logo</span> and we'll upload the <kbd>logo.jpg</kbd> file from the <kbd>myshop_html</kbd> folder, crop the image as per your preference, and click on <span class="packt_screen">Save</span> and then <span class="packt_screen">Publish</span>. Now let's go to our frontend and reload, and we now have a logo:</p>
+<div class="CDPAlignCenter CDPAlign"><img height="339" width="656" src="images/67bee4d4-a079-4aac-9dce-e9b9bd80adba.png" /></div>
+<p>Now let's do the menu. We'll go to the <kbd>functions.php</kbd> file and add the following code for <kbd>Nav Menus</kbd>:</p>
+<pre>register_nav_menus(array(<br/>    'primary' =&gt; __('Primary Menu')<br/>));</pre>
+<p>Next we will go to <kbd>index.php</kbd> and we have our menu. We'll get rid of it completely and add the following code:</p>
+<pre>&lt;div class="large-6 cell"&gt;<br/>   &lt;?php wp_nav_menu(array(<br/>     'theme_location' =&gt; 'primary',<br/>     'container_class' =&gt; 'menu simple main-nav'<br/>   ));<br/>   ?&gt;<br/>&lt;/div&gt;</pre>
+<p>Now let's go to our backend. First of all we'll reload, click on the <span class="packt_screen">Menus</span> option, and we will keep <span class="packt_screen">Sample Page</span>. Make sure that we have the <span class="packt_screen">Primary</span> <span class="packt_screen">Menu</span> option checked:</p>
+<div class="packt_figure CDPAlignCenter CDPAlign"><img height="499" width="653" src="images/03625545-0796-45ef-add0-9ea4b8ede24b.png" /></div>
+<p>We'll click on <span class="packt_screen">Save</span> <span class="packt_screen">Menu</span> and reload our page. We can see that, now we have our menu and if we click on it we can see the link has changed. You won't see it in the main area of the web page because we don't have that area of the theme set up yet; it's just static content for now, but the menu is working and the logo is there:</p>
+<div class="CDPAlignCenter CDPAlign"><img height="490" width="617" src="images/19f18b59-5ef4-4f17-9c53-22ce8b2184f6.png" /></div>
+<p>The last thing we want to do in this section is to go to the <kbd>index.php</kbd> file and right underneath the <kbd>footer</kbd> tags, we'll put <kbd>wp_footer</kbd> as shown in the following code snippet:</p>
+<pre>&lt;footer&gt;<br/>&lt;p&gt;&amp;copy; 2017, MyShop&lt;/p&gt;<br/>&lt;/footer&gt;<br/><strong>&lt;?php wp_footer(); ?&gt;</strong></pre>
+<p>That should give us the admin menu at the top of the web page:</p>
+<div class="CDPAlignCenter CDPAlign"><img height="225" width="647" src="images/71c04843-7303-49f5-85f4-0eb45dc5723c.png" /></div>
+<p>In the next section we'll work with widgets. We will see how to create a custom widget for our showcase area.</p>
+
+
+            </article>
+
+            
+        </section>
+    </div>
+</body>
+</html>

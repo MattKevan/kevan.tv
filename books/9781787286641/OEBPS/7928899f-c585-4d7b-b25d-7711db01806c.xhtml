@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:pls="http://www.w3.org/2005/01/pronunciation-lexicon" xmlns:ssml="http://www.w3.org/2001/10/synthesis" xmlns:svg="http://www.w3.org/2000/svg">
+<head>
+  <meta charset="UTF-8" />
+  <title>Dealing with the single post page</title>
+  <link type="text/css" rel="stylesheet" media="all" href="style.css" />
+  <link type="text/css" rel="stylesheet" media="all" href="core.css" />
+</head>
+<body>
+  <div id="sbo-rt-content"><section>
+
+                            <header>
+                    <h1 class="header-title">Dealing with the single post page</h1>
+                </header>
+            
+            <article>
+                
+<ol>
+<li>Let's create a file in our theme root and save the file as <kbd>single.php</kbd>.</li>
+<li>Now while creating this file, if we go and click on one of these blog posts, it'll be completely blank because it's automatically looking at the <kbd>single.php</kbd> page.</li>
+<li>We'll now copy everything that we have in the <kbd>index.php</kbd> file and paste it into the <kbd>single.php</kbd> file. Save it and reload the page; it looks exactly the same way as the index page:</li>
+</ol>
+<div class="CDPAlignCenter CDPAlign"><img height="679" width="971" class="aligncenter size-full wp-image-1230 image-border" src="images/b8a5f7a9-d668-443b-85e6-48024934a160.png" /></div>
+<ol start="4">
+<li>Let's go in and change some of that. First, let's remove <kbd>if(has_post_thumbnail())</kbd>. Now go down to where it says else and cut out from there up to the actual <kbd>if</kbd> statement.<br/>
+We will also get rid of <kbd>endif</kbd> because of the way we'll be formatting it irrespective of the image being present or not.</li>
+<li>We want the image, though, so we'll put it. Let's put it right under the ending <kbd>&lt;/h2&gt;</kbd>:</li>
+</ol>
+<pre>      &lt;?php if(has_post_thumbnail()): ?&gt;<br/>         &lt;div class="post-thumbnail"&gt;<br/>            &lt;?php the_post_thumbnail(); ?&gt;<br/>         &lt;/div&gt;<br/>      &lt;?php endif; ?&gt;</pre>
+<ol start="6">
+<li>We're putting in the thumbnail or the featured image, if there is one. Let's save that and see what that looks like:</li>
+</ol>
+<div class="CDPAlignCenter CDPAlign"><img height="443" width="554" class="aligncenter size-full wp-image-1231 image-border" src="images/69c0f546-8783-4837-93b7-2645100cdd87.png" /></div>
+<ol start="7">
+<li>So we have our big image now, let's put a line break <kbd>&lt;br&gt;</kbd> underneath it as well.</li>
+</ol>
+<pre>      &lt;?php endif; ?&gt;<br/>      <strong>&lt;br&gt;</strong></pre>
+<p style="padding-left: 60px">We don't want <span class="packt_screen">Read More</span> but we want the full content not the excerpt.</p>
+<ol start="8">
+<li>So let's get rid of <span class="packt_screen">Read More</span>, and instead of <kbd>get_the_excerpt()</kbd> let's use <kbd>the_content()</kbd>. We will also get rid of <kbd>echo</kbd>. Let's also change the class to <kbd>content</kbd>:</li>
+</ol>
+<pre>      &lt;div class="content"&gt;<br/>      &lt;?php the_content(); ?&gt;<br/>      &lt;/div&gt;</pre>
+<ol start="9">
+<li>Save it and reload:</li>
+</ol>
+<div class="CDPAlignCenter CDPAlign"><img height="316" width="467" src="images/348365c2-b027-4bfd-98b4-8deba661547d.png" /></div>
+<p style="padding-left: 60px">Now it renders the HTML as well. So that's the single page.</p>
+<p class="mce-root">Next, we will deal with the comment functionality as well.</p>
+
+
+            </article>
+
+            
+        </section>
+    </div>
+</body>
+</html>

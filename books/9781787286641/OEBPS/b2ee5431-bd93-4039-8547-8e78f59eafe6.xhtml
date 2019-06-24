@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:pls="http://www.w3.org/2005/01/pronunciation-lexicon" xmlns:ssml="http://www.w3.org/2001/10/synthesis" xmlns:svg="http://www.w3.org/2000/svg">
+<head>
+  <meta charset="UTF-8" />
+  <title>Custom home page</title>
+  <link type="text/css" rel="stylesheet" media="all" href="style.css" />
+  <link type="text/css" rel="stylesheet" media="all" href="core.css" />
+</head>
+<body>
+  <div id="sbo-rt-content"><section>
+
+                            <header>
+                    <h1 class="header-title">Custom home page</h1>
+                </header>
+            
+            <article>
+                
+<p>Now we'll create a custom home page and then add widgets to the positions that we added.</p>
+<p>Let's create a new file and save this as <kbd>front-page.php</kbd>. If we reload the home page it goes completely blank because it's looking at <kbd>front-page.php</kbd> file. So I'll copy what we have in <kbd>page.php</kbd> and paste it in <kbd>front-page.php</kbd>.</p>
+<p>Now let's reload:</p>
+<div class="CDPAlignCenter CDPAlign"><img height="903" width="1280" class="aligncenter size-full wp-image-1100 image-border" src="images/6908732d-52a5-4854-8119-4f47fa2d69dc.png" /></div>
+<p>This doesn't look very good because we're showing the posts with just the page formatting. So let's go into pages, and create two new pages. We will call one <kbd>Home</kbd>; we'll just say <kbd>This is the homepage</kbd>, click on <span class="packt_screen">Publish</span>, and similarly create a new one called <kbd>Blog</kbd> and <span class="packt_screen">Publish</span>:</p>
+<div class="CDPAlignCenter CDPAlign"><img height="881" width="1280" class="aligncenter size-full wp-image-1101 image-border" src="images/62aceaa0-a31f-4e93-95fb-ef73146d8fba.png" /></div>
+<p>Now we'll go to <span class="packt_screen">Settings</span> and then to <span class="packt_screen">Reading</span>:</p>
+<div class="CDPAlignCenter CDPAlign"><img height="709" width="1054" class="aligncenter size-full wp-image-1102 image-border" src="images/091cbbdc-1b24-4d3d-b5e0-01a65b32a2ab.png" /></div>
+<p>In <span class="packt_screen">Your homepage displays</span>, we'll set <span class="packt_screen">A static page</span>; for <span class="packt_screen">Homepage</span>, we'll choose <span class="packt_screen">Home</span>; for <span class="packt_screen">Post page</span> we'll choose <span class="packt_screen">Blog</span>, and then we'll save it.</p>
+<p>Now we'll go to <span class="packt_screen">Appearance</span> and then <span class="packt_screen">Menus</span>:</p>
+<div class="CDPAlignCenter CDPAlign"><img height="961" width="1280" class="aligncenter size-full wp-image-1103 image-border" src="images/9f6897f6-4686-4a6a-94fa-7aded0f62833.png" /></div>
+<p>Let's go to tick <span class="packt_screen">Blog</span> and click on <span class="packt_screen">Add to Menu</span>. We'll put that right between <span class="packt_screen">About</span> and <span class="packt_screen">Services</span> and save it. Now if we go back and reload, we get the <span class="packt_screen">Home</span> page, and if we click on <span class="packt_screen">Blog</span>, that brings us to the blog:</p>
+<div class="CDPAlignCenter CDPAlign"><img height="416" width="520" class="aligncenter size-full wp-image-1104 image-border" src="images/76c68a33-8850-4878-aaba-46831105ec7f.png" /></div>
+<p>So, this is how we can handle that. Now we want to make this look a little different, I want to have a <span class="packt_screen">Showcase</span> widget. Also, I want to get rid of the sidebar and have three boxes and three different widgets under this content. Let's go to <kbd>front-page.php</kbd> and get rid of the <kbd>main</kbd> class, highlighted in the following code block, because that's what limits this to this width:</p>
+<pre>&lt;div class="container content"&gt;<br/>   &lt;div class="<strong>main</strong> block"&gt;<br/>      &lt;?php while(have_posts()) : the_post(); ?&gt;</pre>
+<p>Then, we'll completely get rid of this <kbd>side</kbd> div element:</p>
+<pre>  &lt;/div&gt;<br/><br/>  <strong>&lt;div class="side"&gt;</strong><br/><strong>     &lt;?php if(is_active_sidebar('sidebar')) : ?&gt;</strong><br/><strong>        &lt;?php dynamic_sidebar('sidebar'); ?&gt;</strong><br/><strong>     &lt;?php endif; ?&gt;</strong><br/><strong>  &lt;/div&gt;</strong><br/>&lt;/div&gt;<br/><br/>&lt;?php get_footer(); ?&gt;</pre>
+<p>We'll look at it now; there's no more sidebar:</p>
+<div class="CDPAlignCenter CDPAlign"><img height="272" width="529" class="aligncenter size-full wp-image-1105 image-border" src="images/4668199f-cccd-402b-adbd-41773342f7eb.png" /></div>
+<p>Let's do our <span class="packt_screen">Showcase</span> widget, and see where it is going to go; right under <kbd>&lt;div class="container content"&gt;</kbd>. I'll copy from <kbd>index.php</kbd> and grab the code shown in the following code block. We'll paste that in and then we just want to change the ID from <kbd>sidebar</kbd> to <kbd>showcase</kbd>; we'll do the same thing for <kbd>dynamic_sidebar()</kbd>. So, this takes care of the <span class="packt_screen">Showcase</span> widget:</p>
+<pre>&lt;?php if(is_active_sidebar('showcase')) : ?&gt;<br/>   &lt;?php dynamic_sidebar('showcase'); ?&gt;<br/>&lt;?php endif; ?&gt;</pre>
+<p>Now we'll also want our three boxes, which we'll put down right above the last <kbd>div</kbd> element. So I'll paste this in three times. This one will be <kbd>box1</kbd>, <kbd>box2</kbd>, and <kbd>box3</kbd>. We'll save this:</p>
+<pre>&lt;?php if(is_active_sidebar('box1')) : ?&gt;<br/>   &lt;?php dynamic_sidebar('box1'); ?&gt;<br/>&lt;?php endif; ?&gt;<br/><br/>&lt;?php if(is_active_sidebar('box2')) : ?&gt;<br/>   &lt;?php dynamic_sidebar('box2'); ?&gt;<br/>&lt;?php endif; ?&gt;<br/><br/>&lt;?php if(is_active_sidebar('box2')) : ?&gt;<br/>   &lt;?php dynamic_sidebar('box2'); ?&gt;<br/>&lt;?php endif; ?&gt;<br/>&lt;/div&gt;</pre>
+<p>Now let's go to the backend, to <span class="packt_screen">Appearance</span>, and then <span class="packt_screen">Widgets:</span></p>
+<div class="CDPAlignCenter CDPAlign"><img height="1024" width="1280" class="aligncenter size-full wp-image-1106 image-border" src="images/f0e0fe16-9846-43db-8767-89844136812f.png" /></div>
+<p>We'll grab <span class="packt_screen">Text</span> and put that right in <span class="packt_screen">Showcase</span>, and then we'll paste some code in the <span class="packt_screen">Content</span> textbox; well, not some code, but just some HTML. We'll save this.</p>
+<p>Now we'll grab another <span class="packt_screen">Text</span>, put that in <span class="packt_screen">Box 1</span>, and put a title in here, let's say <kbd>Box 1 Heading</kbd>. Then I'll just paste some sample text in there. Let's do the same thing for <span class="packt_screen">Box 2</span> and for <span class="packt_screen">Box 3</span>.</p>
+<p>Let's do something different. We'll grab the <span class="packt_screen">Recent Posts</span> widget and put that in there, and set that <span class="packt_screen">Title</span> to <kbd>Latest News</kbd>:</p>
+<div class="CDPAlignCenter CDPAlign"><img height="1024" width="1280" class="aligncenter size-full wp-image-1107 image-border" src="images/c89f67ce-4fbd-4607-a2f4-5af7d80a38c8.png" /></div>
+<p>We'll save this, go to the frontend, and reload. Now we have our widgets.</p>
+<p>They don't look too good, we need to style them. So let's go to <kbd>style.css</kbd>. <span>We'll paste in the styling for showcase first. We'll give it a background, padding of</span> <kbd>40px</kbd><span>, and</span> <kbd>margin-bottom</kbd><span>, and align everything to the center. Let's do the same thing for</span> <kbd>h1</kbd><span>:</span></p>
+<pre>.showcase{<br/>  background:#e0eefc;<br/>  padding:40px;<br/>  margin-bottom:30px;<br/>  text-align: center;<br/>}<br/><br/>.showcase h1{<br/>  text-align: center;<br/>}</pre>
+<p>Now for the <span><kbd>box</kbd> class, we set it to</span> <kbd>32%</kbd> <span>width,</span> <kbd>float:left</kbd><span>; then for</span> <kbd>h3</kbd><span>, we center it, add a background and some padding:</span></p>
+<pre>.box{<br/>  width:32%;<br/>  float:left;<br/>  padding:0 6px;<br/>}<br/><br/>.box h3{<br/>  text-align: center;<br/>  background:#009acd;<br/>  padding:5px;<br/>  color:#fff;<br/>}</pre>
+<p>Let's save this and reload:</p>
+<div class="CDPAlignCenter CDPAlign"><img height="1024" width="1280" class="aligncenter size-full wp-image-1108 image-border" src="images/42f0337c-2951-43ef-bce8-dae70fe1dc62.png" /></div>
+<p>There's our <span class="packt_screen">Home</span> page. You can see that we have <span class="packt_screen">Latest News</span>; we can click on there and go to the different posts. There's Gallery and Blog Posts, and just to make this look a little better, I'll go to where we put <kbd>side-widget li</kbd> and add <kbd>.box li</kbd>:</p>
+<pre>.side-widget li, <strong>.box li</strong>{<br/>    list-style: none;<br/>    line-height: 2.1em;<br/>    border-bottom: 1px dotted #ccc;<br/>}</pre>
+<p><span>Now that looks better.</span> So let's actually set the number of posts to be seen to <kbd>3</kbd>.</p>
+<p>This isn't the best looking style, but the point of this whole project isn't the design or style, or to create something beautiful, it's to get you familiar with the functionality of creating a WordPress theme.</p>
+<p>We'll have one more section and that's going to be for the comments, because right now in our blog, if we go to a regular post there's no comment functionality.</p>
+
+
+            </article>
+
+            
+        </section>
+    </div>
+</body>
+</html>

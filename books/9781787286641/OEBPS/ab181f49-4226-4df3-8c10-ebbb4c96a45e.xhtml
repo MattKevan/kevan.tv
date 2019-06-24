@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:pls="http://www.w3.org/2005/01/pronunciation-lexicon" xmlns:ssml="http://www.w3.org/2001/10/synthesis" xmlns:svg="http://www.w3.org/2000/svg">
+<head>
+  <meta charset="UTF-8" />
+  <title>Adding an image to the post</title>
+  <link type="text/css" rel="stylesheet" media="all" href="style.css" />
+  <link type="text/css" rel="stylesheet" media="all" href="core.css" />
+</head>
+<body>
+  <div id="sbo-rt-content"><section>
+
+                            <header>
+                    <h1 class="header-title">Adding an image to the post</h1>
+                </header>
+            
+            <article>
+                
+<p>Now, if we go to the form shown here to add a post, and you look on the right-hand side, you don't see a <span class="packt_screen">Featured Image</span> box, which you may have seen in other WordPress themes or on other WordPress websites. The reason for that is we didn't include that functionality:</p>
+<div class="packt_figure CDPAlignCenter CDPAlign"><img height="1024" width="1280" class="aligncenter size-full wp-image-762 image-border" src="images/3e07c3f7-15ea-46e1-afb0-0d8c2b04391a.png" /></div>
+<ol>
+<li>Let's go into our <kbd>themes</kbd> folder, and we'll create a file and save it as <kbd>functions.php</kbd>. Now, this is where we can put a custom function; this is where we can hook into certain parts of the code, register widgets, and do all that—basically, anything dynamic.</li>
+<li>Here, we'll create a setup function. To do this, we will add the following code block:</li>
+</ol>
+<pre class="packt_figure">      &lt;?php<br/>      function simple_theme_setup(){<br/>          // Featured Image Support<br/>          add_theme_support('post-thumbnails');<br/>      }<br/>      add_action('after_setup_theme', 'simple_theme_setup');</pre>
+<p style="padding-left: 60px">Here, we have added a comment, <kbd>Featured Image Support</kbd>, followed by a function called <kbd>add_theme_support</kbd>. Now this function isn't going to run if we leave it just like this. So, we have used <kbd>add_action</kbd> and certain hooks that we can hook into and run this function. The one that we want is called <kbd>after_setup_theme</kbd>. Then, the second parameter will be the name of the function. We will save it and then run it.</p>
+<ol start="3">
+<li>Let's go back and reload this page:</li>
+</ol>
+<div class="mce-root CDPAlignCenter CDPAlign"><img height="297" width="174" class="aligncenter size-full wp-image-763 image-border" src="images/9c09afd9-f090-4394-ba36-eca66e634034.png" /></div>
+<p style="padding-left: 60px" class="mce-root">Now you'll see down at the bottom that we have the <span class="packt_screen">Featured Image</span> box. If we click on that, we can go ahead and upload files, as shown here:</p>
+<div class="packt_figure CDPAlignCenter CDPAlign"><img height="214" width="412" class="aligncenter size-full wp-image-764 image-border" src="images/4f96944d-fb56-443a-b1c5-9b137e5f38cb.png" /></div>
+<ol start="4">
+<li>Now, I'll choose an image and save it so that you can see it's inserted, and we can then click on <span class="packt_screen">Update</span>:</li>
+</ol>
+<div class="packt_figure CDPAlignCenter CDPAlign"><img height="1024" width="1280" class="aligncenter size-full wp-image-765 image-border" src="images/393e1455-291b-4d5d-ab0e-a1652fcd512a.png" /></div>
+<p style="padding-left: 60px" class="packt_figure CDPAlignLeft CDPAlign">Now, if we go to the frontend and reload, we'll not see it yet, because we didn't add it to our <kbd>index.php</kbd> file.</p>
+<ol start="5">
+<li>Let's go to the <kbd>index.php</kbd> file. You don't have to show the image in the index. You can just show it in single page if you want, but usually you want it to be shown on both pages. So, in <kbd>index.php</kbd>, let's just add the image right below <kbd>meta</kbd>, as shown here:</li>
+</ol>
+<pre>      &lt;div class="meta"&gt;<br/>      Created By &lt;?php the_author(); ?&gt; on &lt;?php the_time(<br/>        'F j, Y g:i a'); ?&gt;<br/>      &lt;/div&gt;<br/>      <strong>&lt;?php if(has_post_thumbnail()) : ?&gt;</strong><br/><strong>         &lt;div class="post-thumbnail"&gt;</strong><br/><strong>         &lt;?php the_post_thumbnail(); ?&gt;</strong><br/><strong>         &lt;/div&gt;</strong><br/><strong>      &lt;?php endif; ?&gt;</strong></pre>
+<p style="padding-left: 60px">At first, it's not going to look too great, but we'll fix that later on. In the preceding code, we have first checked to see if there's an image using an <kbd>if</kbd> statement. If there's a thumbnail, then we'll create a <kbd>&lt;div&gt;</kbd> tag. We'll give it a class of <kbd>post-thumbnail</kbd> and then add <kbd>php the_post_thumbnail</kbd>, as shown in the preceding code block.</p>
+<ol start="6">
+<li>Let's save it, go back, and reload. You will get the following result:</li>
+</ol>
+<div class="packt_figure CDPAlignCenter CDPAlign"><img height="1024" width="1280" class="aligncenter size-full wp-image-766 image-border" src="images/44dc5b16-5d09-42b8-a570-1fd8d2c74da6.png" /></div>
+<p style="padding-left: 60px">Now, it looks a little out of the way because it's not reaching 100% across the page, but we're actually going to put a sidebar in a little bit, when we get to the widgets, so that it looks a lot better. However, I am going to add a width of <kbd>100%</kbd> in the CSS, where we have this post, <kbd>this class="post-thumbnail"</kbd>.</p>
+<ol start="7">
+<li>Let's go into our style sheet and add the following code block:</li>
+</ol>
+<pre class="packt_figure">      .post-thumbnail img{<br/>          width:100%;<br/>          <strong>height:auto;</strong><br/>      }</pre>
+<p style="padding-left: 60px">For the image, we want the width to be 100% and we can keep <kbd>height:auto</kbd>.</p>
+<ol start="8">
+<li>When we reload, we can see that it reaches across the whole page:</li>
+</ol>
+<div class="packt_figure CDPAlignCenter CDPAlign"><img height="358" width="448" class="aligncenter size-full wp-image-767 image-border" src="images/15f68525-bb51-4a3f-b87b-723d2b9db2f6.png" /></div>
+<p style="padding-left: 60px">I know that's really big, but like I said, we'll get a sidebar in there, and it'll shrink that a little bit.</p>
+<ol start="9">
+<li>Now we also want the image on the single post page. So we'll copy the code from <kbd>index.php</kbd> and paste it in the <kbd>single.php</kbd> file, right under <kbd>meta</kbd>:</li>
+</ol>
+<pre class="packt_figure">      &lt;div class="meta"&gt;<br/>      Created By &lt;?php the_author(); ?&gt; on &lt;?php the_time(<br/>        'F j, Y g:i a'); ?&gt;<br/>      &lt;/div&gt;<br/>      &lt;?php if(has_post_thumbnail()) : ?&gt;<br/>         &lt;div class="post-thumbnail"&gt;<br/>            &lt;?php the_post_thumbnail(); ?&gt;<br/>         &lt;/div&gt;<br/>      &lt;?php endif; ?&gt;</pre>
+<p style="padding-left: 60px" class="packt_figure">Now we'll get the same image on the single page as well.</p>
+<p style="padding-left: 60px" class="packt_figure">As you can see, in the posts on the index page, it shows the whole content, but we want just a piece of the content to show.</p>
+<ol start="10">
+<li>To do that, let's go to the <kbd>index.php</kbd> file, and instead of saying <kbd>the_content</kbd>, we can actually say <kbd>the_excerpt</kbd>, as shown in the following code:</li>
+</ol>
+<pre class="packt_figure">      &lt;?php the_excerpt(); ?&gt;</pre>
+<p style="padding-left: 60px" class="packt_figure">What this will do is, it will cut the content to around 55 words. You can actually customize that and make it as long or as short as you want, and that's actually really easy.</p>
+<ol start="11">
+<li>Go to the <kbd>functions.php</kbd> file and create a custom function, as shown here:</li>
+</ol>
+<pre class="packt_figure">      &lt;?php<br/>      function simple_theme_setup()&gt;{<br/>          // Featured Image Support<br/>          add_theme_support('post-thumbnails');<br/>      }<br/><br/>      add_action('after_setup_theme', 'simple_theme_setup');<br/><br/>      // Excerpt Length<br/>      function set_excerpt_length(){<br/>          return 25;<br/>      }<br/><br/>      add_filter('excerpt_length', 'set_excerpt_length');</pre>
+<p style="padding-left: 60px">We'll just say <kbd>set_excerpt_length</kbd>, and all we need to do here is just return a number, so let's say we wanted it to be <kbd>25</kbd>. Then, what we can do is, instead of <kbd>add_action</kbd>, we'll say <kbd>add_filter</kbd>, because <kbd>add_action</kbd> is usually used to add something or create something; <kbd>add_filter</kbd> is usually used to change something. The filter we want to hook into here is called <kbd>excerpt_length</kbd>. Then, we just want to put in the name of our function, which is <kbd>set_excerpt_length</kbd>.</p>
+<ol start="12">
+<li>If we go back and reload, we can see that it's only 25 words long. If you want it a little longer, let's say return 60. I just wanted to show you that it's possible.</li>
+</ol>
+<p>So we have our index page set up, and we have our single post page set up, apart from the comments, which we'll do a little later. However, in the next section, we will see how we can create a menu and start dealing with pages as well as posts.</p>
+
+
+            </article>
+
+            
+        </section>
+    </div>
+</body>
+</html>

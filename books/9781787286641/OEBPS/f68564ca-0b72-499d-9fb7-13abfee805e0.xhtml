@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:pls="http://www.w3.org/2005/01/pronunciation-lexicon" xmlns:ssml="http://www.w3.org/2001/10/synthesis" xmlns:svg="http://www.w3.org/2000/svg">
+<head>
+  <meta charset="UTF-8" />
+  <title>Checking the thumbnail in the gallery post</title>
+  <link type="text/css" rel="stylesheet" media="all" href="style.css" />
+  <link type="text/css" rel="stylesheet" media="all" href="core.css" />
+</head>
+<body>
+  <div id="sbo-rt-content"><section>
+
+                            <header>
+                    <h1 class="header-title">Checking the thumbnail in the gallery post</h1>
+                </header>
+            
+            <article>
+                
+<p>As we want to check for the thumbnail, as we did in the previous section, we will use the same code in the <kbd>content-gallery.php</kbd> page:</p>
+<pre>&lt;div class="w3-col m4 l4 pic"&gt;<br/>  &lt;?php if(has_post_thumbnail()) : ?&gt;<br/>    &lt;div class="post-thumbnail"&gt;<br/>      &lt;?php the_post_thumbnail(); ?&gt;<br/>    &lt;/div&gt;<br/>  &lt;?php endif; ?&gt;<br/>&lt;/div&gt;</pre>
+<p class="mce-root">This is going to be a little different than the regular content post. We will remove the <kbd>&lt;?php the_post_thumbnail(); ?&gt;</kbd> line. After removing it, the code should look like the following:</p>
+<pre>&lt;div class="w3-col m4 l4 pic"&gt;<br/>  &lt;?php if(has_post_thumbnail()) : ?&gt;<br/>    &lt;div class="post-thumbnail"&gt;<br/>   <br/>    &lt;/div&gt;<br/>  &lt;?php endif; ?&gt;<br/>&lt;/div&gt;</pre>
+<div class="packt_infobox">Thumbnail or featured images mean the same thing.</div>
+
+
+            </article>
+
+            
+        </section>
+    </div>
+</body>
+</html>

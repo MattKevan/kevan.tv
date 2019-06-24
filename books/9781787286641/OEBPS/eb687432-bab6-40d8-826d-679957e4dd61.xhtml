@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:pls="http://www.w3.org/2005/01/pronunciation-lexicon" xmlns:ssml="http://www.w3.org/2001/10/synthesis" xmlns:svg="http://www.w3.org/2000/svg">
+<head>
+  <meta charset="UTF-8" />
+  <title>Installing and setting up WordPress</title>
+  <link type="text/css" rel="stylesheet" media="all" href="style.css" />
+  <link type="text/css" rel="stylesheet" media="all" href="core.css" />
+</head>
+<body>
+  <div id="sbo-rt-content"><section>
+
+                            <header>
+                    <h1 class="header-title">Installing and setting up WordPress</h1>
+                </header>
+            
+            <article>
+                
+<p>This project will be a little different from the rest because it's going to be sort of an introductory project. We will see how to install and set up WordPress, so that you can have a fresh installation to work with. We will create a theme, but we'll be focusing more on the code and the overall look and style. We'll create files and folders, add PHP code, and related things. First, I want to get you familiarized with PHP code, and then we can add some simple style.</p>
+<p>With respect to an environment, there are a lot of different ways you can run WordPress. You may have your own server set up; if you don't, you can use something like AMPPS, which is what I'll be using. It gives you an Apache server, PHP, and MySQL all on your local machine. You could also use XAMPP, which is very similar, or WAMP; there's also MAMP for Mac. There are lot of different choices, but if you want to use AMPPS, you can go to <a href="https://ampps.com/"><span class="URLPACKT">https://ampps.com/</span></a> and download it. It's available for Windows, Mac, and Linux, and it is pretty easy to get set up.</p>
+<p>Now, let's see how to install WordPress. Most of you probably already know how to do this:</p>
+<ol>
+<li>Go to the link <a href="https://wordpress.org/download/">https://wordpress.org/download/</a> and click on the <span class="packt_screen">Download WordPress</span> button:</li>
+</ol>
+<div class="packt_figure CDPAlignCenter CDPAlign"><img height="656" width="822" class="aligncenter size-full wp-image-704 image-border" src="images/b9cba11f-138b-40b2-93f5-d041e21fc302.png" /></div>
+<ol start="2">
+<li>Download the package and go to your server root folder, as shown here:</li>
+</ol>
+<div class="packt_figure CDPAlignCenter CDPAlign"><img height="1022" width="1278" class="aligncenter size-full wp-image-705 image-border" src="images/b59ebf81-858b-4b25-be7f-6ddd305a9576.png" /></div>
+<p style="padding-left: 60px"><span>If you're using AMPPS, the package should be in your</span> <kbd>C:\</kbd> drive <span>or in your route drive. In the</span> <kbd>Ampps</kbd> <span>folder, you'll find a</span> <kbd>www</kbd> <span>folder; this is the hosting root, as shown in the preceding image. In most cases, the default folder will be <kbd>Program Files</kbd> in</span> the <kbd>C:\</kbd> <span>drive.</span></p>
+<ol start="3">
+<li>Create a folder called <kbd>wpthemes</kbd>; this is where we will install WordPress.</li>
+</ol>
+<ol start="4">
+<li>Go to the <kbd>Downloads</kbd> folder and open the WordPress package. Next, extract all the files into the project folder, <kbd>wpthemes</kbd>. Before we proceed, we need a database, a MySQL database, and if you installed AMPPS or if you're using XAMPP or something similar, then you most likely have <span class="packt_screen">phpMyAdmin</span>, as shown as follows; this is what we'll be using.</li>
+</ol>
+<ol start="5">
+<li>Now, go to <kbd><span class="URLPACKT">http://localhost/phpmyadmin</span></kbd>:</li>
+</ol>
+<div class="packt_figure CDPAlignCenter CDPAlign"><img src="images/9424ac66-4bd0-4ad8-9163-7eff871a6e82.png" /></div>
+<ol start="6">
+<li>Next, go to the <span class="packt_screen">Databases</span> tab to create a new database called <kbd>wpthemes</kbd> and click on <span class="packt_screen">Create</span>. We will see an empty database.</li>
+<li>We'll go back to the files we created or brought over from the WordPress package. You will see the <span class="packt_screen">wp-config-sample.php</span> file. We'll rename this to just <kbd>wp-config</kbd>, and get rid of the <kbd>-sample</kbd>.</li>
+<li>Open the <kbd>wp-config</kbd> file using Sublime Text as the editor. You can use whichever editor you feel comfortable with.</li>
+<li>Now, in this editor, we will change or add some information:</li>
+</ol>
+<pre>      /** The name of the database for WordPress */<br/>      define('DB_NAME', '<strong>wpthemes</strong>');<br/><br/>      /** MySQL database username */<br/>      define('DB_USER', '<strong>root</strong>');<br/><br/>      /** MySQL database password */<br/>      define('DB_PASSWORD', '<strong>123456'</strong>);</pre>
+<p style="padding-left: 60px">We will add <kbd>DB_NAME</kbd>, as shown here, which in this case is <kbd>wpthemes</kbd>, then <kbd>DB_USER</kbd>, which in this case is <kbd>root</kbd>, and then <kbd>DB_PASSWORD</kbd>—you need to enter whatever the password is for your database. The rest can stay the same.</p>
+<ol start="10">
+<li>We'll go ahead and save the entered information, and then we should be able to go to <kbd>localhost/wpthemes</kbd>:</li>
+</ol>
+<div class="packt_figure CDPAlignCenter CDPAlign"><img height="886" width="1280" class="aligncenter size-full wp-image-707 image-border" src="images/de9f8930-e0ca-463f-a423-ce9a13bc041d.png" /></div>
+<ol start="11">
+<li>We can now go ahead and run the installation. As shown in the following screenshot, we will enter <span class="packt_screen">Site Title</span> as <kbd>WordpressDEV</kbd> <span>and</span> <span class="packt_screen">Username</span> as <kbd>admin</kbd>. Next, you need to enter the password; I'm using a very weak password here. After you enter the email address, click on <span class="packt_screen">Install WordPress</span>:</li>
+</ol>
+<div class="packt_figure CDPAlignCenter CDPAlign"><img src="images/ae0b3009-c916-4c22-8522-1d3fa21e920d.png" /></div>
+<p style="padding-left: 60px"><span>You can see that</span> <span class="packt_screen">WordPress has been installed</span>.<span><br/></span></p>
+<div class="packt_figure CDPAlignCenter CDPAlign"><img height="618" width="1279" class="aligncenter size-full wp-image-709 image-border" src="images/32223c39-9589-4411-8c58-2dfbdbe143c2.png" /></div>
+<ol start="12">
+<li>Now, click on <span class="packt_screen">Log In</span>, and this will take us to the admin login. Go ahead and put your username and password in, and it'll take you to your backend:</li>
+</ol>
+<div class="packt_figure CDPAlignCenter CDPAlign"><img height="1024" width="1280" class="aligncenter size-full wp-image-711 image-border" src="images/15de4176-41ed-4aaf-bfc1-57108a9b47d8.png" /></div>
+<ol start="13">
+<li>Now we can click on <span class="packt_screen">Visit Site</span>, as shown in the preceding image. Open this in a new tab, and you'll see that we have a brand new WordPress site:</li>
+</ol>
+<div class="packt_figure CDPAlignCenter CDPAlign"><img height="1024" width="1280" class="aligncenter size-full wp-image-712 image-border" src="images/be1ab351-5ed9-4a1a-99c4-09af801622aa.png" /></div>
+<p>This is what we'll be working with.</p>
+<p>I'm sure a lot of you have experience with WordPress.</p>
+<p>On the <kbd>localhost/wpthemes/wp-admin/</kbd> <span>WordPress page</span><span>, we have our</span> <span class="packt_screen">Posts</span> <span>area, where we can create and manage posts:</span></p>
+<div class="packt_figure CDPAlignCenter CDPAlign"><img height="181" width="540" class="aligncenter size-full wp-image-713 image-border" src="images/2891ef4d-db3b-4796-bcb1-70336319f438.png" /></div>
+<p>We can have <span class="packt_screen">Categories</span>, as shown in the following screenshot:</p>
+<div class="packt_figure CDPAlignCenter CDPAlign"><img height="348" width="539" class="aligncenter size-full wp-image-714 image-border" src="images/e314d092-2c92-490e-acff-9547e3f6809b.png" /></div>
+<p>We can also see <span class="packt_screen">Pages</span>:</p>
+<div class="packt_figure CDPAlignCenter CDPAlign"><img height="172" width="526" class="aligncenter size-full wp-image-721 image-border" src="images/cf72a7cd-db33-4b5d-af2d-39c0f104e087.png" /></div>
+<p>Website pages such as About Us, or Services, would go on <span class="packt_screen">Pages</span>. If we go to <span class="packt_screen">Appearance</span>, and click on <span class="packt_screen">Themes</span>, it will show us the installed themes, as shown in the following screenshot:</p>
+<div class="packt_figure CDPAlignCenter CDPAlign"><img height="422" width="527" class="aligncenter size-full wp-image-722 image-border" src="images/a872f956-756a-410f-a406-9339bf067e5e.png" /></div>
+<p>By default, we have <span class="packt_screen">Twenty Seventeen</span>, <span class="packt_screen">Twenty Fifteen</span>, and <span class="packt_screen">Twenty Sixteen</span>, but we will be creating a new theme in the next section.</p>
+
+
+            </article>
+
+            
+        </section>
+    </div>
+</body>
+</html>

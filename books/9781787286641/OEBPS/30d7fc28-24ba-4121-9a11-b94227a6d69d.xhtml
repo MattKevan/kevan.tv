@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:pls="http://www.w3.org/2005/01/pronunciation-lexicon" xmlns:ssml="http://www.w3.org/2001/10/synthesis" xmlns:svg="http://www.w3.org/2000/svg">
+<head>
+  <meta charset="UTF-8" />
+  <title>Creating the header</title>
+  <link type="text/css" rel="stylesheet" media="all" href="style.css" />
+  <link type="text/css" rel="stylesheet" media="all" href="core.css" />
+</head>
+<body>
+  <div id="sbo-rt-content"><section>
+
+                            <header>
+                    <h1 class="header-title">Creating the header</h1>
+                </header>
+            
+            <article>
+                
+<p>The next thing we want to do is to create the header. To create this, follow these steps:</p>
+<ol>
+<li>First, we'll use the HTML5 <kbd>&lt;header&gt;</kbd> tag as shown here:</li>
+</ol>
+<pre>      &lt;!DOCTYPE html&gt;<br/>      &lt;html&gt;<br/>      &lt;head&gt;<br/>        &lt;title&gt;PhotoGenik&lt;/title&gt;<br/>        &lt;link rel="stylesheet" <br/>              href="http://www.w3schools.com/lib/w3.css"&gt;<br/>        &lt;link rel="stylesheet" href="style.css"&gt;<br/>      &lt;/head&gt;<br/>      &lt;body&gt;<br/>        &lt;header&gt;<br/><br/>        &lt;/header&gt;<br/>      &lt;/body&gt;<br/>      &lt;/html&gt;</pre>
+<div class="packt_infobox">Some of this HTML layout might change once we are actually building the WordPress theme, just to adapt to the WordPress conventions.</div>
+<ol start="2">
+<li>Next, we'll give this header a class. If we take a look at the documentation page (<a href="https://www.w3schools.com/w3css/default.asp" target="_blank">https://www.w3schools.com/w3css/default.asp</a>) for the framework and go to <span class="packt_screen">W3.CSS Containers</span>, it should have headers class as shown here:</li>
+</ol>
+<div class="CDPAlignCenter CDPAlign"><img height="239" width="542" src="images/bc40e50e-3174-48fc-a534-bc247fedecb3.png" /></div>
+<ol start="3">
+<li>Now to make the header a class, copy the header class syntax from the containers documentation page (<a href="https://www.w3schools.com/w3css/w3css_containers.asp" target="_blank">https://www.w3schools.com/w3css/w3css_containers.asp</a>) and paste it in our HTML header as shown here:</li>
+</ol>
+<pre>      &lt;body&gt;<br/><span>        &lt;header class="w3-container w3-teal"&gt;</span><br/>          <span>&lt;h1&gt;</span>Heading<span>&lt;/h1&gt;</span><br/>        <span>&lt;/header&gt;<br/></span>      &lt;/body&gt;</pre>
+<ol start="4">
+<li>Let's make sure that everything is actually working so far. For this, we'll open the <kbd>index.html</kbd> file with Chrome, and as shown in the following screenshot, we'll find our <kbd>Heading</kbd>:</li>
+</ol>
+<div class="CDPAlignCenter CDPAlign"><img height="141" width="575" src="images/738fe134-c6c8-4b7c-86f7-3b691a233c22.png" /></div>
+<p>So we have our heading. In the next subsection, we will use the grid system.</p>
+
+
+            </article>
+
+            
+        </section>
+    </div>
+</body>
+</html>

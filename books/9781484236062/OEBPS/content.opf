@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf"
+         version="3.0"
+         unique-identifier="BookId"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xml:lang="en"
+         xmlns:media="http://www.idpf.org/epub/vocab/overlays/#"
+         prefix="ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/">
+
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/"
+              xmlns:opf="http://www.idpf.org/2007/opf">
+
+        <dc:identifier id="BookId">9781484236062</dc:identifier>
+        <meta refines="#BookId" property="identifier-type" scheme="onix:codelist5">22</meta>
+        <meta property="dcterms:identifier" id="meta-identifier">BookId</meta>
+        <dc:title>Evolving Digital Leadership: How to Be a Digital Leader in Tomorrow’s Disruptive World</dc:title>
+        <meta property="dcterms:title" id="meta-title">Evolving Digital Leadership: How to Be a Digital Leader in Tomorrow’s Disruptive World</meta>
+        <dc:language>en</dc:language>
+        <meta property="dcterms:language" id="meta-language">en</meta>
+        <meta property="dcterms:modified">2019-04-08T21:18:30Z</meta>
+        <dc:creator id="creator">James Brett</dc:creator>
+        <meta refines="#creator" property="file-as">James Brett</meta>
+        <meta property="dcterms:publisher">Apress</meta>
+        <dc:publisher>Apress</dc:publisher>
+        
+        <meta property="dcterms:date">2019-4-8</meta>
+        <dc:date>2019-4-8</dc:date>
+        <meta property="dcterms:rights">All rights reserved</meta>
+        <dc:rights>Copyright &#x00A9; 2019 by Apress</dc:rights>
+        <meta name="cover" content="image_cover"/>
+        <meta name="generator" content="epub-nicohaenggi" />
+        <meta property="ibooks:specified-fonts">true</meta>
+
+    </metadata>
+
+    <manifest>
+        <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml" />
+        <item id="css" href="style.css" media-type="text/css" />
+        
+        <item id="css" href="core.css" media-type="text/css" />
+        
+
+        <item id="image_cover" href="images/cover.jpg" media-type="image/jpg" />
+
+        
+        <item id="image_0" href="images/A978-1-4842-3606-2_CoverFigure.jpg" media-type="image/jpeg" />
+        <item id="image_1" href="images/A459547_1_En_BookFrontmatter_Figa_HTML.png" media-type="image/png" />
+        <item id="image_2" href="images/A459547_1_En_BookFrontmatter_Figb_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_3" href="images/A459547_1_En_2_Figa_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_4" href="images/A459547_1_En_2_Figb_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_5" href="images/A459547_1_En_2_Figc_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_6" href="images/A459547_1_En_2_Figd_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_7" href="images/A459547_1_En_2_Fige_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_8" href="images/A459547_1_En_2_Figf_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_9" href="images/A459547_1_En_2_Figg_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_10" href="images/A459547_1_En_2_Figh_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_11" href="images/A459547_1_En_2_Figi_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_12" href="images/A459547_1_En_2_Figj_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_13" href="images/A459547_1_En_2_Figk_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_14" href="images/A459547_1_En_2_Figl_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_15" href="images/A459547_1_En_2_Figm_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_16" href="images/A459547_1_En_3_Figa_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_17" href="images/A459547_1_En_3_Figb_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_18" href="images/A459547_1_En_3_Figc_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_19" href="images/A459547_1_En_3_Figd_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_20" href="images/A459547_1_En_3_Fige_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_21" href="images/A459547_1_En_3_Figf_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_22" href="images/A459547_1_En_3_Figg_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_23" href="images/A459547_1_En_4_Figa_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_24" href="images/A459547_1_En_4_Figb_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_25" href="images/A459547_1_En_4_Figc_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_26" href="images/A459547_1_En_5_Figa_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_27" href="images/A459547_1_En_5_Figb_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_28" href="images/A459547_1_En_5_Figc_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_29" href="images/A459547_1_En_5_Figd_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_30" href="images/A459547_1_En_5_Fige_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_31" href="images/A459547_1_En_6_Fig1_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_32" href="images/A459547_1_En_6_Fig2_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_33" href="images/A459547_1_En_6_Fig3_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_34" href="images/A459547_1_En_6_Fig4_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_35" href="images/A459547_1_En_6_Fig5_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_36" href="images/A459547_1_En_6_Fig6_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_37" href="images/A459547_1_En_6_Fig7_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_38" href="images/A459547_1_En_6_Fig8_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_39" href="images/A459547_1_En_6_Fig9_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_40" href="images/A459547_1_En_6_Fig10_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_41" href="images/A459547_1_En_2_Fig1_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_42" href="images/A459547_1_En_7_Fig1_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_43" href="images/A459547_1_En_7_Fig2_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_44" href="images/A459547_1_En_8_Fig1_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_45" href="images/A459547_1_En_8_Fig2_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_46" href="images/A459547_1_En_8_Fig3_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_47" href="images/A459547_1_En_8_Fig4_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_48" href="images/A459547_1_En_8_Fig5_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_49" href="images/A459547_1_En_8_Fig6_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_50" href="images/A459547_1_En_9_Fig1_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_51" href="images/A459547_1_En_9_Fig2_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_52" href="images/A459547_1_En_9_Fig3_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_53" href="images/A459547_1_En_9_Fig4_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_54" href="images/A459547_1_En_9_Fig5_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_55" href="images/A459547_1_En_9_Fig6_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_56" href="images/A459547_1_En_10_Fig1_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_57" href="images/A459547_1_En_10_Fig2_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_58" href="images/A459547_1_En_10_Fig3_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_59" href="images/A459547_1_En_10_Fig4_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_60" href="images/A459547_1_En_10_Fig5_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_61" href="images/A459547_1_En_10_Fig6_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_62" href="images/A459547_1_En_10_Fig7_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_63" href="images/A459547_1_En_10_Fig8_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_64" href="images/A459547_1_En_10_Fig9_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_65" href="images/A459547_1_En_10_Fig10_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_66" href="images/A459547_1_En_10_Fig11_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_67" href="images/A459547_1_En_10_Fig12_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_68" href="images/A459547_1_En_3_Fig1_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_69" href="images/A459547_1_En_11_Fig1_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_70" href="images/A459547_1_En_11_Fig2_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_71" href="images/A459547_1_En_11_Fig3_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_72" href="images/A459547_1_En_11_Fig4_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_73" href="images/A459547_1_En_11_Fig5_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_74" href="images/A459547_1_En_12_Fig1_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_75" href="images/A459547_1_En_12_Fig2_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_76" href="images/A459547_1_En_12_Fig3_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_77" href="images/A459547_1_En_12_Fig4_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_78" href="images/A459547_1_En_12_Fig5_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_79" href="images/A459547_1_En_12_Fig6_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_80" href="images/A459547_1_En_12_Fig7_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_81" href="images/A459547_1_En_13_Fig1_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_82" href="images/A459547_1_En_13_Fig2_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_83" href="images/A459547_1_En_13_Fig3_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_84" href="images/A459547_1_En_13_Fig4_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_85" href="images/A459547_1_En_13_Fig5_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_86" href="images/A459547_1_En_13_Fig6_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_87" href="images/A459547_1_En_13_Fig7_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_88" href="images/A459547_1_En_4_Fig1_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_89" href="images/A459547_1_En_14_Fig1_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_90" href="images/A459547_1_En_14_Fig2_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_91" href="images/A459547_1_En_14_Fig3_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_92" href="images/A459547_1_En_14_Fig4_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_93" href="images/A459547_1_En_14_Fig5_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_94" href="images/A459547_1_En_14_Fig6_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_95" href="images/A459547_1_En_14_Fig7_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_96" href="images/A459547_1_En_15_Fig1_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_97" href="images/A459547_1_En_15_Fig2_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_98" href="images/A459547_1_En_16_Fig1_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_99" href="images/A459547_1_En_16_Fig2_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_100" href="images/A459547_1_En_16_Fig3_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_101" href="images/A459547_1_En_5_Fig1_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_102" href="images/A459547_1_En_17_Fig1_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_103" href="images/A459547_1_En_17_Fig2_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_104" href="images/A459547_1_En_17_Fig3_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_105" href="images/A459547_1_En_17_Fig4_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_106" href="images/A459547_1_En_17_Fig5_HTML.jpg" media-type="image/jpeg" />
+        <item id="image_107" href="images/A459547_1_En_18_Fig1_HTML.jpg" media-type="image/jpeg" />
+
+        
+        <item id="ACoverHTML" href="ACoverHTML.html" media-type="application/xhtml+xml" />
+        <item id="A459547_1_En_BookFrontmatter_OnlinePDF" href="A459547_1_En_BookFrontmatter_OnlinePDF.html" media-type="application/xhtml+xml" />
+        <item id="A459547_1_En_1_ChapterPart1" href="A459547_1_En_1_ChapterPart1.html" media-type="application/xhtml+xml" />
+        <item id="A459547_1_En_1_PartFrontmatter" href="A459547_1_En_1_PartFrontmatter.html" media-type="application/xhtml+xml" />
+        <item id="A459547_1_En_1_Chapter" href="A459547_1_En_1_Chapter.html" media-type="application/xhtml+xml" />
+        <item id="A459547_1_En_2_Chapter" href="A459547_1_En_2_Chapter.html" media-type="application/xhtml+xml" />
+        <item id="A459547_1_En_3_Chapter" href="A459547_1_En_3_Chapter.html" media-type="application/xhtml+xml" />
+        <item id="A459547_1_En_4_Chapter" href="A459547_1_En_4_Chapter.html" media-type="application/xhtml+xml" />
+        <item id="A459547_1_En_5_Chapter" href="A459547_1_En_5_Chapter.html" media-type="application/xhtml+xml" />
+        <item id="A459547_1_En_6_Chapter" href="A459547_1_En_6_Chapter.html" media-type="application/xhtml+xml" />
+        <item id="A459547_1_En_7_ChapterPart2" href="A459547_1_En_7_ChapterPart2.html" media-type="application/xhtml+xml" />
+        <item id="A459547_1_En_2_PartFrontmatter" href="A459547_1_En_2_PartFrontmatter.html" media-type="application/xhtml+xml" />
+        <item id="A459547_1_En_7_Chapter" href="A459547_1_En_7_Chapter.html" media-type="application/xhtml+xml" />
+        <item id="A459547_1_En_8_Chapter" href="A459547_1_En_8_Chapter.html" media-type="application/xhtml+xml" />
+        <item id="A459547_1_En_9_Chapter" href="A459547_1_En_9_Chapter.html" media-type="application/xhtml+xml" />
+        <item id="A459547_1_En_10_Chapter" href="A459547_1_En_10_Chapter.html" media-type="application/xhtml+xml" />
+        <item id="A459547_1_En_11_ChapterPart3" href="A459547_1_En_11_ChapterPart3.html" media-type="application/xhtml+xml" />
+        <item id="A459547_1_En_3_PartFrontmatter" href="A459547_1_En_3_PartFrontmatter.html" media-type="application/xhtml+xml" />
+        <item id="A459547_1_En_11_Chapter" href="A459547_1_En_11_Chapter.html" media-type="application/xhtml+xml" />
+        <item id="A459547_1_En_12_Chapter" href="A459547_1_En_12_Chapter.html" media-type="application/xhtml+xml" />
+        <item id="A459547_1_En_13_Chapter" href="A459547_1_En_13_Chapter.html" media-type="application/xhtml+xml" />
+        <item id="A459547_1_En_14_ChapterPart4" href="A459547_1_En_14_ChapterPart4.html" media-type="application/xhtml+xml" />
+        <item id="A459547_1_En_4_PartFrontmatter" href="A459547_1_En_4_PartFrontmatter.html" media-type="application/xhtml+xml" />
+        <item id="A459547_1_En_14_Chapter" href="A459547_1_En_14_Chapter.html" media-type="application/xhtml+xml" />
+        <item id="A459547_1_En_15_Chapter" href="A459547_1_En_15_Chapter.html" media-type="application/xhtml+xml" />
+        <item id="A459547_1_En_16_Chapter" href="A459547_1_En_16_Chapter.html" media-type="application/xhtml+xml" />
+        <item id="A459547_1_En_17_ChapterPart5" href="A459547_1_En_17_ChapterPart5.html" media-type="application/xhtml+xml" />
+        <item id="A459547_1_En_5_PartFrontmatter" href="A459547_1_En_5_PartFrontmatter.html" media-type="application/xhtml+xml" />
+        <item id="A459547_1_En_17_Chapter" href="A459547_1_En_17_Chapter.html" media-type="application/xhtml+xml" />
+        <item id="A459547_1_En_18_Chapter" href="A459547_1_En_18_Chapter.html" media-type="application/xhtml+xml" />
+        <item id="A459547_1_En_19_Chapter" href="A459547_1_En_19_Chapter.html" media-type="application/xhtml+xml" />
+        <item id="A459547_1_En_20_Chapter" href="A459547_1_En_20_Chapter.html" media-type="application/xhtml+xml" />
+        <item id="A459547_1_En_21_Chapter" href="A459547_1_En_21_Chapter.html" media-type="application/xhtml+xml" />
+        <item id="A459547_1_En_BookBackmatter_OnlinePDF" href="A459547_1_En_BookBackmatter_OnlinePDF.html" media-type="application/xhtml+xml" />
+
+    </manifest>
+
+    <spine toc="ncx">
+      
+      <itemref idref="ACoverHTML"/>
+      <itemref idref="A459547_1_En_BookFrontmatter_OnlinePDF"/>
+      <itemref idref="A459547_1_En_1_ChapterPart1"/>
+      <itemref idref="A459547_1_En_1_PartFrontmatter"/>
+      <itemref idref="A459547_1_En_1_Chapter"/>
+      <itemref idref="A459547_1_En_2_Chapter"/>
+      <itemref idref="A459547_1_En_3_Chapter"/>
+      <itemref idref="A459547_1_En_4_Chapter"/>
+      <itemref idref="A459547_1_En_5_Chapter"/>
+      <itemref idref="A459547_1_En_6_Chapter"/>
+      <itemref idref="A459547_1_En_7_ChapterPart2"/>
+      <itemref idref="A459547_1_En_2_PartFrontmatter"/>
+      <itemref idref="A459547_1_En_7_Chapter"/>
+      <itemref idref="A459547_1_En_8_Chapter"/>
+      <itemref idref="A459547_1_En_9_Chapter"/>
+      <itemref idref="A459547_1_En_10_Chapter"/>
+      <itemref idref="A459547_1_En_11_ChapterPart3"/>
+      <itemref idref="A459547_1_En_3_PartFrontmatter"/>
+      <itemref idref="A459547_1_En_11_Chapter"/>
+      <itemref idref="A459547_1_En_12_Chapter"/>
+      <itemref idref="A459547_1_En_13_Chapter"/>
+      <itemref idref="A459547_1_En_14_ChapterPart4"/>
+      <itemref idref="A459547_1_En_4_PartFrontmatter"/>
+      <itemref idref="A459547_1_En_14_Chapter"/>
+      <itemref idref="A459547_1_En_15_Chapter"/>
+      <itemref idref="A459547_1_En_16_Chapter"/>
+      <itemref idref="A459547_1_En_17_ChapterPart5"/>
+      <itemref idref="A459547_1_En_5_PartFrontmatter"/>
+      <itemref idref="A459547_1_En_17_Chapter"/>
+      <itemref idref="A459547_1_En_18_Chapter"/>
+      <itemref idref="A459547_1_En_19_Chapter"/>
+      <itemref idref="A459547_1_En_20_Chapter"/>
+      <itemref idref="A459547_1_En_21_Chapter"/>
+      <itemref idref="A459547_1_En_BookBackmatter_OnlinePDF"/>
+
+    </spine>
+    <guide>
+      
+      <reference type="text" title="Table of Content" href="ACoverHTML.html"/>
+      
+    </guide>
+</package>

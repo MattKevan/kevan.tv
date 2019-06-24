@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:pls="http://www.w3.org/2005/01/pronunciation-lexicon" xmlns:ssml="http://www.w3.org/2001/10/synthesis" xmlns:svg="http://www.w3.org/2000/svg">
+<head>
+  <meta charset="UTF-8" />
+  <title>Checking the thumbnail in content post</title>
+  <link type="text/css" rel="stylesheet" media="all" href="style.css" />
+  <link type="text/css" rel="stylesheet" media="all" href="core.css" />
+</head>
+<body>
+  <div id="sbo-rt-content"><section>
+
+                            <header>
+                    <h1 class="header-title">Checking the thumbnail in content post</h1>
+                </header>
+            
+            <article>
+                
+<p>Next, what we'll do is check to see if there's a thumbnail or a featured image. For this, we'll add an <kbd>if</kbd> statement:</p>
+<pre>&lt;?php if() : ?&gt;<br/>&lt;/article&gt;</pre>
+<p>In the <kbd>if</kbd> statement, add <kbd>has_post_thumbnail()</kbd> and let's end the <kbd>if</kbd> statement as shown here:</p>
+<pre>&lt;?php if(has_post_thumbnail()) : ?&gt;<br/>&lt;?php endif; ?&gt;<br/>&lt;/article&gt;</pre>
+<p>If there's a thumbnail, we'll create <kbd>&lt;div&gt;</kbd> and give it a class of <kbd>post-thumbnail</kbd>. In <kbd>&lt;div&gt;</kbd> we'll add <kbd>&lt;?php the_post_thumbnail(); ?&gt;</kbd> as shown here:</p>
+<pre>&lt;?php if(has_post_thumbnail()) : ?&gt;<br/>  &lt;div class="post-thumbnail"&gt;<br/>    &lt;?php the_post_thumbnail(); ?&gt;<br/>  &lt;/div&gt;<br/>&lt;?php endif; ?&gt;</pre>
+<p>Now, under the <kbd>if</kbd> block add a <kbd>&lt;br /&gt;</kbd> tag, and then we will need the main content which is really easy; we can just add <kbd>&lt;?php the_content(); ?&gt;</kbd> as shown here:</p>
+<pre>&lt;br/&gt;<br/><br/>&lt;?php the_content(); ?&gt;<br/>&lt;/article&gt;</pre>
+<p>Let's save this and reload the home page, and you can see that we have the title, metadata, and content of that post as shown in the following screenshot:</p>
+<div class="CDPAlignCenter CDPAlign"><img src="images/78a24b73-c0ee-48fc-863b-c06cf5635fe7.png" /></div>
+
+
+            </article>
+
+            
+        </section>
+    </div>
+</body>
+</html>

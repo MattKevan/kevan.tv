@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:pls="http://www.w3.org/2005/01/pronunciation-lexicon" xmlns:ssml="http://www.w3.org/2001/10/synthesis" xmlns:svg="http://www.w3.org/2000/svg">
+<head>
+  <meta charset="UTF-8" />
+  <title>Wrapping the post in an article tag</title>
+  <link type="text/css" rel="stylesheet" media="all" href="style.css" />
+  <link type="text/css" rel="stylesheet" media="all" href="core.css" />
+</head>
+<body>
+  <div id="sbo-rt-content"><section>
+
+                            <header>
+                    <h1 class="header-title">Wrapping the post in an article tag</h1>
+                </header>
+            
+            <article>
+                
+<p>Let's wrap the post in an <kbd>&lt;article&gt;</kbd> tag:</p>
+<ol>
+<li>Right inside the <kbd>while</kbd> loop, we'll add <kbd>&lt;article&gt;</kbd>, give it a class of <kbd>post</kbd>, and end that just after we end <kbd>&lt;/div&gt;</kbd>:</li>
+</ol>
+<pre><strong>      &lt;article class="post"&gt;</strong><br/>         &lt;div class="row"&gt;<br/>            &lt;?php if(has_post_thumbnail()): ?&gt;<br/>               &lt;div class="col-md-3"&gt;<br/>                  &lt;div class="post-thumbnail"&gt;<br/>                  &lt;?php the_post_thumbnail(); ?&gt;<br/>                  &lt;/div&gt;<br/>               &lt;/div&gt;<br/>               &lt;div class="col-md-9"&gt;<br/>                  &lt;h2&gt;&lt;?php echo the_title(); ?&gt;&lt;/h2&gt;<br/>               &lt;/div&gt;<br/>          &lt;?php else : ?&gt;<br/>             &lt;div class="col-md-12"&gt;<br/><br/>             &lt;/div&gt;<br/>          &lt;?php endif; ?&gt;<br/>      &lt;/div&gt;<br/>      <strong>&lt;/article&gt;</strong></pre>
+<ol start="2">
+<li>Now, open the <kbd>style.css</kbd> file and add <kbd>article.post img</kbd>. We'll set <kbd>width</kbd> to <kbd>100%</kbd>. It's going to be 100% of its container. We'll also set <kbd>height</kbd> to <kbd>auto</kbd> and let's use <kbd>margin-top:30px</kbd>.</li>
+</ol>
+<pre>      article.post img{<br/>          width:100%;<br/>          height:auto;<br/>          margin-top:30px;<br/>      }</pre>
+<ol start="3">
+<li>Now if we reload the page, we get this:</li>
+</ol>
+<div class="CDPAlignCenter CDPAlign"><img height="633" width="961" class="aligncenter size-full wp-image-1200 image-border" src="images/b654d785-7df4-4744-a33f-62b28218a08a.png" /></div>
+<p style="padding-left: 60px">This looks much better.</p>
+<ol start="4">
+<li>Now, let's go back to the <kbd>index.php</kbd> file. We want the title to be a link. Let's go right to the <kbd>&lt;h2&gt;</kbd> tag and let's put in an <kbd>&lt;a&gt;</kbd> tag using <kbd>echo the_permalink()</kbd>. And that should be a link to that post:</li>
+</ol>
+<pre>      &lt;h2&gt;<br/>         <strong>&lt;a href="&lt;?php echo the_permalink(); ?&gt;"&gt;</strong><br/>            &lt;?php echo the_title(); ?&gt;<br/>         <strong>&lt;/a&gt;</strong><br/>      &lt;/h2&gt;</pre>
+<ol start="5">
+<li>Now under the <kbd>&lt;h2&gt;</kbd> tag, we will place the metadata. We will add it in a paragraph and give it a class of <kbd>meta</kbd>. We will then add <kbd>Posted at</kbd> and get the time by using <kbd>the_time()</kbd> function. We will use <kbd>on</kbd> and then we'll add <kbd>the_date()</kbd>. We will open up some <kbd>&lt;strong&gt;</kbd> tags and add the author's name using <kbd>the_author()</kbd>, which should be a function:</li>
+</ol>
+<pre>      &lt;/h2&gt;<br/><br/>      &lt;p class="meta"&gt;<br/>      Posted At<br/>      &lt;?php the_time(); ?&gt; on <br/>      &lt;?php the_date(); ?&gt; by <br/>      &lt;strong&gt;&lt;?php the_author(); ?&gt;&lt;/strong&gt;<br/>      &lt;/p&gt;</pre>
+<ol start="6">
+<li>Let's make sure that's working:</li>
+</ol>
+<div class="CDPAlignCenter CDPAlign"><img height="653" width="983" class="aligncenter size-full wp-image-1201 image-border" src="images/4f8745b6-2e4c-4239-85da-2e2de8aa2417.png" /></div>
+<p style="padding-left: 60px">You can see it's telling us the time, the date, and also the author. Also, this is a link, so if I click on it, it takes us to that page or that post.</p>
+
+
+            </article>
+
+            
+        </section>
+    </div>
+</body>
+</html>

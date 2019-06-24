@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:pls="http://www.w3.org/2005/01/pronunciation-lexicon" xmlns:ssml="http://www.w3.org/2001/10/synthesis" xmlns:svg="http://www.w3.org/2000/svg">
+<head>
+  <meta charset="UTF-8" />
+  <title>Formatting the post</title>
+  <link type="text/css" rel="stylesheet" media="all" href="style.css" />
+  <link type="text/css" rel="stylesheet" media="all" href="core.css" />
+</head>
+<body>
+  <div id="sbo-rt-content"><section>
+
+                            <header>
+                    <h1 class="header-title">Formatting the post</h1>
+                </header>
+            
+            <article>
+                
+<ol>
+<li>Let's go into our <kbd>index.php</kbd> file. You can see that we have our loop and a row:</li>
+</ol>
+<pre>      &lt;?php while(have_posts()) : the_post(); ?&gt;<br/>         &lt;div class="row"&gt;<br/>            &lt;div class="col-md-3"&gt;<br/>               IMAGE HERE<br/>            &lt;/div&gt;<br/>            &lt;div class="col-md-9"&gt;<br/>               &lt;h2&gt;&lt;?php echo the_title(); ?&gt;&lt;/h2&gt;<br/>            &lt;/div&gt;<br/>         &lt;/div&gt;<br/>      &lt;?php endwhile; ?&gt;</pre>
+<ol start="2">
+<li>Right after the <kbd>row</kbd> div is where we'll check to see if there is an image using <kbd>if(has_post_thumbnail())</kbd> and down where the <kbd>&lt;/div&gt;</kbd> ends we'll add <kbd>&lt;?php else : ?&gt;</kbd> and <kbd>&lt;?php endif; ?&gt;</kbd>.</li>
+</ol>
+<pre>      &lt;div class="row"&gt;<br/>         <strong>&lt;?php if(has_post_thumbnail()): ?&gt;</strong><br/>         &lt;div class="col-md-3"&gt;<br/>            IMAGE HERE<br/>         &lt;/div&gt;<br/>         &lt;div class="col-md-9"&gt;<br/>            &lt;h2&gt;&lt;?php echo the_title(); ?&gt;&lt;/h2&gt;<br/>         &lt;/div&gt;<br/>         <strong>&lt;?php else : ?&gt;</strong><br/><br/>         <strong>&lt;?php endif; ?&gt;</strong></pre>
+<ol start="3">
+<li>If there is a thumbnail, then it's going to show a three-column and a nine-column, but if there is no thumbnail, then we want it to be a full twelve-column. For that we will use:</li>
+</ol>
+<pre>      &lt;?php else: ?&gt;<br/>         <strong>&lt;div class="col-md-12"&gt;</strong><br/><strong>            IMAGE HERE</strong><br/><strong>         &lt;/div&gt;</strong><br/>      &lt;?php endif; ?&gt;</pre>
+<ol start="4">
+<li>We'll start with posts that have the thumbnail. We will get rid of the text <kbd>Image Here</kbd>. We will then create <kbd>div</kbd> with a class of <kbd>post-thumbnail</kbd> and then we can use <kbd>the_post_thumbnail()</kbd>:</li>
+</ol>
+<pre>      &lt;div class="col-md-3"&gt;<br/>         &lt;div class="post-thumbnail"&gt;<br/>         &lt;?php the_post_thumbnail(); ?&gt;<br/>         &lt;/div&gt;</pre>
+<ol start="5">
+<li>Let's take a look at that so far:</li>
+</ol>
+<div class="CDPAlignCenter CDPAlign"><img height="776" width="970" class="aligncenter size-full wp-image-1199 image-border" src="images/7d23dd11-e150-4243-96a6-5ecd9916a930.png" /></div>
+<p style="padding-left: 60px">So it's showing the images, they're insanely big but that's alright, the functionality is there.</p>
+
+
+            </article>
+
+            
+        </section>
+    </div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:pls="http://www.w3.org/2005/01/pronunciation-lexicon" xmlns:ssml="http://www.w3.org/2001/10/synthesis" xmlns:svg="http://www.w3.org/2000/svg">
+<head>
+  <meta charset="UTF-8" />
+  <title>Single product and single page</title>
+  <link type="text/css" rel="stylesheet" media="all" href="style.css" />
+  <link type="text/css" rel="stylesheet" media="all" href="core.css" />
+</head>
+<body>
+  <div id="sbo-rt-content"><section>
+
+                            <header>
+                    <h1 class="header-title">Single product and single page</h1>
+                </header>
+            
+            <article>
+                
+<p>Up to this point we've done pretty well. We have our main post page or our homepage done, but if I click on one of these and we go to the single product page, it doesn't look too good. We're also missing a bunch of information.</p>
+<p>So we'll now create a new file inside the <kbd>MyShop</kbd> theme folder and save it as <kbd>single.php</kbd>. After creating this file if we go back to the single view and reload, it'll be blank because it's looking at the single file. So what we'll do is copy everything we have in the <kbd>index</kbd> page.</p>
+<p>So we'll grab all of it, we'll paste it in, and get rid of the <kbd>showcase</kbd> part because we don't want that. We want the showcase on the homepage only. We'll put an <kbd>hr</kbd> tag in there.</p>
+<p>We'll do the same thing as far as checking for posts and looping through the post even though it's a single post as we did in the previous section. But we'll get rid of everything that's in between the <kbd>while</kbd> loop:</p>
+<pre>&lt;?php while(have_posts()) : the_post(); ?&gt;<br/>   &lt;div class="row single-product"&gt;<br/>      &lt;div class="large-5 columns"&gt;<br/>         &lt;a href="#"&gt;Go Back&lt;/a&gt;<br/>         &lt;br&gt;<br/>         &lt;?php if(has_post_thumbnail()) : ?&gt;<br/>            &lt;?php the_post_thumbnail(); ?&gt;<br/>         &lt;?php endif; ?&gt;<br/>      &lt;/div&gt;<br/>&lt;/div&gt;<br/>&lt;?php endwhile; ?&gt;</pre>
+<p>We're just going to get that out and then we'll create a new <kbd>div</kbd> with a class. Let's create a div with the class of <kbd>row</kbd> and also <kbd>single-product</kbd>. Inside that, we'll have a 5-column div. Within this div, we'll have our <kbd>Go Back</kbd> link, and let's put a line break. Then we'll check for the featured image or the thumbnail. So we'll copy from the <kbd>index.php</kbd> file. We just want to check to see if it's there, and if it is then we'll display it. Then that should be it for the 5-column div. So that's just going to be the image.</p>
+<p>After that, we'll have a 7-column div. This is going to have the title, which we'll put in an <kbd>h2</kbd>. So we'll say <kbd>php the_title</kbd> and right under that, we'll put <kbd>the_content</kbd>. We'll then put an <kbd>hr</kbd> tag. We want the tags and the following code snippet. We're just checking for the tags, see if the function exists, and then spit them out:</p>
+<pre>&lt;div class="large-7 columns"&gt;<br/>   &lt;h2&gt;&lt;?php the_title(); ?&gt;&lt;/h2&gt;<br/>   &lt;?php the_content(); ?&gt;<br/>   &lt;hr&gt;<br/>   &lt;?php if(the_tags()): ?&gt;<br/>      &lt;?php if(function_exist('the_tags')) { ?&gt;<br/>         &lt;strong&gt;Tags: &lt;/strong&gt;<br/>         &lt;?php the_content_tags('', ',',''); ?&gt;&lt;br/&gt;&lt;?php } ?&gt;<br/>      &lt;?php endif; ?&gt;<br/>&lt;/div&gt;</pre>
+<p>Let's go ahead and save this. We'll go back to our page and reload, and now we have a product page:</p>
+<div class="CDPAlignCenter CDPAlign"><img height="523" width="759" class="aligncenter size-full wp-image-1598 image-border" src="images/36738e39-39de-4de6-943e-dc6397255575.png" /></div>
+<p>As for <span class="packt_screen">Go Back</span>, right now it won't do anything. Let's have it go to the home page. We'll say <kbd>php</kbd> and we should be able to say <kbd>echo site_url</kbd>:</p>
+<pre>&lt;div class="row single-product"&gt;<br/>   &lt;div class="large-5 columns"&gt;<br/>   &lt;a href="&lt;?php echo site_url(); ?&gt;"&gt;Go Back&lt;/a&gt;<br/>   &lt;br&gt;</pre>
+<p>Click on <span class="packt_screen">Go Back</span>, and it brings us back to our homepage. So that looks good.</p>
+
+
+            </article>
+
+            
+        </section>
+    </div>
+</body>
+</html>

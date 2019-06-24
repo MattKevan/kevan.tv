@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:pls="http://www.w3.org/2005/01/pronunciation-lexicon" xmlns:ssml="http://www.w3.org/2001/10/synthesis" xmlns:svg="http://www.w3.org/2000/svg">
+<head>
+  <meta charset="UTF-8" />
+  <title>Changing the back button, title, and content</title>
+  <link type="text/css" rel="stylesheet" media="all" href="style.css" />
+  <link type="text/css" rel="stylesheet" media="all" href="core.css" />
+</head>
+<body>
+  <div id="sbo-rt-content"><section>
+
+                            <header>
+                    <h1 class="header-title">Changing the back button, title, and content</h1>
+                </header>
+            
+            <article>
+                
+<p>Now for the <kbd>Back</kbd> button we will change the <kbd>index.html</kbd> to <kbd>&lt;?php echo site_url(); ?&gt;</kbd> as shown here:</p>
+<pre>&lt;div class="w3-row"&gt;<br/>  &lt;div class="w3-col l2"&gt;<br/>    &lt;br /&gt;<br/>    &lt;a href="&lt;?php echo site_url(); ?&gt;"<br/>    class="w3-btn w3-red"&gt;Back&lt;/a&gt;<br/>  &lt;/div&gt;</pre>
+<p>This will take us back, and for a dynamic title we can simply replace the <kbd>Photo Title</kbd> with <kbd>&lt;?php the_title();?&gt;</kbd> as shown here:</p>
+<pre>&lt;/div&gt;<br/>&lt;div class="w3-col l10&gt;"&gt;<br/>&lt;h1&gt;&lt;?php the_title(); ?&gt;&lt;/h1&gt;<br/>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adiposcing elit.&lt;/p&gt;<br/>&lt;/div&gt;</pre>
+<p class="mce-root">Then for the dynamic content, we can replace the paragraph with <kbd>&lt;?php the_content(); ?&gt;</kbd>:</p>
+<pre>&lt;/div&gt;<br/>&lt;div class="w3-col l10&gt;"&gt;<br/>&lt;h1&gt;&lt;?php the_title(); ?&gt;&lt;/h1&gt;<br/>&lt;p&gt;&lt;?php the_content(); ?&gt;&lt;/p&gt;<br/>&lt;/div&gt;</pre>
+<p>With all the changes implemented in the code, let's take a look at the image in the WordPress:</p>
+<div class="CDPAlignCenter CDPAlign"><img src="images/7cb0685f-fdc6-4d13-9ac9-8f3a7c605978.png" /></div>
+<p>As shown in the preceding screenshot, this looks good. The <span class="packt_screen">Back</span> button should also work. If you click on any one of the images, you can see it just slides right in.</p>
+<p>I think that does it for our theme. It's very simple but I think it's pretty elegant, and of course, if you wanted to add widgets in the sidebar you could do that; if you want to create regular posts you can also do that, it doesn't have to be photos.</p>
+
+
+            </article>
+
+            
+        </section>
+    </div>
+</body>
+</html>

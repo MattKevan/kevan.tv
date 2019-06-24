@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:pls="http://www.w3.org/2005/01/pronunciation-lexicon" xmlns:ssml="http://www.w3.org/2001/10/synthesis" xmlns:svg="http://www.w3.org/2000/svg">
+<head>
+  <meta charset="UTF-8" />
+  <title>Adding CSS</title>
+  <link type="text/css" rel="stylesheet" media="all" href="style.css" />
+  <link type="text/css" rel="stylesheet" media="all" href="core.css" />
+</head>
+<body>
+  <div id="sbo-rt-content"><section>
+
+                            <header>
+                    <h1 class="header-title">Adding CSS</h1>
+                </header>
+            
+            <article>
+                
+<p>We will now see how adding CSS makes our page look a lot better. We have our <kbd>style.css</kbd> created; to it, let's add the body, as shown in the following code block:</p>
+<pre>body{<br/>    font-family: Arial;<br/>    color: #333;<br/>    margin:0;<br/>    padding:0;<br/>}</pre>
+<p>Here, we have just added a <kbd>font-family</kbd> of <kbd>Arial</kbd>; the color of the text is going to be a really dark gray. We have set the body margin to <kbd>0</kbd> and the padding to <kbd>0</kbd>.</p>
+<p>Let's start with some core styles for the unordered list. I want to just take off the margin and the padding, using the following code:</p>
+<pre>ul{<br/>    margin:0;<br/>    padding:0;<br/>}</pre>
+<p>Now let's add the links or the <kbd>a</kbd> tags, as shown in the following code:</p>
+<pre>a{<br/>    color:#009acd;<br/>    text-decoration:none;<br/>}<br/>a:hover{<br/>    color:#333;<br/>}<br/>.container{<br/>    width:960px;<br/>    margin:auto;<br/>    overflow:auto;<br/>}<br/>header{<br/>    background: #f4f4f4;<br/>    padding:10px;<br/>    border-bottom: 3px solid #009acd;<br/>}</pre>
+<p>Here, we have added a light blue color, <kbd>009acd</kbd>, and set <kbd>text-decoration</kbd> to <kbd>none</kbd>. We also require a hover color; in this case, the hover color will just be dark gray. Next, we have <kbd>container</kbd>, which brings everything to the middle. We have set a width of <kbd>960</kbd>, and set <kbd>margin</kbd> to <kbd>auto</kbd>. The <kbd>overflow</kbd> is set to <kbd>auto</kbd>. We have <kbd>header</kbd> with a <span>light gray</span> <kbd>background</kbd><span>; we have set the padding of the header to</span> <kbd>10px</kbd> <span>and</span> <kbd>border-bottom</kbd> <span>to</span> <kbd>3px solid</kbd><span>, and it's also of that same light blue color.</span></p>
+<p>Now let's add <kbd>header h1</kbd> with a margin and padding of <kbd>0</kbd>:</p>
+<pre>header h1{<br/>    margin:0;<br/>    padding:0;<br/>    color:#009acd;<br/>    float:left;<br/>}</pre>
+<p>As you can see, we have also added the color as light blue, and we want to float it to the left.</p>
+<p>Then, we also want that <kbd>&lt;h1&gt;</kbd> to be a link. For this, we will go to the <kbd>index.html</kbd> file and wrap it in <kbd>a</kbd> tag, as shown in the following code block:</p>
+<pre>&lt;header&gt;<br/>   &lt;div class="container"&gt;<br/>      &lt;h1&gt;<br/>         <strong>&lt;a href="index.html"&gt;Advanced Wordpress Theme&lt;/a&gt;</strong><br/>      &lt;/h1&gt;</pre>
+<p>Next, we will create <kbd>header</kbd>, <kbd>h1</kbd> and <kbd>a</kbd> with the color of light blue. The text-decoration is set to <kbd>none</kbd>, as you can see in the following code block:</p>
+<pre>header h1 a{<br/>    color:#009acd;<br/>    text-decoration:none;<br/>}</pre>
+<p>Now let's add a slogan or a tagline, because WordPress by default has an option for that. So right inside of the <kbd>&lt;h1&gt;</kbd> tag, we will put a slogan in a <kbd>&lt;small&gt;</kbd> tag, which will say <kbd>Another Wordpress Theme</kbd>:</p>
+<pre>&lt;h1&gt;<br/>   &lt;a href="index.html"&gt;Advanced Wordpress Theme&lt;/a&gt;<br/>   <strong>&lt;small&gt;Another Wordpress Theme&lt;/small&gt;</strong><br/>&lt;/h1&gt;</pre>
+<p>Let's style that using the following code:</p>
+<pre>header small{<br/>    color:#666;<br/>    margin-left:1px;<br/>    font-size: 13px;<br/>}</pre>
+<p>We have added <kbd>header</kbd> <kbd>small</kbd>, and given it a color of dark gray. We have set <kbd>margin-left</kbd> to <kbd>1px</kbd> margin, and <kbd>font-size</kbd> to <kbd>13px</kbd>.</p>
+<p>Now for the right side of the header, add the following code:</p>
+<pre>header .h_right{<br/>    float:right;<br/>}</pre>
+<p>We have <kbd>header .h_right</kbd> and we'll float that to the right.</p>
+<p>Now, since it has an input, we'll style the input. Let's just make sure it's only for the text input. To do this, we will enter the following code:</p>
+<pre>header .h_right input[type="text"]{<br/>    width:250px;<br/>    padding:5px;<br/>    margin-top:5px;<br/>}</pre>
+<p>Here, we have entered <kbd>type="text"</kbd> and set a width of <kbd>250px</kbd>. We have also set a padding of <kbd>5px</kbd>, and a margin-top of <kbd>5px</kbd>.</p>
+<p>Let's save it and take a look:</p>
+<div class="CDPAlignCenter CDPAlign"><img height="897" width="1280" class="aligncenter size-full wp-image-1008 image-border" src="images/a9cbe045-7996-462d-9075-e270fe9a6838.png" /></div>
+<p>We can see our header.</p>
+<p>Next, we'll work on the navigation. We want to have the main <kbd>nav</kbd> div for stuff like the height, background color, and similar customizations; however, we do want to have just a regular <kbd>nav</kbd> class to do the floats, so that our footer menu can have our list item floated, and stuff like that. So we will not put anything for that yet. We want to do <kbd>li</kbd> of the <kbd>nav</kbd> element<span>. We'll make sure that we have that. You can see in the code we entered so far that we have the</span> <kbd>nav</kbd> <span>class and</span> <kbd>main-nav</kbd><span>. Now, we'll float the list items to the left, and we'll enter</span> <kbd>display:inline</kbd> <span>and set a padding on the right of</span> <kbd>15px</kbd><span>:</span></p>
+<pre>nav.nav li{<br/>    float:left;<br/>    display:inline;<br/>    padding-right:15px;<br/>}</pre>
+<p>Next, we'll add <kbd>nav.nav a</kbd>, and make sure that the text-decoration is set to <kbd>none</kbd>:</p>
+<pre>nav.nav a{<br/>    text-decoration:none;<br/>}</pre>
+<p>Now let's do <kbd>main-nav</kbd>:</p>
+<pre>nav.main-nav{<br/>    height:45px;<br/>    overflow:hidden;<br/>    background:#333;<br/>    color:#fff;<br/>    padding-top:7px;<br/>}</pre>
+<p>Here, we have set the height to <kbd>45px</kbd>, <kbd>overflow</kbd> is <kbd>hidden</kbd>, and we have set the background to dark gray. The color of the text will be white, and <kbd>padding-top</kbd> is set to <kbd>7px</kbd>.</p>
+<p>Now let's add <kbd>main-nav li</kbd>:</p>
+<pre>nav.main-nav li{<br/>    height:40px;<br/>    line-height:40px;<br/>}</pre>
+<p>We have set height to <kbd>40px</kbd>, and <kbd>line-height</kbd> to <kbd>40px</kbd>. Next, we'll add the <kbd>a</kbd> tag:</p>
+<pre>nav.main-nav a{<br/>    color:#fff;<br/>    text-decoration:none;<br/>    padding:8px;<br/>}</pre>
+<p>Here we set the color as white, <kbd>text-decoration</kbd> as <kbd>none</kbd>, and <kbd>padding</kbd> as <kbd>8px</kbd>.</p>
+<p>Now we need the hover state:</p>
+<pre>nav.main-nav a:hover{<br/>    color:#009acd;<br/>}</pre>
+<p>Here we have <kbd>nav.main-nava:hover</kbd>, and the hover <kbd>color</kbd> is set to light blue.</p>
+<p>We'll save this, and look at our navigation:</p>
+<div class="CDPAlignCenter CDPAlign"><img height="964" width="1280" class="aligncenter size-full wp-image-1009 image-border" src="images/2ace161a-d362-4aa7-b9d4-f946b0337c96.png" /></div>
+<p>As you can see, the whole highlighted area has a class of <kbd>content</kbd>, we just want to push it down a little bit and set the line height of all the text:</p>
+<pre>.content{<br/>    margin-top:30px;<br/>    line-height:1.5em;<br/>}</pre>
+<p>We have <kbd>.content</kbd> with <kbd>margin-top</kbd> set to <kbd>30px</kbd> and <kbd>line-height</kbd> to <kbd>1.5em</kbd>.</p>
+<p>Now we will include a sidebar since we have not done that earlier. For this, let's open the <kbd>index.html</kbd> file and add the following code:</p>
+<pre>&lt;div class="side"&gt;<br/>   &lt;div class="block"&gt;<br/>   &lt;h3&gt;Sidebar Head&lt;/h3&gt;<br/>   &lt;p&gt;<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br/></span><span>   Nam vel diam hendrerit erat fermentum aliquet sed eget arcu.&lt;/p&gt;<br/>   &lt;a class="button"&gt;More&lt;/a&gt;<br/>   &lt;/div&gt;<br/>&lt;/div&gt;</span></pre>
+<p>We have put our sidebar right underneath the closing <kbd>&lt;/div&gt;</kbd> tag. We have added a <kbd>div class</kbd> with a class of <kbd>side</kbd>. We have also added a <kbd>&lt;div&gt;</kbd> tag inside called block. Each element in the sidebar should have a class of <kbd>block</kbd>. Then we have an <kbd>&lt;h3&gt;</kbd> tag, which says <kbd>Sidebar Head</kbd>, and we have put a paragraph for which we have grabbed some text. Then, under this, we have placed a button, or a link that is formatted like a button. Now we can see our sidebar.</p>
+<p>Let's go back to the <kbd>style.css</kbd> file. Here, w<span>e'll enter</span> <kbd>.main</kbd><span>, which we'll float to the left, and we enter a width of</span> <kbd>65%</kbd> <span>for it. Then, let's add a width of</span> <kbd>30%</kbd> <span>for side, and float it to the right. Next, for the block style, we will set a border of light gray, which is</span> <kbd>1px</kbd> <span>solid. We will also add some padding of</span> <kbd>5px 15px 25px 15px</kbd> <span>and set the background to a really light gray and <kbd>overflow</kbd> to</span> <kbd>hidden</kbd>. F<span>or</span> <kbd>h3</kbd> <span>in the block, we will set</span> <kbd>border-bottom</kbd><span>, which will be light gray, and solid of</span> <kbd>1px</kbd><span>; we'll also set a padding</span> <span>of</span> <kbd>10px</kbd> <span>to the bottom</span><span>:</span></p>
+<pre>.main{<br/>    float:left;<br/> width:65%;<br/>}<br/><br/>.side{<br/>    width:30%;<br/>    float:right;<br/>}<br/><br/>.block{<br/>    border:#ccc 1px solid;<br/>    padding:5px 15px 25px 15px;<br/>    background:#fcfcfc;<br/>    overflow:hidden;<br/>}<br/><br/>.block h3{<br/>    border-bottom:#ccc solid 1px;<br/>    padding-bottom:10px;<br/>}</pre>
+<p>Let's take a look at this. You can see that <span>now we have our main area and the sidebar</span>:</p>
+<div class="CDPAlignCenter CDPAlign"><img height="905" width="1280" class="aligncenter size-full wp-image-1011 image-border" src="images/b936bacb-7705-46ff-b472-82a4d61be549.png" /></div>
+<p>Next, let's add the article. W<span>e will place an</span> <kbd>article</kbd> <span>tag with a</span> <kbd>post</kbd> <span>class, and we will add</span> <kbd>border-bottom</kbd><span>,</span> <kbd>margin-bottom</kbd><span>, and</span> <kbd>padding-bottom</kbd><span>, as shown here:</span></p>
+<pre>article.post{<br/>    border-bottom: #ccc solid 1px;<br/>    margin-bottom:10px;<br/>    padding-bottom:20px;<br/>}</pre>
+<p>Now let's style the meta area highlighted in the following image; w<span>e will give it a blue background:</span></p>
+<div class="CDPAlignCenter CDPAlign"><img height="88" width="241" class=" image-border" src="images/04eeea7e-022f-4318-b097-ccf5692d3f39.png" /></div>
+<p>To do this, let's enter the following code:</p>
+<pre>article.post .meta{<br/>    background:#009acd;<br/>    color:#fff;<br/>    padding:7px;<br/>}<br/><br/>.button{<br/>    background:#009acd;<br/>    color:#fff;<br/>    padding:10px 15px;<br/>    display:inline-block;<br/>}</pre>
+<p>We have entered <kbd>article.post .meta</kbd> with a padding of <kbd>7px</kbd>. We also added the <kbd>button</kbd> class with the padding set to <kbd>10px 15px</kbd>. We also displayed it as an inline block. Let's take a look now:</p>
+<div class="CDPAlignCenter CDPAlign"><img height="906" width="1280" class="aligncenter size-full wp-image-1012 image-border" src="images/031a96cf-22bb-45a2-9e52-5e5a741bd3bd.png" /></div>
+<p>This looks pretty good.</p>
+<p>Let's add the footer now. <span>We will enter</span> <kbd>footer</kbd>, give it the <kbd>.main-footer</kbd> <span>class, and set a margin on the top of <kbd>40px</kbd>. We'll align everything to the center and give it a dark gray background. We'll set <kbd>color</kbd> as white, and height as</span> <kbd>60px</kbd><span>,</span> <kbd>padding-top:10px</kbd> <span>and</span> <kbd>overflow</kbd> <span>as</span> <kbd>auto</kbd><span>.</span></p>
+<p><span>Next we will add the left- and right-hand side of the footer. To do this, we will enter</span> <kbd>footer.main-footer .f_left</kbd> <span>with a left float, and we'll do the same thing for the right-hand side, giving it a right float</span>:</p>
+<pre>footer.main-footer{<br/>    margin-top:40px;<br/>    text-align:center;<br/>    background:#333;<br/>    color:#fff;<br/>    height:60px;<br/>    padding-top:10px;<br/>    overflow:auto;<br/>}<br/><br/>footer.main-footer .f_left{<br/>    float:left;<br/>}<br/><br/>footer.main-footer .f_right{<br/>    float:right;<br/>}</pre>
+<p>We will now move on to the menu. We'll enter <kbd>ul</kbd> with an inline display, and then we have <kbd>li</kbd>, as shown as follows:</p>
+<pre>footer.main-footer li{<br/>    float:left;<br/>    padding-right:10px;<br/>    list-style:none;<br/>}</pre>
+<p>For <kbd>li</kbd>, we have <kbd>float:left</kbd>, <kbd>padding-right</kbd> set as <kbd>10px</kbd>, and <kbd>list-style</kbd> set to <kbd>none</kbd>.</p>
+<p>Lastly, we'll color the links white. Now, let's take a look:</p>
+<div class="CDPAlignCenter CDPAlign"><img height="1024" width="1280" class="aligncenter size-full wp-image-1013 image-border" src="images/d886e227-15f5-45b7-b6ec-7776d5e4e0db.png" /></div>
+<p>We'll just want to push footer down a little bit. To do this, enter the following code:</p>
+<pre>footer.main-footer .f_right{<br/>    float:right;<br/>    <strong>margin-top:15px;</strong><br/>}</pre>
+<p>Now, look at it:</p>
+<div class="CDPAlignCenter CDPAlign"><img src="images/2b1717d0-5814-46c5-8494-895c1da8dd35.png" /></div>
+<p>This looks pretty good; it's a very simple design, we didn't want to go all out because the main point of this is to get you familiar with the syntax to create a WordPress theme, not so much about creating a great design. So now that we're done with HTML and CSS, we can move on to create our WordPress theme.</p>
+
+
+            </article>
+
+            
+        </section>
+    </div>
+</body>
+</html>

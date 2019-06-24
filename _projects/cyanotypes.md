@@ -1,7 +1,7 @@
 ---
 title: Cyanotype prints 
 date: '2019-02-24 00:00:00'
-description: Experimenting with the cyanotype photographic print process.
+description: Experiments with the cyanotype photographic print process.
 thumbnail: "/images/projects/ks.png"
 gallery:
   - l: "/images/projects/waterloo.jpg"

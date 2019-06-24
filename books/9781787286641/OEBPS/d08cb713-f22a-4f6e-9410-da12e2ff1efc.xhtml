@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:pls="http://www.w3.org/2005/01/pronunciation-lexicon" xmlns:ssml="http://www.w3.org/2001/10/synthesis" xmlns:svg="http://www.w3.org/2000/svg">
+<head>
+  <meta charset="UTF-8" />
+  <title>Adding the comment functionality</title>
+  <link type="text/css" rel="stylesheet" media="all" href="style.css" />
+  <link type="text/css" rel="stylesheet" media="all" href="core.css" />
+</head>
+<body>
+  <div id="sbo-rt-content"><section>
+
+                            <header>
+                    <h1 class="header-title">Adding the comment functionality</h1>
+                </header>
+            
+            <article>
+                
+<ol start="1">
+<li>Now, the one thing that is left is comments—we want the comment functionality. This is actually really easy; all we have to do is go to our <kbd>single.php</kbd> file and see where we want the comment, which is right under the end <kbd>&lt;/div&gt;</kbd> tag, as shown in the following code block:</li>
+</ol>
+<pre>         &lt;?php endif; ?&gt;<br/><br/>         <strong>&lt;?php comments_template(); ?&gt;</strong><br/>      &lt;/div&gt;</pre>
+<ol start="2">
+<li>We can save the code and reload. Here is the output:</li>
+</ol>
+<div class="CDPAlignCenter CDPAlign"><img src="images/f4f91505-8057-4f7f-adef-29e3aa0c4867.png" /></div>
+<ol start="3">
+<li>We can now see the comment functionality. Let's add <kbd>Great Post!</kbd> and then click on <span class="packt_screen">Post Comment</span>.</li>
+</ol>
+<p style="padding-left: 60px">Here is what we get:</p>
+<div class="CDPAlignCenter CDPAlign"><img height="375" width="362" class="aligncenter size-full wp-image-799 image-border" src="images/f55e8675-fb74-4480-96ba-82d13566b980.png" /></div>
+<ol start="4">
+<li>We can see that it has an avatar, the username, date, and also a reply link. Now you'll realize that this doesn't look like the best comments section you've ever seen, but that's just because it's the default design.</li>
+</ol>
+<ol start="5">
+<li>If we take a look at the markup, we can see that they separate everything so you can style:</li>
+</ol>
+<div class="CDPAlignCenter CDPAlign"><img height="633" width="1276" class="aligncenter size-full wp-image-800 image-border" src="images/d5418670-be66-46df-b7e8-ba7eadc483da.png" /></div>
+<p style="padding-left: 60px">Here, we have <kbd>ol commentlist</kbd>; each <kbd>&lt;li&gt;</kbd> has a class of comments, and we have classes around the author, around <kbd>vcard</kbd>, and around the reply. You can style this however you like.</p>
+<p style="padding-left: 60px">Now you can actually replace this whole template by creating a <kbd>comments.php</kbd> file; we'll get into that later on. I don't want to do it in this chapter because this is just a very basic introductory theme.</p>
+<p style="padding-left: 60px">Since the comments are working, we'll not go ahead and create a custom comment template or anything like that. I think that's pretty much it. Like I said, there's more we could do; we could create a separate template for archived posts.</p>
+<p style="padding-left: 60px">Actually, what I want to do real quick is to make the author's name a link, so that you can click on it and see all of the author's posts.</p>
+<ol start="6">
+<li>Let's go to <kbd>index.php</kbd> and go to where we have the author, and enter following highlighted code:</li>
+</ol>
+<pre>      Created By<br/>      <strong>&lt;a href="&lt;?php get_author_posts_url(</strong><br/><strong>          get_the_author_meta('ID')); ?&gt;"&gt;</strong><br/><strong>         &lt;?php the_author(); ?&gt;</strong><br/><strong>      &lt;/a&gt;</strong><br/>      on &lt;?php the_time('F j, Y g:i a'); ?&gt;<br/>      &lt;/div&gt;<br/>      &lt;?php if(has_post_thumbnail()) : ?&gt;</pre>
+<p style="padding-left: 60px">As shown here, we'll just add a link around that.</p>
+<ol start="7">
+<li>Let's reload, and now <span class="packt_screen">admin</span> is a link; I need to change its style because we can't see it. Open <kbd>style.css</kbd>. Go to <kbd>meta</kbd> and add the following code:</li>
+</ol>
+<pre>      .meta{<br/>          background:#333;<br/>          color:#fff;<br/>          padding:5px;<br/>      }<br/><br/>      .meta a{<br/>          color:#fff;<br/>      }</pre>
+<ol start="8">
+<li>We can see the author in white now:</li>
+</ol>
+<div class="CDPAlignCenter CDPAlign"><img height="604" width="1280" class="aligncenter size-full wp-image-801 image-border" src="images/923dfa38-986a-4eea-b038-f83eab55504f.png" /></div>
+<ol start="9">
+<li>If I click on admin now, it shows us all the posts by admin, but if there were multiple users—multiple authors—this would allow us to see all the posts from that particular author.</li>
+<li>We'll wrap this up here. You may realize that this isn't the greatest design you've ever seen, but the point of this project was to get you familiar with not just the code but also the structure of the theme and what files are included. As we saw, there are certain names that we need for the files such as <kbd>page</kbd> and <kbd>single.php</kbd>.</li>
+</ol>
+
+
+            </article>
+
+            
+        </section>
+    </div>
+</body>
+</html>

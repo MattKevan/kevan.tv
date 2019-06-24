@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:pls="http://www.w3.org/2005/01/pronunciation-lexicon" xmlns:ssml="http://www.w3.org/2001/10/synthesis" xmlns:svg="http://www.w3.org/2000/svg">
+<head>
+  <meta charset="UTF-8" />
+  <title>Making metadata dynamic</title>
+  <link type="text/css" rel="stylesheet" media="all" href="style.css" />
+  <link type="text/css" rel="stylesheet" media="all" href="core.css" />
+</head>
+<body>
+  <div id="sbo-rt-content"><section>
+
+                            <header>
+                    <h1 class="header-title">Making metadata dynamic</h1>
+                </header>
+            
+            <article>
+                
+<p>Now we need to make the fields in the preceding code dynamic. We'll start with the <kbd>meta</kbd> class since that's at the top. Let's replace <kbd>2:00pm</kbd> with <kbd>&lt;?php the_time ();?&gt;</kbd> and <kbd>03-29-2017</kbd> with <kbd>&lt;?php the_date(); ?&gt;</kbd>, as shown here:</p>
+<pre>Posted at &lt;?php the_time(); ?&gt; on &lt;?php the_date(); ?&gt; by Brad</pre>
+<div class="packt_infobox">One of the best things about WordPress is the ease of including dynamic content.</div>
+<p>Now to replace the author name (<kbd>Brad</kbd>, in our case), we will grab the following code from the <kbd>content.php</kbd> file and add it in place of <kbd>Brad</kbd>:</p>
+<pre>&lt;a href="&lt;?php echo get_author_posts_url(get_the_author_meta('ID')); ?&gt;"&gt;&lt;?php the_author(); ?&gt;&lt;/a&gt;</pre>
+<p>So this makes the metadata dynamic.</p>
+
+
+            </article>
+
+            
+        </section>
+    </div>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:pls="http://www.w3.org/2005/01/pronunciation-lexicon" xmlns:ssml="http://www.w3.org/2001/10/synthesis" xmlns:svg="http://www.w3.org/2000/svg">
+<head>
+  <meta charset="UTF-8" />
+  <title>Adding the sidebar</title>
+  <link type="text/css" rel="stylesheet" media="all" href="style.css" />
+  <link type="text/css" rel="stylesheet" media="all" href="core.css" />
+</head>
+<body>
+  <div id="sbo-rt-content"><section>
+
+                            <header>
+                    <h1 class="header-title">Adding the sidebar</h1>
+                </header>
+            
+            <article>
+                
+<p>This is going to be the widget area and for that, we'll need to do create a <kbd>functions.php</kbd> file first. We'll need to register the widgets we want which will be just the sidebar:</p>
+<ol>
+<li>In the <kbd>index.php</kbd> file right under the <kbd>div class</kbd>, we'll add <kbd>&lt;?php</kbd>. We'll then see if there's actually a widget active here using <kbd>if(is_active_sidebar)</kbd> and if we need the actual widget position (which will be <kbd>sidebar</kbd>):</li>
+</ol>
+<pre>      &lt;div class="col-md-4"&gt;<br/>         <strong>&lt;?php if(is_active_sidebar('sidebar')) : ?&gt;</strong><br/>      &lt;/div&gt;</pre>
+<ol start="2">
+<li>Next, we will add <kbd>&lt;?php dynamic_sidebar(); ?&gt;</kbd>. We also need the position, which is <kbd>sidebar</kbd>. It doesn't have to be called sidebar; you can call it whatever you'd like:</li>
+</ol>
+<pre>      &lt;?php if(is_active_sidebar('sidebar')) : ?&gt;<br/>         &lt;?php dynamic_sidebar('sidebar'); ?&gt;<br/>      &lt;?php endif; ?&gt;</pre>
+<p style="padding-left: 60px">Now let's save that.</p>
+
+
+            </article>
+
+            
+        </section>
+    </div>
+</body>
+</html>

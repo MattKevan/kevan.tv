@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:pls="http://www.w3.org/2005/01/pronunciation-lexicon" xmlns:ssml="http://www.w3.org/2001/10/synthesis" xmlns:svg="http://www.w3.org/2000/svg">
+<head>
+  <meta charset="UTF-8" />
+  <title>Adding a single image for animation</title>
+  <link type="text/css" rel="stylesheet" media="all" href="style.css" />
+  <link type="text/css" rel="stylesheet" media="all" href="core.css" />
+</head>
+<body>
+  <div id="sbo-rt-content"><section>
+
+                            <header>
+                    <h1 class="header-title">Adding a single image for animation</h1>
+                </header>
+            
+            <article>
+                
+<p>Now, in the 9-column div in the <kbd>single.html</kbd> page, we will put our single image. For this, first we will put an <kbd>&lt;article&gt;</kbd> tag and give it a class of <kbd>post</kbd>. Then add a paragraph with the class of <kbd>meta</kbd>, as shown here:</p>
+<pre>&lt;div class="w3-col m9 l9"&gt;<br/>  &lt;article class="post"&gt;<br/>    &lt;p class="meta"&gt;<br/>    &lt;/p&gt;<br/>  &lt;/article&gt;<br/>&lt;/div&gt;</pre>
+<p>Next, add <kbd>Posted at 2:00pm on 03-29-2017 by Brad</kbd> in the <kbd>meta</kbd> class:</p>
+<pre>&lt;p class="meta"&gt;<br/>Posted at 2:00pm on 03-29-2017 by Brad<br/>&lt;/p&gt;</pre>
+<p>After this, put <kbd>&lt;hr /&gt;</kbd> and then the actual image by adding <kbd>src="images/1.jpg"</kbd>. As we want this image to animate, we will give it a class of <kbd>w3-animate-right</kbd>, as shown here:</p>
+<pre>&lt;div class="w3-col m9 l9"&gt;<br/>  &lt;article class="post"&gt;<br/>    &lt;p class="meta"&gt;<br/>      Posted at 2:00pm on 03-29-2017 by Brad<br/>    &lt;/p&gt;<br/>    <strong>&lt;hr/&gt;</strong><br/><br/><strong>    &lt;img src="images/1.jpg" class="w3-animate-right"&gt;</strong><br/>  &lt;/article&gt;<br/>&lt;/div&gt;</pre>
+<p>Then under this image, we will add another row, <kbd>w3-row</kbd>, and a column, <kbd>w3-col</kbd>, with <kbd>l2</kbd>; this column is where we will put the <kbd>Back</kbd> button. Then we'll add a column with <kbd>l10</kbd> as shown here:</p>
+<pre>&lt;div class="w3-row"&gt;<br/>  &lt;div class="w3-col l2"&gt;<br/><br/>  &lt;/div&gt;<br/>  &lt;div class="w3-col l10"&gt;<br/>  <br/>  &lt;/div&gt;<br/>&lt;/div&gt;</pre>
+<p>Now in column <kbd>l2</kbd>, let's put a line break <kbd>&lt;br /&gt;</kbd> and then add a link that will go back to the <kbd>index.html</kbd> page. We will give the link the <kbd>w3-btn</kbd> and <kbd>w3-red</kbd> classes to format it as a button as shown here:</p>
+<pre>&lt;div class="w3-row"&gt;<br/>  &lt;div class="w3-col l2"&gt;<br/>    &lt;br /&gt;<br/>    &lt;a href="index.html" class="w3-btn w3-red"&gt;Back&lt;/a&gt;https://epic.packtpub.com/index.php?module=KReports&amp;offset=1&amp;stamp=1490607763044301800&amp;return_module=KReports&amp;action=DetailView&amp;record=1d5f883c-a9a3-ee7f-1d3c-5887f8190664<br/>  &lt;/div&gt;</pre>
+<p>Then in column <kbd>l10</kbd>, we'll add <kbd>Photo Title</kbd> and also the description. In the description, just paste a sample text in as shown here:</p>
+<pre>&lt;div class="w3-col l10"&gt;<br/>  &lt;h1&gt;Photo Title&lt;/h1&gt;<br/>  &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p&gt;<br/>&lt;/div&gt;</pre>
+<p>Let's save this code and go back to <kbd>single.html</kbd> in the browser. We can see the image comes in from the right-hand side:</p>
+<div class="CDPAlignCenter CDPAlign"><img height="553" width="637" src="images/77f5eedf-25dd-46b1-bffb-24c3b6739cdf.png" /></div>
+<p>Now, as shown in the preceding screenshot, we can find that the columns are too close. You can see they're up against each other. So, we will add some padding to the <kbd>post</kbd> class that we specified for the <kbd>&lt;article&gt;</kbd> element. For this, add <kbd>padding:20px</kbd> in the <kbd>style.css</kbd> file:</p>
+<pre>.post{<br/>  padding:20px;<br/>}</pre>
+<p>Also, we will add the class of <kbd>pic</kbd> to that main image as shown here:</p>
+<pre>&lt;img src="images/1.jpg" class="pic w3-animate-right"&gt;</pre>
+<p>Now you can see that the photo actually fits in there, and we're not right up against the side column:</p>
+<div class="CDPAlignCenter CDPAlign"><img src="images/5dd444ff-429b-4ff3-b2c8-4b99160d34f0.png" /></div>
+<p>So we have the title, description, and the <span class="packt_screen">Back</span> button on the main image. In the next section, we're ready to start creating our WordPress theme.</p>
+
+
+            </article>
+
+            
+        </section>
+    </div>
+</body>
+</html>

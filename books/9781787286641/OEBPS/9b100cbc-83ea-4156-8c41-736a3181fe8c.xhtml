@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:pls="http://www.w3.org/2005/01/pronunciation-lexicon" xmlns:ssml="http://www.w3.org/2001/10/synthesis" xmlns:svg="http://www.w3.org/2000/svg">
+<head>
+  <meta charset="UTF-8" />
+  <title>Single posts and thumbnails</title>
+  <link type="text/css" rel="stylesheet" media="all" href="style.css" />
+  <link type="text/css" rel="stylesheet" media="all" href="core.css" />
+</head>
+<body>
+  <div id="sbo-rt-content"><section>
+
+                            <header>
+                    <h1 class="header-title">Single posts and thumbnails</h1>
+                </header>
+            
+            <article>
+                
+<p>Now we'll take a look at the single post page. Right now, we have this roll of posts from our site, but that's it; we can't click on it and go to the individual post, where we would have our comments and things like that. So let's go ahead and work on that:</p>
+<ol>
+<li>Let's go to the <kbd>index.php</kbd> file and make the title clickable. We'll add a link to the title. To do this, let's go to the <kbd>&lt;h3&gt;</kbd> tag, as shown in the following code; add the <kbd>&lt;a&gt;</kbd> tag, and wrap that around the <kbd>&lt;title&gt;</kbd> tag:</li>
+</ol>
+<pre class="packt_figure">      &lt;?php get_header(); ?&gt;<br/>         &lt;div class="main"&gt;<br/>            &lt;div class="container"&gt;<br/>               &lt;?php if(have_posts()) : ?&gt;<br/>                  &lt;?php while(have_posts()): the_post; ?&gt;<br/>                     &lt;h3&gt;<br/>                     <strong>&lt;a href="&lt;?php the_permalink(); ?&gt;"&gt;</strong><br/>                        &lt;?php the_title(); ?&gt;<br/>                     <strong>&lt;/a&gt;</strong><br/>                     &lt;/h3&gt;<br/>                     &lt;div class="meta"&gt;<br/>                     Created By &lt;?php the_author(); ?&gt; on &lt;?php the_time('F <br/>                         j, Y g:i a'); ?&gt;<br/>                     &lt;/div&gt;<br/>                     &lt;?php the_content(); ?&gt;<br/>                  &lt;?php endwhile; ?&gt;<br/>               &lt;?php else : ?&gt;<br/>                  &lt;?php echo wpautop('Sorry, No posts were found.'); ?&gt;<br/>               &lt;?php endif; ?&gt;<br/>            &lt;/div&gt;<br/>         &lt;/div&gt;<br/>         &lt;?php get_footer(); ?&gt;</pre>
+<ol start="2">
+<li>Let's save it and reload:</li>
+</ol>
+<div class="packt_figure CDPAlignCenter CDPAlign"><img height="862" width="1280" class="aligncenter size-full wp-image-758 image-border" src="images/72e47068-3fb7-4504-8b92-1ad1e558d740.png" /></div>
+<p style="padding-left: 60px"><span>Now you'll see we have a link on the titles. For example, when we click on</span> <span class="packt_screen">My Blog Post</span><span>, it takes us to the post.</span></p>
+<ol start="3">
+<li>Let's add a little bit of style to the links. I don't like the color of the links; I also want to make the description bold so that it stands out. It is good to wrap each post in its own div. Where we have <kbd>while</kbd>, we'll put it in <kbd>&lt;article&gt;</kbd>, as shown in the following code:</li>
+</ol>
+<pre>      &lt;?php get_header(); ?&gt;<br/>         &lt;div class="main"&gt;<br/>            &lt;div class="container"&gt;<br/>               &lt;?php if(have_posts()) : ?&gt;<br/>                  &lt;?php while(have_posts()): the_post(); ?&gt;<br/>                     <strong>&lt;article class="post"&gt;</strong><br/>                        &lt;h3&gt;<br/>                        &lt;a href="&lt;?php the_permalink(); ?&gt;"&gt;<br/>                           &lt;?php the_title(); ?&gt;<br/>                        &lt;/a&gt;<br/>                        &lt;/h3&gt;<br/>                        &lt;div class="meta"&gt;<br/>                        Created By &lt;?php the_author(); ?&gt; on <br/>                        &lt;?php the_time('F j, Y g:i a'); ?&gt;<br/>                        &lt;/div&gt;<br/>                        &lt;?php the_content(); ?&gt;<br/>                     <strong>&lt;/article&gt;</strong><br/>                  &lt;?php endwhile; ?&gt;<br/>               &lt;?php else : ?&gt;<br/>                  &lt;?php echo wpautop('Sorry, No posts were found'); ?&gt;<br/>               &lt;?php endif; ?&gt;<br/>            &lt;/div&gt;<br/>         &lt;/div&gt;</pre>
+<ol start="4">
+<li>Then, in our style sheet, let's add the color:</li>
+</ol>
+<pre class="packt_figure">      a{<br/>          color:#333;<br/>      }</pre>
+<p style="padding-left: 60px">The color will be just the same as the text.</p>
+<ol start="5">
+<li>Now we will just add a border at the bottom using this code:</li>
+</ol>
+<pre class="packt_figure">      article.post{<br/>          border-bottom:1px #ccc solid;<br/>      }</pre>
+<ol start="6">
+<li>When you reload you can see the border at the bottom:</li>
+</ol>
+<div class="packt_figure CDPAlignCenter CDPAlign"><img height="354" width="528" class="aligncenter size-full wp-image-759 image-border" src="images/52e3fae7-a141-4a01-b2f7-a8f594eefed9.png" /></div>
+<ol start="7">
+<li>Now we have the title. The title has a link, but we'll usually see some kind of Read More button as well, so let's go ahead and add that. All we have to do is just add the code, shown in the following code block. We'll say <kbd>Read More</kbd> and give it the class of a button:</li>
+</ol>
+<pre class="packt_figure">      Created By &lt;?php the_author(); ?&gt; on &lt;?php the_time(<br/>        'F j, Y g:i a'); ?&gt;<br/>      &lt;/div&gt;<br/>      &lt;?php the_content(); ?&gt;<br/>      &lt;/article&gt;<br/>      &lt;br&gt;<br/>      <strong>&lt;a class="button" href="&lt;?php the_permalink(); ?&gt;"&gt;</strong><br/><strong>         Read More</strong><br/><strong>      &lt;/a&gt;</strong></pre>
+<ol start="8">
+<li>Now, we should have a link for <kbd>Read More</kbd>. To do that, we will add the following code block:</li>
+</ol>
+<pre>      article.post{<br/>          border-bottom:1px #ccc solid;<br/>          overflow:hidden;<br/>      }<br/><br/>      article.post a.button{<br/>          display:inline-block;<br/>          background:#333;<br/>          color:#fff;<br/>          padding:10px 5px;<br/>          margin-bottom: 10px;<br/>          text-decoration: none;<br/>      }</pre>
+<ol start="9">
+<li>We can now go to the single page, as shown in the following screenshot:</li>
+</ol>
+<div class="packt_figure CDPAlignCenter CDPAlign"><img height="330" width="524" class="aligncenter size-full wp-image-760 image-border" src="images/e90f9596-4d91-4236-8939-a2d9ae9ebf03.png" /></div>
+<ol start="10">
+<li>Now, in the single page, we don't want <span class="packt_screen">My Blog Post</span> to be a link; that's kind of silly, so we want to change that. Also, there's going to be other things we want. We'll want a comment form as well, so we need to have a special page for single posts.</li>
+<li>So we'll create a new file in our theme, and we'll just call it <kbd>single.php</kbd>, and let's just say <kbd>TEST</kbd>.</li>
+</ol>
+<ol start="12">
+<li>If we go back to the single page and reload, we get <span class="packt_screen">TEST</span>. If we go back to our main website, which is our main post roll, it is the same as before, but if we go to a single page we get <span class="packt_screen">TEST</span> only, because it's automatically looking at the <kbd>single.php</kbd> file. So what we can do is copy the code from <kbd>index.php</kbd>, and we can use this code as a starting point. If we paste that in <kbd>single.php</kbd> and save, it'll show us the same result. Now we can change whatever we want in the <kbd>single.php</kbd> file, and it will only take effect on the single page.</li>
+<li>We can get rid of the link and <kbd>Read More</kbd> in the code; we're obviously not going to want that. So now we have a single page:</li>
+</ol>
+<div class="mce-root CDPAlignCenter CDPAlign"><img height="733" width="1280" class="aligncenter size-full wp-image-761 image-border" src="images/fdfd50c1-e9cc-4267-b20b-306d71553830.png" /></div>
+<ol start="14">
+<li>Let's add a little bit of style to our single page. To do that, we will make <kbd>meta</kbd>, as shown here:</li>
+</ol>
+<pre class="packt_figure">      .meta{<br/>          background:#333;<br/>          color:#fff;<br/>          padding:5px;<br/>      }</pre>
+<p style="padding-left: 60px" class="packt_figure"><span>As you can see here, I have also added some padding at the bottom of the post.</span></p>
+<p>I'm not trying to go nuts with the styling, because like I said, I just want you to kind of learn the code rather than learn how to create a great design; we'll be getting into that later.</p>
+
+
+            </article>
+
+            
+        </section>
+    </div>
+</body>
+</html>

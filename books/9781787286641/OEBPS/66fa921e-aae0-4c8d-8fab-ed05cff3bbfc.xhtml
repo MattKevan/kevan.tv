@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:pls="http://www.w3.org/2005/01/pronunciation-lexicon" xmlns:ssml="http://www.w3.org/2001/10/synthesis" xmlns:svg="http://www.w3.org/2000/svg">
+<head>
+  <meta charset="UTF-8" />
+  <title>The Featured Image area</title>
+  <link type="text/css" rel="stylesheet" media="all" href="style.css" />
+  <link type="text/css" rel="stylesheet" media="all" href="core.css" />
+</head>
+<body>
+  <div id="sbo-rt-content"><section>
+
+                            <header>
+                    <h1 class="header-title">The Featured Image area</h1>
+                </header>
+            
+            <article>
+                
+<p>For the <span class="packt_screen">Featured Image</span> area to show we need to create a <kbd>functions.php</kbd> file:</p>
+<ol>
+<li>Let's create a new file and call it <kbd>functions.php</kbd>. Then let's create a function <kbd>theme_setup()</kbd>. Now, let's add a comment <kbd>Featured Image Support</kbd> and also add <kbd>add_theme_support()</kbd> with the value <kbd>post-thumbnails</kbd>:</li>
+</ol>
+<pre>      &lt;?php<br/><br/>      function theme_setup(){<br/>          // Featured Image Support<br/>          add_theme_support('post-thumbnails');<br/>      }</pre>
+<ol start="2">
+<li>Underneath the function declaration, we will place <kbd>add_action()</kbd> and then pass in the hook that we want, which is going to be <kbd>after_setup_theme</kbd>. Then we will place the function that we want to use, which is <kbd>theme_setup</kbd>:</li>
+</ol>
+<pre>      add_action('after_setup_theme', 'theme_setup');</pre>
+<ol start="3">
+<li>Let's save that and reload:</li>
+</ol>
+<div class="CDPAlignCenter CDPAlign"><img height="707" width="970" class="aligncenter size-full wp-image-1193 image-border" src="images/417cbe3a-4f6e-4146-a263-b2b4fdc3f4f1.png" /></div>
+<p style="padding-left: 60px">Now you can see that we have a <span class="packt_screen">Featured Image</span> area.</p>
+
+
+            </article>
+
+            
+        </section>
+    </div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:pls="http://www.w3.org/2005/01/pronunciation-lexicon" xmlns:ssml="http://www.w3.org/2001/10/synthesis" xmlns:svg="http://www.w3.org/2000/svg">
+<head>
+  <meta charset="UTF-8" />
+  <title>Adding the wp_head function</title>
+  <link type="text/css" rel="stylesheet" media="all" href="style.css" />
+  <link type="text/css" rel="stylesheet" media="all" href="core.css" />
+</head>
+<body>
+  <div id="sbo-rt-content"><section>
+
+                            <header>
+                    <h1 class="header-title">Adding the wp_head function</h1>
+                </header>
+            
+            <article>
+                
+<p>Now another thing we want to put in the head is the <kbd>wp_head</kbd> function. Here, we can add any head content that we need, for example an extra style sheet for a WordPress plugin. So we will add <kbd>&lt;?php wp_head(); ?&gt;</kbd> as shown here:</p>
+<pre>  &lt;link rel="stylesheet" href="&lt;?php bloginfo('stylesheet_url'); ?&gt;"&gt;<br/>  &lt;?php wp_head(); ?&gt;<br/>&lt;/head&gt;</pre>
+<p>We also want the character set. In the head, we will add <kbd>&lt;meta charset="&lt;?php bloginfo(); ?&gt;"&gt;</kbd>. Then inside the parentheses, we'll add <kbd>charset</kbd> as shown here:</p>
+<pre>&lt;title&gt;PhotoGenik&lt;/title&gt;<br/>&lt;meta charset="&lt;?php bloginfo('charset'); ?&gt;"&gt;</pre>
+<p>Now, we will make <kbd>&lt;h1&gt;</kbd> inside the header dynamic. We'll add <kbd>&lt;?php bloginfo(''); ?&gt;</kbd> and pass in <kbd>name</kbd> as shown here:</p>
+<pre>&lt;body&gt;<br/>  &lt;header class="w3-container w3-teal"&gt;<br/>    &lt;div class="w3-row"&gt;<br/>      &lt;div class="w3-col m9 l9"&gt;<br/>      &lt;h1&gt;&lt;?php bloginfo('name'); ?&gt;&lt;/h1&gt;<br/>      &lt;/div&gt;</pre>
+<p>Let's save that and see what that gives us by reloading the frontend page:</p>
+<div class="CDPAlignCenter CDPAlign"><img height="450" width="547" src="images/8ba59cb8-21d1-4257-94ad-a0f0103fd0ae.png" /></div>
+<p>As shown in the preceding screenshot, our code is going to give us whatever the site name is; in our case, it is <span class="packt_screen">WordPress Themes</span>, which we can change inside the admin area.</p>
+
+
+            </article>
+
+            
+        </section>
+    </div>
+</body>
+</html>

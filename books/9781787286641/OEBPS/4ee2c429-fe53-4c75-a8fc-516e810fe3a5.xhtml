@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:pls="http://www.w3.org/2005/01/pronunciation-lexicon" xmlns:ssml="http://www.w3.org/2001/10/synthesis" xmlns:svg="http://www.w3.org/2000/svg">
+<head>
+  <meta charset="UTF-8" />
+  <title>Changing the static image</title>
+  <link type="text/css" rel="stylesheet" media="all" href="style.css" />
+  <link type="text/css" rel="stylesheet" media="all" href="core.css" />
+</head>
+<body>
+  <div id="sbo-rt-content"><section>
+
+                            <header>
+                    <h1 class="header-title">Changing the static image</h1>
+                </header>
+            
+            <article>
+                
+<p>Now, in the <kbd>single.php</kbd> file, we just have a static image:</p>
+<pre>&lt;img src="images/1.jpg" class="pic w3-animate-right"&gt;</pre>
+<p>To change the static image, let's copy the <kbd>if</kbd> statement we have in the <kbd>content-gallery.php</kbd> file and paste that in place of the <kbd>&lt;img&gt;</kbd> tag as shown here:</p>
+<pre>  &lt;/p&gt;<br/><br/>  &lt;hr/&gt;<br/>  &lt;?php if(has_post_thumbnail()) : ?&gt;<br/>    &lt;div class="post-thumbnail"&gt;<br/>      &lt;?php <br/>        $attr = array(<br/>          'class' =&gt; 'w3-animate-opacity w3-hover-opacity'<br/>        ); <br/>     ?&gt;<br/>      &lt;a href="&lt;?php echo the_permalink(); ?&gt;"&gt;<br/>        &lt;?php echo get_the_post_thumbnail($id, <br/>        'large', $attr);   ?&gt;<br/>       &lt;/a&gt;<br/>    &lt;/div&gt;<br/>  &lt;?php endif; ?&gt;<br/>  &lt;?php the content(); ?&gt;<br/>&lt;/div&gt;</pre>
+<p>In this code, we will change <kbd>w3-animate-opacity</kbd> to <kbd>w3-animate-right</kbd> and remove <kbd>w3-hover-opacity</kbd> as shown here:</p>
+<pre> &lt;?php if(has_post_thumbnail()) : ?&gt;<br/>    &lt;div class="post-thumbnail"&gt;<br/>      &lt;?php <br/>        $attr = array(<br/>          'class' =&gt; 'w3-animate-right'<br/>        ); <br/>     ?&gt;</pre>
+<p>Now, we don't need to have a link, so we'll remove the <kbd>permalink</kbd> statement:</p>
+<pre><strong>&lt;a href="&lt;?php echo the_permalink(); ?&gt;"&gt;</strong><br/>  &lt;?php echo get_the_post_thumbnail($id,'large', $attr);  ?&gt;<br/><strong>&lt;/a&gt;</strong></pre>
+<p>After removing the link, the code will look like the following:</p>
+<pre>&lt;?php if(has_post_thumbnail()) : ?&gt;<br/>  &lt;div class="post-thumbnail"&gt;<br/>    &lt;?php <br/>      $attr = array(<br/>        'class' =&gt; 'w3-animate-right'<br/>      ); <br/>    ?&gt;<br/>    &lt;?php echo get_the_post_thumbnail($id, 'large', $attr); ?&gt;<br/>  &lt;/div&gt;<br/>&lt;?php endif; ?&gt;</pre>
+<p>This looks good!</p>
+
+
+            </article>
+
+            
+        </section>
+    </div>
+</body>
+</html>

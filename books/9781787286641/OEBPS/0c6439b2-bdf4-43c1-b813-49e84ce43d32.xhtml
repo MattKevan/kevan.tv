@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:pls="http://www.w3.org/2005/01/pronunciation-lexicon" xmlns:ssml="http://www.w3.org/2001/10/synthesis" xmlns:svg="http://www.w3.org/2000/svg">
+<head>
+  <meta charset="UTF-8" />
+  <title>Adding metadata</title>
+  <link type="text/css" rel="stylesheet" media="all" href="style.css" />
+  <link type="text/css" rel="stylesheet" media="all" href="core.css" />
+</head>
+<body>
+  <div id="sbo-rt-content"><section>
+
+                            <header>
+                    <h1 class="header-title">Adding metadata</h1>
+                </header>
+            
+            <article>
+                
+<p>Next, we will add the metadata. Let's put that in a paragraph with a class called <kbd>meta</kbd> as shown here:</p>
+<pre>&lt;p class="meta"&gt;<br/><br/>&lt;/p&gt;</pre>
+<p>In the <kbd>meta</kbd> class, we will add <kbd>Posted at</kbd> and then get the date and time. To get the date and time, we will add <kbd>&lt;?php the_time(); ?&gt;</kbd> and <kbd>&lt;?php the_data(); ?&gt;</kbd> respectively:</p>
+<pre>&lt;p class="meta"&gt;<br/>Posted at &lt;?php the_time(); ?&gt; on<br/>&lt;?php the_date(); ?&gt; by<br/>&lt;/p&gt;</pre>
+<p>Next, we want to add the user's name, and we will put that in a link. For this, we will add <kbd>&lt;a href=""&gt; &lt;/a&gt;</kbd>, add the <kbd>php</kbd> tag, and echo out <kbd>get_author_posts_url()</kbd> as shown here:</p>
+<pre>&lt;p class="meta"&gt;<br/>Posted at &lt;?php the_time(); ?&gt; on<br/>&lt;?php the_date(); ?&gt; by<br/>&lt;a href="&lt;?php echo get_author_posts_url(); ?&gt;"&gt;&lt;/a&gt;<br/>&lt;/p&gt;</pre>
+<p>Now, we need to put the ID for the author, which we can add with <kbd>get_the_author_meta()</kbd> and pass in <kbd>ID</kbd>. This will get us the author's ID. Then for the actual text, we will add <kbd>&lt;?php the_author(); ?&gt;</kbd>, as shown here:</p>
+<pre>&lt;a href="&lt;?php echo get_author_posts_url(get_the_author_meta('ID')) ?&gt;"&gt;&lt;?php the_author(); ?&gt;&lt;/a&gt;</pre>
+<p>If we check it out, we'll see the page as shown in the following screenshot:</p>
+<div class="CDPAlignCenter CDPAlign"><img src="images/24f7a976-8d6b-4409-8ff1-e666d68681ee.png" /></div>
+<p>This shows <span class="packt_screen">Posted at 1:55 am on December 22, 2017 by admin</span>.</p>
+
+
+            </article>
+
+            
+        </section>
+    </div>
+</body>
+</html>

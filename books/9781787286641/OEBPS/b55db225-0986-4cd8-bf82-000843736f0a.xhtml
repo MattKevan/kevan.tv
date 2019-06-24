@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:pls="http://www.w3.org/2005/01/pronunciation-lexicon" xmlns:ssml="http://www.w3.org/2001/10/synthesis" xmlns:svg="http://www.w3.org/2000/svg">
+<head>
+  <meta charset="UTF-8" />
+  <title>Dealing with the search box</title>
+  <link type="text/css" rel="stylesheet" media="all" href="style.css" />
+  <link type="text/css" rel="stylesheet" media="all" href="core.css" />
+</head>
+<body>
+  <div id="sbo-rt-content"><section>
+
+                            <header>
+                    <h1 class="header-title">Dealing with the search box</h1>
+                </header>
+            
+            <article>
+                
+<p>Go to our <kbd>header</kbd> file and go to the empty form down at the bottom of the file, and we will add some stuff to it. The first thing we'll do is adding a method and the method is going to be <kbd>get</kbd>. We can actually change the class from left to right. We also need to add an action. For that, we will use the <kbd>php</kbd> tags and add <kbd>echo esc_url()</kbd>.</p>
+<p>This is because we want the URL checked and escaped. We will use <kbd>home_url</kbd> with a <kbd>/</kbd>:</p>
+<pre>&lt;form method="get" class="navbar-form navbar-right" <br/> role="search" action="&lt;?php echo esc_url(home_url('/')); ?&gt;"&gt;</pre>
+<p>Basically, we're just submitting to the home URL.</p>
+<ol>
+<li>Now as for the fields, we'll just want one field for <span class="packt_screen">Search</span>, but let's add a label. So we will add <kbd>&lt;label for ="navbar-search"</kbd> and give it a class of <kbd>sr-only</kbd>. Next let's add <kbd>&lt;?php _e('Search')</kbd>, and this is just for localization of <kbd>_e</kbd>. And then we need a second parameter of <kbd>textdomain</kbd>. Let's then close up those the <kbd>php</kbd> tags and under the <kbd>&lt;/label&gt;</kbd> tag, let's add <kbd>&lt;div class="form-group"&gt;</kbd>. In the div class we'll have an input. We'll give it a type of <kbd>text</kbd> and give it a <kbd>class</kbd> of <kbd>form-control</kbd>, which is just a Bootstrap class. Let's add a name called <kbd>s</kbd> for search, and let's give it an <kbd>id</kbd> of <kbd>navbar-search</kbd>:</li>
+</ol>
+<pre>      &lt;label for="navbar-search" class="sr-only"&gt;<br/>      &lt;?php _e('Search', 'textdomain'); ?&gt;&lt;/label&gt;<br/>      &lt;div class="form-group"&gt;<br/>      &lt;input type="text" class="form-control" name="s" <br/>        id="navbar-search"&gt;<br/>      &lt;/div&gt;</pre>
+<ol start="2">
+<li>We then need a submit. So we'll add a button with a type of <kbd>submit</kbd> and give it a class of <kbd>btn</kbd> and <kbd>btn-default</kbd>:</li>
+</ol>
+<pre>      &lt;button type="submit" class="btn btn-default"&gt;<br/>      &lt;?php _e('Search', 'textdomain'); ?&gt;<br/>      &lt;/button&gt;</pre>
+<p style="padding-left: 60px">Let's save it.</p>
+<p style="padding-left: 60px">Now let's do a search for <kbd>lorem</kbd>, and it gives us these results:</p>
+<div class="CDPAlignCenter CDPAlign"><img height="722" width="970" class="aligncenter size-full wp-image-1229 image-border" src="images/fa71a4cc-3749-4a13-9c10-d3ab5a7fbb4e.png" /></div>
+<p>You can also try searching for the word <kbd>one</kbd> or <kbd>two</kbd>.</p>
+<p>Now we have a search bar and the last thing that we need to do is the single post.</p>
+
+
+            </article>
+
+            
+        </section>
+    </div>
+</body>
+</html>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:pls="http://www.w3.org/2005/01/pronunciation-lexicon" xmlns:ssml="http://www.w3.org/2001/10/synthesis" xmlns:svg="http://www.w3.org/2000/svg">
+<head>
+  <meta charset="UTF-8" />
+  <title>The comment functionality</title>
+  <link type="text/css" rel="stylesheet" media="all" href="style.css" />
+  <link type="text/css" rel="stylesheet" media="all" href="core.css" />
+</head>
+<body>
+  <div id="sbo-rt-content"><section>
+
+                            <header>
+                    <h1 class="header-title">The comment functionality</h1>
+                </header>
+            
+            <article>
+                
+<p>The last thing we need to do is add some comment functionality to our single post page:</p>
+<ol>
+<li>Let's go into <kbd>single.php</kbd> and go down. What we want to do is still within the panel body so that ends where it is shown.</li>
+<li>Let's create a comment template and add <kbd>comments_template()</kbd>:</li>
+</ol>
+<pre>         &lt;?php endif; ?&gt;<br/>         <strong>&lt;?php comments_template(); ?&gt;</strong><br/>      &lt;/div&gt;</pre>
+<ol start="3">
+<li>We'll save that and create a new file. We'll save it as <kbd>comments.php</kbd>.</li>
+</ol>
+<p style="padding-left: 60px">That needs to be in your <kbd>theme</kbd> folder, and then if we go ahead and type something in here, we'll say <kbd>TEST</kbd>.</p>
+<ol start="4">
+<li>If we save and reload, and you can see we're getting <span class="packt_screen">TEST</span>:</li>
+</ol>
+<div class="CDPAlignCenter CDPAlign"><img height="272" width="583" src="images/ee8065ff-e1c8-4eab-9a11-03ce9797978a.png" /></div>
+<p style="padding-left: 60px">Now let's create a div with a class of <kbd>comments</kbd> and add <kbd>&lt;?php if(have_comments); ?&gt;</kbd>.</p>
+<ol start="5">
+<li>We also add heading <kbd>&lt;h3&gt;</kbd> with class of <kbd>comments_title</kbd>. We will add <kbd>if(get_comments_number() == 1)</kbd>. We are doing this because if there's only one comment then we should get comment singular, if there's more than one then it should say comments.</li>
+<li>So we're checking to see if there's one comment, if there is then we'll <kbd>echo get_comments_number()</kbd> and then just concatenate the word <kbd>Comment</kbd>. Then we'll put an <kbd>else</kbd> and just add an <kbd>Comments</kbd> to the end here:</li>
+</ol>
+<pre>      &lt;div class="comments"&gt;<br/>      &lt;?php if(have_comments()): ?&gt;<br/>         &lt;h3 class="comments-title"&gt;<br/>         &lt;?php<br/>             if(get_comments_number() == 1){<br/>                 echo get_comments_number(). ' Comment';<br/>             } else {<br/>                 echo get_comments_number(). ' Comments';<br/>             }<br/>         ?&gt;<br/>         &lt;/h3&gt;</pre>
+<p style="padding-left: 60px">So that'll be the heading.</p>
+<ol start="7">
+<li>Then under the <kbd>&lt;/h3&gt;</kbd> tag, we'll have a <kbd>&lt;ul&gt;</kbd> tag, give it a class of <kbd>row</kbd> and <kbd>comment-list</kbd>. We will add <kbd>wp_list_comments()</kbd> and that's going to get passed in an array. We will also use avatars so let's add <kbd>avatar_size</kbd> and set that to <kbd>90</kbd>. We then have a <kbd>callback</kbd>, which we have to create as well.</li>
+</ol>
+<p style="padding-left: 60px">For that, we will add <kbd>add_theme_comments</kbd> and this is going to go inside the <kbd>functions.php</kbd> file.</p>
+<pre>      &lt;ul class="row comment-list"&gt;<br/>      &lt;?php<br/>          wp_list_comments(array(<br/>              'avatar_size' =&gt; 90,<br/>              'callback'    =&gt; 'add_theme_comments'<br/>          ));<br/>      ?&gt;<br/>      &lt;/ul&gt;</pre>
+<ol start="8">
+<li>Now, we have a few big blocks of code that we need to use:</li>
+</ol>
+<pre>      &lt;?php if(!comments_open() &amp;&amp; '0' != get_comments_number() &amp;&amp; <br/>        post_type_supports(get_post_type(), 'comments')) : ?&gt;<br/>         &lt;p class="no-comments"&gt;&lt;?php _e('Comments are closed.', <br/>          'dazzling'); ?&gt;<br/>         &lt;/p&gt;<br/>      &lt;?php endif; ?&gt;<br/>      &lt;/div&gt;</pre>
+<p style="padding-left: 60px">The preceding code is going to check if comments are closed, and if they are then we can leave a little note.</p>
+<ol start="9">
+<li>Now let's go under this <kbd>div</kbd> and we'll put a horizontal rule. We then need to create our comment arguments and then create the form:</li>
+</ol>
+<pre>      &lt;hr&gt;<br/>      &lt;?php<br/>          $comments_args = array(<br/>          // change the title of send button<br/>          'label_submit'=&gt;'Send',<br/>          // change the title of the reply section<br/>          'title_reply'=&gt;'Write a Reply or Comment',<br/>          // remove "Text or HTML to be displayed after the set of comment <br/>          //fields"<br/>          'comment_notes_after'=&gt;'',<br/>          // redefine your own textarea (the comment body)<br/>          'comment_field'=&gt;'&lt;p class="comment-form-comment"&gt;<br/>          &lt;label for="comment"&gt;' ._x('Comment', 'noun') . '&lt;/label&gt;&lt;br/&gt;<br/>          &lt;textarea class="form-control" id="comment" name="comment" <br/>           aria-required="true"&gt;<br/>          &lt;/textarea&gt;&lt;/p&gt;',<br/>          );<br/>      comment_form($comments_args);</pre>
+<p style="padding-left: 60px">We have a variable called <kbd>comment_args</kbd> and that's set to an array with a bunch of different values. You can have your submit button label, the title reply, notes, and things like that. Then down in the code file, we're also calling the <kbd>comment_form()</kbd> function and passing in those arguments.</p>
+<ol start="10">
+<li>Save it and reload. Now if we go and try to check it out now you can see that we have a form here. Let's try to add something:</li>
+</ol>
+<div class="CDPAlignCenter CDPAlign"><img height="776" width="970" class="aligncenter size-full wp-image-1234 image-border" src="images/39956557-2d7d-4bcb-8a54-c5d9f3670773.png" /></div>
+<ol start="11">
+<li>Click on <span class="packt_screen">Send</span>:</li>
+</ol>
+<div class="CDPAlignCenter CDPAlign"><img height="779" width="973" class="aligncenter size-full wp-image-1235 image-border" src="images/1477f37e-1f5f-4e6e-9dfd-56e9f99b920d.png" /></div>
+<ol start="12">
+<li>Now what's going on here is it's looking for the callback that we specified. It is up at <kbd>add_theme_comments</kbd> <span>as shown:</span></li>
+</ol>
+<pre>      &lt;?php <br/>          wp_list_comments(array(<br/>              'avatar_size' =&gt; 90,<br/>              'callback' =&gt; 'add_theme_comments'<br/>          ));<br/>      ?&gt;</pre>
+<p style="padding-left: 60px">It is looking for callback but not finding it. So let's go into <kbd>functions.php</kbd> and we'll fix that.</p>
+<ol start="13">
+<li>We'll go ahead and paste the code as shown:</li>
+</ol>
+<pre>      // Add Comments<br/>      function add_theme_comments($comment, $args, $depth){<br/>          $GLOBALS['comment'] = $comment;<br/>          extract($args, EXTR_SKIP);<br/> <br/>          if('div' == $args['style']){<br/>              $tag = 'div';<br/>              $add_below = 'comment';<br/>          } else {<br/>              $tag = 'li class="well comment-item"';<br/>              $add_below = 'div-comment';<br/>          }</pre>
+<p style="padding-left: 60px">So we have a function called <kbd>add_theme_comments()</kbd> and that should match your callback. Then we pass in <kbd>comment</kbd>, <kbd>args</kbd>, and <kbd>depth</kbd>. As you can see we have added some tags and classes below so that we can style this.</p>
+<ol start="14">
+<li>Now we'll post some other stuff in as well. For that lets add the following code:</li>
+</ol>
+<pre>      &lt;&lt;?php echo $tag ?&gt;<br/>      &lt;?php comment_class(empty($args['has_children']) ? '' : 'parent') ?&gt; <br/>        id="comment-&lt;?php comment_ID() ?&gt;"&gt;<br/>      &lt;?php if('div' != $args['style']) : ?&gt;<br/>      &lt;div id="div-comment-&lt;?php comment_ID() ?&gt;" class="comment-body"&gt;<br/>      &lt;?php endif; ?&gt;</pre>
+<pre><br/> <br/>      &lt;div class="col-md-2"&gt;<br/>      &lt;div class="comment-author vcard"&gt;<br/>      &lt;?php if($args['avatar_size'] != 0) <br/>        echo get_avatar($comment, $args['avatar_size']); ?&gt;<br/>      &lt;?php printf(__('&lt;cite class="fn"&gt;%s&lt;/cite&gt;'), <br/>         get_comment_author_link()); ?&gt;<br/>      &lt;/div&gt;<br/>      &lt;/div&gt;<br/><br/>      &lt;div class="col-md-10"&gt;<br/>      &lt;?php if($comment-&gt;comment_approved =='0') : ?&gt;<br/>      &lt;em class="comment-awaiting-moderation"&gt;<br/>      &lt;?php _e('Your comment is awaiting moderation.'); ?&gt;&lt;/em&gt;<br/>      &lt;br/&gt;<br/>      &lt;?php endif; ?&gt;<br/> <br/>      &lt;div class="comment-meta commentmetadata"&gt;<br/>      &lt;a href="&lt;?php echo htmlspecialchars(get_comment_link<br/>         ($comment-&gt;comment_ID)); ?&gt;"&gt;<br/>      &lt;?php<br/>         printf(__('%1$s at %2$s'), get_comment_date(), get_comment_time()); ?&gt;&lt;/a&gt;<br/>      &lt;?php edit_comment_link(__('(Edit)'), ' ', ''); ?&gt;<br/>      &lt;/div&gt;<br/>      &lt;?php comment_text(); ?&gt;<br/> <br/>      &lt;div class="reply"&gt;<br/>      &lt;?php comment_reply_link(array_merge($args, array<br/>       ( 'add_below' =&gt; $add_below, 'depth' =&gt; <br/>         $depth, 'max_depth' =&gt; $args['max_depth'] )));<br/>      ?&gt;<br/>      &lt;/div&gt;<br/>      &lt;/div&gt;<br/><br/>     &lt;?php if('div' != $args['style']) : ?&gt;<br/>     &lt;/div&gt;<br/>     &lt;?php endif; ?&gt;<br/>     &lt;?php<br/>     }</pre>
+<p style="padding-left: 60px">You can get the code from the WordPress documentation (<a href="https://codex.wordpress.org/Function_Reference/wp_list_comments">https://codex.wordpress.org/Function_Reference/wp_list_comments</a>).</p>
+<div class="CDPAlignCenter CDPAlign"><img height="507" width="634" class="aligncenter size-full wp-image-1240 image-border" src="images/4705bc74-6489-44ad-9b83-d8afe93cc547.png" /></div>
+<p class="mce-root"></p>
+<p style="padding-left: 60px">So this code will give you correct functionality.</p>
+<ol start="15">
+<li>Let's go ahead and save the code and see what happens:</li>
+</ol>
+<div class="CDPAlignCenter CDPAlign">&gt;<img height="310" width="512" class="aligncenter size-full wp-image-1242 image-border" src="images/6d49514a-0ddd-4d5b-9aa9-b3b13fd34848.png" /></div>
+<ol start="16">
+<li>Now let's open up <kbd>style.css</kbd> and the class called <kbd>comment-item</kbd>. So in the code we add <kbd>.comment-item</kbd> and set <kbd>overflow</kbd> to <kbd>auto</kbd>. We will also add <kbd>comment-list</kbd>, and set <kbd>list-style</kbd> to <kbd>none</kbd> and <kbd>margin</kbd> to <kbd>0</kbd>. We then mark that as important and set <kbd>padding</kbd> to <kbd>0</kbd>:</li>
+</ol>
+<pre>      .comment-list{<br/>          list-style: none;<br/>          margin:0 !important;<br/>          padding:0 !important;<br/>      }<br/><br/>      .comment-item{<br/><span>          overflow:auto;<br/></span>      }</pre>
+<p>That looks pretty good. We can reply and leave comments, and that's really awesome. So that's it, we are done. We now have a WordPress theme with Bootstrap, and you could use this as a base theme to create other Bootstrap themes. You can use the <kbd>navbar-walker</kbd>, which is really helpful.</p>
+
+
+            </article>
+
+            
+        </section>
+    </div>
+</body>
+</html>

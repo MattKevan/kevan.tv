@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:pls="http://www.w3.org/2005/01/pronunciation-lexicon" xmlns:ssml="http://www.w3.org/2001/10/synthesis" xmlns:svg="http://www.w3.org/2000/svg">
+<head>
+  <meta charset="UTF-8" />
+  <title>Adding multiple images</title>
+  <link type="text/css" rel="stylesheet" media="all" href="style.css" />
+  <link type="text/css" rel="stylesheet" media="all" href="core.css" />
+</head>
+<body>
+  <div id="sbo-rt-content"><section>
+
+                            <header>
+                    <h1 class="header-title">Adding multiple images</h1>
+                </header>
+            
+            <article>
+                
+<p>Now we also want to be able to have multiple images in here as well. Let's go to our <span class="packt_screen">Posts</span> in the backend, and let's go to <span class="packt_screen">Blue &amp; White Shirt</span>. Click on <span class="packt_screen">Add Media</span> and then <span class="packt_screen">Create Gallery</span>. We'll upload a couple more files. We have files in the folder as shown in the following screenshot. We'll use those and create a new gallery:</p>
+<div class="CDPAlignCenter CDPAlign"><img height="776" width="970" class="aligncenter size-full wp-image-1550 image-border" src="images/36b36c00-b10b-4cff-987f-1d3fd22170ac.png" /></div>
+<p>For the link, we'll just say <span class="packt_screen">Media File</span> and <span class="packt_screen">Insert gallery</span>. Let's update, go back to the frontend, reload, and now we have some images for that product. That looks pretty much like a like a standard shopping cart details page!</p>
+<div class="CDPAlignCenter CDPAlign"><img height="585" width="652" class="aligncenter size-full wp-image-1551 image-border" src="images/9ef76707-5f6f-42ba-9ad6-8db6fb9b6ea9.png" /></div>
+<p>We're getting there! Now for the regular pages such as <span class="packt_screen">About</span>, we obviously don't want this. We'll go into our folder and create a new file, <kbd>page.php</kbd>. Then if we go back and reload, it's going to be blank. Let's grab what we have in the <kbd>index</kbd> page, paste it right in there, and then we want to go down to where the <kbd>post</kbd> loop is.</p>
+<p>Let's just take everything out from within the <kbd>while</kbd> loop and create a <kbd>div</kbd> and this will be a 12-column div, <kbd>large-12 columns</kbd>. Let's then add an <kbd>h3</kbd>, which will have <kbd>the_title</kbd>. Under <kbd>the_title</kbd> let's add the whole thumbnail thing. We'll grab it from <kbd>single.php</kbd>. So if there's an image it'll show it, and then we just need <kbd>the_content</kbd>:</p>
+<pre>&lt;?php while(have_posts()) : the_post(); ?&gt;<br/>   &lt;div class="large-12 columns"&gt;&lt;/h3&gt;<br/>      &lt;h3&gt;&lt;?php the_title(); ?&gt;&lt;/h3&gt;<br/>      &lt;?php if(has_post_thumbnail()): ?&gt;<br/>         &lt;?php the_post_thumbnail(); ?&gt;<br/>      &lt;?php endif; ?&gt;<br/> <br/>      &lt;?php the_content(); ?&gt;<br/>   &lt;/div&gt;<br/>&lt;?php endwhile; ?&gt;</pre>
+<p>Let's save it, go back to <span class="packt_screen">About</span>, and now we have just a standard page with a title and the body. It's the same thing for <span class="packt_screen">Sample Page</span>. We look pretty good at the moment:</p>
+<div class="CDPAlignCenter CDPAlign"><img height="367" width="466" class="aligncenter size-full wp-image-1552 image-border" src="images/34184408-4ad7-443f-a0c6-e5422dae557b.png" /></div>
+<p>Now if you want to have comments on your product or post pages, you could do that. We could go to <kbd>single.php</kbd>, go after the <kbd>div</kbd> tag, and just say <kbd>php comments_template</kbd> and save it. Go back, reload, and now we have our comments:</p>
+<pre>&lt;?php comments_template(); ?&gt;</pre>
+<p>Let's say <kbd>This is a test comment</kbd>. It will then leave comments:</p>
+<div class="CDPAlignCenter CDPAlign"><img height="250" width="505" class="aligncenter size-full wp-image-1553 image-border" src="images/c4305f0f-24b6-4b6e-8bac-25867f1986e1.png" /></div>
+<div class="packt_tip">You could make your comments template look better as we have done it previously.</div>
+<p>You may even re-brand it as reviews (product review).</p>
+
+
+            </article>
+
+            
+        </section>
+    </div>
+</body>
+</html>
