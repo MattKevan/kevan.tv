@@ -19,10 +19,17 @@
     font-weight: bold;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'Plex Mono';
+    src: url('fonts/plex/plexmono.woff');
+    font-weight: bold;
+    font-style: normal;
+}
 // Basic typography 
 
 body {
-	color: #1B1B1B;
+	color: #444;
 	font-family: 'Plex', Helvetica, Arial, sans-serif;
   	background-color: #fff;
   	font-weight: normal;
@@ -42,10 +49,10 @@ p {
 	}
 }
 
-a {color: #FF00FF;}
+a {color: #000;}
 
 a:hover {
-	color: #FF00FF;
+	color: #000;
 	text-decoration: underline;
 }
 
@@ -62,7 +69,7 @@ blockquote {
 h1, h2, h3, h4 {
 	font-family: 'Plex', Helvetica, Arial, sans-serif;
 	font-weight: bold;
-	color: #1B1B1B;
+	color: #000;
 	line-height: 1.4em;
 	
 }
@@ -84,33 +91,24 @@ h3 {
 	margin-top: 0!important;
 }
 
-h2 a, h3 a {
-	border-style: solid;
-	border-width: 0 0 3px 0;
-	border-color: #f0f;
-	line-height: 1.4em;
-	transition: border-color .2s ease;
-	color: #1B1B1B;
 
-	&:hover {
-		color: #1B1B1B;
-		text-decoration: none;
-		border-color: #FFFF00;
-	}
-}
+
 .pad {
 	padding: 20px;
 }
 // Content styles
 .masthead{
-	margin-bottom: 30px!important;
-	background-color: rgba(255, 255, 255, 0.9);
-	padding: 20px 20px 30px 20px;
-	border-width: 0 0 0 5px;
-	border-color: #FFFF00;
+	padding: 60px 0 30px;
+	margin-bottom: 60px;
 	border-style: solid;
-	backdrop-filter: blur(5px);  
-  -webkit-backdrop-filter: blur(5px);
+	border-width: 1px 0;
+	border-color: #F3F3F3;
+
+
+	h1 {
+
+		margin-bottom: 40px;
+	}
 
 }
 .section {
@@ -164,8 +162,10 @@ h2 a, h3 a {
 
 	span {
 		background-color: #00FFFF;
+		color: #222;
 		padding: 3px 5px;
 		margin-right: 5px;
+		font-family: "Plex Mono", monospace
 	}
 }
 
@@ -208,9 +208,9 @@ p.link-bgk a {
 	background-size: 80px;
 	background-attachment: fixed;
 	background-position: left top;
-	padding: 20px 0 0 0;
+	padding: 0px 0 0 0;
 	@media (min-width: $screen-md-min) {
-		padding: 30px 0 0 0;
+		padding: 0px 0 0 0;
 	}
 }
 .wrap{
@@ -223,13 +223,12 @@ p.link-bgk a {
 	&.continued {margin: 0;}
 	img {width: 100%;}
 	padding: 20px;
-	background-color: #fff;
 
 }
 
 .content-sm {
 	background-color: #fff;
-	padding: 15px;
+	padding: 0 0 15px 0;
 	margin-bottom: 20px;
 }
 .cover {
@@ -238,17 +237,22 @@ p.link-bgk a {
 	padding: 20px;
 }
 
-.teaser { margin-bottom: 30px; 
+.teaser { 
 	img {width: 100%;}
 	.inner {
-		padding: 20px;
+		padding: 0 0 40px 0;
 	}
 	p.tags {
 		margin-bottom: 10px;
 	}
 }
 
-
+.article-teaser {
+	border-color: #F3F3F3;
+	border-width: 0 0 1px 0;
+	border-style: solid;
+	margin-bottom: 40px; 
+}
 .footer {
 	padding: 20px 0;
 	p {margin: 0;}
@@ -260,34 +264,6 @@ p.link-bgk a {
     display: table-cell;
 }
 
-// Patterns & colours
-
-.p1 {background-image: url('/images/patterns/1.svg');}
-.p2 {background-image: url('/images/patterns/2.svg');}
-.p3 {background-image: url('/images/patterns/3.svg');}
-.p4 {background-image: url('/images/patterns/4.svg');}
-.p5 {background-image: url('/images/patterns/5.svg');}
-.p6 {background-image: url('/images/patterns/6.svg');}
-.p7 {background-image: url('/images/patterns/7.svg');}
-.p8 {background-image: url('/images/patterns/8.svg');}
-
-.bgw {background-color: #fff;}
-.bgy {background-color: #FFFF00;}
-.bgc {background-color: #00FFFF;}
-.bgm {background-color: #FF00FF;}
-.bgg {background-color: #f2f2f2;}
-.bgk {
-	background-color: #191a1b;
-	p, h1, h2, h3, h2 a, h3 a { color: #fff;}
-	.tags, .title {color: #1B1B1B;}
-}
-
-.cy {background: linear-gradient(to bottom, #00FFFF 0%,#FFFF00 100%);}
-.cm {background: linear-gradient(to bottom, #00FFFF 0%,#FF00FF 100%);}
-.mc {background: linear-gradient(to bottom, #FF00FF 0%,#00FFFF 100%);}
-.my {background: linear-gradient(to bottom, #FF00FF 0%,#FFFF00 100%);}
-.yc {background: linear-gradient(to bottom, #FFFF00 0%,#00FFFF 100%);}
-.ym {background: linear-gradient(to bottom, #FFFF00 0%,#FF00FF 100%);}
 
 
 ::selection {
@@ -480,6 +456,12 @@ button.overlay-button {
 	}
 }
 
+
+code { 
+	font-family: "Plex Mono", monospace;
+	background-color: #111;
+	color: #fff;
+}
 
 // Footer
 

@@ -3,18 +3,19 @@ title: Personal projects
 layout: grid
 permalink: "/projects/"
 ---
+<div class="masthead">
 <div class="container">
   <div class="row">
     <div class="col-xs-12">
-      <div class="masthead">
-        <p class="breadcrumb"><a href="/">Home </a>»</p>
+      
         <h1 class="bigtitle">{{ page.title }}</h1>
         {% if page.description %} <p class="lead">{{ page.description }}</p>{% endif %}
       </div>
     </div>
   </div>
+</div>
 
-
+<div class="container">
   <div class="row grid">
     {% for project in site.projects | reverse %}
       <div class="col-xs-12 col-sm-6 col-md-4">

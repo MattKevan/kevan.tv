@@ -2,6 +2,7 @@
 layout: default
 ---
 
+
 <div class="container">
 
 	<div class="row">
@@ -9,7 +10,6 @@ layout: default
 			<div class="masthead">
 				<p class="crumb s"><a href="/">Home </a>» <a href="/work">Work</a> »</p>
 				<h1>{{ page.title }}</h1>
-				<p class="lead">{{ page.description }}</p>
 				<p class="tags xs">
 					{% for tag in page.tags %}
 						<span>{{ tag }}</span>
@@ -18,6 +18,9 @@ layout: default
 			</div>
 		</div>
 	</div>
+</div>
+<div class="container">
+
 
 	<div class="row">
 		<div class="col-xs-12">
@@ -32,21 +35,24 @@ layout: default
 
 	<div class="row">
 
-		<div class="col-xs-12 col-md-2 aside">
-												<div class="content-sm">
+	
+		<div class="col-xs-12 col-md-8 content">
+								<p class="lead">{{ page.description }}</p>
 
-			<div class="row">
+			{{ content }}
+			<p><a href="{{ page.work-url }}" target="_blank">Visit the site »</a></p>
+		</div>
 
-				<div class="col-xs-6 col-md-12">
+			<div class="col-xs-12 col-md-4 aside">
 					<h4>My role</h4>
 					<ul>
 						{% for role in page.roles %}
 							<li>{{role}}</li>
 					    {% endfor %}
 					</ul>	
-				</div>
 
-					<div class="content-sm">
+
+					
 
 					<h4>Technology</h4>
 					<ul>
@@ -55,17 +61,8 @@ layout: default
 					    {% endfor %}
 					</ul>
 
-				</div>
+				
 			</div>
 			</div>
-		</div>
-	
-		<div class="col-xs-12 col-md-8">
-			<div class="content">
-			{{ content }}
-			<p><a href="{{ page.work-url }}" target="_blank">Visit the site »</a></p>
-		</div>
 		</div>
 
-	</div>
-</div>

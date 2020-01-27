@@ -12,7 +12,7 @@ layout: default
 	<p class="lead">{{ page.description }}</p>
 </div>
 
-<p class="title">Recent work</p>
+<h2>Recent work</h2>
 <div class="section">
 <div class="row grid">
 		{% assign sort = (site.work | sort: 'date' | reverse ) %}
@@ -24,7 +24,17 @@ layout: default
 </div>
 <p class="link-bgk"><a href="/work">See more »</a></p>
 </div>
-	<p class="title">Latest articles</p>
+			</div>
+		</div>
+	</div>
+
+
+<div class="section">
+<div class="container">
+	<div class="row">
+		<div class="col-xs-12 col-sm-8">
+
+	<h2>Latest articles</h2>
 
 	{% assign datesort = (site.articles | sort: 'date' | reverse) %}
 	{% for article in datesort limit: 3 %}
@@ -33,6 +43,7 @@ layout: default
 	    
 	{% endfor %}
 	<p class="link-bgk"><a href="/articles">See more »</a></p>
+</div>
 
 			</div>
 		</div>
