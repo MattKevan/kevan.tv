@@ -13,11 +13,9 @@ If you’ve not heard of it, [AIBU](https://www.mumsnet.com/Talk/am_i_being_unre
 
 Top AIBU threads at the time of writing include:
 
-> To be getting sick of my next door neighbour?
-
-> To wonder if anyone else will admit to being a soap dodger?
-
-> To ask for your Pelvic Organ Prolapse Surgery success stories?
+* To be getting sick of my next door neighbour?
+* To wonder if anyone else will admit to being a soap dodger?
+* To ask for your Pelvic Organ Prolapse Surgery success stories?
 
 Like most communities, Mumsnetters have developed their own particular slang and abbreviations, the knowledge of which is vital to fully understand what’s going on. Here's a quick primer: DH is ‘dear husband’, OH is ‘other half’, DD is ‘dear daughter’, DS is ‘dear son’, MIL is ‘mother in law’, CF is ‘cheeky fucker’. You get the idea.
 
@@ -31,27 +29,21 @@ Pleasingly it seems to have grasped the AIBU question construction and Mumsnet a
 
 Changing the amount of randomness in the output affected the results more than I expected. Set it too low, and it just banged on about schools and job interviews like a tired dad at the end of a party.
 
-> To think that the school should be able to get a job interview?
+* To think that the school should be able to get a job interview?
 
 However, setting it high got it so hyper it lost all coherence, like a toddler hopped up on E numbers and cake.	
 
-> To wonder what the hen keep is not a handbag based?
+* To wonder what the hen keep is not a handbag based?
 
 Setting the randomness to about 70% seemed to be about right – the results could be a bit mad at times, but then so are a lot of the real ones. There's plenty which I'm sure must have actually been posted before, including:
 
-> Aibu - help please
-
-> To be furious about the state of this laundry
-
-> AIBU to ask what happened to the police?
-
-> AIBU to go back out
-
-> AIBU to ask what you would do?
-
-> To have been a bit angry about this
-
-> To be frustrated with the NHS
+* Aibu - help please
+* To be furious about the state of this laundry
+* AIBU to ask what happened to the police?
+* AIBU to go back out
+* AIBU to ask what you would do?
+* To have been a bit angry about this
+* To be frustrated with the NHS
 
 Here are a few more generated titles, sorted by topic:
 

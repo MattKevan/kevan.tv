@@ -3,74 +3,46 @@ layout: default
 ---
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-<div class="masthead">
-<div class="container">
-		<div class="row">
+	<h1 itemprop="name headline">{{ page.title }}</h1>
+	<p class="lead">{{ page.description }}</p>				
+	<p class="tags xs">
+	 	{% for tag in page.tags %}
+		 	<span>{{ tag }}</span>
+		{% endfor %}
+	</p>
+	<hr>
 
-			<div class="col-xs-12">
-
-					<p class="s"><a href="/">Home </a>» <a href="/articles">Articles</a> »</p>
-					<h1 itemprop="name headline">{{ page.title }}</h1>
-					
-					
-
-					<p class="tags xs">
-					 	{% for tag in page.tags %}
-						 	<span>{{ tag }}</span>
-						{% endfor %}
-					</p>
-					
-
-			</div>
-</div>
-</div>
-</div>
-
-	<div class="container">
-		<div class="row">
-
-
-
-			<div class="col-xs-12">
-				<div class="row">
-					<div class="col-xs-12 col-md-8">
 
 				
-						<div itemprop="articleBody" >
-							<p class="lead">{{ page.description }}</p>
-							{{ content }}
-						</div>
-
-						{% if page.booklist %}
-							{% for book in site.data.books %}
-								{% assign no = book.id | plus: 0 %}
-								{% for item in page.booklist %}
-									{% if item.i == no %}
-
-										<div class="cover continued text-center bgk">
-											<a href="{{ book.link }}" target="_blank">
-												<img src="/images/books/{{ book.image }}" alt="{{ book.title }}" class="book-cover" />
-											</a>
-										</div>
-
-										<div class="content">
-											<h3>{{ book.title }}</h3>
-											<p class="author s">{{ book.author }}</p>
-											<p>{{ book.description }}</p>
-											<p><a href="{{ book.link }}" target="_blank">Read more »</a></p>
-										</div>
-											
-									{% endif %}
-								{% endfor %}
-							{% endfor %}
-						{% endif%}
-
-					</div>
-				</div>
-			</div>
-
-		</div>
+	<div itemprop="articleBody" class="content">
+		
+		{{ content }}
 	</div>
+
+	{% if page.booklist %}
+		{% for book in site.data.books %}
+			{% assign no = book.id | plus: 0 %}
+			{% for item in page.booklist %}
+				{% if item.i == no %}
+
+					<div class="cover continued text-center bgk">
+						<a href="{{ book.link }}" target="_blank">
+							<img src="/images/books/{{ book.image }}" alt="{{ book.title }}" class="book-cover" />
+						</a>
+					</div>
+
+					<div class="content">
+						<h3>{{ book.title }}</h3>
+						<p class="author s">{{ book.author }}</p>
+						<p>{{ book.description }}</p>
+						<p><a href="{{ book.link }}" target="_blank">Read more »</a></p>
+					</div>
+						
+				{% endif %}
+			{% endfor %}
+		{% endfor %}
+	{% endif%}
+
 </article>
 
 

@@ -1,10 +1,10 @@
 <div class="teaser">
 	<a href="{{ work.url | prepend: site.baseurl }}"><img src="{{ work.thumbnail }}" alt="{{ work.title }}" /></a>
-	<div class="inner bgw" data-mh="col-text">
+	<div class="inner" data-mh="col-text">
 
-	<h3><a href="{{ work.url | prepend: site.baseurl }}">{{ work.title }}</a></h3>
+	<h4><a href="{{ work.url | prepend: site.baseurl }}">{{ work.title }}</a></h4>
 	<p>{{ work.description }}</p>
-	<p class="tags xs">
+		<p class="tags">
 		{% for tag in work.tags %}
 			<span>{{ tag }}</span>
 		{% endfor %}

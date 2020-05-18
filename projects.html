@@ -1,26 +1,14 @@
 ---
-title: Personal projects
-layout: grid
+title: Projects
+layout: page
 permalink: "/projects/"
 ---
-<div class="masthead">
-<div class="container">
-  <div class="row">
-    <div class="col-xs-12">
-      
-        <h1 class="bigtitle">{{ page.title }}</h1>
-        {% if page.description %} <p class="lead">{{ page.description }}</p>{% endif %}
-      </div>
-    </div>
-  </div>
-</div>
 
-<div class="container">
-  <div class="row grid">
-    {% for project in site.projects | reverse %}
-      <div class="col-xs-12 col-sm-6 col-md-4">
-          {% include projects-teaser.html %}
-      </div>
-    {% endfor %}
-  </div>
-</div>
+	<div class="row grid">
+		{% assign sort = (site.projects | sort: 'date' | reverse ) %}
+		{% for work in sort %}
+			<div class="col-xs-12 col-sm-6 col-md-4">
+			    {% include work-teaser.html %}
+			</div>
+		{% endfor %}
+	</div>

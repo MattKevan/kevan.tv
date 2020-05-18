@@ -2,37 +2,42 @@
 layout: default
 ---
 
-<div class="container">
+<h1>{{ page.title }}</h1>
+<p class="lead">{{ page.description }}</p>
 
-	<div class="row">
-		<div class="col-xs-12">
-			<div class="masthead">
-				<p class="crumb s"><a href="/">Home </a>» <a href="/projects">Projects</a> »</p>
-				<h1>{{ page.title }}</h1>
-				<p class="lead">{{ page.description }}</p>
-				<p class="tags xs">
-					{% for tag in page.tags %}
-						<span>{{ tag }}</span>
-					{% endfor %}
-				</p>	
-			</div>
-		</div>
+<p class="tags xs">
+	{% for tag in page.tags %}
+		<span>{{ tag }}</span>
+	{% endfor %}
+</p>	
+<hr>
+
+{% if page.slides %}
+	<div class="content bgw">
+		{% include carousel.html %}
 	</div>
+{% endif %}
 
-
-	<div class="row">
-	
-		<div class="col-xs-12">
-			{{ content }}
-		</div>
-
-	</div>
-
-	<div class="row">
-
-
-				{% include gallery.html %}
-
-	</div>
-	
+<div class="content">
+	{{ content }}
 </div>
+
+<p><a href="{{ page.work-url }}" target="_blank">Visit the site »</a></p>
+		
+					<h4>My role</h4>
+					<ul>
+						{% for role in page.roles %}
+							<li>{{role}}</li>
+					    {% endfor %}
+					</ul>	
+
+
+					
+
+					<h4>Technology</h4>
+					<ul>
+						{% for tek in page.tech %}
+							<li>{{ tek }}</li>
+					    {% endfor %}
+					</ul>
+

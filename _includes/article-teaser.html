@@ -1,11 +1,10 @@
 <div class="teaser article-teaser">
-	<div class="inner bgw">
-	<h3><a href="{{ article.url | prepend: site.baseurl }}">{{ article.title }}</a></h3>
+
+	<h4><a href="{{ article.url | prepend: site.baseurl }}">{{ article.title }}</a></h4>
 	<p>{{ article.description }}</p>
 	<p class="tags xs">
 		{% for tag in article.tags %}
 			<span>{{ tag }}</span>
 		{% endfor %}
 	</p>
-</div>
 </div>
