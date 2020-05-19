@@ -1,0 +1,51 @@
+---
+label: Case study
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: description
+  label: description
+- type: file
+  name: thumbnail
+  label: thumbnail
+- type: field_group_list
+  name: slides
+  label: slides
+  fields:
+  - type: file
+    name: i
+    label: i
+  - type: number
+    name: cols
+    label: cols
+  - type: field_group_list
+    name: captions
+    label: captions
+    fields:
+    - type: text
+      name: c
+      label: c
+- type: text
+  name: work-url
+  label: work-url
+- type: list
+  name: roles
+  label: roles
+- type: list
+  name: tech
+  label: tech
+- type: text
+  name: slug
+  label: slug
+- type: list
+  name: tags
+  label: tags
+- type: number
+  name: weight
+  label: weight
