@@ -1,5 +1,5 @@
 ---
-title: Shapes Lines Colours – Phase 2
+title: Shapes Lines Colours – Phase 2
 date: '2019-12-19 00:00:00'
 description: Create daily. Don't self-edit. Keep it simple.
 thumbnail: "/images/slc-2020.png"
