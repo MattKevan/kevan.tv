@@ -1,8 +1,11 @@
 ---
 title: Drawing
-date: '2018-10-24 00:00:00'
-description: "Abstract pen, ink and tablet drawing."
-thumbnail: "/images/projects/doodle.png"
+date: '2020-3-24 00:00:00'
+description: "Abstract artwork with pen, ink, paper and iPad."
+thumbnail: "/images/drawing.png"
+tags:
+- Personal project
+- Art
 gallery:
   - l: "/images/projects/doodle-x2.jpg"
     t: "/images/projects/doodle-x2.jpg"

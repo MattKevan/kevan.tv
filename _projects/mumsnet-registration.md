@@ -2,7 +2,7 @@
 title: Mumsnet user registration
 date: '2019-03-07 00:00:00'
 description: Doubling user registration on Mumsnet by improving the sign-up experience.
-thumbnail: "/images/work/mn-registration-thumb.jpg"
+thumbnail: "/images/mn-register.png"
 work-url: http://www.mumsnet.com
 roles:
 - Information architecture

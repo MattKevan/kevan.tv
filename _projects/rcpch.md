@@ -1,8 +1,8 @@
 ---
-title: Royal College of Paediatrics and Child Health
+title: RCPCH
 date: '2019-02-01 00:00:00'
-description: Designing a new site for the UK's leading organisation for paediatricians and child health.
-thumbnail: "https://res.cloudinary.com/dl4abuxel/image/upload/v1546733610/rcpch.jpg"
+description: Planning a new site for the UK's leading organisation for paediatricians and child health.
+thumbnail: "/images/rcpch.png"
 slides:
   - i: "https://res.cloudinary.com/dl4abuxel/image/upload/v1546371185/rcpch1.jpg"
     cols: 3
@@ -36,7 +36,7 @@ tech:
 slug: rcpch
 tags:
 - User research
-- User experience 
+- Information architecture
 
 weight: 2
 ---

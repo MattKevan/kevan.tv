@@ -2,7 +2,7 @@
 title: Mumsnet site navigation
 date: '2019-03-06 00:00:00'
 description: Increasing click-through rates by 200% by creating a new, consistent, sitewide navigation structure.
-thumbnail: "/images/work/mn-menu-thumb.jpg"
+thumbnail: "/images/mn-nav.png"
 slides:
   - i: "/images/work/MN Nav 5.png"
     cols: 12
