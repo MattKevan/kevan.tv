@@ -1,10 +1,18 @@
 ---
-label: Case study
+label: Project
 hide_body: false
 fields:
 - type: text
   name: title
   label: Title
+- name: sections
+  type: blocks
+  label: Sections
+  template_types:
+  - gallery
+  config:
+    min: 
+    max: 
 - type: datetime
   name: date
   label: date
