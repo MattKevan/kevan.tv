@@ -57,3 +57,5 @@ fields:
 - type: number
   name: weight
   label: weight
+pages:
+- _projects/rcpch.md

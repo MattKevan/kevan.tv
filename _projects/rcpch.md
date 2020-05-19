@@ -1,26 +1,26 @@
 ---
 title: RCPCH
-date: '2019-02-01 00:00:00'
-description: Planning a new site for the UK's leading organisation for paediatricians and child health.
+date: 2019-02-01 00:00:00
+description: Planning a new site for the UK's leading organisation for paediatricians
+  and child health.
 thumbnail: "/images/rcpch.png"
 slides:
-  - i: "https://res.cloudinary.com/dl4abuxel/image/upload/v1546371185/rcpch1.jpg"
-    cols: 3
-    captions:
-      - c: "Homepage mobile wireframe."
-      - c: "Health topics hub, a new section aimed at parents."
-      - c: "Hub page with shortcut links based around key user stories."
-      - c: "Custom component-based microsite page."
-  - i: "https://res.cloudinary.com/dl4abuxel/image/upload/v1546371185/rcpch2.jpg"
-    cols: 12
-    captions:
-      - c: "A small detail from the site map."
-  - i: "https://res.cloudinary.com/dl4abuxel/image/upload/v1546371185/rcpch3.jpg"
-    cols: 6
-    captions:
-      - c: "The health topics hub design."
-      - c: "A health topic page."
- 
+- i: https://res.cloudinary.com/dl4abuxel/image/upload/v1546371185/rcpch1.jpg
+  cols: 3
+  captions:
+  - c: Homepage mobile wireframe.
+  - c: Health topics hub, a new section aimed at parents.
+  - c: Hub page with shortcut links based around key user stories.
+  - c: Custom component-based microsite page.
+- i: https://res.cloudinary.com/dl4abuxel/image/upload/v1546371185/rcpch2.jpg
+  cols: 12
+  captions:
+  - c: A small detail from the site map.
+- i: https://res.cloudinary.com/dl4abuxel/image/upload/v1546371185/rcpch3.jpg
+  cols: 6
+  captions:
+  - c: The health topics hub design.
+  - c: A health topic page.
 work-url: http://www.rcpch.ac.uk
 roles:
 - User research
@@ -37,10 +37,16 @@ slug: rcpch
 tags:
 - User research
 - Information architecture
-
 weight: 2
----
+sections:
+- template: gallery
+  slides:
+  - i: "/images/rcpch1.jpg"
+    cols: '3'
+    captions:
+    - c: Homepage mobile wireframe.
 
+---
 ## Background
 RCPCH (Royal College for Paediatric and Child Health) are the premier training and accreditation body for paediatricians and child health practitioners in the UK. 
 
@@ -88,4 +94,3 @@ Once development was complete, RCPCH had the substantial task  of publishing the
 
 ## Outcome
 The project took over three years, from pitch to launch. The IA phase took about nine months, and the site was launched in March 2018.
-
