@@ -23,21 +23,22 @@ layout: default
 </div>
 
 <p><a href="{{ page.work-url }}" target="_blank">Visit the site »</a></p>
-		
-					<h4>My role</h4>
-					<ul>
-						{% for role in page.roles %}
-							<li>{{role}}</li>
-					    {% endfor %}
-					</ul>	
 
-
+{% if page.roles %}
+	<h4>My roles</h4>
+	<ul>
+		{% for role in page.roles %}
+			<li>{{role}}</li>
+	    {% endfor %}
+	</ul>	
+{% endif %}
 					
-
-					<h4>Technology</h4>
-					<ul>
-						{% for tek in page.tech %}
-							<li>{{ tek }}</li>
-					    {% endfor %}
-					</ul>
+{% if page.tech %}
+	<h4>Technology</h4>
+	<ul>
+		{% for tek in page.tech %}
+			<li>{{ tek }}</li>
+	    {% endfor %}
+	</ul>
+{% endif %}
 

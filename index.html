@@ -1,12 +1,12 @@
 ---
-title: Matt Kevan – UX, design & development
+title: Matt Kevan – UX, design & web development
 layout: page
 ---
 <hr>
 <h2>Latest projects</h2>
 <div class="row grid">
 		{% assign sort = (site.projects | sort: 'date' | reverse ) %}
-		{% for work in sort limit: 3 %}
+		{% for item in sort limit: 3 %}
 			<div class="col-xs-12 col-sm-6 col-md-4">
 			    {% include work-teaser.html %}
 			</div>

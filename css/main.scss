@@ -177,6 +177,9 @@ hr {
 		text-decoration: underline;
 		color: #666;
 	}
+	img {
+		width: 100%;
+	}
 }
 
 // Header & navigation
@@ -284,6 +287,7 @@ hr {
 	.inner {
 		padding: 0 0 20px 0;
 	}
+	h4 { margin: 15px 0 5px 0; }
 }
 
 .article-teaser {
@@ -309,7 +313,10 @@ hr {
 }
 
 
-
+.slc {
+	margin-bottom: 30px;
+	img {width: 100%;}
+}
 .grid-item {
 	.logo {
 		float: right;

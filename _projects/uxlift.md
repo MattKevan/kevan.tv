@@ -8,4 +8,5 @@ tags:
 - Personal project
 - Web development
 - Jekyll
+layout: linkpost
 ---
