@@ -13,16 +13,18 @@ layout: default
 <hr>
 
 {% if page.slides %}
-	<div class="content bgw">
-		{% include carousel.html %}
-	</div>
+	{% include carousel.html %}
 {% endif %}
 
-<div class="content">
-	{{ content }}
-</div>
+{{ content }}
 
-<p><a href="{{ page.work-url }}" target="_blank">Visit the site »</a></p>
+{% if page.gallery %}
+	{% include gallery.html %}
+{% endif %}
+
+{% if page.work-url %}
+	<p><a href="{{ page.work-url }}" target="_blank">Visit the site »</a></p>
+{% endif %}
 
 {% if page.roles %}
 	<h4>My roles</h4>

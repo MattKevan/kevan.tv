@@ -6,61 +6,62 @@ thumbnail: "/images/drawing.png"
 tags:
 - Personal project
 - Art
+cover: drawing-cover.jpg
 gallery:
-  - l: "/images/projects/doodle-x2.jpg"
-    t: "/images/projects/doodle-x2.jpg"
+  - l: "/images/doodle-x2.jpg"
+    t: "/images/doodle-x2.jpg"
     c: "iPad Pro, Procreate and Apple Pencil."
     s: 12
-  - l: "/images/projects/doodle-x1.jpg"
-    t: "/images/projects/doodle-x1.jpg"
+  - l: "/images/doodle-x1.jpg"
+    t: "/images/doodle-x1.jpg"
     c: "iPad Pro, Procreate and Apple Pencil."
     s: 12
-  - l: "/images/projects/doodle-x.jpg"
-    t: "/images/projects/doodle-x.jpg"
+  - l: "/images/doodle-x.jpg"
+    t: "/images/doodle-x.jpg"
     c: "iPad Pro, Procreate and Apple Pencil."
     s: 12
-  - l: "/images/projects/doodle-1.jpg"
-    t: "/images/projects/doodle-1.jpg"
+  - l: "/images/doodle-1.jpg"
+    t: "/images/doodle-1.jpg"
     c: "Pen and ink."
     s: 8
-  - l: "/images/projects/doodle-2.jpg"
-    t: "/images/projects/doodle-2.jpg"
+  - l: "/images/doodle-2.jpg"
+    t: "/images/doodle-2.jpg"
     c: "Pen and ink."
     s: 4 
-  - l: "/images/projects/doodle-0.jpg"
-    t: "/images/projects/doodle-0.jpg"
+  - l: "/images/doodle-0.jpg"
+    t: "/images/doodle-0.jpg"
     c: "iPad Pro, Procreate and Apple Pencil."
     s: 12
-  - l: "/images/projects/doodle-3.jpg"
-    t: "/images/projects/doodle-3.jpg"
+  - l: "/images/doodle-3.jpg"
+    t: "/images/doodle-3.jpg"
     c: "Pen and ink."
     s: 4 
-  - l: "/images/projects/doodle-7.jpg"
-    t: "/images/projects/doodle-7.jpg"
+  - l: "/images/doodle-7.jpg"
+    t: "/images/doodle-7.jpg"
     c: "Pen and ink."
     s: 4
-  - l: "/images/projects/doodle-8.jpg"
-    t: "/images/projects/doodle-8.jpg"
+  - l: "/images/doodle-8.jpg"
+    t: "/images/doodle-8.jpg"
     c: "Pen and ink."
     s: 4
-  - l: "/images/projects/doodle-10.jpg"
-    t: "/images/projects/doodle-10.jpg"
+  - l: "/images/doodle-10.jpg"
+    t: "/images/doodle-10.jpg"
     c: "Pen and ink."
     s: 6
-  - l: "/images/projects/doodle-9.jpg"
-    t: "/images/projects/doodle-9.jpg"
+  - l: "/images/doodle-9.jpg"
+    t: "/images/doodle-9.jpg"
     c: "Pen and ink."
     s: 6 
-  - l: "/images/projects/doodle-4.jpg"
-    t: "/images/projects/doodle-4.jpg"
+  - l: "/images/doodle-4.jpg"
+    t: "/images/doodle-4.jpg"
     c: "Pen and ink."
     s: 4
-  - l: "/images/projects/doodle-5.jpg"
-    t: "/images/projects/doodle-5.jpg"
+  - l: "/images/doodle-5.jpg"
+    t: "/images/doodle-5.jpg"
     c: "Pen and ink."
     s: 4
-  - l: "/images/projects/doodle-6.jpg"
-    t: "/images/projects/doodle-6.jpg"
+  - l: "/images/doodle-6.jpg"
+    t: "/images/doodle-6.jpg"
     c: "Pen and ink."
     s: 4 
 ---
