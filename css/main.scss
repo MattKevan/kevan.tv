@@ -37,20 +37,12 @@
 // Basic typography 
 
 body {
-	color: #666;
-	font-family: 'Plex', Helvetica, Arial, sans-serif;
-  	background-color: #fff;
-  	font-weight: normal;
-  	line-height: 1.8em;
+
 }
 
 // Headings
 
 h1, h2, h3, h4 {
-	font-family: 'Plex', Helvetica, Arial, sans-serif;
-	font-weight: lighter;
-	color: #000;
-	line-height: 1.4em;
 	
 }
 
@@ -240,25 +232,6 @@ hr {
 	p {margin: 0;}
 }
 
-.aside {
-	font-size: .8em;
-
-	ul {padding: 0;}
-	li {
-		list-style: none;
-		margin-bottom: 5px;}
-	h4 {
-		font-size: 1em;
-		text-transform: uppercase;
-		margin: 0 0 5px;
-	}
-	.inner {
-
-	}
-}
-
-
-
 .caption {
 	margin: 10px 0 0 0;
 }
@@ -267,17 +240,6 @@ hr {
 	text-align: center;
 	height: 300px;
 }
-
-.info {
-	h4 {
-		font-weight:700;
-		}
-	ul {padding: 0;}
-	li {
-		list-style-type: none;
-	}
-}
-
 
 // Page structure
 
@@ -298,16 +260,6 @@ hr {
 	padding-bottom: 20px; 
 }
 
-
-
-.grid-image {
-	padding: 20px;
-	vertical-align: middle;
-    display: table-cell;
-}
-
-
-
 ::selection {
 	background: #FFFF00;
 }
@@ -317,37 +269,6 @@ hr {
 	margin: 0 0 30px 0;
 	img {width: 100%;}
 }
-.grid-item {
-	.logo {
-		float: right;
-		margin: 0 0 0 10px;
-		width: 60px;
-	}
-	h4 { margin: 0 0 10px 0; }
-	p.tags {margin: 15px 0 0 0; }
-
-	@media (min-width: $screen-sm-min) {
-		height: 220px;
-	}
-	@media (min-width: $screen-md-min) {
-		height: 200px;
-	}
-}
-.masonry {
-	margin: 10px 0;
-}
-.masonry-sizer,
-.masonry-item {
-	img {width: 100%;}
-	margin-bottom: 30px;
-	.modal-body {
-		padding-top: 0;
-		padding-bottom: 0;
-	}
-}
-
-
-
 
 
 /**
