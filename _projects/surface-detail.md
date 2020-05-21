@@ -1,8 +1,8 @@
 ---
-title: Drawing
+title: Surface Detail
 date: '2020-3-24 00:00:00'
 description: "Abstract artwork with pen, ink, paper and iPad."
-thumbnail: "/images/drawing.png"
+thumbnail: "/images/drawing.jpg"
 tags:
 - Personal project
 - Art
