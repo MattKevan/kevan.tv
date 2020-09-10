@@ -13,58 +13,24 @@ layout: default
 <hr>	
 
 {{ content }}		
-					<h4>My role</h4>
-					<ul>
-						{% for role in page.roles %}
-							<li>{{role}}</li>
-					    {% endfor %}
-					</ul>
-				</div>
-
-				<div class="col-xs-6 col-md-12">
-					<h4>Technology</h4>
-					<ul>
-						{% for tek in page.tech %}
-							<li>{{ tek }}</li>
-					    {% endfor %}
-					</ul>
-
 	
-		{% assign counter = 0 %}
-		{% for g in page.group %}
-		<div class="row">
-			<div class="col-xs-12 clearfix">
-				<h4>{{ g.grouptitle }}</h4>
-			</div>
-		</div>
-			<div class="row masonry">
+	
 
+		{% for g in page.group %}
+
+
+				<h4>{{ g.grouptitle }}</h4>
+
+
+
+				<div class="card-columns">
 			{% for i in g.images %}
 
-				<div class="masonry-item col-xs-6 col-md-4">
-					<img src="{{ i.img }}" data-toggle="modal" data-target="#{{ counter }}a" />
-					<!-- Modal -->
-					<div class="modal fade" id="{{ counter }}a" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-					  	<div class="modal-dialog" role="document">
-						    <div class="modal-content">
-						    	<div class="modal-header">
-							        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-							        <h4 class="modal-title">{{ i.cap }}</h4>
-							      </div>
-						      	<div class="modal-body">
-							      	<div class="row">
-								       <img src="{{ i.img }}"/>
-								       
-									</div>
-						      	</div>
-						    </div>
-						</div>
-					</div><!--/modal-->
-
-
-				{% capture counter %}{{ counter | plus:'1' }}{% endcapture %}
-
+				<div class="card">
+					<img src="{{ i.img }}"  />
+			
 				</div>
+	
 			{% endfor %}
 			</div>
 

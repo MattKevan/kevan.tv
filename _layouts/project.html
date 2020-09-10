@@ -16,7 +16,11 @@ layout: default
 	{% include carousel.html %}
 {% endif %}
 
-{{ content }}
+<div class="row">
+	<div class="col col-md-10">
+		{{ content }}
+	</div>
+</div>
 
 {% if page.gallery %}
 	{% include gallery.html %}

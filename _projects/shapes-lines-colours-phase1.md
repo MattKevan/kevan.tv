@@ -8,6 +8,7 @@ tags:
 - Art
 layout: slc-07
 cover: slc1-cover.jpg
+theme: dark
 ---
 
 To make good use of my commuting time, I set myself the challenge of creating at least three pieces of abstract art each journey, exploring form, colour, texture and variation. 

@@ -26,18 +26,10 @@ tags:
 - Print design
 - Branding
 
-roles:
-- Creative direction
-- Visual design
-- Copywriting
-
-tech:
-- Indesign
-- Photoshop
-- Illustrator
-
 weight: 1
 
 ---
 
-Between 2004 and 2011 I was creative manager at Attend, responsible for writing and designing the organisation's publications and websites. This included rebranding the organisation from the National Association of Hospital and Community Friends (NAHCF) to Attend.
+Between 2004 and 2011 I was creative manager at Attend, responsible for writing, editing and designing the organisation's publications, magazines and website. I was also responsible for implementing the organisation's rebrand from National Association of Hospital and Community Friends (NAHCF) to Attend.
+
+During this time I set up and ran a project that helped designers who had experienced traumatic brain injuries rehabilitate and return to work by providing design services to Attend's member charities.

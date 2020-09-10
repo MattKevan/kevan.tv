@@ -5,26 +5,6 @@ description: Branding and design for a gallery dedicated to contemporary illustr
 thumbnail: "/images/tig/gallery.png"
 layout: print-design
 
-group:
-- grouptitle: " "
-  images:
-  - img: "https://res.cloudinary.com/dl4abuxel/image/upload/c_scale,q_auto:eco,w_800/v1546731610/Business.jpg"
-    cap: "Business card"
-  - img: "https://res.cloudinary.com/dl4abuxel/image/upload/c_scale,q_auto:eco,w_800/v1546731610/Letterhead.jpg"
-    cap: "Letterhead"
-  - img: "https://res.cloudinary.com/dl4abuxel/image/upload/c_scale,q_auto:eco,w_800/v1546731610/Compliment_slip.jpg"
-    cap: "Compliment slip"
-  - img: "https://res.cloudinary.com/dl4abuxel/image/upload/c_scale,q_auto:eco,w_800/v1546731610/about_the_gallery.jpg"
-    cap: "Launch flyer"
-  - img: "https://res.cloudinary.com/dl4abuxel/image/upload/c_scale,q_auto:eco,w_800/v1546731610/Watch_this_space.jpg"
-    cap: "Flyer for the first exhibition"    
-  - img: "https://res.cloudinary.com/dl4abuxel/image/upload/c_scale,q_auto:eco,w_800/v1546731610/Sanctuary_of_Wilderness.jpg"
-    cap: "Exhibition flyer"    
-  - img: "https://res.cloudinary.com/dl4abuxel/image/upload/c_scale,q_auto:eco,w_800/v1546731610/Watch_this_space_2.jpg"
-    cap: "Exhibition flyer"
-  - img: "https://res.cloudinary.com/dl4abuxel/image/upload/c_scale,q_auto:eco,w_800/v1546731610/Folder.jpg"
-    cap: "Folder cover" 
-
 tags:
 - Print design
 - Branding
@@ -47,3 +27,7 @@ Opened by Oliver Jelf in 2007, The Illustration Gallery was one of the first gal
 I was responsible for creating the brand, as well as designing the exhibition flyers and publications. The brief for the brand was that it should have the same quality and feel as a national contemporary art gallery, such as the Barbican or the Tate Modern.
 
 In 2011, Oliver and I joined forces to launch an online version of the gallery, creating a curated marketplace for illustrators to sell their work.
+
+<img src="/images/illo-letterheads.jpg" class="fullwidth">
+<img src="/images/illo1.png" class="fullwidth">
+<img src="/images/illo3.jpg" class="fullwidth">

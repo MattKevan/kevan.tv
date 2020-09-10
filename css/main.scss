@@ -42,6 +42,7 @@
 
 body {
 	font-weight: normal;
+	-webkit-font-smoothing: antialiased;
 }
 
 // Headings
@@ -88,6 +89,26 @@ strong, label {
 	font-weight: bold;
 }
 
+.dark {
+	background-color: #1A1A1A;
+	a {color: #fff;}
+	h1,h2,h3,h4 {
+		color: #fff;
+	}
+	p {color: #F3F3F3;}
+	hr {border-color: #575757 !important;}
+	.tags {
+		span {
+			border-color: #575757;
+		}
+	}
+	.cover-image {
+		.overlay {
+			background: none;
+		}
+	}
+}
+
 blockquote {
 	border-left: 5px solid #F3F3F3;
 	padding: 10px 20px;
@@ -118,6 +139,7 @@ hr {
 
 .fullwidth {
 	width: 100%;
+	margin-bottom: 20px;
 }
 
 .imgfit img {
@@ -279,7 +301,20 @@ hr {
 	margin: 0 0 30px 0;
 	img {width: 100%;}
 }
+.card {
+	img {width: 100%;}
+	margin-bottom: 30px;
+}
+.card-columns {
+	column-count: 1;
 
+	@media (min-width: $screen-sm-min) {
+		column-count: 2;
+	}
+	@media (min-width: $screen-md-min) {
+		column-count: 3;
+	}
+}
 
 /**
  * Owl Carousel v2.3.4

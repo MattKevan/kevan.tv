@@ -2,51 +2,51 @@
 <html lang="en">
   {% include head.html %}
 
-  <body>
-    
+  <body class="{% if page.theme %}{{ page.theme }}{% endif %}">
+	
   <div class="mobile-header visible-xs">
-    <div class="container">
-      <div class="row">
+	<div class="container">
+	  <div class="row">
 
-        <div class="col-xs-12">
-          {% include header.html %}
-        </div>
+		<div class="col-xs-12">
+		  {% include header.html %}
+		</div>
 
-      </div>
-    </div>
+	  </div>
+	</div>
   </div>
 
 
-      {% if page.cover %}
-        <div class="cover-image" style="background-image: url(/images/{{ page.cover }});">
-          <div class="overlay">
-          </div>
-        </div>
-      {% endif %}
-    <div class="wrapper">
+	  {% if page.cover %}
+		<div class="cover-image" style="background-image: url(/images/{{ page.cover }});">
+		  <div class="overlay">
+		  </div>
+		</div>
+	  {% endif %}
+	<div class="wrapper">
 
 
 
-      <div class="container">
-        <div class="row">
+	  <div class="container">
+		<div class="row">
 
-          <div class="col-xs-12 col-sm-2 clearfix">
-            <div class="side">
-              <div class="desktop-header hidden-xs">
-             {% include header.html %}
-           </div>
-            </div>
-          </div>
+		  <div class="col-xs-12 col-sm-2 clearfix">
+			<div class="side">
+			  <div class="desktop-header hidden-xs">
+			 {% include header.html %}
+		   </div>
+			</div>
+		  </div>
 
-          <div class="col-xs-12 col-sm-10">
-            <div class="main"> 
-          		{{ content }}
-          	</div>
-              {% include footer.html %}
-          </div>
+		  <div class="col-xs-12 col-sm-10">
+			<div class="main"> 
+				{{ content }}
+			</div>
+			  {% include footer.html %}
+		  </div>
 
-      </div>
-    </div>
+	  </div>
+	</div>
   </div>
 
   </body>
