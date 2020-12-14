@@ -15,9 +15,9 @@
 }
 
 @font-face {
-    font-family: 'Plex';
+    font-family: 'Plex Light';
     src: url('fonts/plex/IBMPlexSans-Light.woff');
-    font-weight: lighter;
+    font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
@@ -45,6 +45,16 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 
+#image-map {       
+	width: 100%;
+    height: 640px;
+}
+.leaflet-container {
+	background-color: #fff!important;
+}
+.leaflet-control-attribution {
+	display: none;
+}
 // Headings
 
 h1, h2, h3, h4 {
@@ -139,7 +149,7 @@ hr {
 
 .fullwidth {
 	width: 100%;
-	margin-bottom: 20px;
+	margin: 15px 0;
 }
 
 .imgfit img {

@@ -66,7 +66,7 @@ $line-height-base:        1.8 !default; // 20/14
 $line-height-computed:    floor(($font-size-base * $line-height-base)) !default; // ~20px
 
 //** By default, this inherits from the `<body>`.
-$headings-font-family:    inherit !default;
+$headings-font-family:    "Plex Light", Helvetica, Arial, sans-serif !default;
 $headings-font-weight:    lighter !default;
 $headings-line-height:    1.4 !default;
 $headings-color:          $gray-base !default;

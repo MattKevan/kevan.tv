@@ -1,0 +1,13 @@
+---
+title: Artwork
+layout: page
+permalink: "/artwork/"
+---
+	<div class="row grid">
+		{% assign sort = site.projects | where: 'tags','Art' | sort: 'date' | reverse %}
+		{% for item in sort %}
+			<div class="col-xs-12 col-sm-6 col-md-4">
+			    {% include work-teaser.html %}
+			</div>
+		{% endfor %}
+	</div>

@@ -5,7 +5,7 @@ permalink: "/articles/"
 ---
 
 
-{% assign datesort = (site.articles | sort: 'date' | reverse) %}
+{% assign datesort = site.articles | sort: 'date' | reverse %}
 	{% for article in datesort %}
 		
 		    {% include article-teaser.html %}

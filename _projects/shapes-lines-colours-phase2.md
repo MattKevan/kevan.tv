@@ -8,6 +8,7 @@ tags:
 - Personal project
 - Art
 layout: slc-2
+
 ---
 
 For the next phase of Shapes Lines Colours, I decided to keep the previous rules – pieces had to be created on an iPhone and take no more than 10 minutes – and also add some new ones. I could only use lines and one colour. That colour had to start at red and advance by three RGB colour points for each new piece. The phase would not be finished until I'd cycled through the entire spectrum.
