@@ -1,5 +1,5 @@
 ---
-title: "The best sources for high-resolution public domain artwork"
+title: "The best sites to find high-resolution public domain art and illustration"
 date: 2020-12-14 00:00:00 +0000
 layout: post
 tags:
