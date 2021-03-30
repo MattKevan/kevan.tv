@@ -6,6 +6,8 @@
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import "bootstrap";
 
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Basic:ital,wght@0,400;0,700;1,400&display=swap');
+
 @font-face {
     font-family: 'Plex';
     src: url('fonts/plex/IBMPlexSans-Regular.woff');
@@ -63,6 +65,11 @@ h1, h2, h3, h4 {
 
 h1 {
 	margin: 0 0 10px 0;
+	font-size: 1.8em;
+	@media (min-width: $screen-sm-min) { 
+		font-size: 2.25em;
+
+		}
 }
 
 h2 {
@@ -113,6 +120,7 @@ strong, label {
 		}
 	}
 	.cover-image {
+
 		.overlay {
 			background: none;
 		}
@@ -246,6 +254,9 @@ hr {
 		height: 20px !important;
 		img {width: 40px;}
 
+	}
+	.site-title {
+		line-height: 2em;
 	}
 
 	@keyframes cyc {

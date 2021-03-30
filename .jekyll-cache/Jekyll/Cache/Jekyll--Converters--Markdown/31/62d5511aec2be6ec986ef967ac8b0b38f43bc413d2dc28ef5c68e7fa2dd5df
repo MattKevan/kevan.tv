@@ -1,0 +1,63 @@
+I":<p>With a full-time job and young child I don’t have a lot of time to work on personal projects. The only time I really have is when commuting on the Tube. So my challenge is to design, develop and write content for a website – this one – almost entirely on an iPad and iPhone.</p>
+
+<p>Looking for something I could use to write articles as well as manage daily notes, I found a number of contenders based on the following criteria:</p>
+
+<h3 id="markdown-based">Markdown based</h3>
+<p>Given half the chance I spend ages fiddling with the fonts in a normal word processor, rather than focusing on writing. Markdown is purely a markup syntax, relying on the writing app for its styling, so there’s less excuse to procrastinate. And as Markdown is a de-facto standard with a plain text file format, there’s no software lock-in.</p>
+
+<h3 id="well-designed">Well designed</h3>
+<p>The default styles need to be well designed and the user interface should put as little between me and the words as possible. Fighting a clunky UI or poorly typeset text is a recipe for frustration.</p>
+
+<h3 id="icloud-enabled">iCloud enabled</h3>
+<p>Documents stranded on a device are useless, so there needs to be a painless way to sync them. I use iCloud extensively, so that’s what I’m looking for. If it has a companion desktop app, preferably with handoff support, so much the better.</p>
+
+<h2 id="ia-writer">IA Writer</h2>
+<p>IA Writer’s developers have clearly paid  a great deal of attention to every part of the user experience: it’s fast, slick and well designed.</p>
+
+<p>The core concept behind how it works is the switch between writing and preview modes. Writing mode uses a monospaced font and shows the Markdown syntax. Preview mode shows the rendered document, and it’s possible to change the way it looks by picking a different theme. It’s a neat idea, but sometimes catches me out when trying to make an edit while in preview mode.</p>
+
+<p>The features are limited compared to others on this list, but what it does it does well. The decision by the developers to focus on writing was obviously deliberate. And the right one: it’s a good app.</p>
+
+<h3 id="price">Price</h3>
+<p>iOS app £4.99, macOS app £28.99.</p>
+
+<p><a href="https://ia.net/writer">Website</a></p>
+
+<h2 id="bear">Bear</h2>
+<p>Bear has the simplicity of IA Writer while adding note-taking features like checkboxes and tags. However, unlike IA writer it renders Markdown inline, so there’s no split between editing and viewing.</p>
+
+<p>My favourite of the apps on this list, Bear strikes a good balance between simplicity and features. I’m using it to write this article, as well as to manage my work notes and tasks.</p>
+
+<p>For me, there’s only two things missing: the ability to create folders in the sidebar, and to insert any date into a document via the toolbar, not just today’s.</p>
+
+<h3 id="price-1">Price</h3>
+<p>Bear bare is free. Bear Pro, which adds iCloud sync, exports and additional themes is an in-app subscription of  £1.29 per month or £13.99 per year.</p>
+
+<p><a href="http://www.bear-writer.com">Website</a></p>
+
+<h2 id="editorial">Editorial</h2>
+<p>Made by the same people behind the excellent Pythonista, Editorial’s automation tools, templates and integration with other apps makes it very powerful. It’s possible to script new workflows with Python, and there’s a website for downloading ready-made ones.</p>
+
+<p>I’ve not fully explored the workflow functionality, but it’s amazing just how powerful it is. For example I was able to create a template which automatically generated Jekyll post frontmatter when starting a new document.</p>
+
+<p>However, the fact that Editorial only syncs via Dropbox makes it a non-starter for me as it cuts off a large part of my workflow. iCloud support has been requested many times on Editorial’s product forums over the last few years, so it seems like the developers are just not interested.</p>
+
+<h3 id="price-2">Price</h3>
+<p>iOS app £4.99.</p>
+
+<p><a href="http://omz-software.com/editorial/">Website</a></p>
+
+<h2 id="also-of-note">Also of note</h2>
+<h3 id="ulysses">Ulysses</h3>
+<p>Functionally similar to IA Writer, Ulysses looks like it has a clean writing interface and can export to a range of formats including ePub. I’ve not tried it as it requires a steep subscription to use, especially when compared to other options.</p>
+
+<h4 id="price-3">Price</h4>
+<p>£4.49/month or £34.99/year in-app subscription to use both iOS and macOS apps.</p>
+
+<h3 id="scrivener">Scrivener</h3>
+<p>Scrivener is too much for my needs and therefore out of scope of this article, but I had to mention it for the sake of completeness. It’s designed for authors and has a lot of tools to manage long-form writing projects, including index cards, a built in browser, research notes and more.</p>
+
+<h4 id="price-4">Price</h4>
+<p>iOS £19.99, macOS £43.99.</p>
+
+:ET

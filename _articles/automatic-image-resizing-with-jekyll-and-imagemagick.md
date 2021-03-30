@@ -67,17 +67,19 @@ image2: ...
 
 Then as each preset is stored in its own folder, all I needed to do was put in the path for the preset I wanted in front of the liquid tag for printing the image field.
 
-The generated output looks something like this:
+The tag and generated output looks something like this:
 
 For 'thumbnail' presets:
 
 ```
+{% raw %}<img src="/images/thumbnail/{{ page.image1 }}" /> {% endraw %}
 <img src="/images/thumbnail/myimage.jpg" /> 
 ```
 
 For 'large' presets:
 
 ```
+{% raw %}<img src="/images/large/{{ page.image1 }}" />{% endraw %}
 <img src="/images/large/myimage.jpg" /> 
 ```
 

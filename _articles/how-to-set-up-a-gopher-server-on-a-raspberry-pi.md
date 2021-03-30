@@ -5,8 +5,9 @@ layout: post
 tags:
 - Gopher
 - Internet history
+image: /images/gopher2-2.jpg
 description: Run your own Gopher server in a few easy steps (and some harder ones). 
-
+cover: pi-banner.jpg
 ---
 
 To get the full Gopher experience, I realised I had to set up my own Gopher server. This turned out to be much easier than expected.  I used a Raspberry Pi, but it'll run on any Linux machine. 

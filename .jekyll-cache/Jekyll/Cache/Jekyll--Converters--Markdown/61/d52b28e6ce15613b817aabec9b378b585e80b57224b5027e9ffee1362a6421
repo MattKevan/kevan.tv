@@ -1,0 +1,18 @@
+I"a<h2 id="background">Background</h2>
+
+<p>The Jesuits are a Catholic religious order, founded in 1540 by St Ignatius of Loyola, carrying out their mission in over 100 countries worldwide.</p>
+
+<h2 id="the-challenge">The challenge</h2>
+<p>Jesuits in Britain wanted a new website to help seekers on their journey of faith. It would contain daily prayers, resources, events, retreats and more.</p>
+
+<p>The new site would also replace the websites of their three retreat centres, bringing their information, events and resources into one place.</p>
+
+<h2 id="the-solution">The solution</h2>
+<p>The first thing I did was to create a migration strategy for the existing sites.</p>
+
+<p>The brief was that each centre should have its own section in the new site, built from a common set of content types and components, while allowing enough customisation for each to have its own identity.</p>
+
+<p>I conducted a thorough audit of each site to discover where the functionality and content types could be shared – these became the core microsite features.</p>
+
+<p>To help people go deeper on their faith journey, I leveraged the power of Drupal’s taxonomy system. As well as tagging content by topic, content could be tagged by depth. So content for people just starting out would be tagged with level 1 and content for people with more experience would be tagged with level five.</p>
+:ET

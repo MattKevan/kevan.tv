@@ -1,0 +1,78 @@
+I"`<p>However, where they’re weakest - and the reason why content management systems were created in the first place - is in how they manage content.</p>
+
+<p>If you’re happy with the command line, Git repos and markdown files then it’s fine, but a relatively untechnical user wouldn’t get very far at all. There’s no way I’d hand a standard Jekyll site to a client unless I was confident they absolutely knew what they were doing.</p>
+
+<p>However, there are a range of services which set out to solve this problem, combining the speed and low overheads of a static site with the ease of use of a traditional CMS.</p>
+
+<h2 id="forestryio"><a href="http://www.forestry.io">Forestry.io</a></h2>
+
+<p>Just by connecting your git repo or uploading your site as a Zip, Forestry.io will automatically generate a content management system from your pages, posts and custom collections. It even interprets your front matter to generate the correct fields - image uploaders, tags, text etc.</p>
+
+<h4 id="pros">Pros</h4>
+
+<p>It’s probably the quickest and easiest of the options available to get running, and is perfect for simple sites (I use it for this one). The free plan is very generous, so you can get a long way before needing to pay.</p>
+
+<h4 id="cons">Cons</h4>
+
+<p>It’s probably a bit too feature-light for more complex sites, where you may need multiple content editors or defined levels of access.</p>
+
+<p>The interface also doesn’t work well on mobile, but apparently there are some updates on their way so hopefully this will be fixed soon. Paid plan is expensive.</p>
+
+<h4 id="pricing">Pricing</h4>
+
+<p>$99/month per site for 11+ users.</p>
+
+<h2 id="cloudcannon"><a href="http://www.cloudcannon.com">Cloudcannon</a></h2>
+
+<p>Cloudcannon works similarly to Forestry.io in that it auto-generates a CMS from your site, but it has some additional features which make it a good option for larger or more complex sites.</p>
+
+<h4 id="pros-1">Pros</h4>
+
+<p>It has inline editing, so users can edit content directly on the page, and it allows you to password protect all or some of your site. This means you can create an intranet or members-only area without the overhead of a traditional CMS.</p>
+
+<h4 id="cons-1">Cons</h4>
+
+<p>The pricing is probably too steep for a single site, but if you’re a freelancer or in an agency it would make a ton of sense.</p>
+
+<h4 id="pricing-1">Pricing</h4>
+
+<p>$25 per month per developer for the basic plan, or $75 per month per developer to access the custom user authentication features. All plans include unlimited websites.</p>
+
+<h2 id="proseio"><a href="http://www.prose.io">Prose.io</a></h2>
+
+<p>Created by Development Seed (who dropped Drupal to go all-in on static-sites a few years ago), Prose.io is a basic content editor for Github-based sites.</p>
+
+<h4 id="pros-2">Pros</h4>
+
+<p>It’s simple, free and mostly works.</p>
+
+<h4 id="cons-2">Cons</h4>
+
+<p>It’s only for Github, the features are basic and I found the interface confusing - I could never tell whether an update had actually published or not.</p>
+
+<h4 id="pricing-2">Pricing</h4>
+
+<p>Free.</p>
+
+<h2 id="siteleaf"><a href="http://www.siteleaf.com">Siteleaf</a></h2>
+
+<p>Broadly similar to the other two services, Siteleaf has a couple of interesting features which make it stand out.</p>
+
+<h4 id="pros-3">Pros</h4>
+
+<p>Multiple user roles on the team plan and up. Users can be admins, publishers or writers, meaning Siteleaf could be a good option for larger organisations. It also allows you to define custom collections through the web UI, and there’s a pretty comprehensive API to integrate with other apps or services.</p>
+
+<h4 id="cons-3">Cons</h4>
+
+<p>Only syncs via FTP, S3 or GitHub - no BitBucket support. Can only connect to public repos on the free plan.</p>
+
+<h4 id="pricing-3">Pricing</h4>
+
+<p>Free to $89+ per site per month. Multiple user roles need the team plan at $29 per site per month.</p>
+
+<h2 id="honourable-mentions">Honourable mentions</h2>
+
+<h4 id="contentful-userapp-prismicio"><a href="http://www.contentful.com">Contentful</a>, <a href="http://www.userapp.com">Userapp</a>, <a href="http://www.prismic.io">Prismic.io</a></h4>
+
+<p>These are more API-driven content management systems as a service, and while they are powerful, they may not be so straightforward to integrate. However, the benefits are that you could use the same service to manage content and users across multiple platforms.</p>
+:ET

@@ -5,6 +5,7 @@ layout: post
 tags:
 - Gopher
 - Internet history
+image: /images/gopher.jpg
 description: In the beginning, before the Web, there was Gopher. 
 
 ---

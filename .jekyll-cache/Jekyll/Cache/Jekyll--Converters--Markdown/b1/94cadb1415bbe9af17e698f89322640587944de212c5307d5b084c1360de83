@@ -1,0 +1,44 @@
+I"_<p>Introduced in 1991, Gopher is a lightweight protocol designed for distributing, searching and retrieving documents over the Internet. It’s long been supplanted by HTTP and the modern Web as we know it, but it stubbornly clings to life in various places. And there’s many reasons why in 2019 it’s still an interesting choice to use.</p>
+
+<h2 id="why-gopher-why-now">Why Gopher? Why now?</h2>
+
+<p><strong>It’s lightweight and fast.</strong> Gopher pages are just plain text, in compariston to web pages which can contain many megabytes of images, CSS, ads and tracking scripts. Perfect for low-bandwidth connections and low powered machines.</p>
+
+<p><strong>It’s interesting.</strong> It’s fun to see how the Internet got to where it is today and to explore pre-Web technologies. Had Tim Berners Lee never sat down in front of his Next cube and written HTTP, we may all still be using Gopher today.</p>
+
+<p><strong>It’s noncommercial.</strong> The Web as we know it today is dominated by megacorporations, turning the dream of a better world through cyberspace into a surveillance capitalism nightmare. Gopher sidesteps all of that. A hark back to a simpler and more optimistic time.</p>
+
+<h2 id="how-do-i-browse-gopher-sites">How do I browse Gopher sites?</h2>
+
+<p>Gopher isn’t supported natively by most Web browsers, but there’s still plenty of ways to access Gopher content:</p>
+
+<h4 id="gopher-on-ios">Gopher on iOS</h4>
+
+<p>I was delighted to find there is a native iOS <a href="https://apps.apple.com/gb/app/gopher-client/id1235310088">Gopher client</a> – £1.99 well spent.</p>
+
+<h4 id="gopher-on-the-mac">Gopher on the Mac</h4>
+
+<p>After exploring a bunch of alternatives, I found the <a href="https://en.wikipedia.org/wiki/Lynx_%28web_browser%29">Lynx</a> text-only browser worked best. Install with <a href="https://brew.sh">Homebrew</a> by running <code class="language-plaintext highlighter-rouge">brew install lynx</code>. Accessing a Gopher site is as simple as <code class="language-plaintext highlighter-rouge">lynx gopher://&lt;site-url&gt;</code>.</p>
+
+<h4 id="gopher-in-a-browser">Gopher in a browser</h4>
+
+<p>There are <a href="http://gopher.floodgap.com/overbite/">Firefox</a> and <a href="https://chrome.google.com/webstore/detail/burrow-gopherspace-explor/plhaaggiajlcjclagmjnjmaonhkdhhji">Chrome</a> extensions, and Floodgap maintains a <a href="http://gopher.floodgap.com/gopher/">Gopher-to-HTTP proxy</a>, enabling access to any Gopher site in a standard Web browser.</p>
+
+<h2 id="what-content-can-i-find">What content can I find?</h2>
+
+<p>I was surprised at how much content is actually available. Most Gopher sites are hosted by enthusiasts or community-run servers, and it’s all determinedly, refreshingly non-commercial. Here’s some recommended links, though you’ll need one of the clients above to view them:</p>
+
+<p><strong><a href="gopher://gopher.floodgap.com">Floodgap</a></strong> – Probably the best place to start exploring Gopherspace. As well as hosting Veronica-2, a Gopher search engine, Floodgap also links to a wide range of Gopher resources.</p>
+
+<p><strong><a href="gopher://gopherpedia.com">Gopherpedia</a></strong> – A direct Gopher interface to Wikipedia.</p>
+
+<p><strong><a href="gopher://hngopher.com">Hacker News</a></strong> – A mirrored version of Hacker News, updated hourly.</p>
+
+<p><strong><a href="gopher://gopherreddit.com">Gophereddit</a></strong> – Simple Gopher interface to Reddit.</p>
+
+<p><strong><a href="gopher://gopher.floodgap.com/1/world">Floodgap’s list of known servers</a></strong> – All servers found by the Veronica-2 search engine.</p>
+
+<p><strong><a href="gopher://gopher.kevan.tv">Kevan.tv</a></strong> – A work-in-progress Gopher version of this site.</p>
+
+<p><strong>See the next post on <a href="/articles/how-to-set-up-a-gopher-server-on-a-raspberry-pi/">how to set up your own Gopher server</a>.</strong></p>
+:ET

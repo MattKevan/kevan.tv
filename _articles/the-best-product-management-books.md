@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The six best product management books
+title: Six great books to be a better product manager
 description: Product management is an evolving field. These are books I've found useful as
   a product manager and I hope you will too.
 author: Matt Kevan
@@ -15,4 +15,6 @@ booklist:
 - i: 13
 - i: 14
 - i: 15
+image: /images/product.jpg
 ---
+

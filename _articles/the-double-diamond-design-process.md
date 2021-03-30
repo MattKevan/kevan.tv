@@ -5,7 +5,7 @@ layout: post
 tags: []
 description: It’s easy as creatives or developers - or anyone really - to start with the
   ‘whats’. What can we do? What should we do? What is it we’re going to do?
-thumbnail: ''
+image: '/images/dd.jpg'
 banner: ''
 tags:
 - Design process

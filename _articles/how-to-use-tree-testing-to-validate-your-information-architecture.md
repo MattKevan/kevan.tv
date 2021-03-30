@@ -8,7 +8,7 @@ tags:
 - Information architecture
 description: Developing a site structure is one of the most difficult and important parts
   of creating information architecture. And the larger the site, the harder it gets.
-thumbnail: ''
+image: '/images/tree.jpg'
 banner: ''
 author: Matt Kevan
 ---

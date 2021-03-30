@@ -1,0 +1,39 @@
+I"K<p>To get the full Gopher experience, I realised I had to set up my own Gopher server. This turned out to be much easier than expected.  I used a Raspberry Pi, but it’ll run on any Linux machine.</p>
+
+<h2 id="setting-up-your-raspberry-pi">Setting up your Raspberry Pi</h2>
+
+<p>The Gopher server will work on any Raspberry Pi, as long as it’s running a Linux variant of some sort. Rasbpian is recommended as it’s the best supported option. Here’s a <a href="https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up">guide to setting up your Pi</a>.</p>
+
+<h2 id="installing-the-gopher-server">Installing the Gopher server</h2>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apt install pygopherd</code></p>
+
+<h2 id="configuring">Configuring</h2>
+
+<p>Not much needs configuring, but the main things to do are to set the network name and the location of your Gopher files.</p>
+
+<p>Open /etc/pygopherd/pygopherd.conf in an editor. Find the ‘servername’ entry and set it to the correct address.</p>
+
+<p><code class="language-plaintext highlighter-rouge">servername = &lt;IP or Domain&gt;</code></p>
+
+<p>If you only want to access it on your local network, use your device’s IP or hostname. If you want to make it available on Internet, then it should be the domain or IP you want to access it from. For example, I wanted my gopher site to be accessible from gopher://gopher.kevan.tv, so I set it to <code class="language-plaintext highlighter-rouge">servername = gopher.kevan.tv</code>.</p>
+
+<p>Next, choose the location of your Gopher files. By default this is /var/gopher but you may want to change it to somewhere more convenient, like in your home folder. In the config file, scroll down to the Filesystem and MIME section and change <code class="language-plaintext highlighter-rouge">root = /var/gopher</code> to <code class="language-plaintext highlighter-rouge">root = &lt;your folder path&gt;</code>.</p>
+
+<h2 id="starting-and-stopping">Starting and stopping</h2>
+
+<p>Your Gopher server will be running by default, but you can control it with:</p>
+
+<p><code class="language-plaintext highlighter-rouge">sudo /etc/init.d/pygopherd stop</code></p>
+
+<p><code class="language-plaintext highlighter-rouge">sudo /etc/init.d/pygopherd start</code></p>
+
+<p><code class="language-plaintext highlighter-rouge">sudo /etc/init.d/pygopherd restart</code></p>
+
+<p>You’ll need to stop and restart your server whenever you modify the config file for the changes to take effect.</p>
+
+<h2 id="remote-access">Remote access</h2>
+
+<p>I wanted to make my Gopher service accessible to the Internet, so I set up port forwarding on my router (Gopher uses port 70) and a dynamic DNS service – in this case a free <a href="https://www.noip.com">No–IP</a> account. I then added a CNAME entry to my domain’s DNS settings to map the No-IP address to gopher.kevan.tv.</p>
+
+:ET

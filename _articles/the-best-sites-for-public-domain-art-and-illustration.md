@@ -1,11 +1,13 @@
 ---
-title: "The best sites to find high-resolution public domain art and illustration"
+title: "The best places to find high-resolution public domain art and illustration"
 date: 2020-12-14 00:00:00 +0000
 layout: post
 tags:
 - Open culture
-description: Finding public domain images at a good enough resolution to print can be challenging, but here’s a list of the best places I’ve found to source high-quality art and illustration.
-
+- Public domain
+description: Finding public domain images at a good enough resolution to print can be challenging, but here’s a list of the best places to source high-quality art and illustration.
+image: /images/open.jpg
+cover: 'wave-banner.jpg'
 ---
 
 ## Publications and blogs
@@ -19,6 +21,8 @@ These sites collect the best public domain images and make them available as cur
 **[Artvee](https://artvee.com)** – Thousands of freely downloadable public domain artworks.
 
 **[RawPixel](https://www.rawpixel.com/)** – Free and premium stock images, as well as an extensive collection of free, high-quality public domain artwork.
+
+**[Archive.org](https://www.archive.org/)** – Vast collection of music, images, video and more. So large it's impossible to browse – lots of the sources below use Archive.org for storage, and it's often easier to find content through them rather than going directly.
 
 ## Sources
 

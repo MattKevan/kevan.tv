@@ -1,0 +1,66 @@
+I"�<p>However, where they’re weakest - and the reason why content management systems were created in the first place - is in how they manage content.</p>
+
+<p>If you’re happy with the command line, Git repos and markdown files then it’s fine, but a relatively untechnical user wouldn’t get very far at all. There’s no way I’d hand a standard Jekyll site to a client unless I was confident they absolutely knew what they were doing.</p>
+
+<p>However, there are a range of services which set out to solve this problem, combining the speed and low overheads of a static site with the ease of use of a traditional CMS.</p>
+
+<hr />
+
+<h3 id="forestryio"><a href="http://www.forestry.io">Forestry.io</a></h3>
+
+<p>Just by connecting your git repo or uploading your site as a Zip, Forestry.io will automatically generate a content management system from your pages, posts and custom collections. It even interprets your front matter to generate the correct fields - image uploaders, tags, text etc. Works with a range of static site generators, including Jekyll, Gatsby, Hugo, 11ty, Next.js and more.</p>
+
+<p><strong>Pros</strong> – It’s probably the quickest and easiest of the options available to get running, and is perfect for simple sites (I use it for this one). The free plan is very generous, so you can get a long way before needing to pay. The available front-matter field widgets are powerful, enabling complex functionality that would usually require a database-backed system.</p>
+
+<p><strong>Cons</strong> – While Forestry is usable on mobile it’s clearly not designed to be mobile first.</p>
+
+<p><strong>Price</strong> – Free for up to three editors, $29 for five editors, $749+ for 10 or more.</p>
+
+<hr />
+
+<h3 id="cloudcannon"><a href="http://www.cloudcannon.com">Cloudcannon</a></h3>
+
+<p>Focused purely on Jekyll, Cloudcannon works similarly to Forestry.io in that it auto-generates a CMS from your site, but it has some additional features which make it a good option for larger or more complex sites.</p>
+
+<p><strong>Pros</strong> – It has inline editing, so users can edit content directly on the page, and it allows you to password protect all or some of your site. This means you can create an intranet or members-only area without the overhead of a traditional CMS.</p>
+
+<p><strong>Cons</strong> – The pricing is aimed more at freelancers and agencies, and functionality such as inline editing ties you into the platform a bit more deeply than other options.</p>
+
+<p><strong>Price</strong> – Free for one user and basic Git synchronisation, $25/m or more for more functionality including hosting.</p>
+
+<hr />
+
+<h3 id="netlifycms"><a href="https://www.netlifycms.org">NetlifyCMS</a></h3>
+
+<p>A free and open-source CMS that works with all SSGs, NetlifyCMS is an excellent choice if you don’t want to be tied to a commercial product. It also has some powerful features not found in other offerings.</p>
+
+<p><strong>Pros</strong> – Workflow functionality for content teams – easily manage content from draft to review to publish. Drag and drop uploading, realtime previews and more.</p>
+
+<p><strong>Cons</strong> – It’s not as simple to get started with as it needs careful configuring. As it’s a free open source product there’s not as much support.</p>
+
+<p><strong>Price</strong> – Free.</p>
+
+<hr />
+
+<h3 id="siteleaf"><a href="http://www.siteleaf.com">Siteleaf</a></h3>
+
+<p>Broadly similar to the other two services, Siteleaf has a couple of interesting features which make it stand out.</p>
+
+<p><strong>Pros</strong> – Multiple user roles on the team plan and up. Users can be admins, publishers or writers, meaning Siteleaf could be a good option for larger organisations. It also allows you to define custom collections through the web UI, and there’s a pretty comprehensive API to integrate with other apps or services.</p>
+
+<p><strong>Cons</strong> – Only syncs via FTP, S3 or GitHub - no BitBucket support. Can only connect to public repos on the free plan.</p>
+
+<p><strong>Price</strong> – Free syncing to public Github repositories, $7/month or more for more functionality.</p>
+
+<hr />
+
+<h3 id="honourable-mentions">Honourable mentions</h3>
+
+<h4 id="contentful-prismicio"><a href="http://www.contentful.com">Contentful</a>, <a href="http://www.prismic.io">Prismic.io</a></h4>
+
+<p>These are more API-driven content management systems as a service, and while they are powerful, they may not be so straightforward to integrate. However, the benefits are that you could use the same service to manage content and users across multiple platforms.</p>
+
+<h4 id="proseio"><a href="http://prose.io">Prose.io</a></h4>
+
+<p>Basic open source content editor for Github-based sites. Works with most SSGs, but Jekyll has more features.</p>
+:ET
