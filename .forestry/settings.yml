@@ -9,6 +9,8 @@ sections:
   label: Posts
   create: documents
   match: "**/*"
+  templates:
+  - post
 - type: directory
   path: _articles
   label: Articles
