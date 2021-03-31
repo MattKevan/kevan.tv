@@ -53,3 +53,5 @@ fields:
   config:
     required: false
   label: Link
+pages:
+- _posts/gpt-3-generated-chat-up-lines.md
