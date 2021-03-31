@@ -1,11 +1,11 @@
 ---
-title: Artwork
+title: User experience
 layout: page
-permalink: "/artwork/"
+permalink: "/user-experience/"
 width: full
 ---
 	<div class="row grid">
-		{% assign sort = site.projects | where: 'tags','Art' | sort: 'date' | reverse %}
+		{% assign sort = site.projects | where: 'tags','User experience' | sort: 'date' | reverse %}
 		{% for item in sort %}
 			<div class="col-xs-12 col-sm-6 col-md-4">
 			    {% include work-teaser.html %}
