@@ -53,3 +53,5 @@ fields:
   config:
     required: false
   label: Link
+pages:
+- _posts/this-music-video-does-not-exist.md
