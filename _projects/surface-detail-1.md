@@ -6,6 +6,7 @@ thumbnail: "/images/drawing.jpg"
 tags:
 - Art
 leaflet: true
+width: full
 
 
 ---

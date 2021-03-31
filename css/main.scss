@@ -158,6 +158,17 @@ strong, label {
 			background: none;
 		}
 	}
+	.navbar-default {
+			background-color: #1A1A1A;
+				li a {color: #fff;
+					&:hover {
+						color: #fff;
+						text-decoration: underline;
+					}
+
+				}
+
+	}
 }
 
 blockquote {

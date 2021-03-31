@@ -7,7 +7,7 @@ tags:
 - Personal project
 - Art
 leaflet: true
-
+width: full
 
 ---
 <div id="image-map"></div>
