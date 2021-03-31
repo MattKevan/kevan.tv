@@ -17,5 +17,5 @@ With only six weeks to prepare, we exhibited a wide range of illustrators, from 
 
 This was the first time the Mall Galleries had exhibitied such contemporary artwork, as well as the first comics fair to be held in a major national gallery.
 
-<img src="/images/lineup-postcard.jpg" class="fullwidth">
-<img src="/images/lineup-pics.jpg" class="fullwidth">
+<img src="/images/lineup-postcard.jpg" class="wide">
+<img src="/images/lineup-pics.jpg" class="wide">

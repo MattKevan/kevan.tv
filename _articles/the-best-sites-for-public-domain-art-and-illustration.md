@@ -10,11 +10,11 @@ image: /images/open.jpg
 cover: 'wave-banner.jpg'
 ---
 
-## Publications and blogs
+### Publications and blogs
 
 **[Public Domain Review](https://publicdomainreview.org)** and **[Open Culture](https://www.openculture.com)** are great starting points for public domain content, showcasing the most interesting and unusual cultural works on the web.
 
-## Aggregators
+### Aggregators
 
 These sites collect the best public domain images and make them available as curated collections, often retouching and cleaning them up in the process. Recommended if you don’t fancy wading through millions of images yourself.
 
@@ -24,7 +24,7 @@ These sites collect the best public domain images and make them available as cur
 
 **[Archive.org](https://www.archive.org/)** – Vast collection of music, images, video and more. So large it's impossible to browse – lots of the sources below use Archive.org for storage, and it's often easier to find content through them rather than going directly.
 
-## Sources
+### Sources
 
 **[Art Institute Chicago](https://www.artic.edu/collection)** - Over 50k public domain images available. Not high-resolution.
 

@@ -41,7 +41,7 @@ The data showed that a significant number of people dropped off between the firs
 
 I created a new, unified, registration flow combining both sign in and registration. A user just had to enter their email address and they would be taken down the right path depending on whether they already had an account. The rationale for this was that people are more likely to complete something they’ve already started.
 
-![Registration flow](/images/work/reg-flow.png)
+<img src="/images/work/reg-flow.png" class="wide">
 
 ### Ensuring registered users confirm their email address
 Of all the people who make it through to the end of the registration journey, around 35% never confirm their email address. This is a problem, as they’re not counted as a full member or allowed to post in the forum until they do.

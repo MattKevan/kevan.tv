@@ -74,12 +74,17 @@ h1 {
 
 h2 {
 	margin-top: 0!important;
+	font-size: 1.6em;
 }
 
 h3 {
 	margin-top: 0!important;
+	font-size: 1.3em
 }
 
+h4 {
+	font-size: 1.1em;
+}
 // Text
 
 p {
@@ -95,16 +100,44 @@ p {
 	}
 }
 
-a {color: #000;}
-
-a:hover {
-	color: #000;
-	text-decoration: underline;
+.main {
+	p a {
+	 text-decoration: underline;
+	}
 }
 
 strong, label {
 	font-weight: bold;
 }
+
+.wide{
+	position: relative;
+	width: 100%;
+	margin: 15px 0;
+
+	img {
+		width: 100%;
+	}
+
+	@media (min-width: $screen-sm-min) { 
+		width: 750px;
+		left: calc(-1 * (750px - 100%) / 2);
+		padding: 0 15px;
+	}
+
+	@media (min-width: $screen-md-min) { 
+		width: 992px;
+		left: calc(-1 * (992px - 100%) / 2);
+		padding: 0 15px;
+	}
+
+	@media (min-width: $screen-lg-min) { 
+		width: 1170px;
+		left: calc(-1 * (1170px - 100%) / 2);
+		padding: 0 15px;
+	}
+}
+	
 
 .dark {
 	background-color: #1A1A1A;

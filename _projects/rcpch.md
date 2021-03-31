@@ -83,7 +83,7 @@ Each team was responsible for their own content, so the decision to delete or re
 
 Based on the outcomes of the user interviews and the content strategy, I created a site map that showed where the new content types would fit into the site structure. Then, working with the development team, I developed a series of process and entity relationship diagrams, detailing key pieces of functionality and how the site would interact with outside systems.
 
-![](/images/rcpch2.jpg "Small detail of the site map.")
+<img src="/images/rcpch2.jpg" class="wide">
 
 From this, I was able to create a set of detailed mobile-first, responsive wireframes, covering content types, listings, challenging functionality, such as search, and key landing pages.
 

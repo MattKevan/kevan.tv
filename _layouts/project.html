@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="col-xs-12 col-md-8 push-md-2">
+
 <h1>{{ page.title }}</h1>
 <p class="lead">{{ page.description }}</p>
 
@@ -17,11 +17,9 @@ layout: default
 	{% include carousel.html %}
 {% endif %}
 
-<div class="row">
-	<div class="col">
+
 		{{ content }}
-	</div>
-</div>
+
 
 {% if page.gallery %}
 	{% include gallery.html %}
@@ -49,4 +47,3 @@ layout: default
 	</ul>
 {% endif %}
 
-</div>

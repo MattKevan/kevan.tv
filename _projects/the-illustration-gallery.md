@@ -5,6 +5,7 @@ description: Branding and design for a gallery dedicated to contemporary illustr
 thumbnail: "/images/tig/gallery.png"
 layout: print-design
 
+
 tags:
 - Print design
 - Branding
@@ -28,6 +29,6 @@ I was responsible for creating the brand, as well as designing the exhibition fl
 
 In 2011, Oliver and I joined forces to launch an online version of the gallery, creating a curated marketplace for illustrators to sell their work.
 
-<img src="/images/illo-letterheads.jpg" class="fullwidth">
-<img src="/images/illo1.png" class="fullwidth">
-<img src="/images/illo3.jpg" class="fullwidth">
+<img src="/images/illo-letterheads.jpg" class="wide">
+<img src="/images/illo1.png" class="wide">
+<img src="/images/illo3.jpg" class="wide">
