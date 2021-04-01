@@ -2,13 +2,11 @@
 title: Personal projects
 layout: page
 permalink: "/projects/"
+description: Side projects, art and photography.
 ---
-
-
+<hr>
 {% assign sort = site.projects | where: 'tags','Personal project' | sort: 'date' | reverse %}
 {% for item in sort %}
-
 	{% include work-teaser.html %}
-
 {% endfor %}
 

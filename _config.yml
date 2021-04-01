@@ -30,41 +30,13 @@ exclude:
 
 feed:
   excerpt_only: true
-  collections:
-    - articles
-    - projects
 
 collections:
-  articles:
-    output: true
-    permalink: /articles/:path/
   projects:
     output: true
     permalink: /projects/:path/
-  links:
-    output: true
-    permalink: /links/:path/
 
 defaults:
-  -
-    scope:
-      path: ""
-      type: "articles"
-    values: 
-      layout: "post"
-      description: ""
-      tags: []
-      author: "Matt Kevan"
-  -
-    scope:
-      path: ""
-      type: "links"
-    values: 
-      layout: "post"
-      description: ""
-      tags: []
-      author: "Matt Kevan"
-  -
     scope:
       path: ""
       type: "projects"

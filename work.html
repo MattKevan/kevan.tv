@@ -4,11 +4,9 @@ layout: page
 permalink: "/work/"
 
 ---
-
+<hr>
 {% assign sort = site.projects | where: 'tags','User experience' | sort: 'date' | reverse %}
 {% for item in sort %}
-
-	    {% include work-teaser.html %}
-	
+	{% include work-teaser.html %}
 {% endfor %}
 

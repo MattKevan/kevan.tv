@@ -16,7 +16,7 @@ layout: default
 
 
 				
-	<div itemprop="articleBody" class="content">
+	<div itemprop="articleBody">
 		
 		{{ content }}
 	</div>
@@ -33,12 +33,12 @@ layout: default
 						</a>
 					</div>
 
-					<div class="content">
+					
 						<h3>{{ book.title }}</h3>
 						<p class="author s">{{ book.author }}</p>
 						<p>{{ book.description }}</p>
 						<p><a href="{{ book.link }}" target="_blank">Read more »</a></p>
-					</div>
+				
 						
 				{% endif %}
 			{% endfor %}

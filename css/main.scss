@@ -40,6 +40,7 @@
     font-display: swap;
 }
 
+
 // Basic typography 
 
 body {
@@ -179,7 +180,7 @@ em {
 	}
 	img {width: 100%;}
 }
-p.date {
+.date {
 	font-family:$font-family-monospace;
 	font-size: 0.8em;
 	margin-bottom: 5px;
