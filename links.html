@@ -4,9 +4,9 @@ description: Fun and/or useful links to elsewhere on the Web.
 layout: page
 permalink: /links/
 ---
-
+<hr>
 {% assign sort = site.posts | where: 'type','link' | sort: 'date' | reverse %}
 {% for item in sort  %}		
 {% include link.html %}
 {% endfor %}
-</ul>
+

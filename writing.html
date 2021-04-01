@@ -1,0 +1,11 @@
+---
+title: Writing
+layout: page
+permalink: "/writing/"
+---
+<hr>
+{% assign datesort = site.posts | where: 'type','article' | sort: 'date' | reverse %}
+{% for article in datesort %}
+	{% include article-teaser.html %}
+{% endfor %}
+
