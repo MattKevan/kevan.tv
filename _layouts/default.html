@@ -6,7 +6,9 @@
 
 	<body class="{% if page.theme %}{{ page.theme }}{% endif %}">
 
-		{% include header.html %}
+		
+		<div class="main">
+{% include header.html %}
 
 		{% if page.cover %}
 			<div class="cover-image" style="background-image: url(/images/{{ page.cover }});">
@@ -14,28 +16,18 @@
 			</div>
 
 		{% endif %}
-		<div class="wrapper">
-			<div class="container">
-				<div class="row">
 
 
-				<div class="
-					{% if page.width == 'full' %}
-						col-xs-12 
-					{% else %}
-						col-xs-12 col-md-8 col-md-offset-2
-					{% endif%}	
-					">
-					<div class="main"> 
+
+					<div class="content {% if page.cover %}cover{% endif%}"> 
 					{{ content }}
 					</div>
 				
-				</div>
+		
 
-				</div>
-			</div>
-		</div>
 		{% include footer.html %}
+		</div>
+		
 
 	</body>
 

@@ -1,0 +1,176 @@
+I"<hr />
+
+<h3 id="links">Links</h3>
+
+<ul>
+  <li>
+    <p><strong><a href="https://cookieconsentspeed.run">Cookie consent speedrun</a></strong> – Can you disable all the cookie popups in less than 30 seconds?</p>
+  </li>
+  <li>
+    <p><strong><a href="https://www.coderelay.io/fontemon.html">Fontemon</a></strong> – Complete playable Pokemon-style game in a font.</p>
+  </li>
+  <li>
+    <p><strong><a href="https://aiweirdness.com/post/646367635078103040/gpt-3-tries-pickup-lines">GPT-3 generated chat-up lines</a></strong> – “I will briefly summarise the plot of Back to the Future II for you.”</p>
+  </li>
+  <li>
+    <p><strong><a href="https://www.thismusicvideodoesnotexist.com/">This music video does not exist</a></strong> – Music and videos by OpenAI Jukebox and StyleGAN2. I for one welcome our robot vaporwave overlords.</p>
+  </li>
+</ul>
+
+<hr />
+
+<h3 id="writing">Writing</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div class="teaser article-teaser"&gt;
+
+&lt;h4&gt;&lt;a href="/articles/content-management-for-static-sites/"&gt;The best content management systems for static sites – updated for 2021&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Static sites have been around since the dawn of the web, but thanks to the rise of static site generators like Jekyll and Hugo they're undergoing a bit of a renaissance. &lt;/p&gt;
+&lt;p class="tags xs"&gt;
+	
+		&lt;span&gt;Web development&lt;/span&gt;
+	
+		&lt;span&gt;Reviews&lt;/span&gt;
+	
+&lt;/p&gt;
+</code></pre></div></div>
+<p>&lt;/div&gt;</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div class="teaser article-teaser"&gt;
+
+&lt;h4&gt;&lt;a href="/articles/indistractable-by-nir-eyal/"&gt;Book review – Indistractable by Nir Eyal&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;How to control your attention and reduce distraction, from the author of ‘Hooked’, a manual for designing addictive products.&lt;/p&gt;
+&lt;p class="tags xs"&gt;
+	
+		&lt;span&gt;Book review&lt;/span&gt;
+	
+		&lt;span&gt;Productivity&lt;/span&gt;
+	
+&lt;/p&gt;
+</code></pre></div></div>
+<p>&lt;/div&gt;</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div class="teaser article-teaser"&gt;
+
+&lt;h4&gt;&lt;a href="/articles/the-best-sites-for-public-domain-art-and-illustration/"&gt;The best places to find high-resolution public domain art and illustration&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Finding public domain images at a good enough resolution to print can be challenging, but here’s a list of the best places to source high-quality art and illustration.&lt;/p&gt;
+&lt;p class="tags xs"&gt;
+	
+		&lt;span&gt;Open culture&lt;/span&gt;
+	
+		&lt;span&gt;Public domain&lt;/span&gt;
+	
+&lt;/p&gt;
+</code></pre></div></div>
+<p>&lt;/div&gt;</p>
+
+<p><a href="/articles">See more »</a></p>
+
+<hr />
+
+<h2>Projects</h2>
+<div class="row grid">
+		
+		
+			<div class="teaser">
+			    <div class="teaser clearfix">
+	<div class="col-xs-12 col-sm-4">
+
+		
+			<a href="https://www.uxlift.org" target="_blank" rel="noreferrer"><img src="/images/uxlift.jpg" alt="UX Lift" /></a>
+		
+
+	</div>
+
+	<div class="col-xs-12 col-sm-8">
+
+		
+			<h4><a href="https://www.uxlift.org" target="_blank" rel="noreferrer">UX Lift</a></h4>
+		
+		<p>A curated collection of articles, resources, books and tools, with the goal of covering every aspect of the UX and design process.</p>
+				<p class="tags">
+			
+				<span>Personal project</span>
+			
+				<span>Web development</span>
+			
+				<span>Jekyll</span>
+			
+		</p>
+
+	</div>
+</div>
+<hr />
+
+
+
+			</div>
+		
+			<div class="teaser">
+			    <div class="teaser clearfix">
+	<div class="col-xs-12 col-sm-4">
+
+		
+			<a href="https://www.etsy.com/uk/shop/TheDoveAndTheSeagull" target="_blank" rel="noreferrer"><img src="/images/seagull.jpg" alt="The Dove &amp; The Seagull" /></a>
+		
+
+	</div>
+
+	<div class="col-xs-12 col-sm-8">
+
+		
+			<h4><a href="https://www.etsy.com/uk/shop/TheDoveAndTheSeagull" target="_blank" rel="noreferrer">The Dove &amp; The Seagull</a></h4>
+		
+		<p>Retro, vintage inspired nature and fine art prints.</p>
+				<p class="tags">
+			
+				<span>Personal project</span>
+			
+				<span>E-commerce</span>
+			
+		</p>
+
+	</div>
+</div>
+<hr />
+
+
+
+			</div>
+		
+			<div class="teaser">
+			    <div class="teaser clearfix">
+	<div class="col-xs-12 col-sm-4">
+
+		
+			<a href="/projects/surface-detail-5/"><img src="/images/drawing.jpg" alt="Surface Detail 5" /></a>
+		
+
+	</div>
+
+	<div class="col-xs-12 col-sm-8">
+
+		
+
+			<h4><a href="/projects/surface-detail-5/">Surface Detail 5</a></h4>
+		
+		<p>Abstract artwork with pen, ink, paper and iPad.</p>
+				<p class="tags">
+			
+				<span>Personal project</span>
+			
+				<span>Art</span>
+			
+		</p>
+
+	</div>
+</div>
+<hr />
+
+
+
+			</div>
+		
+</div>
+
+<p class="link"><a href="/projects">See more »</a></p>
+:ET

@@ -1,0 +1,12 @@
+---
+title: Links
+description: Fun and/or useful links to elsewhere on the Web.
+layout: page
+permalink: /links/
+---
+<ul>
+{% assign sort = site.posts | where: 'type','link' | sort: 'date' | reverse %}
+{% for item in sort  %}		
+<li><strong><a href="{{ item.link }}" target="_blank">{{ item.title}}</a></strong> – {{ item.description}} – <span class="date">{{ item.date | date: "%-d %B %Y" }}</span></li>
+{% endfor %}
+</ul>

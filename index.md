@@ -1,0 +1,37 @@
+---
+title: User experience, design & code.
+layout: page
+---
+
+---
+
+## Links
+
+{% assign sort = site.posts | sort: 'date' | reverse %}
+{% for item in sort  %}		
+* **[{{ item.title}}]({{ item.link }})** – {{ item.description}} – *{{ item.date | date: "%-d %B %Y" }}*
+{% endfor %}
+
+[More links »](/links)
+
+---
+
+## Writing
+
+{% assign datesort = site.articles | sort: 'date' | reverse %}
+{% for article in datesort limit: 3 %}
+{% include article-teaser.html %}
+{% endfor %}
+
+[More writing »](/articles)
+
+---
+
+## Projects
+
+{% assign sort = site.projects | sort: 'date' | reverse %}
+{% for item in sort limit: 3 %}
+{% include work-teaser.html %}
+{% endfor %}
+
+[More projects »](/projects)

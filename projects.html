@@ -2,14 +2,13 @@
 title: Personal projects
 layout: page
 permalink: "/projects/"
-width: full
 ---
 
-<div class="row grid">
-	{% assign sort = site.projects | where: 'tags','Personal project' | sort: 'date' | reverse %}
-	{% for item in sort %}
-		<div class="col col-sm-6 col-md-4">
-		    {% include work-teaser.html %}
-		</div>
-	{% endfor %}
-</div>
+
+{% assign sort = site.projects | where: 'tags','Personal project' | sort: 'date' | reverse %}
+{% for item in sort %}
+
+	{% include work-teaser.html %}
+
+{% endfor %}
+

@@ -1,0 +1,156 @@
+I"<hr />
+
+<h2 id="links">Links</h2>
+
+<ul>
+  <li>
+    <p><strong><a href="https://cookieconsentspeed.run">Cookie consent speedrun</a></strong> – Can you disable all the cookie popups in less than 30 seconds?</p>
+  </li>
+  <li>
+    <p><strong><a href="https://www.coderelay.io/fontemon.html">Fontemon</a></strong> – Complete playable Pokemon-style game in a font.</p>
+  </li>
+  <li>
+    <p><strong><a href="https://aiweirdness.com/post/646367635078103040/gpt-3-tries-pickup-lines">GPT-3 generated chat-up lines</a></strong> – “I will briefly summarise the plot of Back to the Future II for you.”</p>
+  </li>
+  <li>
+    <p><strong><a href="https://www.thismusicvideodoesnotexist.com/">This music video does not exist</a></strong> – Music and videos by OpenAI Jukebox and StyleGAN2. I for one welcome our robot vaporwave overlords.</p>
+  </li>
+</ul>
+
+<p><a href="/links">More links »</a></p>
+
+<hr />
+
+<h2 id="writing">Writing</h2>
+
+<div class="teaser article-teaser">
+
+	<h4><a href="/articles/content-management-for-static-sites/">The best content management systems for static sites – updated for 2021</a></h4>
+	<p>Static sites have been around since the dawn of the web, but thanks to the rise of static site generators like Jekyll and Hugo they're undergoing a bit of a renaissance. </p>
+	<p class="tags xs">
+		
+			<span>Web development</span>
+		
+			<span>Reviews</span>
+		
+	</p>
+</div>
+
+<div class="teaser article-teaser">
+
+	<h4><a href="/articles/indistractable-by-nir-eyal/">Book review – Indistractable by Nir Eyal</a></h4>
+	<p>How to control your attention and reduce distraction, from the author of ‘Hooked’, a manual for designing addictive products.</p>
+	<p class="tags xs">
+		
+			<span>Book review</span>
+		
+			<span>Productivity</span>
+		
+	</p>
+</div>
+
+<div class="teaser article-teaser">
+
+	<h4><a href="/articles/the-best-sites-for-public-domain-art-and-illustration/">The best places to find high-resolution public domain art and illustration</a></h4>
+	<p>Finding public domain images at a good enough resolution to print can be challenging, but here’s a list of the best places to source high-quality art and illustration.</p>
+	<p class="tags xs">
+		
+			<span>Open culture</span>
+		
+			<span>Public domain</span>
+		
+	</p>
+</div>
+
+<p><a href="/articles">More writing »</a></p>
+
+<hr />
+
+<h2 id="projects">Projects</h2>
+
+<div class="teaser clearfix">
+	<div class="col-xs-12 col-sm-4">
+
+		
+			<a href="https://www.uxlift.org" target="_blank" rel="noreferrer"><img src="/images/uxlift.jpg" alt="UX Lift" /></a>
+		
+
+	</div>
+
+	<div class="col-xs-12 col-sm-8">
+
+		
+			<h4><a href="https://www.uxlift.org" target="_blank" rel="noreferrer">UX Lift</a></h4>
+		
+		<p>A curated collection of articles, resources, books and tools, with the goal of covering every aspect of the UX and design process.</p>
+				<p class="tags">
+			
+				<span>Personal project</span>
+			
+				<span>Web development</span>
+			
+				<span>Jekyll</span>
+			
+		</p>
+
+	</div>
+</div>
+<hr />
+
+<div class="teaser clearfix">
+	<div class="col-xs-12 col-sm-4">
+
+		
+			<a href="https://www.etsy.com/uk/shop/TheDoveAndTheSeagull" target="_blank" rel="noreferrer"><img src="/images/seagull.jpg" alt="The Dove &amp; The Seagull" /></a>
+		
+
+	</div>
+
+	<div class="col-xs-12 col-sm-8">
+
+		
+			<h4><a href="https://www.etsy.com/uk/shop/TheDoveAndTheSeagull" target="_blank" rel="noreferrer">The Dove &amp; The Seagull</a></h4>
+		
+		<p>Retro, vintage inspired nature and fine art prints.</p>
+				<p class="tags">
+			
+				<span>Personal project</span>
+			
+				<span>E-commerce</span>
+			
+		</p>
+
+	</div>
+</div>
+<hr />
+
+<div class="teaser clearfix">
+	<div class="col-xs-12 col-sm-4">
+
+		
+			<a href="/projects/surface-detail-5/"><img src="/images/drawing.jpg" alt="Surface Detail 5" /></a>
+		
+
+	</div>
+
+	<div class="col-xs-12 col-sm-8">
+
+		
+
+			<h4><a href="/projects/surface-detail-5/">Surface Detail 5</a></h4>
+		
+		<p>Abstract artwork with pen, ink, paper and iPad.</p>
+				<p class="tags">
+			
+				<span>Personal project</span>
+			
+				<span>Art</span>
+			
+		</p>
+
+	</div>
+</div>
+<hr />
+
+<p><a href="/projects">More projects »</a></p>
+:ET
