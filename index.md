@@ -8,8 +8,8 @@ layout: page
 ## Links
 
 {% assign sort = site.posts | sort: 'date' | reverse %}
-{% for item in sort  %}		
-* **[{{ item.title}}]({{ item.link }})** – {{ item.description}} – *{{ item.date | date: "%-d %B %Y" }}*
+{% for item in sort limit:4 %}		
+{% include link.html %}
 {% endfor %}
 
 [More links »](/links)
