@@ -28,6 +28,8 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
+permalink: pretty
+
 feed:
   excerpt_only: true
 
@@ -35,13 +37,21 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  work:
+    output: true
+    work: /work/:path/
 
 defaults:
+  -
     scope:
       path: ""
       type: "projects"
     values: 
-      layout: "project"
-      description: ""
-      tags: []
+      layout: "post"
       author: "Matt Kevan"
+  -
+    scope:
+      path: ""
+      type: "work"
+    values: 
+      layout: "project"

@@ -5,7 +5,7 @@ permalink: "/projects/"
 description: Side projects, art and photography.
 ---
 <hr>
-{% assign sort = site.projects | where: 'tags','Personal project' | sort: 'date' | reverse %}
+{% assign sort = site.projects | sort: 'date' | reverse %}
 {% for item in sort %}
 	{% include work-teaser.html %}
 {% endfor %}

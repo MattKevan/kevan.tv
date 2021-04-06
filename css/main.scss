@@ -313,32 +313,28 @@ hr {
 
 // Header & navigation
 
-
-.header {
+nav {
 	margin-bottom: 0;
 	line-height: 1.6em;
 
 	@media (min-width: $screen-sm-min) { 
-
 		padding: 0;
 		line-height: 1.8em;
 	}
 
-	nav {
-		ul {
-			float: right;
-			margin-bottom: 0;
-		}
-		li {
-			display: inline-block;
-			padding: 18px 5px;
-			font-family: $font-family-sans-serif;
-			font-weight: bold;
-			font-size: .8em;
-			line-height: 1.2em;
-		}
+	ul {
+		float: right;
+		margin-bottom: 0;
 	}
 
+	li {
+		display: inline-block;
+		padding: 18px 5px;
+		font-family: $font-family-sans-serif;
+		font-weight: bold;
+		font-size: .8em;
+		line-height: 1.2em;
+	}
 
 	.logo {
 		line-height: 1em;
@@ -350,8 +346,6 @@ hr {
 		width: 40px!important;
 		height: 20px !important;
 		img {width: 40px;}
-
-
 	}
 
 	@keyframes cyc {

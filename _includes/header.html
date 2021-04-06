@@ -1,24 +1,15 @@
-<div class="header">
-  <nav>
-    
-      <!-- Brand and toggle get grouped for better mobile display -->
-        
-        <a class="brand" href="/">
-        {% if page.theme == 'dark' %}
-                <img class="logo" src="/images/site/logo-dark.svg" alt="{{ site.title }}" />
-              {% else %}
-                <img class="logo" src="/images/site/logo.svg" alt="{{ site.title }}" />
-              {% endif %}
-        </a>
-
-
-      <!-- Collect the nav links, forms, and other content for toggling -->
-    
-
-      <ul class="nav-links">
-       {% include links.html %}
-
-      </ul>
-
-  </nav>
-</div>
+<nav>
+	<a class="brand" href="/">
+		{% if page.theme == 'dark' %}
+			<img class="logo" src="/images/site/logo-dark.svg" alt="{{ site.title }}" />
+		{% else %}
+			<img class="logo" src="/images/site/logo.svg" alt="{{ site.title }}" />
+		{% endif %}
+	</a>
+	<ul class="nav-links">
+		<li><a href="/Blog">Blog</a></li> 
+		<li><a href="/projects">Projects</a></li>
+		<li><a href="/work">Work</a></li>
+		<li><a href="/about">About</a></li>
+	</ul>
+</nav>

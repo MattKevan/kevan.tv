@@ -1,8 +1,8 @@
 ---
 title: Surface Detail 1
-date: '2020-3-24 00:00:00'
+date: '2020-3-20 00:00:00'
 description: ""
-thumbnail: "/images/drawing.jpg"
+thumbnail: "/images/sd-1.jpg"
 tags:
 - Art
 leaflet: true
