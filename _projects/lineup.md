@@ -1,5 +1,5 @@
 ---
-title: Lineup at the Mall Galleries
+title: Illustrators – Lineup
 date: '2013-05-01 00:00:00'
 description: Organising an exhibition for contemporary illustration in the centre of London.
 thumbnail: "/images/lineup.jpg"

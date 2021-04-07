@@ -1,26 +1,12 @@
 ---
 title: The Illustration Gallery
-date: '2018-09-01 00:00:00'
+date: '2011-09-01 00:00:00'
 description: Branding and design for a gallery dedicated to contemporary illustration.
 thumbnail: "/images/tig/gallery.png"
-layout: print-design
-
-
+theme: dark
 tags:
-- Print design
 - Branding
-
-roles:
-- Visual design
-- Web development
-
-tech:
-- Indesign
-- Photoshop
-- Illustrator
-
-weight: 7
-
+- Print design
 ---
 
 Opened by Oliver Jelf in 2007, The Illustration Gallery was one of the first galleries in the UK to focus on contemporary illustration and exhibited the work of some of the world's top illustrators, including Tom Gauld, Rob Ryan, Yuko Shimizu, eBoy and Sam Weber. 
@@ -29,6 +15,5 @@ I was responsible for creating the brand, as well as designing the exhibition fl
 
 In 2011, Oliver and I joined forces to launch an online version of the gallery, creating a curated marketplace for illustrators to sell their work.
 
-<img src="/images/illo-letterheads.jpg" class="wide">
-<img src="/images/illo1.png" class="wide">
-<img src="/images/illo3.jpg" class="wide">
+<img src="/images/illogallery1.jpg" class="wide">
+<img src="/images/illogallery2.jpg" class="wide">

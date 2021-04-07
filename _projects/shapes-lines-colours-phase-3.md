@@ -1,5 +1,5 @@
 ---
-title: "SLC: 255 000 000 – 255 255 000"
+title: SLC 255 000 000 – 000 255 000
 date: '2019-12-19 00:00:00'
 description: Create daily. Don't self-edit. Keep it simple.
 thumbnail: "/images/slc-2020.png"
@@ -7,7 +7,7 @@ cover: slc2-cover.jpg
 tags:
 - Personal project
 - Art
-layout: slc-2
+layout: slc-3
 
 ---
 

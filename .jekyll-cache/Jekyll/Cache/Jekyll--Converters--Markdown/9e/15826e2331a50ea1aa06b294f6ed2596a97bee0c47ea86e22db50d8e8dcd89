@@ -1,16 +1,4 @@
----
-title: Surface Detail 4
-date: '2020-3-23 00:00:00'
-description: "Abstract artwork with pen, ink, paper and iPad."
-thumbnail: "/images/sd-4.jpg"
-tags:
-- Personal project
-- Art
-leaflet: true
-
----
-
-Created with ProCreate on the iPad, this drawing took over 18 months to complete.
+I"Ó<p>Created with ProCreate on the iPad, this drawing took over 18 months to complete.</p>
 
 <div id="image-map"></div>
 
@@ -45,4 +33,4 @@ Created with ProCreate on the iPad, this drawing took over 18 months to complete
     map.addControl(new L.Control.Fullscreen());
 </script>
 
-
+:ET

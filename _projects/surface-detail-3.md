@@ -10,6 +10,9 @@ leaflet: true
 width: full
 
 ---
+
+Created with ProCreate on the iPad, this drawing took over nine months to complete.
+
 <div id="image-map"></div>
 
 <script>
