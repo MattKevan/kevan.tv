@@ -45,6 +45,13 @@ defaults:
   -
     scope:
       path: ""
+      type: "posts"
+    values: 
+      layout: "post"
+      author: "Matt Kevan"
+  -
+    scope:
+      path: ""
       type: "projects"
     values: 
       layout: "post"

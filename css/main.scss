@@ -359,6 +359,18 @@ nav {
 .footer {
 	padding: 20px 0;
 	p {margin: 0;}
+
+	.copyright {
+		float: left;
+	}
+	.webring {
+		float: right;
+		margin-top: -10px;
+		img {
+			width: 30px;
+		}
+		
+	}
 }
 
 .caption {

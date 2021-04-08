@@ -11,6 +11,10 @@ layout: default
 	 	{% for tag in page.tags %}
 		 	<span>{{ tag }}</span>
 		{% endfor %}
+			
+		{% if page.type == 'link' %}
+			<span>Link</span>
+		{% endif %}
 	</p>
 	<hr>
 
@@ -20,6 +24,21 @@ layout: default
 		
 		{{ content }}
 	</div>
+
+		{% if page.type == 'link' %}
+			<a href="{{ page.link }}" target="_blank">Visit site »</a>
+
+			<hr>
+
+			<h4>More links</h4>
+
+			{% assign sort = site.posts | where: 'type','link' | sort: 'date' | reverse %}
+			{% for item in sort limit:5 %}		
+			{% include link.html %}
+			{% endfor %}
+			
+		{% endif %}
+
 
 	{% if page.booklist %}
 		{% for book in site.data.books %}
