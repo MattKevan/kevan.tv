@@ -1,7 +1,7 @@
 ---
 title: Surface Detail
 date: '2020-3-20 00:00:00'
-description: "Highly detailed drawings with pen, ink, paper and iPad."
+description: "Highly detailed drawings with iPad and Pencil."
 thumbnail: "/images/sd.jpg"
 cover: sd-banner.jpg
 tags:

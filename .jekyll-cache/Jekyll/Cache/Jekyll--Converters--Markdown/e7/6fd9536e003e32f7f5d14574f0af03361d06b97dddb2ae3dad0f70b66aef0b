@@ -1,0 +1,157 @@
+I"�<hr />
+
+<h2 id="links">Links</h2>
+
+<p><strong><a href="https://m.youtube.com/watch?v=EShUeudtaFg" target="_blank">How is prangent formed</a></strong> – With the demise of Yahoo Answers next month, lets remember a classic of its genre. – <span class="date">6 April 2021</span></p>
+
+<p><strong><a href="https://practicaltypography.com/" target="_blank">Butterick’s Practical Typography</a></strong> – Essential reading for every designer, now in its second edition. – <span class="date">5 April 2021</span></p>
+
+<p><strong><a href="https://github.com/pitr/gemini-ios" target="_blank">Elaho</a></strong> – Really nice iOS browser for the Gemini protocol. – <span class="date">3 April 2021</span></p>
+
+<p><strong><a href="https://m.youtube.com/watch?v=x8l_NWwi_Ho" target="_blank">The Prodigy on Stylophone</a></strong> – A selection of genuinely fantastic covers – <span class="date">2 April 2021</span></p>
+
+<p><a href="/links">More links »</a></p>
+
+<hr />
+
+<h2 id="writing">Writing</h2>
+
+<div class="teaser">
+
+	<h4><a href="/2021/01/20/content-management-for-static-sites/">The best content management systems for static sites – updated</a></h4>
+	<p class="date">20 January 2021</p>
+	<p>Static sites have been around since the dawn of the web, but thanks to the rise of static site generators like Jekyll and Hugo they're undergoing a bit of a renaissance. </p>
+	<p class="tags xs">
+		
+			<span>Web development</span>
+		
+			<span>Reviews</span>
+		
+	</p>
+	<hr />
+</div>
+
+<div class="teaser">
+
+	<h4><a href="/2021/01/12/indistractable-by-nir-eyal/">Book review – Indistractable by Nir Eyal</a></h4>
+	<p class="date">12 January 2021</p>
+	<p>How to control your attention and reduce distraction, from the author of ‘Hooked’, a manual for designing addictive products.</p>
+	<p class="tags xs">
+		
+			<span>Book review</span>
+		
+			<span>Productivity</span>
+		
+	</p>
+	<hr />
+</div>
+
+<div class="teaser">
+
+	<h4><a href="/2020/12/14/the-best-sites-for-public-domain-art-and-illustration/">The best places to find high-resolution public domain art and illustration</a></h4>
+	<p class="date">14 December 2020</p>
+	<p>Finding public domain images at a good enough resolution to print can be challenging, but here’s a list of the best places to source high-quality art and illustration.</p>
+	<p class="tags xs">
+		
+			<span>Open culture</span>
+		
+			<span>Public domain</span>
+		
+	</p>
+	<hr />
+</div>
+
+<p><a href="/articles">More writing »</a></p>
+
+<hr />
+
+<h2 id="projects">Projects</h2>
+
+<div class="teaser project">
+	<div class="left">
+
+		
+			<a href="/projects/uxlift/"><img src="/images/uxlift.jpg" alt="UX Lift" /></a>
+		
+
+	</div>
+
+	<div class="right">
+
+		
+
+			<h4><a href="/projects/uxlift/">UX Lift</a></h4>
+		
+		<p>A curated collection of articles, resources, books and tools, with the goal of covering every aspect of the UX and design process.</p>
+				<p class="tags">
+			
+				<span>Personal project</span>
+			
+				<span>Web development</span>
+			
+				<span>Jekyll</span>
+			
+		</p>
+
+	</div>
+</div>
+<hr />
+
+<div class="teaser project">
+	<div class="left">
+
+		
+			<a href="/projects/shapes-lines-colours-motion/"><img src="/images/cmy-motion.jpg" alt="Shapes Lines Colours – CMY motion" /></a>
+		
+
+	</div>
+
+	<div class="right">
+
+		
+
+			<h4><a href="/projects/shapes-lines-colours-motion/">Shapes Lines Colours – CMY motion</a></h4>
+		
+		<p>Abstract motion graphics with cyan, magenta and yellow.</p>
+				<p class="tags">
+			
+				<span>Personal project</span>
+			
+				<span>Art</span>
+			
+		</p>
+
+	</div>
+</div>
+<hr />
+
+<div class="teaser project">
+	<div class="left">
+
+		
+			<a href="/projects/shapes-lines-colours-cmy/"><img src="/images/cmy.jpg" alt="Shapes Lines Colours – CMY" /></a>
+		
+
+	</div>
+
+	<div class="right">
+
+		
+
+			<h4><a href="/projects/shapes-lines-colours-cmy/">Shapes Lines Colours – CMY</a></h4>
+		
+		<p>Abstract artworks with cyan, magenta and yellow.</p>
+				<p class="tags">
+			
+				<span>Personal project</span>
+			
+				<span>Art</span>
+			
+		</p>
+
+	</div>
+</div>
+<hr />
+
+<p><a href="/projects">More projects »</a></p>
+:ET

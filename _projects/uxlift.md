@@ -1,6 +1,6 @@
 ---
 title: UX Lift
-date: '2020-05-19 00:00:00'
+date: '2021-04-19 00:00:00'
 description: A curated collection of articles, resources, books and tools, with the goal of covering every aspect of the UX and design process.
 thumbnail: "/images/uxlift.jpg"
 link: https://www.uxlift.org

@@ -16,15 +16,18 @@ layout: default
 	{{ content }}
 </div>
 <hr>
-<div class="row gallery">
+<div class="row gallery wide">
 	
 		{% assign i = 0 %}
 		
-		{% for i in (92..179) %}
+		{% for i in (1..28) %}
 		<div class="col-xs-4 slc">
-			<img src="https://res.cloudinary.com/dp5mvntv7/image/upload/c_scale,w_300/v1589979350/phase2/{{ i }}.jpg" alt="{{ i }}" title="{{ i }}" />
+			<video width="100%" controls loop>
+				<source src="https://res.cloudinary.com/dp5mvntv7/video/upload/v1617879457/phase4/{{ i }}.mov" type="video/mp4">
+			</video>
 		</div>
 		{% endfor %}
 
 
 </div>
+
