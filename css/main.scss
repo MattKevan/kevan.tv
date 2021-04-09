@@ -118,12 +118,13 @@ li p {
 
 .dark {
 	background-color: #1A1A1A;
-	a {color: #fff;}
+	a, li  {color: #fff;}
 	h1,h2,h3,h4 {
 		color: #fff;
 	}
 	p {color: #F3F3F3;}
 	hr {border-color: #575757 !important;}
+	
 	.tags {
 		span {
 			border-color: #575757;
@@ -218,6 +219,17 @@ em {
 		margin-top: 0;
 	}
 }
+
+.grid {
+	display: grid; 
+	grid-template-columns: repeat(3, 1fr); 
+	grid-template-rows: repeat; 
+	grid-column-gap: 30px;
+	grid-row-gap: 30px;
+	img {width: 100%;} 
+}
+
+
 .wide{
 	position: relative;
 	width: 100%;
@@ -400,10 +412,7 @@ nav {
 }
 
 
-.slc {
-	margin: 0 0 30px 0;
-	img {width: 100%;}
-}
+
 .card {
 	img {width: 100%;}
 	margin-bottom: 30px;

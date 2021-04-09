@@ -39,6 +39,8 @@ permalink: "/reading/"
 
 ### November
 
+* Axiom's End by Lindsay Ellis
+
 ### October
 
 ### September

@@ -12,17 +12,17 @@ theme: dark
 
 #### Notice:
 
-* Create 3 images every day.
-* Use only an iPhone.
+* There must be 3 artworks created daily.
+* They must be created on an iPhone.
+* This will continue for a year.
 
 Status: Complete.
 
-<hr>
+--- 
 
-{% assign i = 0 %}
-
-{% for i in (1..969) %}
-<div class="col-xs-4 slc">
+<div class="grid wide">
+	{% assign i = 0 %}
+	{% for i in (1..969) %}
 	<img src="https://res.cloudinary.com/dp5mvntv7/image/upload/c_scale,w_600/p1/{{ i }}.jpg" alt="{{ i }}" title="{{ i }}" />
+	{% endfor %}
 </div>
-{% endfor %}

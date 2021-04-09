@@ -7,24 +7,22 @@ cover: cmy-banner.jpg
 tags:
 - Personal project
 - Art
+theme: dark
 ---
 
 #### Notice:
 
 * There must only be cyan, magenta and yellow.
-* Multiply may be applied.
-* There must be 85 images.
+* There may be blend modes applied.
+* There must be be 85 images.
 
 Status 46% complete.
 
-<div class="wide">
-<hr>
+--- 
 
-{% assign i = 0 %}
-
-{% for i in (1..39) %}
-<div class="col-xs-4 slc">
+<div class="grid wide">
+	{% assign i = 0 %}
+	{% for i in (1..39) %}
 	<img src="https://res.cloudinary.com/dp5mvntv7/image/upload/c_scale,w_600/v1589979350/phase3/{{ i }}.jpg" alt="{{ i }}" title="{{ i }}" />
-</div>
-{% endfor %}
+	{% endfor %}
 </div>

@@ -19,17 +19,11 @@ tags:
 
 Status: 50% complete.
 
-<hr>
+---
 
-<div class="row gallery wide">
-	
-		{% assign i = 0 %}
-		
-		{% for i in (1..255) %}
-		<div class="col-xs-4 slc">
-			<img src="https://res.cloudinary.com/dp5mvntv7/image/upload/c_scale,w_600/v1589979350/phase2/{{ i }}.jpg" alt="{{ i }}" title="{{ i }}" />
-		</div>
-		{% endfor %}
-
-
+<div class="grid wide">
+	{% assign i = 0 %}
+	{% for i in (1..255) %}
+		<img src="https://res.cloudinary.com/dp5mvntv7/image/upload/c_scale,w_600/v1589979350/phase2/{{ i }}.jpg" alt="{{ i }}" title="{{ i }}" />
+	{% endfor %}
 </div>

@@ -11,22 +11,20 @@ tags:
 
 #### Notice:
 
-* Use only cyan, magenta and yellow.
-* Multiply may be applied.
-* Artworks must be animated.
+* There must only be cyan, magenta and yellow.
+* There may be blend modes applied.
+* The animations must loop.
 * There must be be 85 animations.
 
 Status: 33% complete.
 
-<div class="wide">
-<hr>
-{% assign i = 0 %}
+---
 
-{% for i in (1..28) %}
-<div class="col-xs-4 slc">
+<div class="grid wide">
+	{% assign i = 0 %}
+	{% for i in (1..28) %}
 	<video width="100%" controls loop>
-		<source src="https://res.cloudinary.com/dp5mvntv7/video/upload/v1617879457/phase4/{{ i }}.mov" type="video/mp4">
+	<source src="https://res.cloudinary.com/dp5mvntv7/video/upload/v1617879457/phase4/{{ i }}.mov" type="video/mp4">
 	</video>
-</div>
-{% endfor %}
+	{% endfor %}
 </div>
