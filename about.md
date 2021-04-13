@@ -49,7 +49,7 @@ permalink: "/about/"
 
 #### Colophon
 
-This site is built with <a href="https://jekyllrb.com" target="_blank">Jekyll</a> and <a href="https://getbootstrap.com" target="_blank">Bootstrap</a>, stored in <a href="https://www.github.com" target="_blank">Github</a> and hosted by <a href="https://www.netlify.com" target="_blank">Netlify</a>. 
+This site is built with <a href="https://jekyllrb.com" target="_blank">Jekyll</a>, stored in <a href="https://www.github.com" target="_blank">Github</a> and hosted by <a href="https://www.netlify.com" target="_blank">Netlify</a>. 
 
-I used <a href="https://www.graphic.com" target="_blank">Graphic</a> and <a href="https://affinity.serif.com/en-gb/designer/ipad/" target="_blank">Affinity Designer</a> for vectors, <a href="https://affinity.serif.com/en-gb/photo/ipad/" target="_blank">Affinity Photo</a> for bitmaps, <a href="https://www.sublimetext.com" target="_blank"> Sublime Text</a> and <a href="https://workingcopyapp.com" target="_blank">Working Copy</a> for code and <a href="https://bear.app" target="_blank">Bear</a> for words. The font is <a href="https://www.ibm.com/plex/" target="_blank">Plex Sans</a>.
+I used <a href="https://www.graphic.com" target="_blank">Graphic</a> and <a href="https://affinity.serif.com/en-gb/designer/ipad/" target="_blank">Affinity Designer</a> for vectors, <a href="https://affinity.serif.com/en-gb/photo/ipad/" target="_blank">Affinity Photo</a> for bitmaps, <a href="https://www.sublimetext.com" target="_blank"> Sublime Text</a> and <a href="https://workingcopyapp.com" target="_blank">Working Copy</a> for code and <a href="https://bear.app" target="_blank">Bear</a> for words. The fonts are <a href="https://www.ibm.com/plex/" target="_blank">Plex Sans</a> and <a href="https://software.sil.org/gentium/download/" target="_blank">Gentium Basic</a>.
 
