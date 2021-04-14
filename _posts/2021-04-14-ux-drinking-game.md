@@ -1,7 +1,7 @@
 ---
-title: "UX drinking game"
-link: "http://www.uxdrinkinggame.com"
+title: "Lofi Café"
+link: "https://lofi.cafe"
 type: link
-description: "When you hear 'surprise and delight users', drink."
+description: "Cozy lo-fi beats and visuals for work, study and relaxation."
 date: 2021-04-14
 ---
