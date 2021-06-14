@@ -1,26 +1,9 @@
 ---
-title: RCPCH
+title: Royal College of Paediatrics and Child Health
 date: 2019-02-01 00:00:00
 description: Planning a new site for the UK's leading organisation for paediatricians
   and child health.
-thumbnail: "/images/rcpch.png"
-slides:
-- i: https://res.cloudinary.com/dl4abuxel/image/upload/v1546371185/rcpch1.jpg
-  cols: 3
-  captions:
-  - c: Homepage mobile wireframe.
-  - c: Health topics hub, a new section aimed at parents.
-  - c: Hub page with shortcut links based around key user stories.
-  - c: Custom component-based microsite page.
-- i: https://res.cloudinary.com/dl4abuxel/image/upload/v1546371185/rcpch2.jpg
-  cols: 12
-  captions:
-  - c: A small detail from the site map.
-- i: https://res.cloudinary.com/dl4abuxel/image/upload/v1546371185/rcpch3.jpg
-  cols: 6
-  captions:
-  - c: The health topics hub design.
-  - c: A health topic page.
+thumbnail: "/images/rcpch-thumb.jpg"
 work-url: http://www.rcpch.ac.uk
 roles:
 - User research
@@ -36,54 +19,52 @@ tech:
 slug: rcpch
 tags:
 - User research
-- Information architecture
-weight: 2
-sections:
-- template: gallery
-  slides:
-  - i: "/images/rcpch1.jpg"
-    cols: '3'
-    captions:
-    - c: Homepage mobile wireframe.
-
+- User experience
+cover: rcpch.jpg
 ---
-## Background
+## Overview
 
-RCPCH (Royal College for Paediatric and Child Health) are the premier training and accreditation body for paediatricians and child health practitioners in the UK.
+Royal College for Paediatric and Child Health (RCPCH) are the premier training and accreditation body for paediatricians and child health practitioners in the UK.
 
-## The challenge
+## Challenge
 
-Our brief was to re-develop the RCPCH’s website, modernising and improving every aspect of it. The site was built with Drupal 6, an old and unsupported version of the CMS and need upgrading to Drupal 8, the latest version. In addition, content was hard to find, the site wasn’t optimised for mobile, and editors found it difficult to use.
+The challenge was to re-develop the RCPCH’s website, improving every aspect of it, from updating the content to re-platforming on a modern CMS. Content was hard to find, the site wasn’t optimised for mobile, and editors found it difficult to use.
 
-## The solution
+## Solution
+
+RCPCH is a large organisation, with many different stakeholders, interal teams and user groups who each rely on the site in different ways. It was essential that our solution would work for each of these groups, as well as being technically sound and attractively designed. 
 
 ### User research
 
-RCPCH is a large organisation, with many different teams who each rely on the website for their work in different ways. As well as researching the external users, it was just as important to understand each team’s needs and incorporate their feedback, both to ensure the new site works for them and to foster a sense of ownership of the finished product.
+In order to understand the site's users and their needs, I conducted an extensive series of interviews with a wide range of stakeholders, including internal teams, paediatricians, parents, young people and more. 
 
-I spent three months interviewing representatives from each team, as well as a range of external stakeholders. These ranged from young people, to trainees, to practicing paediatricians, to parents.
-
-From these interviews we developed hundreds of user stories, which in a series of workshops held with each department, we grouped into epics and ranked them by importance. These directly informed the information architecture and content strategy of the new site.
+From these interviews, we developed hundreds of user stories, which in a series of workshops held with each department, we grouped into epics and ranked them by importance. These formed the core user journeys the site was built around and had a direct impact on the content strategy and information architecture.
 
 ### Content strategy
 
-Based on the user stories, I created a set of new content types and templates. The old site only had one content type – the page – which meant it was being used for many different things with no consistent structure.
+The old site had over five thousand pages of content plus many more PDFs, from clinical guidelines, to research papers, to articles and advice guides. Each one would need migrating manually as it was too complex to automate.
 
-Content types are defined by the purpose of each category of content, for example an article content type may have a tag field whereas an event has a date field.
+To facilitate this, I completed a full content audit, indexing each piece of content and cross-referencing it against traffic stats for the last year. Any page with five or less views I marked as a potential candidate for deletion. And, working with the RCPCH web team, we determined which content could be transferred directly or needed to be re-written. Each team was responsible for their own content, so the decision to delete or re-write content was quite politically sensitive.
 
-I also needed to create a new tag structure to categorise content. Combined with the new content types, the plan was to use the tags to display and sort content in various ways – for example to pull out a range of different types of content on the same topic.
+With a full understanding of the content, I created a set of content types and templates. The old site only had one content type – the page – which meant it was being used for many different things with no consistent structure.
 
-The old website had over five thousand content pages, plus many thousands of PDFs. We realised early on that we couldn’t migrate content automatically  due to the old site’s structure – it had to be done manually.
+<img src="/images/rcpch3.jpg" class="wide">
 
-I completed a full content audit, indexing each piece of content and cross-referencing it against traffic stats for the last year. Any page with five or less views I marked as a potential candidate for deletion. And, working with the RCPCH web team, we determined which content could be transferred directly or needed to be re-written.
+<p class="caption">↑ Example content type definitions, showing permissions, fields and taxonomies.</p>
 
-Each team was responsible for their own content, so the decision to delete or re-write content was quite politically sensitive.
+Content types are defined by the purpose of each piece of content, for example an article content type may have tag and author field whereas an event may have date and location fields.
+
+I also needed to create a new taxonomy structure to categorise content. Combined with content types, this would be used to sort and view content in various ways – for example to show related articles on a certain topic.
+
 
 ### Information architecture
 
-Based on the outcomes of the user interviews and the content strategy, I created a site map that showed where the new content types would fit into the site structure. Then, working with the development team, I developed a series of process and entity relationship diagrams, detailing key pieces of functionality and how the site would interact with outside systems.
+Based on the content strategy and the user stories outcomes of the user interviews and the content strategy, I created a site map that showed where the new content types would fit into the site structure. Then, working with the development team, I developed a series of process and entity relationship diagrams, detailing key pieces of functionality and how the site would interact with outside systems.
 
-<img src="/images/rcpch2.jpg" class="wide">
+<img src="/images/rcpch4.jpg" class="wide">
+
+<p class="caption">↑ Sitemap showing page hierarchy and content types.</p>
+
 
 From this, I was able to create a set of detailed mobile-first, responsive wireframes, covering content types, listings, challenging functionality, such as search, and key landing pages.
 

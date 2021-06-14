@@ -1,0 +1,44 @@
+I"<h2 id="background">Background</h2>
+<p>Mumsnet is the UK’s largest parenting website, and one of the UK’s largest websites, with over 1.2 billion annual pageviews. With the aim of making lives easier for parents, the website consists of a lively community forum, plus articles and videos on a wide range of parenting and non-parenting issues.</p>
+
+<h2 id="the-challenge">The challenge</h2>
+<p>Mumsnet was founded over 20 years ago, and over the years new sections, features and pages were added in a variety of technologies and frameworks. Older parts of the site were not at all responsive, while some sections had a separate mobile theme, whereas newer sections were fully responsive. Fonts, design and layout changed between sections.</p>
+
+<p><img src="/images/work/MN Nav 1.png" class="wide" /></p>
+
+<p>This resulted in a site that was almost impossible to navigate, as sections in the main menu in one part of the site became buried two or three levels down or were non-existent in others. The mobile version of some pages had a different main navigation to the desktop version. Across the site, there were seven different headers and three different footers.</p>
+
+<p>This situation was hurting usability as there was no consistent site structure, and it also wasn’t helping SEO as search engines would get a different view of the site depending on which page – or version of the page – they indexed. In addition, a large amount of Mumsnet’s traffic goes to forum content – editorial content is not widely viewed unless it’s found through search – so a secondary goal was to increase traffic to articles by making them easier to get to.</p>
+
+<p>My challenge was to create a consistent header and footer that could be rolled out across the site, irrespective of the underlying technology or front-end framework.</p>
+
+<h2 id="my-solution">My solution</h2>
+<h3 id="data-and-content-strategy">Data and content strategy</h3>
+<p>It was vital that the new navigation made sense from a user perspective, rather than reflecting the company structure. To do this I used analytics data to group the most popular topics. These became the top-level menu items, and the most popular subjects within each became the second and third level items.</p>
+
+<p>I then conducted a content audit, creating an index of every hub and content page on the site. Working with the content team, we decided which pages would go into each topic, creating a site map content hierarchy.</p>
+
+<h3 id="usability-testing">Usability testing</h3>
+<p>Before beginning design and development work, I conducted a series of tree tests with users both familiar and unfamiliar with Mumsnet. Setting a series of tasks, I asked people to find both top-level and nested content to make sure they could find it using the new site structure.</p>
+
+<h3 id="design-and-prototyping">Design and prototyping</h3>
+<p>After the structure was agreed, I created a series of wireframes, prototypes and designs to test variations until we arrived at a solution liked by the majority of users.</p>
+
+<p><img src="/images/work/MN Nav 3.png" class="wide" /></p>
+
+<h3 id="development">Development</h3>
+<p>Creating the new header and footer was a challenge. The code had to work flawlessly across desktop and mobile, be fully SEO optimised and accessible – and, the hardest bit, work on any page across the site without either breaking itself, or the surrounding page. I worked closely with the development team throughout this process to test code, make suggestions for improvements, and provide design guidance where necessary.</p>
+
+<h3 id="launch">Launch</h3>
+<p>This was a big change to the site, much too risky to launch in one go. If anything went wrong, the backlash from our users would be swift and fierce.</p>
+
+<p>To mitigate this, I developed a staggered launch strategy, first releasing to 5% of users, and then upping the amount each week, until finally it was made available to all users.</p>
+
+<p>Good communications with the community would be key to the new navigation to being accepted, so immediately after the launch I wrote a post explaining the rationale for the project and asked users to give their feedback. I triaged the responses, making rapid updates and changes based on the comments as they came in.</p>
+
+<h2 id="the-result">The result</h2>
+<p>Mumsnet users can be highly resistant to change, but due to the way I’d handled comments and the rapid post-launch improvements we made the new header and footer was accepted quickly.</p>
+
+<p>After launch, the header click-through rate increased by 200%, and clicks to content increased by 77%.</p>
+
+:ET

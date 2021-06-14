@@ -167,17 +167,56 @@ em {
 	font-size: .8em;
 }
 
-.teaser { 
+p.caption {
+	font-style: italic;
+	text-align: center;
+	margin-bottom: 30px;
+	font-size: 14px;
+}
 
-	&.project {
+.project-grid {
+	
+	.teaser {
+		margin-bottom: 30px;
+	}
+
+}
+@media (min-width: $screen-sm-min) { 
+
+	.project-grid {
 		display: grid; 
-		grid-template-columns: 1.5fr 2.5fr; 
+		grid-template-columns: 1fr 1fr; 
 		grid-column-gap: 20px;
-		grid-row-gap: 30px; 	
+		grid-row-gap: 30px; 
+		margin-bottom: 0;
+
+		.teaser {
+			margin-bottom: 0;
+		}
+	}
+}
+
+
+.teaser {
+	&.project {
+		display: block;
+	}
+
+	@media (min-width: $screen-md-min) { 
+		&.project {
+			display: grid; 
+			grid-template-columns: 1.5fr 2.5fr; 
+			grid-column-gap: 20px;
+			grid-row-gap: 30px; 	
+		}
+	}
+
+	.inner {
+		margin: 10px 0 0 0;
 	}
 
 	h4 {
-		margin: 0 0 5px 0;
+		margin: 0 0 10px 0;
 	}
 	img {width: 100%;}
 }
@@ -209,6 +248,16 @@ em {
     minmax(1em, 1fr) [full-end];
 }
 
+.full {
+	.main {
+	  display: grid;
+	  grid-template-columns: 
+	    [full-start] minmax(1em, 1fr) 
+	    [main-start] minmax(0, 65em) [main-end]
+	    minmax(1em, 1fr) [full-end];
+	}
+}
+
 .main > * {
   grid-column: main;
 }
@@ -233,7 +282,7 @@ em {
 .wide{
 	position: relative;
 	width: 100%;
-	margin: 15px 0;
+	margin: 0;
 
 	@media (min-width: $screen-sm-min) { 
 		width: 750px;
@@ -386,7 +435,7 @@ nav {
 }
 
 .caption {
-	margin: 10px 0 0 0;
+	margin: 0;
 }
 
 .book-cover {

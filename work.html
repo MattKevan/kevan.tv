@@ -2,11 +2,14 @@
 title: Work
 layout: page
 permalink: "/work/"
-
+theme: full
 ---
 <hr>
+
+<div class="project-grid">
 {% assign sort = site.work | sort: 'date' | reverse %}
 {% for item in sort %}
 	{% include work-teaser.html %}
 {% endfor %}
 
+</div>

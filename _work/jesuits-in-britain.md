@@ -4,7 +4,7 @@ date: '2018-12-25 00:00:00'
 categories: []
 description: "Creating an information architecture that helps people go deeper in their journey of faith."
 logo: "/images/bcc/logo.png"
-thumbnail: "https://res.cloudinary.com/dl4abuxel/image/upload/q_auto/v1537975996/jesuits.jpg"
+thumbnail: "/images/jesuit-thumb.jpg"
 slides:
   - i: "/images/work/j1.png"
     cols: 3

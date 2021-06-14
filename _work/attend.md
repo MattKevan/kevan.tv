@@ -3,24 +3,6 @@ title: Attend
 date: '2018-08-01 00:00:00'
 description: Publication designs for Attend, the national organisation for hospital and community volunteers.
 thumbnail: "/images/attend/attend2.png"
-layout: print-design
-group:
-- grouptitle: " "
-  images:
-   - img: "/images/attend/Annual Review 07.jpg"
-     cap: "Annual review 2007"
-   - img: "/images/attend/Annual Review 08.jpg"
-     cap: "Annual Review 2008"
-   - img: "/images/attend/Attend premium reserve.jpg"
-   - img: "/images/attend/Banking Cover.jpg"
-   - img: "/images/attend/Workbook one.jpg"
-   - img: "/images/attend/Workbook two.jpg"
-   - img: "/images/attend/Covers for 3&4.jpg"
-   - img: "/images/attend/Covers for 3&42.jpg"
-   - img: "/images/attend/Diamond awards cover.jpg"
-   - img: "/images/attend/Join Us.jpg"
-   - img: "/images/attend/Welcome to Attend Cover.jpg"
-
 
 tags:
 - Print design
@@ -30,6 +12,21 @@ weight: 1
 
 ---
 
-Between 2004 and 2011 I was creative manager at Attend, responsible for writing, editing and designing the organisation's publications, magazines and website. I was also responsible for implementing the organisation's rebrand from National Association of Hospital and Community Friends (NAHCF) to Attend.
+Attend is the membership body for volunteering organisations in hospitals and other healthcare settings, with over 29,000 volunteers across the UK.
 
-During this time I set up and ran a project that helped designers who had experienced traumatic brain injuries rehabilitate and return to work by providing design services to Attend's member charities.
+Between 2004 and 2011, I led the organisation's creative team, a mix of staff and volunteers, to manage the organisation's brand, produce publications and maintain the website.
+
+<img src="/images/attend1.jpg" class="wide">
+<p class="caption">↑ Various publications, including textbooks and pamphlets. Illustrations by Mat Moran & Lizzie Kevan.</p>
+
+I was responsible for writing, editing and designing Attend's supporter magazines, annual reviews and information leaflets, as well as editing videos, organising events, including the organisation's diamond jubilee, and even designing the interiors of hospital shops.
+
+<img src="/images/attend2.jpg" class="wide">
+<p class="caption">↑ Friends Connect, Attend's quarterly supporter magazine. Illustrations by Oliver Jelf, Mat Moran & Lizzie Kevan.</p>
+
+I also led a project that helped designers who had suffered brain injuries gain experience and return to work by providing design services to Attend's member charities, acting as an in-house design agency.
+
+<img src="/images/attend3.jpg" class="wide">
+<p class="caption">↑ Annual reports and other publications. Illustrations by Mat Moran & Lizzie Kevan.</p>
+
+

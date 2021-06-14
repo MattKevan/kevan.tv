@@ -5,7 +5,7 @@ description: Bringing 'the spirit of adventure' to the Web.
 description: Based on a lightvessel moored off the Essex coast, Fellowship Afloat is an outdoor
   activity centre like no other.
 banner-image: "/images/fact/fact-banner2.jpg"
-thumbnail: "/images/fact.png"
+thumbnail: "/images/fact-thumb.jpg"
 logo: "/images/fact.png"
 cover: fact-cover.jpg
 slide1: 
@@ -31,10 +31,9 @@ tech:
 - Bootstrap
 - Sketch
 tags:
-- UX
+- User experience
 - Design
 - Web development
-- Drupal
 
 weight: 6
 ---
