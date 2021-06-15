@@ -4,7 +4,7 @@ date: 2019-02-01 00:00:00
 description: Planning a new site for the UK's leading organisation for paediatricians
   and child health.
 thumbnail: "/images/rcpch-thumb.jpg"
-work-url: http://www.rcpch.ac.uk
+link: http://www.rcpch.ac.uk
 roles:
 - User research
 - Wireframing

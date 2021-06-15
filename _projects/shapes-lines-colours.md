@@ -1,7 +1,7 @@
 ---
 title: Shapes Lines Colours
 date: '2018-12-19 00:00:00'
-description: Abstract artwork, created daily.
+description: A year of abstract artwork.
 thumbnail: "/images/slc.png"
 tags:
 - Personal project
@@ -12,9 +12,8 @@ theme: dark
 
 #### Notice:
 
-* There must be 3 artworks created daily.
-* They must be created on an iPhone.
-* This will continue for a year.
+* Create three artworks every day, for 365 days.
+* Artworks must be created on an iPhone.
 
 Status: Complete.
 

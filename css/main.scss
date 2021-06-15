@@ -171,9 +171,13 @@ p.caption {
 	font-style: italic;
 	text-align: center;
 	margin-bottom: 30px;
-	font-size: 14px;
+
 }
 
+.mb,
+.wide.mb {
+	margin-bottom: 30px;
+}
 .project-grid {
 	
 	.teaser {
@@ -253,7 +257,7 @@ p.caption {
 	  display: grid;
 	  grid-template-columns: 
 	    [full-start] minmax(1em, 1fr) 
-	    [main-start] minmax(0, 65em) [main-end]
+	    [main-start] minmax(0, 1170px) [main-end]
 	    minmax(1em, 1fr) [full-end];
 	}
 }
@@ -287,19 +291,18 @@ p.caption {
 	@media (min-width: $screen-sm-min) { 
 		width: 750px;
 		left: calc(-1 * (750px - 100%) / 2);
-		padding: 0 15px;
 	}
 
 	@media (min-width: $screen-md-min) { 
 		width: 992px;
 		left: calc(-1 * (992px - 100%) / 2);
-		padding: 0 15px;
+
 	}
 
 	@media (min-width: $screen-lg-min) { 
 		width: 1170px;
 		left: calc(-1 * (1170px - 100%) / 2);
-		padding: 0 15px;
+
 	}
 }
 

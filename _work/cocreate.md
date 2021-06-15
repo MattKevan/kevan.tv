@@ -11,10 +11,10 @@ tags:
 
 ## Background
 
-Co-Create are a leadership coaching consultancy, working with organisations such as Unicef, Trainline, Mercedes-Benz and Bank of England. They needed a new brochure site to advertise their services and promote their case studies.
+Co-Create are a leadership training and coaching consultancy with clients that include Unicef, The Trainline, Mercedes-Benz and the Bank of England. They needed a new brochure site to advertise their services and promote their case studies.
 
 <img alt="Co Create consultancy screenshot" src="/images/cocreate.jpg" class="wide">
 
 ## Solution
 
-I built a new website in Wordpress, using the Genesis base theme.
+This was a pure development task as the designs had already been commissioned. I built the site with Wordpress, using the Genesis base theme and custom-made  Gutenberg blocks.

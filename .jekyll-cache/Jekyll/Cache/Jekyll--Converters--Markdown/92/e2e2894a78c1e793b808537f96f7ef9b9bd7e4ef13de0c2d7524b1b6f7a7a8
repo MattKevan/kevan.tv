@@ -1,0 +1,134 @@
+I"�<hr />
+
+<h2 id="links">Links</h2>
+
+<p><strong><a href="https://anvaka.github.io/city-roads/?q=London&amp;areaId=3600065606" target="_blank">City Roads</a></strong> – Draw all roads in a city at once.  – <span class="date">12 June 2021</span></p>
+
+<p><strong><a href="https://codepen.io/jh3y/pen/LYNZwGm" target="_blank">The Impossible Checkbox</a></strong> – Sheer genius – <span class="date">14 May 2021</span></p>
+
+<p><strong><a href="https://project-awesome.org/" target="_blank">Project Awesome</a></strong> – Curated list of awesome lists – <span class="date">5 May 2021</span></p>
+
+<p><strong><a href="https://www.vitling.xyz/toys/acid-banger/" target="_blank">The Endless Acid Banger</a></strong> – Very listenable automatic algorithmic acid. – <span class="date">20 April 2021</span></p>
+
+<p><a href="/links">More links »</a></p>
+
+<hr />
+
+<h2 id="writing">Writing</h2>
+
+<div class="teaser">
+
+	<h4><a href="/2021/01/20/content-management-for-static-sites/">The best content management systems for static sites – updated</a></h4>
+	<p class="date">20 January 2021</p>
+	<p>Static sites have been around since the dawn of the web, but thanks to the rise of static site generators like Jekyll and Hugo they're undergoing a bit of a renaissance. </p>
+	<p class="tags xs">
+		
+			<span>Web development</span>
+		
+			<span>Reviews</span>
+		
+	</p>
+	<hr />
+</div>
+
+<div class="teaser">
+
+	<h4><a href="/2021/01/12/indistractable-by-nir-eyal/">Book review – Indistractable by Nir Eyal</a></h4>
+	<p class="date">12 January 2021</p>
+	<p>How to control your attention and reduce distraction, from the author of ‘Hooked’, a manual for designing addictive products.</p>
+	<p class="tags xs">
+		
+			<span>Book review</span>
+		
+			<span>Productivity</span>
+		
+	</p>
+	<hr />
+</div>
+
+<div class="teaser">
+
+	<h4><a href="/2020/12/14/the-best-sites-for-public-domain-art-and-illustration/">The best places to find high-resolution public domain art and illustration</a></h4>
+	<p class="date">14 December 2020</p>
+	<p>Finding public domain images at a good enough resolution to print can be challenging, but here’s a list of the best places to source high-quality art and illustration.</p>
+	<p class="tags xs">
+		
+			<span>Open culture</span>
+		
+			<span>Public domain</span>
+		
+	</p>
+	<hr />
+</div>
+
+<p><a href="/articles">More writing »</a></p>
+
+<hr />
+
+<h2 id="projects">Projects</h2>
+
+<div class="teaser">
+
+
+		
+			<a href="/projects/shapes-lines-colours-motion/"><img src="/images/cmy-motion.jpg" alt="Shapes Lines Colours – CMY motion" /></a>
+		
+
+		<div class="inner">
+		<h4>Shapes Lines Colours – CMY motion</h4>
+
+						<p class="tags">
+			
+				<span>Personal project</span>
+			
+				<span>Art</span>
+			
+		</p>
+	</div>
+
+</div>
+
+<div class="teaser">
+
+
+		
+			<a href="/projects/shapes-lines-colours-cmy/"><img src="/images/cmy.jpg" alt="Shapes Lines Colours – CMY" /></a>
+		
+
+		<div class="inner">
+		<h4>Shapes Lines Colours – CMY</h4>
+
+						<p class="tags">
+			
+				<span>Personal project</span>
+			
+				<span>Art</span>
+			
+		</p>
+	</div>
+
+</div>
+
+<div class="teaser">
+
+
+		
+			<a href="/projects/shapes-lines-colours-spectrum/"><img src="/images/slc-2020.png" alt="Shapes Lines Colours – Spectrum" /></a>
+		
+
+		<div class="inner">
+		<h4>Shapes Lines Colours – Spectrum</h4>
+
+						<p class="tags">
+			
+				<span>Personal project</span>
+			
+				<span>Art</span>
+			
+		</p>
+	</div>
+
+</div>
+
+<p><a href="/projects">More projects »</a></p>
+:ET

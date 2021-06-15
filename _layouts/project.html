@@ -11,11 +11,8 @@ layout: default
 		<span>{{ tag }}</span>
 	{% endfor %}
 </p>	
-<hr>
 
-{% if page.slides %}
-	{% include carousel.html %}
-{% endif %}
+<hr>
 
 
 		{{ content }}
@@ -25,8 +22,8 @@ layout: default
 	{% include gallery.html %}
 {% endif %}
 
-{% if page.work-url %}
-	<p><a href="{{ page.work-url }}" target="_blank">Visit the site »</a></p>
+{% if page.link %}
+	<p><a href="{{ page.link }}" target="_blank">Visit the site »</a></p>
 {% endif %}
 
 {% if page.roles %}
