@@ -40,7 +40,7 @@ However, these courses aren't accessible to everyone, due to factors such as cos
 The question I wanted to answer was would it be possible to create a learning app that combined the best of Mumsnet's online community with the best of an offline group experience?
 
 <img src="/images/mn-app1.jpg" class="wide">
-<p class="caption">↑ Illustrators.co homepage.</p>
+<p class="caption">↑ App screens, showing featured page, group listing and course overview.</p>
 
 ### Solution
 
