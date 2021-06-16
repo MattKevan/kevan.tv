@@ -16,22 +16,35 @@ layout: page
 
 ---
 
-## Writing
+## Blog
+
 
 {% assign datesort = site.posts | where: 'type','article' | sort: 'date' | reverse %}
 {% for article in datesort limit: 3 %}
 {% include article-teaser.html %}
 {% endfor %}
 
-[More writing »](/articles)
+[More articles »](/blog)
+
 
 ---
 
-## Projects
-
-{% assign sort = site.projects | sort: 'date' | reverse %}
-{% for item in sort limit: 3 %}
+## Work
+<div class="project-grid">
+{% assign sort = site.work | sort: 'date' | reverse %}
+{% for item in sort limit: 2 %}
 {% include work-teaser.html %}
 {% endfor %}
+</div>
+[More projects »](/work)
 
-[More projects »](/projects)
+---
+
+## Art
+<div class="project-grid">
+{% assign sort = site.art | sort: 'date' | reverse %}
+{% for item in sort limit: 2 %}
+{% include work-teaser.html %}
+{% endfor %}
+</div>
+[More projects »](/art)

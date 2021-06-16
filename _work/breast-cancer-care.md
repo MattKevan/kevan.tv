@@ -30,16 +30,14 @@ BCC had begun an in-depth user testing project with a specialist UX consultancy 
 <img src="/images/bcc-sm.jpg" class="wide">
 <p class="caption">↑ Sections from the site map, showing content hierarchy and structure.</p>
 
-I then created a plan which could both be understood by BCC and used as a detailed blueprint for the development team.
 
-This included site maps, system diagrams, hundreds of wireframes, detailed user journeys and more.
-
+I created a plan which could both be understood by BCC and used as a detailed blueprint for the development team. This included site maps, system diagrams, hundreds of wireframes, detailed user journeys and more.
 
 <img src="/images/bcc-wf.jpg" class="wide">
 <p class="caption">↑ Example mobile and desktop wireframes.</p>
 
 
-A key requirement from BCC was that the site should be easily extensible – it should be possible to add new sections and features without requiring extra design and development time. It was also clear that we were not going to be able to wireframe every page which needed it and still maintain a reasonable budget.
+A key requirement was that the site should be easily extensible – it should be possible to add new sections and features without requiring extra design and development time. It was also clear that we were not going to be able to wireframe every page which needed it and still maintain a reasonable budget.
 
 
 I took the 'atomic design' principle and adapted it to work with Drupal. In short, atomic design is a system for design which takes the basic elements of a web page – headings, paragraphs, and builds them into modular 'molecules' which can be combined on various ways to form page templates. Therefore new templates can be built quickly from a library of pre-existing components.

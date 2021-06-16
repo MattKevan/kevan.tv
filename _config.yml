@@ -34,9 +34,9 @@ feed:
   excerpt_only: true
 
 collections:
-  projects:
+  art:
     output: true
-    permalink: /projects/:path/
+    permalink: /art/:path/
   work:
     output: true
     work: /work/:path/
@@ -52,7 +52,7 @@ defaults:
   -
     scope:
       path: ""
-      type: "projects"
+      type: "art"
     values: 
       layout: "post"
       author: "Matt Kevan"
@@ -61,4 +61,4 @@ defaults:
       path: ""
       type: "work"
     values: 
-      layout: "project"
+      layout: "post"

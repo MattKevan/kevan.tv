@@ -1,0 +1,14 @@
+---
+title: Art and photography
+layout: page
+permalink: "/art/"
+theme: full
+---
+<hr>
+
+<div class="project-grid">
+{% assign sort = site.art | sort: 'date' | reverse %}
+{% for item in sort %}
+	{% include work-teaser.html %}
+{% endfor %}
+</div>

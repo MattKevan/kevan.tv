@@ -6,7 +6,8 @@ layout: default
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
 	<h1 itemprop="name headline">{{ page.title }}</h1>
-	<p class="lead">{{ page.description }}</p>				
+	<p class="lead">{{ page.description }}</p>		
+	<p class="date">{{ page.date | date: "%-d %B %Y"}}</p>
 	<p class="tags xs">
 	 	{% for tag in page.tags %}
 		 	<span>{{ tag }}</span>
@@ -16,6 +17,7 @@ layout: default
 			<span>Link</span>
 		{% endif %}
 	</p>
+
 	<hr>
 
 
@@ -25,44 +27,24 @@ layout: default
 		{{ content }}
 	</div>
 
-		{% if page.type == 'link' %}
-			<a href="{{ page.link }}" target="_blank">Visit site »</a>
+	{% if page.type == 'link' %}
+		<a href="{{ page.link }}" target="_blank">Visit site »</a>
 
-			<hr>
+		<hr>
 
-			<h4>More links</h4>
+		<h4>More links</h4>
 
-			{% assign sort = site.posts | where: 'type','link' | sort: 'date' | reverse %}
-			{% for item in sort limit:5 %}		
-			{% include link.html %}
-			{% endfor %}
-			
-		{% endif %}
-
-
-	{% if page.booklist %}
-		{% for book in site.data.books %}
-			{% assign no = book.id | plus: 0 %}
-			{% for item in page.booklist %}
-				{% if item.i == no %}
-
-					<div class="cover continued text-center bgk">
-						<a href="{{ book.link }}" target="_blank">
-							<img src="/images/books/{{ book.image }}" alt="{{ book.title }}" class="book-cover" />
-						</a>
-					</div>
-
-					
-						<h3>{{ book.title }}</h3>
-						<p class="author s">{{ book.author }}</p>
-						<p>{{ book.description }}</p>
-						<p><a href="{{ book.link }}" target="_blank">Read more »</a></p>
-				
-						
-				{% endif %}
-			{% endfor %}
+		{% assign sort = site.posts | where: 'type','link' | sort: 'date' | reverse %}
+		{% for item in sort limit:5 %}		
+		{% include link.html %}
 		{% endfor %}
-	{% endif%}
+		
+	{% endif %}
+	
+	{% if page.link %}
+		<p><a href="{{ page.link }}" target="_blank">Visit the site »</a></p>
+	{% endif %}
+
 
 </article>
 

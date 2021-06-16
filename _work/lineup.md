@@ -3,7 +3,6 @@ title: Illustrators at the Mall Galleries
 date: '2013-05-01 00:00:00'
 description: Organising an exhibition for contemporary illustration in the centre of London.
 thumbnail: "/images/lineup.jpg"
-layout: print-design
 cover: lineup-cover.jpg
 tags:
 - Self-initiated

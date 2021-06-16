@@ -229,6 +229,12 @@ p.caption {
 	font-size: 0.8em;
 	margin-bottom: 5px;
 }
+article {
+.date {
+
+	margin-bottom: 20px;
+}
+}
 
 .left { grid-area: 1 / 1 / 2 / 2; } 
 .right { grid-area: 1 / 2 / 2 / 3; } 
