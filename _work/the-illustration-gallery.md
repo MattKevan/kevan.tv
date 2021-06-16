@@ -7,6 +7,7 @@ theme: dark
 tags:
 - Branding
 - Print design
+- Self-initiated
 ---
 
 ## Background

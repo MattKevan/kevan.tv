@@ -1,0 +1,38 @@
+I"'<h2 id="background">Background</h2>
+
+<h2 id="challenge">Challenge</h2>
+
+<p>Breast Cancer Care (BCC) had developed a new strategy, using digital media to better deliver their support services. However, they felt their website was not up to the challenge – content was hard to find, and the build wasn’t flexible enough to meet their new demands.</p>
+
+<p>Our brief was to provide strategic input from the start, rebuild the website and integrate it with a range of external systems, including social forums and various payment gateways.</p>
+
+<h2 id="solution">Solution</h2>
+
+<p>The website is one of the main ways that BCC deliver services to its audiences, including providing information and support.</p>
+
+<p>My challenge was to develop a new structure for the site which integrated BCC’s desired new functionality, while making it simple for visitors to find the content they need.</p>
+
+<h3 id="user-research">User research</h3>
+
+<p>BCC had begun an in-depth user testing project with a specialist UX consultancy before NDP was chosen as the web development agency. I worked closely with the consultancy during the handover process to make sure all their learning was folded into the finished UX.</p>
+
+<h3 id="user-experience">User experience</h3>
+
+<p>I then created a plan which could both be understood by BCC and used as a detailed blueprint for the development team.</p>
+
+<p>This included site maps, system diagrams, hundreds of wireframes, detailed user journeys and more.</p>
+
+<p><img src="/images/bcc-wf.jpg" class="wide" /></p>
+<p class="caption">↑ BCC pattern library, showing how the site could be built from a set of modular components.</p>
+
+<p>A key requirement from BCC was that the site should be easily extensible – it should be possible to add new sections and features without requiring extra design and development time. It was also clear that we were not going to be able to wireframe every page which needed it and still maintain a reasonable budget.</p>
+
+<p>I took the ‘atomic design’ principle and adapted it to work with Drupal. In short, atomic design is a system for design which takes the basic elements of a web page – headings, paragraphs, and builds them into modular ‘molecules’ which can be combined on various ways to form page templates. Therefore new templates can be built quickly from a library of pre-existing components.</p>
+
+<p><img src="/images/bcc.jpg" class="wide" /></p>
+<p class="caption">↑ BCC pattern library, showing how the site could be built from a set of modular components.</p>
+
+<p>Working closely with the design and development teams I created a style guide which showed how the basic HTML elements could be combined to form blocks, content displays – such as listings, teasers and grids, then how those elements could be combined to form templates, content types and more.</p>
+
+<p>We carried this thinking through to the design, so new pages could be quickly created without having to design anything from scratch. Since the new site launched, we’ve created new sections and a redesigned homepage using the component system.</p>
+:ET

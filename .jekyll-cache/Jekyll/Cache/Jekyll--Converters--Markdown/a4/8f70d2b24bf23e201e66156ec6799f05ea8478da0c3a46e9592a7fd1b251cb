@@ -1,0 +1,21 @@
+I"n<p>I launched UX Lift in 2017 as a way to organise the huge collection of UX and design links I’d built over the years.</p>
+
+<p>As the site came together, I realised it could be useful to both to new and experienced designers. While there’s a lot of good resources out there, I hadn’t found anywhere that attempted to collect everything together in one place.</p>
+
+<p>The site now contains many hundreds of links to articles, tools, books, resources, courses, publications and much more and I’m adding to it constantly.</p>
+
+<p><img src="/images/uxlift.jpg" class="wide" /></p>
+
+<h3 id="newsletter">Newsletter</h3>
+
+<p>In 2020 I launched a twice-monthly newsletter, consisting of articles, tools, resources and more that I’ve found useful or discovered since the last edition. However, I have a particular interest in design ethics, innovation, accessibility and leadership.</p>
+
+<p>I’m also fascinated by the cutting edge of machine learning and artificial intelligence, so there’s a lot of links to strange/wonderful/scary AI projects.</p>
+
+<iframe src="https://uxlift.substack.com/embed" width="100%" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+
+<h3 id="technical-notes">Technical notes</h3>
+
+<p>UX Lift is built with Jekyll, stored in Github and hosted by Netlify. The fonts are Plex Sans and Gentium Basic.</p>
+
+:ET

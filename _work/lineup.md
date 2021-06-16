@@ -6,7 +6,7 @@ thumbnail: "/images/lineup.jpg"
 layout: print-design
 cover: lineup-cover.jpg
 tags:
-- Personal project
+- Self-initiated
 - Event
 
 ---

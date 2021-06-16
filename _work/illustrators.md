@@ -6,7 +6,7 @@ thumbnail: "/images/illustrators-thumb.jpg"
 tags:
 - Web development
 - Design
-- Personal project
+- Self-initiated
 ---
 
 Launched in 2012, Illustrators was a joint project between myself and Oliver Jelf. 

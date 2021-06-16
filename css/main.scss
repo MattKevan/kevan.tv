@@ -257,7 +257,7 @@ p.caption {
 	  display: grid;
 	  grid-template-columns: 
 	    [full-start] minmax(1em, 1fr) 
-	    [main-start] minmax(0, 1170px) [main-end]
+	    [main-start] minmax(0, 960px) [main-end]
 	    minmax(1em, 1fr) [full-end];
 	}
 }

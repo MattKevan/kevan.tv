@@ -5,7 +5,7 @@ description: A curated collection of articles, resources, books and tools, with 
 thumbnail: "/images/uxlift-thumb.jpg"
 link: https://www.uxlift.org
 tags:
-- Personal project
+- Self-initiated
 - Web development
 - Jekyll
 ---
@@ -16,16 +16,17 @@ As the site came together, I realised it could be useful to both to new and expe
 
 The site now contains many hundreds of links to articles, tools, books, resources, courses, publications and much more and I'm adding to it constantly.
 
-
 <img src="/images/uxlift.jpg" class="wide">
 
 ### Newsletter
 
-In 2020 I launched a twice-monthly newsletter, consisting of articles, tools, resources and more that I've found useful or discovered since the last edition. However, I have a particular interest in design ethics, innovation, accessibility and leadership. 
+In 2020 I launched a twice-monthly [newsletter](https://uxlift.substack.com) consisting of the latest UX & design trends, articles, tools, resources and more, with a particular focus on design ethics, innovation, accessibility and leadership. I’m also fascinated by the cutting edge of machine learning, so there's often links to strange and wonderful (and slightly worrying) AI projects.
 
-I’m also fascinated by the cutting edge of machine learning and artificial intelligence, so there's a lot of links to strange/wonderful/scary AI projects.
+---
 
-[Sign up to the newsletter here »](https://uxlift.substack.com)
+<iframe src="https://uxlift.substack.com/embed" width="100%" height="320" style="border:none; background:white;" frameborder="0" scrolling="no"></iframe>
+
+--- 
 
 ### Technical notes
 

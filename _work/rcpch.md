@@ -5,22 +5,9 @@ description: Planning a new site for the UK's leading organisation for paediatri
   and child health.
 thumbnail: "/images/rcpch-thumb.jpg"
 link: http://www.rcpch.ac.uk
-roles:
-- User research
-- Wireframing
-- Information architecture
-- User testing
-- Creative direction
-tech:
-- Drupal 8
-- Bootstrap
-- Axure RP
-- Atomic design
-slug: rcpch
 tags:
 - User research
 - User experience
-cover: rcpch.jpg
 ---
 ## Overview
 
@@ -38,7 +25,7 @@ RCPCH is a large organisation, with many different stakeholders, interal teams a
 
 In order to understand the site's users and their needs, I conducted an extensive series of interviews with a wide range of stakeholders, including internal teams, paediatricians, parents, young people and more. 
 
-From these interviews, we developed hundreds of user stories, which in a series of workshops held with each department, we grouped into epics and ranked them by importance. These formed the core user journeys the site was built around and had a direct impact on the content strategy and information architecture.
+From these interviews, we developed hundreds of user stories, which in a series of workshops held with each department, we grouped into epics and ranked them by importance. These formed the site's core user journeys and had a direct impact on the content strategy and information architecture.
 
 ### Content strategy
 
@@ -66,7 +53,17 @@ Based on the content strategy and the user stories outcomes of the user intervie
 <p class="caption">↑ Sitemap showing page hierarchy and content types.</p>
 
 
-From this, I was able to create a set of detailed mobile-first, responsive wireframes, covering content types, listings, challenging functionality, such as search, and key landing pages.
+### Wireframing & prototyping
+
+From this, I was able to create a set of pixel-perfect mobile-first, responsive wireframes, covering page hierarchy, content types, listings, challenging functionality, such as search, and key landing pages. 
+
+<img src="/images/rcpch-wf1.jpg" class="wide">
+<p class="caption">↑ Homepage and user dashboard.</p>
+
+These wireframes formed the blueprints of the site that the developers used to build the site from, so they had to be completely accurate in how they described the site features and functionality.
+
+<img src="/images/rcpch-wf2.jpg" class="wide">
+<p class="caption">↑ Example content type and topic hub.</p>
 
 ### User testing
 
@@ -79,10 +76,10 @@ The final deliverable from the entire UX process was a document containing detai
 
 ### Handover and development
 
-Once the client had signed off the UX, I worked closely with the design team to complete the visual design, using a component-based approach, and the development team to implement the plans correctly.
+Once the client had signed off the UX, I worked closely with the design team to complete the visual design, using an atomic, component-based approach, and the development team to implement the plans correctly.
 
 Once development was complete, RCPCH had the substantial task  of publishing their content into the new site. We trained a representative from each team on the CMS, every team being responsible for re-writing and publishing their own content. This took at least a year to complete as there was so much to do.
 
 ## Outcome
 
-The project took over three years, from pitch to launch. The IA phase took about nine months, and the site was launched in March 2018.
+The project took over three years, from pitch to launch. The UX phase took about nine months and the site was launched in March 2018.
