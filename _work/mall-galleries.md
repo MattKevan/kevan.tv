@@ -3,41 +3,9 @@ title: Federation of British Artists
 date: '2018-11-12 00:00:00'
 description: Creating an online gallery space for the Federation of British Artists.
 thumbnail: "/images/mall-thumb.jpg"
-slides:
-  - i: "/images/work/mgs1.png"
-    cols: 3
-    captions:
-      - c: "1. The homepage showing a promoted exhibition."
-      - c: "2. Top half of an artwork page, showing the hero image."
-      - c: "3. Second half of an artwork page, showing the purchasing details."
-      - c: "4. Part of an exhibition page, showing the details."
-  - i: "/images/work/mgs2.png"
-    cols: 6
-    captions:
-      - c: "1. The homepage showing a promoted exhibition plus upcoming events."
-      - c: "2. Part of an exhibition page, showing the details"
-  - i: "/images/work/mgs3.png"
-    cols: 6
-    captions:
-      - c: "1. An artwork page, showing information about the piece and artist and purchasing details."
-      - c: "2. Users can commission artists through the site. This is the jumping-off point for the process."
-  - i: "/images/work/mgs4.png"
-    cols: 12
-    captions:
-      - c: "Part of the site map, showing the different content types and how they fit together."
-work-url: http://www.mallgalleries.org.uk
-roles:
-- UX lead
-- Creative lead
-- Front-end
-tech:
-- Drupal 7
-- Bootstrap
-- UXPin
-slug: mall-galleries
 tags:
 - User experience 
-weight: 5
+link: https://www.mallgalleries.org.uk
 ---
 
 ## Background
@@ -55,7 +23,13 @@ This approach, while understandable, seems out of step in the age of enormous on
 
 The client and I decided at the start that we’d approach the design more like an art marketplace than a traditional gallery. I’d already had a lot of experience designing and building art marketplaces through my own marketplace site Illustrators.co, so I had a good idea of how to begin.  
 
+<img src="/images/mall3.jpg" class="wide" />
+<p class="caption">↑ Sitemap detail, showing site structure.</p>
+
 My plan was that every artwork shown in the gallery or that was part of their permanent collection would also be exhibited on the site. We could bring in e-commerce functionality, enabling online art sales and not just in-person at the gallery as was the current process. We could also create profile pages for artists and member societies, meeting the goal of promoting their artwork. 
+
+<img src="/images/mall1.jpg" class="wide" />
+<p class="caption">↑ Example mobile and desktop wireframes.</p>
 
 ## Implementation 
 

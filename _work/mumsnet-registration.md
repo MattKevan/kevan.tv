@@ -3,32 +3,23 @@ title: Mumsnet user registration
 date: '2019-03-07 00:00:00'
 description: Doubling user registration by improving the sign-up journey.
 thumbnail: "/images/reg-thumb.jpg"
-work-url: http://www.mumsnet.com
-roles:
-- Information architecture
-- Design
-- Product management
-tech:
-- AxureRP
-- Sketch
-- Bootstrap
+link: http://www.mumsnet.com
+
 tags:
 - User experience 
 - Design
-- Product
-layout: post
-weight: 9
+- Product management
 ---
 
 ## Background
 Mumsnet is one of the UK’s largest websites, with over 100 million pageviews and 11 million active users each month.
 
-## The challenge
+## Challenge
 As community website, Mumsnet is reliant on its users to create and join the conversations that make the site so compelling. Although traffic had been rapidly increasing, the number of users creating an account each month had been declining since a peak in 2014.
 
 My challenge was to turn this around, with the premise that more users equalled more conversations and therefore more reach and engagement.
 
-## The solution
+## Solution
 After looking at the data, I developed three main areas of activity:
 
 ### Encouraging unregistered users to sign up by demonstrating the value of membership.

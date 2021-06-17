@@ -6,8 +6,12 @@ layout: default
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
 	<h1 itemprop="name headline">{{ page.title }}</h1>
-	<p class="lead">{{ page.description }}</p>		
-	<p class="date">{{ page.date | date: "%-d %B %Y"}}</p>
+	<p class="lead">{{ page.description }}</p>	
+
+	{% if page.collection == 'posts' %}	
+		<p class="date">{{ page.date | date: "%-d %B %Y"}}</p>
+	{% endif %}
+	
 	<p class="tags xs">
 	 	{% for tag in page.tags %}
 		 	<span>{{ tag }}</span>
@@ -40,7 +44,7 @@ layout: default
 		{% endfor %}
 		
 	{% endif %}
-	
+
 	{% if page.link %}
 		<p><a href="{{ page.link }}" target="_blank">Visit the site »</a></p>
 	{% endif %}

@@ -9,9 +9,9 @@ tags:
 - Self-initiated
 ---
 
-Launched in 2012, Illustrators was a joint project between myself and Oliver Jelf. 
+## Background
 
-The site was a curated multi-vendor marketplace for illustrators to promote and sell their artwork. Artists received orders directly from customers and shipped out the artwork themselves. 
+Illustrators was a curated multi-vendor marketplace for illustrators to promote and sell their artwork. Artists received orders directly from customers and shipped out the artwork themselves. Launched in 2012, it was joint project between and Oliver Jelf and myself. 
 
 <img src="/images/illustrators1.jpg" class="wide">
 <p class="caption">↑ Illustrators.co homepage.</p>

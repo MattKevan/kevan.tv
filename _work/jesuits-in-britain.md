@@ -1,9 +1,7 @@
 ---
 title: Jesuits in Britain
 date: '2018-12-25 00:00:00'
-categories: []
 description: "Creating an information architecture that helps people go deeper in their journey of faith."
-logo: "/images/bcc/logo.png"
 thumbnail: "/images/jesuit-thumb.jpg"
 slides:
   - i: "/images/work/j1.png"
@@ -27,20 +25,10 @@ slides:
     cols: 12
     captions:
       - c: "The full site map, showing how the four different retreat centre microsites are integrated into the wider site."
-work-url: https://www.pathwaystogod.org
-project-type: NDP Studio
-roles:
-- UX lead
-- Creative lead
-tech:
-- Drupal 7
-- Bootstrap
-- UXPin
-slug: jesuits-in-britain
+link: https://www.pathwaystogod.org
+
 tags:
 - User experience
-
-weight: 4
 ---
 
 ## Background
