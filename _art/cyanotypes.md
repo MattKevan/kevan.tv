@@ -11,18 +11,18 @@ cover: cyan-cover.jpg
 
 ---
 
-Cyanography is one of the earliest photographic print processes, invented in 1842 by Sir John Herschel. It was used later that same year by Anna Atkins to create the first book illustrated with photographs.
+[Cyanography](https://en.wikipedia.org/wiki/Cyanography) is one of the earliest photographic print processes, invented in 1842 by Sir John Herschel. It was used later that year by [Anna Atkins](https://en.wikipedia.org/wiki/Anna_Atkins) to create the first photographic book.
 
-Commonly used to reproduce drawings and plans – hence the term 'blueprint' - cyanography can also be used to create expressive and unexpected images due to its low resolution and lack of tonal control. 
+Commonly used to reproduce drawings and plans – hence the term 'blueprint' - the cyanographic process can also be used to create expressive and unexpected images due to its low resolution and lack of tonal control. 
 
 I created these images from photographs I'd taken by painting the light-sensitive emulsion on watercolour paper, applying a full-size acetate negative and exposing with ultraviolet light. After washing and drying, these were the results.
 
 
 <img src="/images/cyan1.jpg" class="wide">
-<p class="caption">↑ [L] Kennington Plane Tree. [R] Waterloo Sunset.</p>
+<p class="caption">↑ London Plane Trees, Waterloo Sunset.</p>
 <img src="/images/cyan2.jpg" class="wide">
-<p class="caption">↑ Fairy Lane Electrical Substation.</p>
+<p class="caption">↑ Fairy Lane Substation.</p>
 <img src="/images/cyan3.jpg" class="wide">
-<p class="caption">↑ [L] The Oval Gasholders. [R] New Year's Day.</p>
+<p class="caption">↑ The Oval Gasholders, New Year's Day.</p>
 <img src="/images/cyan4.jpg" class="wide">
-<p class="caption">↑ [L] Horniman Jellyfish. [R] A Field in Kent.</p>
+<p class="caption">↑ Moon Jellyfish at the Horniman, Kent Path.</p>
