@@ -4,7 +4,7 @@ date: '2018-12-19 00:00:00'
 description: A year of abstract artwork.
 thumbnail: "/images/slc.png"
 tags:
-- Personal project
+- Self-initiated
 - Art
 cover: slc1-cover.jpg
 theme: dark

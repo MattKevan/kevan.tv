@@ -5,7 +5,7 @@ description: The RGB colour space in 510 geometric artworks.
 thumbnail: "/images/slc-2020.png"
 cover: slc2-cover.jpg
 tags:
-- Personal project
+- Self-initiated
 - Art
 ---
 

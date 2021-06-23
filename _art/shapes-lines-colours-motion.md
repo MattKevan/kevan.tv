@@ -5,7 +5,7 @@ description: Abstract motion graphics with cyan, magenta and yellow.
 thumbnail: "/images/cmy-motion.jpg"
 cover: motion-banner.jpg
 tags:
-- Personal project
+- Self-initiated
 - Art
 ---
 

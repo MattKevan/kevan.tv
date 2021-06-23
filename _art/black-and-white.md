@@ -10,7 +10,9 @@ tags:
 
 ---
 
-<img src="/images/photo4.jpg" class="wide">
-<img src="/images/photo2.jpg" class="wide">
-<img src="/images/photo3.jpg" class="wide">
-<img src="/images/photo.jpg" class="wide">
+<div class="grid wide">
+	{% assign i = 0 %}
+	{% for i in (1..24) %}
+	<img src="/images/p{{ i }}.jpg" />
+	{% endfor %}
+</div>

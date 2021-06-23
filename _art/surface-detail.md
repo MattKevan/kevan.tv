@@ -5,7 +5,7 @@ description: "Highly detailed drawings with iPad and Pencil."
 thumbnail: "/images/sd.jpg"
 cover: sd-banner.jpg
 tags:
-- Personal project
+- Self-initiated
 - Art
 width: full
 theme: dark
