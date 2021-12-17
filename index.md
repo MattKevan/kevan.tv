@@ -1,5 +1,5 @@
 ---
-title: User experience, design & code.
+title: UX, design, art & code.
 layout: page
 ---
 
