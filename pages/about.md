@@ -1,14 +1,16 @@
 ---
 title: About
 layout: page
-description: Hi, I'm Matt Kevan, a UX and visual designer with a mission to create innovative, people-first digital experiences.
+description: Hi, I'm a UX and visual designer with a mission to create innovative, people-first digital experiences through building and leading creative teams.
 permalink: "/about/"
 ---
 		
 
-<p>I'm currently a lead UX designer at <a href="https://www.ao.com" target="_blank">AO.com</a>. Previous roles include heads of product and design at <a href="https://www.mumsnet.com" target="_blank">Mumsnet</a> and creative manager and UX lead at <a href="https://www.ndp-studio.com" target="_blank">NDP Studio</a>.</p>
+<p>Currently a lead UX designer at <a href="https://www.ao.com" target="_blank">AO.com</a>, I'm responsible for the buying journey customer experience – everything from putting a product in the basket to reaching the order confirmation page. Before that, I was head of product and design at <a href="https://www.mumsnet.com" target="_blank">Mumsnet</a> and creative manager and UX lead at <a href="https://www.ndp-studio.com" target="_blank">NDP Studio</a>.</p>
 
+<p>When not thinking about how to make great e-commerce experiences, I curate <a href="https://www.uxlift.org" target="_blank">UX Lift</a>, a newsletter and website showcasing the latest UX news and resources, and create art with machine learning.</p>
 
+<p><i>– Matt Kevan, Manchester, England.</i></p>
 <hr />
 
 #### Who I've worked with

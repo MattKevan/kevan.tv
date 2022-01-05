@@ -35,7 +35,7 @@ In 2020, NVIDIA released StyleGAN2 ADA with a feature that enables new models to
 I collected around 2700 botanical illustrations from renowned artists such as [Pierre Joseph Redouté](https://en.wikipedia.org/wiki/Pierre-Joseph_Redouté) and [Mary Vaux Walcott](https://en.wikipedia.org/wiki/Mary_Vaux_Walcott). I’ve long been a fan of botanical illustration, so I already had many of these images from other projects.
 
 <img src="/images/reals.jpg" class="wide">
-<p class="caption">↑ A selection of the dataset images.</p>
+<p class="caption">↑ A selection of images from the dataset.</p>
 
 StyleGAN prefers its dataset images to be square, but my source images were all different of shapes and sizes. It would have taken too long to scale edit them all manually, so I wrote an ImageMagick script to do it for me. 
 ```
@@ -79,9 +79,9 @@ Then, choose a name for your dataset. This can be anything you like.
 ### While it’s training
 StyleGAN will save snapshots and sample images from the model in your drive as the training progresses in the `/results` folder.
 
-[image:B8A2AF86-7802-4752-BC7E-0F577A5962E1-88642-000008DCC186ECB8/fakes000008.jpg]
+<img src="/images/fakes000008.jpg" class="fullwidth">
 
-They’ll look weird to start with, especially as they transition from the original faces images to your new dataset.
+They’ll look weird at first, as they transition from the original face images to your new dataset.
 
 ### Resuming training
 To resume the training after its’s stopped for whatever reason, set the `resume_from` option to the path to your latest snapshot and run the cell. It’ll create a new folder in `/results` and start saving the progress there.
