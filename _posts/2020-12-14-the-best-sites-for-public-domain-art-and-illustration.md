@@ -11,6 +11,12 @@ cover: 'wave-banner.jpg'
 type: article
 ---
 
+### Updates
+
+* 4/3/22 – Added links to National Gallery Victoria, National Agricultrural Library Digital Collections, and Library of Congress WPA Posters collection.
+
+---
+
 ### Publications and blogs
 
 **[Public Domain Review](https://publicdomainreview.org)** and **[Open Culture](https://www.openculture.com)** are great starting points for public domain content, showcasing the most interesting and unusual cultural works on the web.
@@ -23,11 +29,12 @@ These sites collect the best public domain images and make them available as cur
 
 **[RawPixel](https://www.rawpixel.com/)** – Free and premium stock images, as well as an extensive collection of free, high-quality public domain artwork.
 
-**[Archive.org](https://www.archive.org/)** – Vast collection of music, images, video and more. So large it's impossible to browse – lots of the sources below use Archive.org for storage, and it's often easier to find content through them rather than going directly.
 
 ### Sources
 
-**[Art Institute Chicago](https://www.artic.edu/collection)** - Over 50k public domain images available. Not high-resolution.
+**[Archive.org](https://www.archive.org/)** – Vast collection of music, images, video and more. So large it's impossible to browse – lots of the organisations listed here use Archive.org for storage, and it's often easier to find content through them rather than going directly.
+
+**[Art Institute Chicago](https://www.artic.edu/collection)** - Over 50,000 public domain images available. Not high-resolution.
 
 **[Biodiversity Heritage Library](https://www.biodiversitylibrary.org)** – Explore nearly 250k botanical books, documents and manuscripts.
 
@@ -49,19 +56,23 @@ These sites collect the best public domain images and make them available as cur
 
 **[Iowa University Digital Library](https://digital.lib.uiowa.edu)** – More than a million digital objects from the university archives.
 
-**[Library of Congress Digital Collections](https://www.loc.gov)**  – Explore the archives of the largest library in the world.
+**[Library of Congress Digital Collections](https://www.loc.gov)**  – Explore the archives of the largest library in the world. Collections include [WPA posters](https://www.loc.gov/pictures/collection/wpapos/) and more.
 
 **[Los Angeles County Museum of Art](https://collections.lacma.org)** – Thousands of high-resolution public domain art and photography.
 
-**[Museum of New Zealand (Te Papa Tongarewa)](https://collections.tepapa.govt.nz)** – Browse 800,000 artworks, taonga, photographs, collection objects, and botanical and zoological specimens from Te Papa’s collections.
+**[Museum of New Zealand (Te Papa Tongarewa)](https://collections.tepapa.govt.nz)** – Browse 800k artworks, taonga, photographs, collection objects, and botanical and zoological specimens from Te Papa’s collections.
+
+**[National Agricultural Library Digital Collections](https://naldc.nal.usda.gov)** – Includes the USDA Pomological Watercolor Collection, a series of over 7000 paintings of fruit and vegetables.
 
 **[National Gallery of Art](https://www.nga.gov)** – Over 54,000 artworks, prints, drawings, sculptures and more. Not high resolution.
+
+**[National Gallery Victoria](https://www.ngv.vic.gov.au/explore/collection/)** – Over 30,000 high resolution public domain images covering Australian, Indigenous and international art, design and architecture.
 
 **[NYPL Digital Collections](https://digitalcollections.nypl.org)**  – Explore over 900k items digitised from  The New York Public Library’s collections. Many, but not all are available as high-resolution downloads.
 
 **[The Rijksmuseum](http://rijksmuseum.nl)** – The national museum of the Netherlands. Explore over 700k public domain artworks. 
 
-**[RSID Museum](https://risdmuseum.org/)** – Over 80k public domain art and design images.
+**[RSID Museum](https://risdmuseum.org/)** – Over 80,000 public domain art and design images.
 
 **[Statens Museum for Kunst](https://www.smk.dk/en/)** - The national gallery for Denmark, large collection of art and objects.
 
