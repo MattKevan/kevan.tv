@@ -10,7 +10,7 @@ tags:
 - Jekyll
 ---
 
-I launched UX Lift in 2017 as a way to organise the huge collection of UX and design links I'd built over the years.
+I launched UX Lift as a way to organise the huge collection of UX and design links I'd built over the years.
 
 As the site came together, I realised it could be useful to both to new and experienced designers. While there's a lot of good resources out there, I hadn’t found anywhere that attempted to collect everything together in one place.
 

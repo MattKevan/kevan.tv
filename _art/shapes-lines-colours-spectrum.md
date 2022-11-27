@@ -5,14 +5,13 @@ description: The RGB colour space in 510 geometric artworks.
 thumbnail: "/images/slc-2020.png"
 cover: slc2-cover.jpg
 tags:
-- Self-initiated
-- Art
+- Abstract art
 ---
 
 #### Notice:
 
-* There must only be lines.
-* There must only be one colour.
+* There may only be lines.
+* There may only be one colour.
 * The colour must start at red.
 * The colour must increment 3 RGB points.
 * There must be 510 images.

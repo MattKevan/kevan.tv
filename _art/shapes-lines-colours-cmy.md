@@ -5,8 +5,7 @@ description: Abstract artworks with cyan, magenta and yellow.
 thumbnail: "/images/cmy.jpg"
 cover: cmy-banner.jpg
 tags:
-- Self-initiated
-- Art
+- Abstract art
 theme: dark
 ---
 

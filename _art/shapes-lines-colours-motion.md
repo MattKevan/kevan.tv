@@ -1,22 +1,19 @@
 ---
 title: "Shapes Lines Colours – CMY motion"
 date: '2021-04-01 00:00:00'
-description: Abstract motion graphics with cyan, magenta and yellow.
+description: Minimal motion graphics made with an iPhone.
 thumbnail: "/images/cmy-motion.jpg"
 cover: motion-banner.jpg
 tags:
-- Self-initiated
-- Art
+- Motion graphics
 ---
 
 #### Notice:
 
 * There must only be cyan, magenta and yellow.
-* There may be blend modes applied.
+* Blend modes may be used.
 * The animations must loop.
-* There must be be 85 animations.
 
-Status: 33% complete.
 
 ---
 

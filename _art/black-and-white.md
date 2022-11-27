@@ -5,7 +5,6 @@ description:
 thumbnail: "/images/photo-thumb.jpg"
 theme: dark
 tags:
-- Self-initiated
 - Photography
 
 ---

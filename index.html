@@ -1,0 +1,44 @@
+---
+title: Matt Kevan – design, art & code.
+layout: page
+---
+
+<video src="https://res.cloudinary.com/dp5mvntv7/video/upload/v1638536029/botany5.mp4" controls class="fullwidth" /></video>
+
+<hr>
+
+<h2>Blog</h2>
+
+
+{% assign datesort = site.posts | where: 'type','article' | sort: 'date' | reverse %}
+{% for article in datesort limit: 1 %}
+{% include article-teaser.html %}
+{% endfor %}
+
+<a href="/blog">More articles »</a>
+
+
+<hr>
+
+<h2>Art</h2>
+<div class="project-grid">
+{% assign sort = site.art | sort: 'date' | reverse %}
+{% for item in sort limit: 2 %}
+{% include work-teaser.html %}
+{% endfor %}
+</div>
+<a href="/art">More art »</a>
+
+<hr>
+
+<h2>Work</h2>
+<div class="project-grid">
+{% assign sort = site.work | sort: 'date' | reverse %}
+{% for item in sort limit: 2 %}
+{% include work-teaser.html %}
+{% endfor %}
+</div>
+<a href="/work">More work »</a>
+
+
+

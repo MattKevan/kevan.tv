@@ -1,11 +1,10 @@
 ---
-title: Cyanotypes
+title: Cyanotype photography
 date: '2015-3-24 00:00:00'
 description: "Hand-printed cyanotype photographs."
 thumbnail: "/images/cyan2.png"
 theme: dark
 tags:
-- Self-initiated
 - Photography
 cover: cyan-cover.jpg
 
