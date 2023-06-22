@@ -40,7 +40,24 @@
     font-display: swap;
 }
 
-
+body {
+            margin: 0;
+            overflow: hidden;
+            position: relative;
+            background:linear-gradient(to bottom, #FF00FF 0%, #00FFFF 100%);
+        }
+        canvas {
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+        .content {
+            position: relative;
+            z-index: 1;
+            padding: 16px;
+        }
 // Basic typography 
 
 body {
