@@ -26,7 +26,11 @@ Restate the problem and the project's goals as often as you possibly can - at th
 
 ### 2. No deliverables
 
-Often UX is focused around creating deliverables – a journey map, personas, polished UI designs etc.
+UX activity is often focused around creating deliverables – journey maps, personas, detailed UI designs etc. A lot of effort is put into making them look nice. And then they're never looked at again.
+
+But as with most things UX, the process is what's important, not the outcome. Personas or empathy maps are useful because the process of creating them helps build a shared understanding of your users between your team and stakeholders. The final format doesn't matter as long as it serves as a reminder to the discussions you had. This could be a photo of a whiteboard, a Miro or Figjam board, or even a big sheet of paper covered in post-its.
+
+The same goes for most UX deliverables. They are tools for communication, not ends in themselves. Don't just create a journey map because the UX process says you need to create one at that particular point in a project. And don't spend ages making it look fancy. If you need one, create one, but
 
 ### 3. No handovers
 
