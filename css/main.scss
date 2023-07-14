@@ -1,44 +1,25 @@
----
-# Front matter comment to ensure Jekyll properly reads file.
----
 @charset "utf-8";
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import "bootstrap";
-
-@import url('https://fonts.googleapis.com/css2?family=Gentium+Basic:ital,wght@0,400;0,700;1,400&display=swap');
-
-@font-face {
-    font-family: 'Plex';
-    src: url('fonts/plex/IBMPlexSans-Regular.woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
+@import "../_sass/variables";
+@import "../_sass/bootstrap/bootstrap";
 
 @font-face {
-    font-family: 'Plex Light';
-    src: url('fonts/plex/IBMPlexSans-Light.woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Plex';
-    src: url('fonts/plex/IBMPlexSans-Bold.woff');
+    font-family: 'Neue Machina';
+    src: url('fonts/neue-machina/PPNeueMachina-InktrapUltrabold.woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Plex Mono';
-    src: url('fonts/plex/plexmono.woff');
-    font-weight: bold;
+    font-family: 'Neue Machina';
+    src: url('fonts/neue-machina/PPNeueMachina-InktrapRegular.woff');
+    font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
+
 
 
 // Basic typography 
@@ -47,7 +28,62 @@ body {
 	font-weight: normal;
 	-webkit-font-smoothing: antialiased;
 }
+hr {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    clear: both;
+}
 
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+.hero {
+	background-color: #FF00FF;
+	height: 100vh;
+
+	h1 {
+		font-size: 240px;
+		line-height: 80%;
+		padding: 30px 0 0 0;
+
+	}
+}
+.wide {
+	width: 100%;
+}
+@include media-breakpoint-up(md) { 
+	.wide{
+	  width: 70vw;
+	  position: relative;
+	  left: calc(-1 * (70vw - 100%) / 2);
+	}
+}
+.teaser  {
+	img {width: 100%;}
+}
+
+.teaser-small {
+	margin-bottom: 30px;
+	.card-title {
+		font-size: 20px;
+		line-height: 26px;
+	}
+}
+.teaser-xsmall {
+		.card-title {
+		font-size: 20px;
+	}
+}
+.teaser-large {
+	p.intro {
+		font-size: 18px;
+	}
+}
 #image-map {       
 	width: 100%;
     height: 640px;
@@ -58,36 +94,58 @@ body {
 .leaflet-control-attribution {
 	display: none;
 }
+
+.page-banner {
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 100vw;
+    left: calc(-1 * (100vw - 100%) / 2);
+    //margin-bottom: 80px;
+    height: 500px;
+}
+
+h1.title {
+	text-align: center;
+	margin:0;
+}
 // Headings
 
 h1, h2, h3, h4 {
-	
+	font-weight: bold;
 }
 
 h1 {
 	margin: 0 0 .25em 0;
-	font-size: 1.8em;
-	@media (min-width: $screen-sm-min) { 
-		font-size: 2.25em;
-
-		}
+	font-size: 2.5em;
+	font-family: "Neue Machina", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	font-weight: bold;
+	@include media-breakpoint-up(md) { 
+		font-size: 3.5em;
+	}
 }
 
 h2 {
 	margin-top: 0!important;
-	font-size: 1.6em;
+		//font-family: "Neue Machina", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
 }
 
 h3 {
 	margin-top: 0!important;
-	font-size: 1.3em
+
 }
 
 h4 {
-	font-size: 1.1em;
+
 }
 // Text
-
+.content {
+	p, li {font-size: 1.125rem;}
+	li {margin-bottom: 5px;}
+	a:link {text-decoration: underline;}
+}
 p {
 	
 	&.s {
@@ -168,9 +226,11 @@ em {
 }
 
 p.caption {
-	font-style: italic;
+	//font-style: italic;
 	text-align: center;
 	margin-bottom: 30px;
+	font-size: 14px;
+	color: #555;
 
 }
 
@@ -185,7 +245,8 @@ p.caption {
 	}
 
 }
-@media (min-width: $screen-sm-min) { 
+
+
 
 	.project-grid {
 		display: grid; 
@@ -198,7 +259,7 @@ p.caption {
 			margin-bottom: 0;
 		}
 	}
-}
+
 
 
 .teaser {
@@ -206,14 +267,14 @@ p.caption {
 		display: block;
 	}
 
-	@media (min-width: $screen-md-min) { 
+	
 		&.project {
 			display: grid; 
 			grid-template-columns: 1.5fr 2.5fr; 
 			grid-column-gap: 20px;
 			grid-row-gap: 30px; 	
 		}
-	}
+	
 
 	.inner {
 		margin: 10px 0 0 0;
@@ -245,27 +306,17 @@ article {
     font-size: 1.2em;
     font-weight: normal;
     font-family: $font-family-sans-serif;
-    @media (min-width: $screen-sm-min) { 
     	font-size: 1.4em;
-    }
+    
 }
 
 .main {
-  display: grid;
-  grid-template-columns: 
-    [full-start] minmax(1em, 1fr) 
-    [main-start] minmax(0, 45em) [main-end]
-    minmax(1em, 1fr) [full-end];
+
 }
 
 .full {
-	.main {
-	  display: grid;
-	  grid-template-columns: 
-	    [full-start] minmax(1em, 1fr) 
-	    [main-start] minmax(0, 960px) [main-end]
-	    minmax(1em, 1fr) [full-end];
-	}
+		
+	width: 100%;
 }
 
 .main > * {
@@ -273,7 +324,6 @@ article {
 }
 
 .content {
-	margin-top: 4em;
 	&.cover {
 		margin-top: 0;
 	}
@@ -287,31 +337,6 @@ article {
 	grid-row-gap: 30px;
 	img {width: 100%;} 
 }
-
-
-.wide{
-	position: relative;
-	width: 100%;
-	margin: 0;
-
-	@media (min-width: $screen-sm-min) { 
-		width: 750px;
-		left: calc(-1 * (750px - 100%) / 2);
-	}
-
-	@media (min-width: $screen-md-min) { 
-		width: 992px;
-		left: calc(-1 * (992px - 100%) / 2);
-
-	}
-
-	@media (min-width: $screen-lg-min) { 
-		width: 1170px;
-		left: calc(-1 * (1170px - 100%) / 2);
-
-	}
-}
-
 
 // Helpers
 
@@ -357,9 +382,8 @@ hr {
 .wrapper{
 	margin-top: 10px;
 	position: relative;
-	@media (min-width: $screen-sm-min) { 
 		margin-top: 60px;
-	}
+	
 }
 
 .cover-image { 
@@ -371,9 +395,8 @@ hr {
 	.overlay {
 		background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.2) 100%);
 		height: 50vh;
-		@media (min-width: $screen-sm-min) { 
 			height: 60vh;
-		}
+		
 		width: 100%;
 		margin: 0;
 		padding: 0;
@@ -386,12 +409,11 @@ hr {
 nav {
 	margin-bottom: 0;
 	line-height: 1.6em;
+	margin-right: 20px;
 
-	@media (min-width: $screen-sm-min) { 
 		padding: 0;
 		line-height: 1.8em;
-	}
-
+	
 	ul {
 		float: right;
 		margin-bottom: 0;
@@ -401,7 +423,7 @@ nav {
 		display: inline-block;
 		padding: 18px 5px;
 		font-family: $font-family-sans-serif;
-		font-weight: bold;
+		font-weight: normal;
 		font-size: .8em;
 		line-height: 1.2em;
 	}
@@ -410,7 +432,7 @@ nav {
 		line-height: 1em;
 		display: inline-block;
 		padding: 0;
-		margin: 15px 0;
+		margin: 15px 0 15px 20px;
 		height:30px;
 		animation: cyc 30s infinite;
 		width: 40px!important;
@@ -478,10 +500,9 @@ nav {
 .card-columns {
 	column-count: 1;
 
-	@media (min-width: $screen-sm-min) {
 		column-count: 2;
-	}
-	@media (min-width: $screen-md-min) {
+	
+	@include media-breakpoint-up(md) {
 		column-count: 3;
 	}
 }

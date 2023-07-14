@@ -1,0 +1,11 @@
+<div class="col-6 col-lg-4 mb-4 teaser">
+  <a href="{{ item.url }}">
+    {% assign imgsplit = item.data.image | split: '/' %}
+    <img
+      src="{{ item.data.image }}"
+      alt="{{ item.data.title }}"
+      class="mb-4 full"></a>
+  <h4>
+    <a href="{{ item.url }}">{{ item.data.title }}</a>
+  </h4>
+</div>

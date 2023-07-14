@@ -1,0 +1,59 @@
+---
+layout: default
+---
+<div class="container">
+<article class="post row mt-5" itemscope itemtype="http://schema.org/BlogPosting">
+	<div class="col-12 col-md-10 offset-md-1">
+	
+	<h1 itemprop="name headline">{{ title }}</h1>
+	<p class="lead pt-2">{{ description }}</p>	
+
+	{% if page.collection == 'articles' %}	
+		<p class="date xs">{% for tag in page.tags %}{{ tag }} {% endfor %} • {{ page.date | date: "%-d %B %Y"}}
+	
+		</p>
+	{% endif %}
+	
+	<p class="tags xs">
+
+			
+		{% if page.type == 'link' %}
+			<span>Link</span>
+		{% endif %}
+	</p>
+</div>
+
+<div class="col-12 col-md-8 offset-md-2">
+
+	{% if banner %}
+		<div class="collection page-banner mb-5 mt-5" style="background-image: url(/images/{{ banner }});">
+		</div>
+	{% endif %}
+
+	<div itemprop="articleBody" class="content">	
+		{{ content }}
+	</div>
+</div>
+
+</article>
+	{% if galleryImages %}
+	<div class="row grid">
+		{% for item in galleryImages %}
+			{% assign imgsplit = item.gallery | split: '/' %}
+			{% if item.size == '1' %}
+				<div class="grid-item col-12 col-sm-8 offset-md-2">
+					<img src = "https://res.cloudinary.com/dk3qvmifd/image/upload/w_850/{{ imgsplit | last }}" class="full">
+				</div>
+			{% elsif item.size == '2' %}
+				<div class=" grid-item col-12 col-sm-6">
+					<img src = "https://res.cloudinary.com/dk3qvmifd/image/upload/w_600/{{ imgsplit | last }}" class="full">
+				</div>
+			{% elsif item.size == '3' %}
+				<div class="grid-item col-12 col-sm-4">
+					<img src = "https://res.cloudinary.com/dk3qvmifd/image/upload/w_500/{{ imgsplit | last }}" class="full">
+				</div>
+			{% endif %}
+		{% endfor %}
+	</div>
+	{% endif %}
+</div>

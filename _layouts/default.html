@@ -1,34 +1,22 @@
 <!DOCTYPE html>
+<html>
 
-<html lang="en">
-	{% include head.html %}
+  {% include 'head' %}
 
+  <body class="{{ theme }}">
 
-	<body class="{% if page.theme %}{{ page.theme }}{% endif %}">
-
-		
-		<div class="main">
-{% include header.html %}
-
-		{% if page.cover %}
-			<div class="cover-image" style="background-image: url(/images/{{ page.cover }});">
-				<div class="overlay"></div>
-			</div>
-
-		{% endif %}
+    {% include 'header' %}
 
 
 
-					<div class="content {% if page.cover %}cover{% endif%}"> 
-					{{ content }}
-					</div>
-				
-		
+      <div class="page-wrapper {{layout}} {% unless page.banner and page.banner != '' %} {% endunless %}" id="wrapper_id">
+        
+          {{ content }}
 
-		{% include footer.html %}
-		</div>
-		
+      </div>
 
-	</body>
+    {% include 'footer' %}
+
+  </body>
 
 </html>

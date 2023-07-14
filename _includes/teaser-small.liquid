@@ -1,0 +1,29 @@
+<div class="teaser teaser-small row">
+  <div class="col-xs-12 col-sm-4">
+    <a href="{{ item.url | prepend: site.baseurl }}">
+      {% if item.data.image contains "cloudinary" %}
+        {% assign imgsplit = item.data.image | split: '/' %}
+        <img
+          src="https://res.cloudinary.com/dk3qvmifd/image/upload/c_fill,g_auto,h_400,w_600/{{ imgsplit | last }}"
+          alt="{{ item.data.title }}"
+          class="mb-4 full">
+      {% else %}
+        <img
+          src="{{ item.data.image }}"
+          alt="{{ item.data.title }}"
+          class="mb-4">
+      {% endif %}
+    </a>
+  </div>
+  <div class="col-xs-12 col-sm-8">
+    <h3 class="card-title">
+      <a href="{{ item.url | prepend: site.baseurl }}">{{ item.data.title }}</a>
+    </h3>
+    <p class="description">{{ item.data.description }}</p>
+    <p class="meta xs">
+      {% for tag in item.data.categories %}
+        {{ tag }}{% endfor %}
+      • {{ item.date | date: "%-d %B %Y" }}
+    </p>
+  </div>
+</div>

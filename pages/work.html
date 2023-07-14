@@ -1,15 +1,25 @@
 ---
-title: Work
 layout: page
-permalink: "/work/"
-theme: full
+title: Work
+permalink: /work/
+description: 
+eleventyExcludeFromCollections: true
 ---
+
+<div class="row">
+	{% assign sort = collections.Work | sort: 'date' | reverse %}
+	{% for item in sort limit: 1%}
+		{% include 'teaser-large' %}
+	{% endfor %}
+</div>
 <hr>
 
-<div class="project-grid">
-{% assign sort = site.work | sort: 'date' | reverse %}
-{% for item in sort %}
-	{% include work-teaser.html %}
-{% endfor %}
-
+<div class="row">
+	<div class="col-12 col-md-8 offset-md-2">
+			{% assign sort = collections.Work | sort: 'date' | reverse %}
+		{% for item in sort  offset: 1%}
+			{% include 'teaser-small' %}			
+		{% endfor %}
+	</div>
 </div>
+

@@ -1,8 +1,7 @@
 ---
 title: Scott's Miracle Gro
-date: '2016-01-01 00:00:00'
+date: 2016-01-01 00:00:00
 categories: []
-layout: work
 teaser: Love the garden
 lead: Scott's is one of the world's leading manufacturers of lawn and garden care
   products.

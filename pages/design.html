@@ -1,0 +1,25 @@
+---
+layout: page
+title: Design
+permalink: /design/
+description: 
+eleventyExcludeFromCollections: true
+---
+
+<div class="row">
+	{% assign sort = collections.Design | sort: 'date' | reverse %}
+	{% for item in sort limit: 1%}
+		{% include 'teaser-large' %}
+	{% endfor %}
+</div>
+<hr>
+
+<div class="row">
+	<div class="col-12 col-md-8 offset-md-2">
+			{% assign sort = collections.Design | sort: 'date' | reverse %}
+		{% for item in sort  offset: 1%}
+			{% include 'teaser-small' %}			
+		{% endfor %}
+	</div>
+</div>
+

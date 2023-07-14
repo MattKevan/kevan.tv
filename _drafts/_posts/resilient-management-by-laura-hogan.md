@@ -1,5 +1,5 @@
 ---
-date: 2021-01-12 10:40:04 +0000
+date: 2021-01-12
 layout: post
 title: Resilient Management by Laura Hogan
 tags: 
